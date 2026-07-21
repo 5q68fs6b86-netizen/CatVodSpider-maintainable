@@ -220,7 +220,7 @@ abstract class EnumC2056l {
     public static final C2678r f4890z;
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$A */
-    final enum A extends EnumC2056l {
+    static final class A extends EnumC2056l {
         A() {
             super("BeforeAttributeName", 33, null);
         }
@@ -283,7 +283,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$B */
-    final enum B extends EnumC2056l {
+    static final class B extends EnumC2056l {
         B() {
             super("AttributeName", 34, null);
         }
@@ -330,7 +330,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$C */
-    final enum C extends EnumC2056l {
+    static final class C extends EnumC2056l {
         C() {
             super("AfterAttributeName", 35, null);
         }
@@ -391,7 +391,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$D */
-    final enum D extends EnumC2056l {
+    static final class D extends EnumC2056l {
         D() {
             super("BeforeAttributeValue", 36, null);
         }
@@ -453,7 +453,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$E */
-    final enum E extends EnumC2056l {
+    static final class E extends EnumC2056l {
         E() {
             super("AttributeValue_doubleQuoted", 37, null);
         }
@@ -503,7 +503,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$F */
-    final enum F extends EnumC2056l {
+    static final class F extends EnumC2056l {
         F() {
             super("AttributeValue_singleQuoted", 38, null);
         }
@@ -553,7 +553,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$G */
-    final enum G extends EnumC2056l {
+    static final class G extends EnumC2056l {
         G() {
             super("Rcdata", 2, null);
         }
@@ -588,7 +588,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$H */
-    final enum H extends EnumC2056l {
+    static final class H extends EnumC2056l {
         H() {
             super("AttributeValue_unquoted", 39, null);
         }
@@ -652,7 +652,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$I */
-    final enum I extends EnumC2056l {
+    static final class I extends EnumC2056l {
         I() {
             super("AfterAttributeValue_quoted", 40, null);
         }
@@ -684,7 +684,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$J */
-    final enum J extends EnumC2056l {
+    static final class J extends EnumC2056l {
         J() {
             super("SelfClosingStartTag", 41, null);
         }
@@ -711,7 +711,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$K */
-    final enum K extends EnumC2056l {
+    static final class K extends EnumC2056l {
         K() {
             super("BogusComment", 42, null);
         }
@@ -730,7 +730,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$L */
-    final enum L extends EnumC2056l {
+    static final class L extends EnumC2056l {
         L() {
             super("MarkupDeclarationOpen", 43, null);
         }
@@ -757,7 +757,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$M */
-    final enum M extends EnumC2056l {
+    static final class M extends EnumC2056l {
         M() {
             super("CommentStart", 44, null);
         }
@@ -791,7 +791,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$N */
-    final enum N extends EnumC2056l {
+    static final class N extends EnumC2056l {
         N() {
             super("CommentStartDash", 45, null);
         }
@@ -825,7 +825,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$O */
-    final enum O extends EnumC2056l {
+    static final class O extends EnumC2056l {
         O() {
             super("Comment", 46, null);
         }
@@ -853,7 +853,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$P */
-    final enum P extends EnumC2056l {
+    static final class P extends EnumC2056l {
         P() {
             super("CommentEndDash", 47, null);
         }
@@ -888,7 +888,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$Q */
-    final enum Q extends EnumC2056l {
+    static final class Q extends EnumC2056l {
         Q() {
             super("CommentEnd", 48, null);
         }
@@ -930,7 +930,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$R */
-    final enum R extends EnumC2056l {
+    static final class R extends EnumC2056l {
         R() {
             super("CharacterReferenceInRcdata", 3, null);
         }
@@ -943,7 +943,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$S */
-    final enum S extends EnumC2056l {
+    static final class S extends EnumC2056l {
         S() {
             super("CommentEndBang", 49, null);
         }
@@ -982,7 +982,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$T */
-    final enum T extends EnumC2056l {
+    static final class T extends EnumC2056l {
         T() {
             super("Doctype", 50, null);
         }
@@ -1012,7 +1012,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$U */
-    final enum U extends EnumC2056l {
+    static final class U extends EnumC2056l {
         U() {
             super("BeforeDoctypeName", 51, null);
         }
@@ -1054,7 +1054,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$V */
-    final enum V extends EnumC2056l {
+    static final class V extends EnumC2056l {
         V() {
             super("DoctypeName", 52, null);
         }
@@ -1094,7 +1094,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$W */
-    final enum W extends EnumC2056l {
+    static final class W extends EnumC2056l {
         W() {
             super("AfterDoctypeName", 53, null);
         }
@@ -1138,7 +1138,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$X */
-    final enum X extends EnumC2056l {
+    static final class X extends EnumC2056l {
         X() {
             super("AfterDoctypePublicKeyword", 54, null);
         }
@@ -1178,7 +1178,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$Y */
-    final enum Y extends EnumC2056l {
+    static final class Y extends EnumC2056l {
         Y() {
             super("BeforeDoctypePublicIdentifier", 55, null);
         }
@@ -1217,7 +1217,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$Z */
-    final enum Z extends EnumC2056l {
+    static final class Z extends EnumC2056l {
         Z() {
             super("DoctypePublicIdentifier_doubleQuoted", 56, null);
         }
@@ -1253,7 +1253,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$a, reason: case insensitive filesystem */
-    final enum C2661a extends EnumC2056l {
+    static final class C2661a extends EnumC2056l {
         C2661a() {
             super("TagName", 9, null);
         }
@@ -1301,7 +1301,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$a0 */
-    final enum a0 extends EnumC2056l {
+    static final class a0 extends EnumC2056l {
         a0() {
             super("DoctypePublicIdentifier_singleQuoted", 57, null);
         }
@@ -1337,7 +1337,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$b, reason: case insensitive filesystem */
-    final enum C2662b extends EnumC2056l {
+    static final class C2662b extends EnumC2056l {
         C2662b() {
             super("RcdataLessthanSign", 10, null);
         }
@@ -1366,7 +1366,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$b0 */
-    final enum b0 extends EnumC2056l {
+    static final class b0 extends EnumC2056l {
         b0() {
             super("AfterDoctypePublicIdentifier", 58, null);
         }
@@ -1406,7 +1406,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$c, reason: case insensitive filesystem */
-    final enum C2663c extends EnumC2056l {
+    static final class C2663c extends EnumC2056l {
         C2663c() {
             super("RCDATAEndTagOpen", 11, null);
         }
@@ -1427,7 +1427,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$c0 */
-    final enum c0 extends EnumC2056l {
+    static final class c0 extends EnumC2056l {
         c0() {
             super("Rawtext", 4, null);
         }
@@ -1440,7 +1440,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$d, reason: case insensitive filesystem */
-    final enum C2664d extends EnumC2056l {
+    static final class C2664d extends EnumC2056l {
         C2664d() {
             super("RCDATAEndTagName", 12, null);
         }
@@ -1491,7 +1491,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$d0 */
-    final enum d0 extends EnumC2056l {
+    static final class d0 extends EnumC2056l {
         d0() {
             super("BetweenDoctypePublicAndSystemIdentifiers", 59, null);
         }
@@ -1532,7 +1532,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$e, reason: case insensitive filesystem */
-    final enum C2665e extends EnumC2056l {
+    static final class C2665e extends EnumC2056l {
         C2665e() {
             super("RawtextLessthanSign", 13, null);
         }
@@ -1551,7 +1551,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$e0 */
-    final enum e0 extends EnumC2056l {
+    static final class e0 extends EnumC2056l {
         e0() {
             super("AfterDoctypeSystemKeyword", 60, null);
         }
@@ -1593,7 +1593,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$f, reason: case insensitive filesystem */
-    final enum C2666f extends EnumC2056l {
+    static final class C2666f extends EnumC2056l {
         C2666f() {
             super("RawtextEndTagOpen", 14, null);
         }
@@ -1606,7 +1606,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$f0 */
-    final enum f0 extends EnumC2056l {
+    static final class f0 extends EnumC2056l {
         f0() {
             super("BeforeDoctypeSystemIdentifier", 61, null);
         }
@@ -1645,7 +1645,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$g, reason: case insensitive filesystem */
-    final enum C2667g extends EnumC2056l {
+    static final class C2667g extends EnumC2056l {
         C2667g() {
             super("RawtextEndTagName", 15, null);
         }
@@ -1658,7 +1658,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$g0 */
-    final enum g0 extends EnumC2056l {
+    static final class g0 extends EnumC2056l {
         g0() {
             super("DoctypeSystemIdentifier_doubleQuoted", 62, null);
         }
@@ -1694,7 +1694,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$h, reason: case insensitive filesystem */
-    final enum C2668h extends EnumC2056l {
+    static final class C2668h extends EnumC2056l {
         C2668h() {
             super("ScriptDataLessthanSign", 16, null);
         }
@@ -1725,7 +1725,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$h0 */
-    final enum h0 extends EnumC2056l {
+    static final class h0 extends EnumC2056l {
         h0() {
             super("DoctypeSystemIdentifier_singleQuoted", 63, null);
         }
@@ -1761,7 +1761,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$i, reason: case insensitive filesystem */
-    final enum C2669i extends EnumC2056l {
+    static final class C2669i extends EnumC2056l {
         C2669i() {
             super("ScriptDataEndTagOpen", 17, null);
         }
@@ -1774,7 +1774,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$i0 */
-    final enum i0 extends EnumC2056l {
+    static final class i0 extends EnumC2056l {
         i0() {
             super("AfterDoctypeSystemIdentifier", 64, null);
         }
@@ -1803,7 +1803,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$j, reason: case insensitive filesystem */
-    final enum C2670j extends EnumC2056l {
+    static final class C2670j extends EnumC2056l {
         C2670j() {
             super("ScriptDataEndTagName", 18, null);
         }
@@ -1816,7 +1816,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$j0 */
-    final enum j0 extends EnumC2056l {
+    static final class j0 extends EnumC2056l {
         j0() {
             super("BogusDoctype", 65, null);
         }
@@ -1834,7 +1834,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$k, reason: case insensitive filesystem */
-    final enum C2671k extends EnumC2056l {
+    static final class C2671k extends EnumC2056l {
         C2671k() {
             super("Data", 0, null);
         }
@@ -1868,7 +1868,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$k0 */
-    final enum k0 extends EnumC2056l {
+    static final class k0 extends EnumC2056l {
         k0() {
             super("CdataSection", 66, null);
         }
@@ -1885,7 +1885,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$l, reason: case insensitive filesystem */
-    final enum C2672l extends EnumC2056l {
+    static final class C2672l extends EnumC2056l {
         C2672l() {
             super("ScriptDataEscapeStart", 19, null);
         }
@@ -1903,7 +1903,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$l0 */
-    final enum l0 extends EnumC2056l {
+    static final class l0 extends EnumC2056l {
         l0() {
             super("ScriptData", 5, null);
         }
@@ -1916,7 +1916,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$m, reason: case insensitive filesystem */
-    final enum C2673m extends EnumC2056l {
+    static final class C2673m extends EnumC2056l {
         C2673m() {
             super("ScriptDataEscapeStartDash", 20, null);
         }
@@ -1934,7 +1934,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$m0 */
-    final enum m0 extends EnumC2056l {
+    static final class m0 extends EnumC2056l {
         m0() {
             super("PLAINTEXT", 6, null);
         }
@@ -1956,7 +1956,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$n, reason: case insensitive filesystem */
-    final enum C2674n extends EnumC2056l {
+    static final class C2674n extends EnumC2056l {
         C2674n() {
             super("ScriptDataEscaped", 21, null);
         }
@@ -1992,7 +1992,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$n0 */
-    final enum n0 extends EnumC2056l {
+    static final class n0 extends EnumC2056l {
         n0() {
             super("TagOpen", 7, null);
         }
@@ -2028,7 +2028,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$o, reason: case insensitive filesystem */
-    final enum C2675o extends EnumC2056l {
+    static final class C2675o extends EnumC2056l {
         C2675o() {
             super("ScriptDataEscapedDash", 22, null);
         }
@@ -2062,7 +2062,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$o0 */
-    final enum o0 extends EnumC2056l {
+    static final class o0 extends EnumC2056l {
         o0() {
             super("EndTagOpen", 8, null);
         }
@@ -2098,7 +2098,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$p, reason: case insensitive filesystem */
-    final enum C2676p extends EnumC2056l {
+    static final class C2676p extends EnumC2056l {
         C2676p() {
             super("ScriptDataEscapedDashDash", 23, null);
         }
@@ -2137,7 +2137,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$q, reason: case insensitive filesystem */
-    final enum C2677q extends EnumC2056l {
+    static final class C2677q extends EnumC2056l {
         C2677q() {
             super("ScriptDataEscapedLessthanSign", 24, null);
         }
@@ -2165,7 +2165,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$r, reason: case insensitive filesystem */
-    final enum C2678r extends EnumC2056l {
+    static final class C2678r extends EnumC2056l {
         C2678r() {
             super("ScriptDataEscapedEndTagOpen", 25, null);
         }
@@ -2186,7 +2186,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$s, reason: case insensitive filesystem */
-    final enum C2679s extends EnumC2056l {
+    static final class C2679s extends EnumC2056l {
         C2679s() {
             super("ScriptDataEscapedEndTagName", 26, null);
         }
@@ -2199,7 +2199,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$t, reason: case insensitive filesystem */
-    final enum C2680t extends EnumC2056l {
+    static final class C2680t extends EnumC2056l {
         C2680t() {
             super("ScriptDataDoubleEscapeStart", 27, null);
         }
@@ -2212,7 +2212,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$u, reason: case insensitive filesystem */
-    final enum C2681u extends EnumC2056l {
+    static final class C2681u extends EnumC2056l {
         C2681u() {
             super("ScriptDataDoubleEscaped", 28, null);
         }
@@ -2250,7 +2250,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$v, reason: case insensitive filesystem */
-    final enum C2682v extends EnumC2056l {
+    static final class C2682v extends EnumC2056l {
         C2682v() {
             super("CharacterReferenceInData", 1, null);
         }
@@ -2263,7 +2263,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$w, reason: case insensitive filesystem */
-    final enum C2683w extends EnumC2056l {
+    static final class C2683w extends EnumC2056l {
         C2683w() {
             super("ScriptDataDoubleEscapedDash", 29, null);
         }
@@ -2296,7 +2296,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$x, reason: case insensitive filesystem */
-    final enum C2684x extends EnumC2056l {
+    static final class C2684x extends EnumC2056l {
         C2684x() {
             super("ScriptDataDoubleEscapedDashDash", 30, null);
         }
@@ -2333,7 +2333,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$y, reason: case insensitive filesystem */
-    final enum C2685y extends EnumC2056l {
+    static final class C2685y extends EnumC2056l {
         C2685y() {
             super("ScriptDataDoubleEscapedLessthanSign", 31, null);
         }
@@ -2352,7 +2352,7 @@ abstract class EnumC2056l {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.l$z, reason: case insensitive filesystem */
-    final enum C2686z extends EnumC2056l {
+    static final class C2686z extends EnumC2056l {
         C2686z() {
             super("ScriptDataDoubleEscapeEnd", 32, null);
         }
