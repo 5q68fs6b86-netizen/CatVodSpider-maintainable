@@ -1,0 +1,72 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+def robolectricJvmArgs = [
+        '--add-opens=java.base/java.lang=ALL-UNNAMED',
+        '--add-opens=java.base/java.util=ALL-UNNAMED',
+        '--add-opens=java.base/java.io=ALL-UNNAMED',
+        '--add-opens=java.base/java.net=ALL-UNNAMED',
+        '--add-opens=java.base/java.security=ALL-UNNAMED',
+        '--add-opens=java.base/java.text=ALL-UNNAMED',
+        '--add-opens=java.base/jdk.internal.access=ALL-UNNAMED',
+        '--add-opens=java.desktop/java.awt.font=ALL-UNNAMED',
+        '--add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED',
+]
+
+android {
+    namespace = 'com.github.catvod'
+
+    compileSdk libs.versions.compileSdk.get().toInteger()
+
+    defaultConfig {
+        applicationId = "com.github.catvod.demo"
+        minSdk libs.versions.minSdk.get().toInteger()
+        targetSdk libs.versions.targetSdk.get().toInteger()
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled = true
+            proguardFiles 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+        unitTests.all {
+            jvmArgs += robolectricJvmArgs
+            outputs.upToDateWhen { false }
+        }
+    }
+
+    configurations.configureEach {
+        resolutionStrategy {
+            force "com.squareup.okhttp3:okhttp:${libs.versions.okhttp.get()}"
+        }
+    }
+}
+
+dependencies {
+    compileOnly libs.androidx.annotation
+    implementation libs.okhttp
+    implementation libs.sardine.android
+    implementation libs.quickjs.wrapper
+    implementation libs.gson
+    implementation libs.smbj
+    implementation libs.jsoup
+    testImplementation libs.junit
+    testImplementation libs.robolectric
+}
+
+tasks.register('siteTest') {
+    group = 'verification'
+    dependsOn 'testDebugUnitTest'
+}

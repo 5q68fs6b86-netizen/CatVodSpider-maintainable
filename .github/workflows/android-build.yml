@@ -1,0 +1,62 @@
+name: Android Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK packages
+        run: |
+          sdkmanager "platforms;android-35" "platforms;android-36" "build-tools;35.0.0" "platform-tools"
+          # project asks compileSdk 37; install if available, else fall back later
+          sdkmanager "platforms;android-37" || true
+          yes | sdkmanager --licenses >/dev/null || true
+
+      - name: Adjust compileSdk if 37 missing
+        run: |
+          if [ ! -d "$ANDROID_HOME/platforms/android-37" ] && [ ! -d "$ANDROID_SDK_ROOT/platforms/android-37" ]; then
+            echo "android-37 not available, pin compileSdk/targetSdk to 35"
+            sed -i 's/compileSdk = "37"/compileSdk = "35"/' gradle/libs.versions.toml
+            sed -i 's/targetSdk = "37"/targetSdk = "35"/' gradle/libs.versions.toml
+          fi
+          cat gradle/libs.versions.toml
+
+      - name: Gradle compile debug
+        run: |
+          chmod +x gradlew
+          ./gradlew --no-daemon :app:compileDebugJavaWithJavac --stacktrace 2>&1 | tee compile.log
+        continue-on-error: true
+
+      - name: Gradle assembleDebug
+        run: |
+          ./gradlew --no-daemon :app:assembleDebug --stacktrace 2>&1 | tee assemble.log
+        continue-on-error: true
+
+      - name: Upload logs and APK
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-output
+          path: |
+            compile.log
+            assemble.log
+            app/build/outputs/
+            app/build/reports/
+          if-no-files-found: warn

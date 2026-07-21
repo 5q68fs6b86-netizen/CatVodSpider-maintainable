@@ -1,0 +1,26 @@
+package com.github.catvod.spider.support.p044FM.p069Y;
+
+import com.github.catvod.spider.support.p044FM.p055K.C1393m;
+import com.github.catvod.spider.support.p044FM.p066V.C1664e;
+import com.github.catvod.spider.support.p044FM.p066V.C1665f;
+import com.github.catvod.spider.support.p044FM.p066V.InterfaceC1663d;
+import java.util.LinkedList;
+
+/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.Y.a */
+/* JADX INFO: loaded from: classes.dex */
+public final class C1699a implements InterfaceC1663d {
+    @Override // com.github.catvod.spider.support.p044FM.p066V.InterfaceC1663d
+    /* JADX INFO: renamed from: a */
+    public final C1665f mo3956a(C1664e c1664e) {
+        LinkedList linkedList = new LinkedList();
+        for (C1393m c1393m : c1664e.m3960a()) {
+            linkedList.add("script".equals(c1393m.mo3405s()) ? c1393m.m3457X() : c1393m.m3484v0());
+        }
+        return new C1665f(linkedList);
+    }
+
+    @Override // com.github.catvod.spider.support.p044FM.p066V.InterfaceC1663d
+    public final String name() {
+        return "allText";
+    }
+}

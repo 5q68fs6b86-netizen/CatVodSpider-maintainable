@@ -1,0 +1,8 @@
+.gradle
+.idea
+*build
+/local.properties
+# CI slim - not needed for Java compile
+/jar/
+/assets/
+/json/

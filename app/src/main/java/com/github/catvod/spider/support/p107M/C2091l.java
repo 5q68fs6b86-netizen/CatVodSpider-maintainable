@@ -1,0 +1,30 @@
+package com.github.catvod.spider.support.p107M;
+
+import com.github.catvod.spider.support.p101G.C2037i;
+import com.github.catvod.spider.support.p103I.C2060c;
+import com.github.catvod.spider.support.p106L.C2078f;
+import com.github.catvod.spider.support.p106L.InterfaceC2073a;
+import java.util.LinkedList;
+
+/* JADX INFO: renamed from: com.github.catvod.spider.support.M.l */
+/* JADX INFO: loaded from: classes.dex */
+public final class C2091l implements InterfaceC2073a {
+    @Override // com.github.catvod.spider.support.p106L.InterfaceC2073a
+    /* JADX INFO: renamed from: a */
+    public final C2078f mo5323a(C2060c c2060c) {
+        LinkedList linkedList = new LinkedList();
+        for (C2037i c2037i : c2060c) {
+            if (c2037i.m4894m0() != null) {
+                linkedList.add(c2037i.m4894m0());
+            }
+        }
+        C2060c c2060c2 = new C2060c();
+        c2060c2.addAll(linkedList);
+        return new C2078f(c2060c2);
+    }
+
+    @Override // com.github.catvod.spider.support.p106L.InterfaceC2073a
+    public final String name() {
+        return "preceding-sibling-one";
+    }
+}
