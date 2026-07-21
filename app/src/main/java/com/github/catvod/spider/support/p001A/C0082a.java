@@ -10,7 +10,7 @@ import com.github.catvod.spider.support.p114T.C2131b;
 import com.github.catvod.spider.support.p116a.C2137a;
 import com.github.catvod.spider.support.p118c.C2190a;
 import com.github.catvod.spider.support.p118c.C2192c;
-import com.github.catvod.spider.support.p118c.Vod;
+import com.github.catvod.bean.Vod;
 import com.github.catvod.spider.support.p126k.C2238b;
 import com.github.catvod.spider.support.p139y.C2419b;
 import com.github.catvod.spider.support.p139y.C2423f;

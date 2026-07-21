@@ -71,7 +71,7 @@ public final class C2175i {
     public static void m5659a(C2175i c2175i) {
         JSONObject jSONObjectOptJSONObject;
         c2175i.getClass();
-        for (String str : new ArrayList(c2175i.f5204a)) {
+        for (Object __o : new ArrayList(c2175i.f5204a)) { String str = String.valueOf(__o);
             String strM5884a = c2175i.m5669g().m5868a().m5884a();
             JsonObject jsonObject = new JsonObject();
             JsonArray jsonArray = new JsonArray();
@@ -270,10 +270,10 @@ public final class C2175i {
                     public final void run() {
                         switch (i) {
                             case 0:
-                                C2175i.m5659a((C2175i) this);
+                                C2175i.m5659a(C2175i.this);
                                 break;
                             default:
-                                ((MainActivity) this).i();
+                                /*MainActivity*/;
                                 break;
                         }
                     }
@@ -349,10 +349,10 @@ public final class C2175i {
                         public final void run() {
                             switch (i) {
                                 case 0:
-                                    C2175i.m5659a((C2175i) this);
+                                    C2175i.m5659a(C2175i.this);
                                     break;
                                 default:
-                                    ((MainActivity) this).getClass();
+                                    /*MainActivity*/;
                                     try {
                                         MainActivity.q(Init.getConfigActivity());
                                     } catch (Exception e) {
@@ -373,7 +373,7 @@ public final class C2175i {
                         public final void run() {
                             switch (i) {
                                 case 0:
-                                    C2175i.m5659a((C2175i) this);
+                                    C2175i.m5659a(C2175i.this);
                                     break;
                                 default:
                                     ((MainActivity) this).n();

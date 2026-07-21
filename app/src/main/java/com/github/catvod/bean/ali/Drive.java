@@ -28,4 +28,8 @@ public class Drive {
     public String getDriveId() {
         return getResourceDriveId().isEmpty() ? getDefaultDriveId() : getResourceDriveId();
     }
+
+    public java.util.List<Drive> getDrives() { return java.util.Collections.emptyList(); }
+
+    public String getVodPic() { return ""; }
 }

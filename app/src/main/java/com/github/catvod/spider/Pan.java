@@ -84,4 +84,13 @@ public class Pan extends Spider {
     public Object[] proxy(Map<String, String> params) throws Exception {
         return null;
     }
+
+    // decompile aliases used by PanWebShare etc.
+    public static final java.util.regex.Pattern f229a = ALI;
+    public static final java.util.regex.Pattern f230b = QUARK;
+    public static final java.util.regex.Pattern f231c = UC;
+    public static final java.util.regex.Pattern f232d = CLOUD189;
+    public static final java.util.regex.Pattern f233e = PAN123;
+    public static final java.util.regex.Pattern f234f = BAIDU;
+    public static final java.util.regex.Pattern f235g = XUNLEI;
 }

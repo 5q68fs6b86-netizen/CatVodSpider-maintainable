@@ -191,7 +191,7 @@ public class QnMp4 extends Spider {
                                 i3 = i4;
                                 strM1645f = str3;
                             } catch (Exception e3) {
-                                Exception e = e3;
+                                e = e3;
                                 str3 = strM1645f;
                                 SpiderDebug.log(e);
                                 if (strM1889k.contains("class=\"player")) {
@@ -240,7 +240,7 @@ public class QnMp4 extends Spider {
                                 return string3;
                             }
                         } catch (Exception e4) {
-                            Exception e = e4;
+                            e = e4;
                             str2 = strM1787g;
                             str3 = strM1645f;
                             SpiderDebug.log(e);
@@ -296,7 +296,7 @@ public class QnMp4 extends Spider {
                 str2 = strM1787g;
                 str3 = strM1645f;
             } catch (Exception e5) {
-                Exception e = e5;
+                e = e5;
                 str = "";
             }
             try {
@@ -348,7 +348,7 @@ public class QnMp4 extends Spider {
             C2137a.parseJsonAndSave(string5);
             return string5;
         } catch (Exception e7) {
-            Exception e = e7;
+            e = e7;
         }
     }
 

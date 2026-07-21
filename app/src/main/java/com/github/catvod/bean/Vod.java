@@ -201,6 +201,15 @@ public class Vod {
         }
     }
 
+    /** decompile alias of Style */
+    public static class a extends Style {
+        public a() { super(); }
+        public a(String type, Float ratio) { super(type, ratio); }
+        public static a m5857a() { return new a("rect", 0.75f); }
+        public static a m5858b(float f) { return new a("rect", f); }
+    }
+
+
 
     public String m5838a() {
         return this.vodId;
@@ -258,5 +267,48 @@ public class Vod {
     }
     public void m5856r(String str) {
         this.action = str;
+    }
+
+    public String m4215a() {
+        return this.vodPlayUrl;
+    }
+    public void m4216b(String str) {
+        this.typeName = str;
+    }
+    public void m4217c(String str) {
+        this.vodActor = str;
+    }
+    public void m4218d(String str) {
+        this.vodArea = str;
+    }
+    public void m4219e(String str) {
+        this.vodContent = str;
+    }
+    public void m4220f(String str) {
+        this.vodDirector = str;
+    }
+    public void m4221g(String str) {
+        this.vodId = str;
+    }
+    public void m4222h(String str) {
+        this.vodName = str;
+    }
+    public void m4223i(String str) {
+        this.vodPic = str;
+    }
+    public void m4224j(String str) {
+        this.vodPlayFrom = str;
+    }
+    public void m4225k(String str) {
+        this.vodPlayUrl = str;
+    }
+    public void m4226l(String str) {
+        this.vodRemarks = str;
+    }
+    public void m4227m(String str) {
+        this.vodTag = str;
+    }
+    public void m4228n(String str) {
+        this.vodYear = str;
     }
 }

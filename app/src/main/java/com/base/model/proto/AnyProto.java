@@ -1,6 +1,6 @@
 package com.base.model.proto;
-public final class SectionProto {
-  private SectionProto() {}
+public final class AnyProto {
+  private AnyProto() {}
   public static class Builder {
     public static Builder parseFrom(byte[] b) { return new Builder(); }
     public static Builder parseFrom(java.io.InputStream in) { return new Builder(); }
@@ -96,82 +96,6 @@ public final class SectionProto {
       public Result buildPartial() { return new Result(); }
     }
   }
-  public static class SectionBean {
-    public static SectionBean parseFrom(byte[] b) { return new SectionBean(); }
-    public static SectionBean parseFrom(java.io.InputStream in) { return new SectionBean(); }
-    public byte[] toByteArray() { return new byte[0]; }
-    public String getValue() { return ""; }
-    public String getUrl() { return ""; }
-    public String getMsg() { return ""; }
-    public int getCode() { return 0; }
-    public java.util.List<SectionBean> getListList() { return java.util.Collections.emptyList(); }
-    public java.util.List getItemsList() { return java.util.Collections.emptyList(); }
-    public boolean hasData() { return false; }
-    public SectionBean getData() { return this; }
-    public static Builder newBuilder() { return new Builder(); }
-    public static class Builder {
-      public Builder mergeFrom(byte[] b) { return this; }
-      public SectionBean build() { return new SectionBean(); }
-      public SectionBean buildPartial() { return new SectionBean(); }
-    }
-  }
-  public static class SectionBeanOrBuilder {
-    public static SectionBeanOrBuilder parseFrom(byte[] b) { return new SectionBeanOrBuilder(); }
-    public static SectionBeanOrBuilder parseFrom(java.io.InputStream in) { return new SectionBeanOrBuilder(); }
-    public byte[] toByteArray() { return new byte[0]; }
-    public String getValue() { return ""; }
-    public String getUrl() { return ""; }
-    public String getMsg() { return ""; }
-    public int getCode() { return 0; }
-    public java.util.List<SectionBeanOrBuilder> getListList() { return java.util.Collections.emptyList(); }
-    public java.util.List getItemsList() { return java.util.Collections.emptyList(); }
-    public boolean hasData() { return false; }
-    public SectionBeanOrBuilder getData() { return this; }
-    public static Builder newBuilder() { return new Builder(); }
-    public static class Builder {
-      public Builder mergeFrom(byte[] b) { return this; }
-      public SectionBeanOrBuilder build() { return new SectionBeanOrBuilder(); }
-      public SectionBeanOrBuilder buildPartial() { return new SectionBeanOrBuilder(); }
-    }
-  }
-  public static class class {
-    public static class parseFrom(byte[] b) { return new class(); }
-    public static class parseFrom(java.io.InputStream in) { return new class(); }
-    public byte[] toByteArray() { return new byte[0]; }
-    public String getValue() { return ""; }
-    public String getUrl() { return ""; }
-    public String getMsg() { return ""; }
-    public int getCode() { return 0; }
-    public java.util.List<class> getListList() { return java.util.Collections.emptyList(); }
-    public java.util.List getItemsList() { return java.util.Collections.emptyList(); }
-    public boolean hasData() { return false; }
-    public class getData() { return this; }
-    public static Builder newBuilder() { return new Builder(); }
-    public static class Builder {
-      public Builder mergeFrom(byte[] b) { return this; }
-      public class build() { return new class(); }
-      public class buildPartial() { return new class(); }
-    }
-  }
-  public static class f25xb6bd02c5 {
-    public static f25xb6bd02c5 parseFrom(byte[] b) { return new f25xb6bd02c5(); }
-    public static f25xb6bd02c5 parseFrom(java.io.InputStream in) { return new f25xb6bd02c5(); }
-    public byte[] toByteArray() { return new byte[0]; }
-    public String getValue() { return ""; }
-    public String getUrl() { return ""; }
-    public String getMsg() { return ""; }
-    public int getCode() { return 0; }
-    public java.util.List<f25xb6bd02c5> getListList() { return java.util.Collections.emptyList(); }
-    public java.util.List getItemsList() { return java.util.Collections.emptyList(); }
-    public boolean hasData() { return false; }
-    public f25xb6bd02c5 getData() { return this; }
-    public static Builder newBuilder() { return new Builder(); }
-    public static class Builder {
-      public Builder mergeFrom(byte[] b) { return this; }
-      public f25xb6bd02c5 build() { return new f25xb6bd02c5(); }
-      public f25xb6bd02c5 buildPartial() { return new f25xb6bd02c5(); }
-    }
-  }
   public static class getDescriptor {
     public static getDescriptor parseFrom(byte[] b) { return new getDescriptor(); }
     public static getDescriptor parseFrom(java.io.InputStream in) { return new getDescriptor(); }
@@ -189,25 +113,6 @@ public final class SectionProto {
       public Builder mergeFrom(byte[] b) { return this; }
       public getDescriptor build() { return new getDescriptor(); }
       public getDescriptor buildPartial() { return new getDescriptor(); }
-    }
-  }
-  public static class internal_static_com_base_model_proto_SectionBean_descriptor {
-    public static internal_static_com_base_model_proto_SectionBean_descriptor parseFrom(byte[] b) { return new internal_static_com_base_model_proto_SectionBean_descriptor(); }
-    public static internal_static_com_base_model_proto_SectionBean_descriptor parseFrom(java.io.InputStream in) { return new internal_static_com_base_model_proto_SectionBean_descriptor(); }
-    public byte[] toByteArray() { return new byte[0]; }
-    public String getValue() { return ""; }
-    public String getUrl() { return ""; }
-    public String getMsg() { return ""; }
-    public int getCode() { return 0; }
-    public java.util.List<internal_static_com_base_model_proto_SectionBean_descriptor> getListList() { return java.util.Collections.emptyList(); }
-    public java.util.List getItemsList() { return java.util.Collections.emptyList(); }
-    public boolean hasData() { return false; }
-    public internal_static_com_base_model_proto_SectionBean_descriptor getData() { return this; }
-    public static Builder newBuilder() { return new Builder(); }
-    public static class Builder {
-      public Builder mergeFrom(byte[] b) { return this; }
-      public internal_static_com_base_model_proto_SectionBean_descriptor build() { return new internal_static_com_base_model_proto_SectionBean_descriptor(); }
-      public internal_static_com_base_model_proto_SectionBean_descriptor buildPartial() { return new internal_static_com_base_model_proto_SectionBean_descriptor(); }
     }
   }
 }

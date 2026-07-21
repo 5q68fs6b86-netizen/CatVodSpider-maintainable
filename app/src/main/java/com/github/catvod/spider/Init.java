@@ -63,4 +63,9 @@ public class Init {
     public static Activity getActivity() {
         return null;
     }
+
+    public static Activity getConfigActivity() {
+        return getActivity();
+    }
 }
+

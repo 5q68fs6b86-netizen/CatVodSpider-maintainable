@@ -5,22 +5,22 @@ import java.io.IOException;
 /* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tk */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0638tk extends AbstractC0672ur {
-    @Override // com.github.catvod.spider.support.p002A0.AbstractC0272fw
+@Override
     /* JADX INFO: renamed from: b */
     public final AbstractC0272fw clone() {
         return (C0638tk) super.clone();
     }
 
-    @Override // com.github.catvod.spider.support.p002A0.AbstractC0272fw
+@Override
 
-    @Override // com.github.catvod.spider.support.p002A0.AbstractC0272fw
+@Override
     /* JADX INFO: renamed from: s */
     public final String mo924s() {
         return "#comment";
     }
 
     /* JADX WARN: Code duplicated, block: B:13:0x0020  */
-    @Override // com.github.catvod.spider.support.p002A0.AbstractC0272fw
+@Override
     /* JADX INFO: renamed from: u */
     public final void mo925u(StringBuilder sb, int i, C0674ut c0674ut) throws IOException {
         AbstractC0272fw abstractC0272fw;
@@ -44,7 +44,7 @@ public final class C0638tk extends AbstractC0672ur {
         sb.append("<!--").append(m1732f()).append("-->");
     }
 
-    @Override // com.github.catvod.spider.support.p002A0.AbstractC0272fw
+@Override
     /* JADX INFO: renamed from: v */
     public final void mo926v(StringBuilder sb, int i, C0674ut c0674ut) {
     }

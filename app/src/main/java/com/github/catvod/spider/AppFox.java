@@ -1,4 +1,5 @@
 package com.github.catvod.spider;
+import com.github.catvod.spider.support.p116a.C2137a;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -19,8 +20,8 @@ import org.json.JSONObject;
 
 /* JADX INFO: loaded from: classes.dex */
 public class AppFox extends Spider {
-    public static final String vodindex = "";
-    public static final String vodname = "";
+    public static String vodindex = "";
+    public static String vodname = "";
 
     /* JADX INFO: renamed from: a */
     private final Map<String, String> f68a = new HashMap<String, String>() { // from class: com.github.catvod.spider.AppFox.1
@@ -588,7 +589,7 @@ public class AppFox extends Spider {
                     if (i == i4 || i2 == i4) {
                         break;
                     }
-                    for (Map.Entry entry : map5.entrySet()) {
+                    for (Map.Entry entry : ((Map)map5).entrySet()) {
                         if (((String) entry.getKey()).contains(str3)) {
                             Object value = entry.getValue();
                             if (value instanceof List) {

@@ -94,4 +94,12 @@ public class Drive {
         Drive it = (Drive) obj;
         return getName().equals(it.getName());
     }
+
+    public static Drive objectFrom(String str) {
+        try { return new com.google.gson.Gson().fromJson(str, Drive.class); } catch (Exception e) { return new Drive(); }
+    }
+
+    public java.util.List<Drive> getDrives() { return java.util.Collections.emptyList(); }
+
+    public String getVodPic() { return ""; }
 }

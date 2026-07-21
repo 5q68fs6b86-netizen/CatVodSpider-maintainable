@@ -133,4 +133,6 @@ public class Item {
     public Vod getVod(Drive drive) {
         return new Vod(getVodPath(drive.getName()), getName(), getPic(), drive.getName(), isFolder());
     }
+
+    public String getExt() { return ""; }
 }

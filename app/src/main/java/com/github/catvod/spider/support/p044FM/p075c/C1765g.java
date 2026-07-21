@@ -1,4 +1,5 @@
 package com.github.catvod.spider.support.p044FM.p075c;
+import com.github.catvod.bean.Vod;
 
 import com.github.catvod.spider.support.p044FM.p071a.C1711a;
 import com.google.gson.Gson;
@@ -19,7 +20,7 @@ public final class C1765g {
 
     /* JADX INFO: renamed from: b */
     @SerializedName("list")
-    private List<C1768j> f3887b;
+    private List<Vod> f3887b;
 
     /* JADX INFO: renamed from: c */
     @SerializedName("filters")
@@ -112,14 +113,14 @@ public final class C1765g {
     }
 
     /* JADX INFO: renamed from: p */
-    public static String m4188p(C1768j c1768j) {
+    public static String m4188p(Vod c1768j) {
         C1765g c1765g = new C1765g();
         c1765g.f3887b = Collections.singletonList(c1768j);
         return c1765g.toString();
     }
 
     /* JADX INFO: renamed from: q */
-    public static String m4189q(List<C1768j> list) {
+    public static String m4189q(List<Vod> list) {
         C1765g c1765g = new C1765g();
         c1765g.f3887b = list;
         return c1765g.toString();
@@ -134,7 +135,7 @@ public final class C1765g {
     }
 
     /* JADX INFO: renamed from: s */
-    public static String m4191s(List<C1759a> list, List<C1768j> list2) {
+    public static String m4191s(List<C1759a> list, List<Vod> list2) {
         C1765g c1765g = new C1765g();
         c1765g.f3886a = list;
         c1765g.f3887b = list2;
@@ -142,7 +143,7 @@ public final class C1765g {
     }
 
     /* JADX INFO: renamed from: t */
-    public static String m4192t(List<C1759a> list, List<C1768j> list2, LinkedHashMap<String, List<C1761c>> linkedHashMap) {
+    public static String m4192t(List<C1759a> list, List<Vod> list2, LinkedHashMap<String, List<C1761c>> linkedHashMap) {
         C1765g c1765g = new C1765g();
         c1765g.f3886a = list;
         c1765g.f3887b = list2;
@@ -151,7 +152,7 @@ public final class C1765g {
     }
 
     /* JADX INFO: renamed from: u */
-    public static String m4193u(List<C1759a> list, List<C1768j> list2, JSONObject jSONObject) {
+    public static String m4193u(List<C1759a> list, List<Vod> list2, JSONObject jSONObject) {
         C1765g c1765g = new C1765g();
         c1765g.f3886a = list;
         c1765g.f3887b = list2;
@@ -273,7 +274,7 @@ public final class C1765g {
     }
 
     /* JADX INFO: renamed from: z */
-    public final C1765g m4209z(List<C1768j> list) {
+    public final C1765g m4209z(List<Vod> list) {
         this.f3887b = list;
         return this;
     }
