@@ -1,6 +1,2 @@
 package com.github.catvod.spider.support.p044FM.p099y;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.i0 */
-/* JADX INFO: loaded from: classes.dex */
-public abstract class AbstractC1994i0 extends AbstractC2000l0 {
-}
+public class AbstractC1994i0<T> { public AbstractC1994i0(){} public AbstractC1994i0(Object... a){} }

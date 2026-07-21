@@ -1,2 +1,2 @@
 package com.github.catvod.spider.support.p044FM.p065U;
-public interface InterfaceC1633E {}
+public interface InterfaceC1633E<T> {}

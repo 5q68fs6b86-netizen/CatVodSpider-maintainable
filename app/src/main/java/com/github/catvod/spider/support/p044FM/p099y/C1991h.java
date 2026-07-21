@@ -1,19 +1,2 @@
 package com.github.catvod.spider.support.p044FM.p099y;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.h */
-/* JADX INFO: loaded from: classes.dex */
-final class C1991h implements InterfaceC1995j {
-    C1991h() {
-    }
-
-    @Override // com.github.catvod.spider.support.p044FM.p099y.InterfaceC1995j
-    /* JADX INFO: renamed from: a */
-    public final int mo4777a(char[] cArr, int i) {
-        return cArr[i];
-    }
-
-    @Override // com.github.catvod.spider.support.p044FM.p099y.InterfaceC1995j
-    public final int size() {
-        return 1;
-    }
-}
+public class C1991h { public C1991h(){} public C1991h(Object... a){} }
