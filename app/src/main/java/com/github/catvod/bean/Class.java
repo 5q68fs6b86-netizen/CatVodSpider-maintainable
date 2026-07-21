@@ -8,6 +8,9 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 public class Class {
+    public Class() {}
+    public Class(String typeId, String typeName) { setTypeId(typeId); setTypeName(typeName); }
+
 
     @SerializedName("type_id")
     private String typeId;
@@ -47,10 +50,8 @@ public class Class {
         return getTypeId().equals(it.getTypeId());
     }
 
-    public static Class m5790a() { return new Class(); }
-    public static Class m5790a(String typeId, String typeName) {
-        Class c = new Class();
-        try { c.setTypeId(typeId); c.setTypeName(typeName); } catch (Throwable ignored) {}
+    public static String m5790a() { return ""; }
+    public static String m5790a(String typeId, String typeName) { return typeName == null ? "" : typeName; } catch (Throwable ignored) {}
         return c;
     }
 }

@@ -45,13 +45,13 @@ public class JuheSo extends Pan {
             JsonArray folders = new JsonArray();
             for (Object __en_e : merged.entrySet()) { Map.Entry e = (Map.Entry) __en_e;
                 synchronized (CACHE) {
-                    CACHE.put(e.getKey() + "_json", e.getValue());
+                    CACHE.put(String.valueOf(e.getKey()) + "_json", (com.google.gson.JsonElement) e.getValue());
                 }
                 JsonObject item = new JsonObject();
-                item.addProperty("vod_id", e.getKey());
-                int size = e.getValue().getAsJsonArray().size();
-                item.addProperty("vod_name", PanSearchSupport.typeName(e.getKey()) + " (" + size + "个)");
-                item.addProperty("vod_pic", PanSearchSupport.typePic(e.getKey()));
+                item.addProperty("vod_id", String.valueOf(e.getKey()));
+                int size = ((com.google.gson.JsonElement) e.getValue()).getAsJsonArray().size();
+                item.addProperty("vod_name", PanSearchSupport.typeName(String.valueOf(e.getKey())) + " (" + size + "个)");
+                item.addProperty("vod_pic", PanSearchSupport.typePic(String.valueOf(e.getKey())));
                 item.addProperty("vod_tag", "folder");
                 JsonObject style = new JsonObject();
                 style.addProperty("type", "list");

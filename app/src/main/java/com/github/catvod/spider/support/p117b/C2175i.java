@@ -17,11 +17,11 @@ public class C2175i {
     public boolean m5671i() { return false; }
     public List m5672j(String a, String b) { return Collections.emptyList(); }
     public Vod m5673k(String a, String b) { return new Vod(); }
-    public Object m5674l(String a) { return null; }
-    public Object m5674l(String a, C2203g g, String b) { return null; }
-    public Object m5674l(String a, Object g, String b) { return null; }
-    public void m5676n(Object o) {}
-    public void m5676o(String s) {}
+    public C2203g m5674l(String a) { return new C2203g(); }
+    public C2203g m5674l(String a, C2203g g, String b) { return g == null ? new C2203g() : g; }
+    public C2203g m5674l(String a, Object g, String b) { return new C2203g(); }
+    public C2175i m5676n(Object o) { return this; }
+    public C2175i m5676o(String s) { return this; }
     public boolean m5679s() { return false; }
     public String m5683v(String a, String b) { return ""; }
     public String toString() { return "C2175i"; }
