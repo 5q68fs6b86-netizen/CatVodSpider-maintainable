@@ -5,23 +5,17 @@ import java.io.IOException;
 /* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tk */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0638tk extends AbstractC0672ur {
-@Override
-    /* JADX INFO: renamed from: b */
+    @Override
     public final AbstractC0272fw clone() {
         return (C0638tk) super.clone();
     }
 
-@Override
-
-@Override
-    /* JADX INFO: renamed from: s */
+    @Override
     public final String mo924s() {
         return "#comment";
     }
 
-    /* JADX WARN: Code duplicated, block: B:13:0x0020  */
-@Override
-    /* JADX INFO: renamed from: u */
+    @Override
     public final void mo925u(StringBuilder sb, int i, C0674ut c0674ut) throws IOException {
         AbstractC0272fw abstractC0272fw;
         if (c0674ut.f1582c) {
@@ -44,8 +38,7 @@ public final class C0638tk extends AbstractC0672ur {
         sb.append("<!--").append(m1732f()).append("-->");
     }
 
-@Override
-    /* JADX INFO: renamed from: v */
+    @Override
     public final void mo926v(StringBuilder sb, int i, C0674ut c0674ut) {
     }
 }
