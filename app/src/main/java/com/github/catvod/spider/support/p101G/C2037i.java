@@ -26,6 +26,6 @@ public class C2037i extends AbstractC2041m implements Iterable {
     public C2037i m4870N(Collection c) { return this; }
     public Object m4871O() { return null; }
     public List mo4830x() { return Collections.emptyList(); }
-    public Iterator iterator() { return Collections.emptyIterator(); }
+    public Iterator iterator() { return Collections.emptyList().iterator(); }
     public String toString() { return ""; }
 }

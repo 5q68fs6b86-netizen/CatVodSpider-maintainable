@@ -36,7 +36,7 @@ public class C1393m extends AbstractC1399s implements Iterable, CharSequence {
     public void mo3407w(Appendable a, int i, Object g) {}
     public int size() { return 0; }
     public Object get(int i) { return this; }
-    public Iterator iterator() { return Collections.emptyIterator(); }
+    public Iterator iterator() { return Collections.emptyList().iterator(); }
     // CharSequence
     public int length() { return 0; }
     public char charAt(int index) { return 0; }
