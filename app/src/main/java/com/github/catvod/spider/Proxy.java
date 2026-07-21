@@ -17,7 +17,6 @@ public class Proxy {
     private static Method method;
     private static int port;
 
-    @Override
     public Object[] proxy(Map<String, String> params) throws Exception {
         String action = params.get("do");
         if (action == null) return null;

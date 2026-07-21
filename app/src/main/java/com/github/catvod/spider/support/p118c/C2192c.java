@@ -434,9 +434,6 @@ public final class C2192c {
         this.f5279b = list;
     }
 
-    public C2192c r(java.util.ArrayList list) { this.f5279b = list; return this; }
-    public C2192c r(java.util.List list) { this.f5279b = list; return this; }
-
-    public static C2192c r(java.util.ArrayList list) { C2192c x = new C2192c(); x.f5279b = list; return x; }
     public static C2192c r(java.util.List list) { C2192c x = new C2192c(); x.f5279b = list; return x; }
+    public C2192c rList(java.util.List list) { this.f5279b = list; return this; }
 }
