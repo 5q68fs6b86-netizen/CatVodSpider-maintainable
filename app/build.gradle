@@ -77,6 +77,7 @@ android {
                 exclude 'com/github/catvod/spider/New6v.java'
                 exclude 'com/github/catvod/spider/BiliYS.java'
                 exclude 'com/github/catvod/spider/PanSou.java'
+                exclude 'com/github/catvod/spider/PanBaidu.java'
                 exclude 'com/github/catvod/spider/XBPQPlay.java'
                 exclude 'com/github/catvod/spider/XYQHiker.java'
                 exclude 'com/github/catvod/spider/XYQBiu.java'

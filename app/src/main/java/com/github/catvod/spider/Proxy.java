@@ -28,7 +28,7 @@ public class Proxy {
             return new Object[]{200, "text/plain; charset=utf-8", new ByteArrayInputStream("ok".getBytes(StandardCharsets.UTF_8))};
         }
         if ("wallpaper".equals(action)) {
-            return Wallpaper.proxy(params);
+            return Wallpaper.proxyLocal(params);
         }
         // 后续站点代理在此追加，例如：
         // if ("bili".equals(action)) return Bili.proxy(params);

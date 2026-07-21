@@ -1,8 +1,6 @@
 package com.github.catvod.spider.support.p101G;
-
 import java.util.Collections;
 import java.util.Iterator;
-
 public class C2034f {
     public static class a {}
     public C2034f() {}

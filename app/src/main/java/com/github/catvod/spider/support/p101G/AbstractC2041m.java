@@ -1,10 +1,8 @@
 package com.github.catvod.spider.support.p101G;
-
 import java.util.Collections;
 import java.util.List;
-
-public class AbstractC2041m implements Cloneable {
-    public static class a {} // legacy
+public class AbstractC2041m {
+    public static class a {}
     public Object mo4883e() { return null; }
     public String mo4885f() { return ""; }
     public int mo4835h() { return 0; }
