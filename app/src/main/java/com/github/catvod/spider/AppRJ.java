@@ -53,7 +53,7 @@ public class AppRJ extends Spider {
         try {
             String str2 = this.f114a + str;
             MultipartBody.Builder type = new MultipartBody.Builder().setType(MultipartBody.FORM);
-            for (Map.Entry<String, String> entry : map.entrySet()) {
+            for (Object __en_entry : map.entrySet()) { Map.Entry entry = (Map.Entry) __en_entry;
                 type.addFormDataPart(entry.getKey(), entry.getValue());
             }
             Response responseExecute = new OkHttpClient().newCall(new Request.Builder().url(str2).post(type.build()).addHeader("User-Agent", "okhttp-okgo/jeasonlzy").build()).execute();

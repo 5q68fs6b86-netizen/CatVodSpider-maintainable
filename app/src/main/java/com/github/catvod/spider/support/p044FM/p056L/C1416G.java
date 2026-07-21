@@ -227,4 +227,7 @@ public final class C1416G implements Cloneable {
     public final String toString() {
         return this.f3308a;
     }
+
+    public String get(String key) { return null; }
+    public Object get(Object key) { return null; }
 }

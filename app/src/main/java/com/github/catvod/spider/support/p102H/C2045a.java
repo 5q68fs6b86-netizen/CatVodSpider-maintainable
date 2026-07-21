@@ -738,4 +738,10 @@ public final class C2045a {
     public final boolean m4991y() {
         return this.f4660i != null;
     }
+
+    public void m4984q(String s) { if (s != null) m4984q(s.toCharArray()); }
+    public void m4984q(Object o) {
+        if (o == null) return;
+        if (o instanceof char[]) m4984q((char[]) o); else m4984q(String.valueOf(o));
+    }
 }

@@ -538,7 +538,7 @@ public class XYQHiker extends Spider {
                 String strM1787g = AbstractC0716wh.m1787g(str, sb.toString());
                 HashMap map = new HashMap();
                 AbstractC0771yi.m1890l(strM1787g, mapM766y, map);
-                for (Map.Entry entry : map.entrySet()) {
+                for (Object __en_entry : map.entrySet()) { Map.Entry entry = (Map.Entry) __en_entry;
                     if (((String) entry.getKey()).equalsIgnoreCase("set-cookie")) {
                         this.f348c = TextUtils.join(";", (Iterable) entry.getValue());
                         break;
@@ -578,7 +578,7 @@ public class XYQHiker extends Spider {
                 String string = sb.toString();
                 HashMap map = new HashMap();
                 String strM1890l = AbstractC0771yi.m1890l(string, mapM766y, map);
-                for (Map.Entry entry : map.entrySet()) {
+                for (Object __en_entry : map.entrySet()) { Map.Entry entry = (Map.Entry) __en_entry;
                     if (((String) entry.getKey()).equalsIgnoreCase("set-cookie")) {
                         this.f348c = TextUtils.join(";", (Iterable) entry.getValue());
                         break;

@@ -405,7 +405,7 @@ public final class C0429lr implements Serializable {
                 } else {
                     stringBuffer.append(this.f1175g);
                     boolean z = true;
-                    for (Map.Entry entry : map.entrySet()) {
+                    for (Object __en_entry : map.entrySet()) { Map.Entry entry = (Map.Entry) __en_entry;
                         String string = Objects.toString(entry.getKey(), null);
                         if (string != null) {
                             if (z) {

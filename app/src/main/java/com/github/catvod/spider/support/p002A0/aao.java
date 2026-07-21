@@ -85,7 +85,7 @@ public final class aao extends AbstractC0406kv {
         this.f452f.getClass();
         C0489nx c0489nx = this.f450d;
         aagVar.m886q();
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en_entry : map.entrySet()) { Map.Entry entry = (Map.Entry) __en_entry;
             aagVar.m890u(String.valueOf(entry.getKey()));
             c0489nx.mo901c(aagVar, entry.getValue());
         }

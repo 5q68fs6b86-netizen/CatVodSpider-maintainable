@@ -104,7 +104,7 @@ public class Duboku extends Spider {
         return new String(Base64.decode(sb.toString().replaceAll("\\.", "="), 0));
     }
 
-    public String categoryContent(String str, String str2, boolean z, HashMap<String, String> map) throws JSONException {
+    public String categoryContent(String str, String str2, boolean z, HashMap<String, String> map) throws Exception {
         String string;
         HashMap map2 = new HashMap();
         if (map != null && map.size() > 0) {
@@ -148,7 +148,7 @@ public class Duboku extends Spider {
         return c2192c.toString();
     }
 
-    public String detailContent(List<String> list) throws JSONException {
+    public String detailContent(List<String> list) throws Exception {
         String str = list.get(0);
         JSONObject jSONObject = new JSONObject(OkHttp.string("https://api.dbokutv.com" + str + m508b(), m509c()));
         Vod c2194eM812b = C0082a.m812b(str);
@@ -186,7 +186,7 @@ public class Duboku extends Spider {
         return strM5795m;
     }
 
-    public String homeContent(boolean z) throws JSONException {
+    public String homeContent(boolean z) throws Exception {
         String string;
         ArrayList arrayList = new ArrayList();
         List listAsList = Arrays.asList("1", "2", "3", "4", "21", "20", "13", "15", "14");
@@ -226,7 +226,7 @@ public class Duboku extends Spider {
         }
     }
 
-    public String playerContent(String str, String str2, List list) {
+    public String playerContent(String str, String str2, List list) throws Exception {
         String[] strArrSplit = str2.split("\\|");
         String str3 = strArrSplit[0];
         String str4 = strArrSplit[1];
@@ -243,7 +243,7 @@ public class Duboku extends Spider {
         return c2192c.toString();
     }
 
-    public String searchContent(String str, String str2) throws JSONException {
+    public String searchContent(String str, String str2) throws Exception {
         String string;
         ArrayList arrayList = new ArrayList();
         JSONArray jSONArray = new JSONArray(OkHttp.string("https://api.dbokutv.com/vodsearch" + m508b() + "&wd=" + URLEncoder.encode(str), m509c()));
@@ -264,11 +264,11 @@ public class Duboku extends Spider {
         return Result.string(arrayList);
     }
 
-    public String searchContent(String str, boolean z) {
+    public String searchContent(String str, boolean z) throws Exception {
         return searchContent(str, "1");
     }
 
-    public String searchContent(String str, boolean z, String str2) {
+    public String searchContent(String str, boolean z, String str2) throws Exception {
         return searchContent(str, str2);
     }
 }

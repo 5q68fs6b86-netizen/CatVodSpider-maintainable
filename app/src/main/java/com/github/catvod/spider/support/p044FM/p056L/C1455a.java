@@ -738,4 +738,10 @@ public final class C1455a {
     public final boolean m3680y() {
         return this.f3372i != null;
     }
+
+    public void m3673q(String s) { if (s != null) m3673q(s.toCharArray()); }
+    public void m3673q(Object o) {
+        if (o == null) return;
+        if (o instanceof char[]) m3673q((char[]) o); else m3673q(String.valueOf(o));
+    }
 }

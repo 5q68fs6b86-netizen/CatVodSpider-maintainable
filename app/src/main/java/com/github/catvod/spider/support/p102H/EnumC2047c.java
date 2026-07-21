@@ -934,8 +934,7 @@ abstract class EnumC2047c {
 
     static final class p extends EnumC2047c {
         p() { super("StubP", 99, null); }
-        @Override
-        final boolean mo5060d(AbstractC2053i abstractC2053i, C2046b c2046b) { return false; }
+                final boolean mo5060d(AbstractC2053i abstractC2053i, C2046b c2046b) { return false; }
     }
 
 

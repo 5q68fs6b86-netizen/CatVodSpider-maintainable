@@ -376,7 +376,7 @@ public final class C2175i {
                                     C2175i.m5659a(C2175i.this);
                                     break;
                                 default:
-                                    ((MainActivity) this).n();
+                                    ((MainActivity) null).n();
                                     break;
                             }
                         }

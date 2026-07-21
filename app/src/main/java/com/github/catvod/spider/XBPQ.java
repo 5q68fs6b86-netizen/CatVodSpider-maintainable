@@ -33459,7 +33459,7 @@ public class XBPQ extends Spider {
             }
             String str4 = string2 + "&key=" + strTrim2 + "&value=" + strM3105a;
             C1254g.m3127h(str4, m724t(str4), map);
-            for (Map.Entry entry : map.entrySet()) {
+            for (Object __en_entry : map.entrySet()) { Map.Entry entry = (Map.Entry) __en_entry;
                 if (((String) entry.getKey()).equals("set-cookie") || ((String) entry.getKey()).equals("Set-Cookie")) {
                     this.f322z = this.f322z.length() < 1 ? TextUtils.join(";", (Iterable) entry.getValue()) : this.f322z + ";" + TextUtils.join(";", (Iterable) entry.getValue());
                     break;

@@ -208,7 +208,7 @@ public class Gz360 extends Spider {
                 mapM5658c.put("PackageName", "com.ae06aebdbb.y286327f5a.ofe849883320260517");
                 mapM5658c.put("Ver", "3.0.3.2");
                 mapM5658c.put("api-ver", "3.0.3.2");
-                for (Map.Entry entry : mapM5658c.entrySet()) {
+                for (Object __en_entry : mapM5658c.entrySet()) { Map.Entry entry = (Map.Entry) __en_entry;
                     builderPost.addHeader((String) entry.getKey(), (String) entry.getValue());
                 }
                 responseExecute = C2238b.m6060a().newCall(builderPost.build()).execute();
@@ -480,7 +480,7 @@ public class Gz360 extends Spider {
             for (int i = 0; i < asJsonArray.size(); i++) {
                 JsonObject asJsonObject2 = asJsonArray.get(i).getAsJsonObject().getAsJsonObject("play");
                 String strM523g = asJsonArray.size() == 1 ? m523g(asJsonObject, "vod_name") : String.valueOf(i + 1);
-                for (Map.Entry entry : asJsonObject2.entrySet()) {
+                for (Object __en_entry : asJsonObject2.entrySet()) { Map.Entry entry = (Map.Entry) __en_entry;
                     String str2 = (String) entry.getKey();
                     JsonObject asJsonObject3 = ((JsonElement) entry.getValue()).getAsJsonObject();
                     if (asJsonObject3.has("param") && !asJsonObject3.get("param").isJsonNull()) {

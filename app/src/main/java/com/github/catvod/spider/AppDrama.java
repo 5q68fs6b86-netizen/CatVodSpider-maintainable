@@ -252,7 +252,7 @@ public class AppDrama extends Spider {
         }
         ArrayList arrayList = new ArrayList();
         ArrayList arrayList2 = new ArrayList();
-        for (Map.Entry entry : linkedHashMap.entrySet()) {
+        for (Object __en_entry : linkedHashMap.entrySet()) { Map.Entry entry = (Map.Entry) __en_entry;
             arrayList.add((String) entry.getKey());
             arrayList2.add(TextUtils.join("#", (Iterable) entry.getValue()));
         }

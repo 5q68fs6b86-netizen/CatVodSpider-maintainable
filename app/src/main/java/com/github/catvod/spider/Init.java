@@ -67,5 +67,10 @@ public class Init {
     public static Activity getConfigActivity() {
         return getActivity();
     }
+
+    public static void show(String msg) {
+        try { com.github.catvod.utils.Notify.show(msg); } catch (Throwable ignored) {}
+    }
 }
+
 
