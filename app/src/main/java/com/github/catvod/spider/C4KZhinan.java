@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import com.github.catvod.spider.support.p001A.C0082a;
 import com.github.catvod.spider.support.p101G.C2034f;
@@ -65,7 +67,7 @@ public class C4KZhinan extends Pan {
         C2034f c2034fM5074d = C2051g.m5074d(OkHttp.string(string, map2));
         int i = Integer.parseInt(str2);
         int iCeil = (int) Math.ceil(((double) Integer.MAX_VALUE) / ((double) 50));
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         ArrayList arrayList = new ArrayList();
         for (C2037i c2037i : c2034fM5074d.m4896n0(".posts-item.book-item.d-flex.style-book-v")) {
             C2177k.m5715b(c2037i.m4896n0("div.item-header > div > a").m5179a("href"), c2037i.m4896n0("div.item-body.flex-fill > h3 > a").m5181c(), c2037i.m4896n0("div.item-header > div > a > img").m5179a("data-src"), c2037i.m4896n0("div.item-body.flex-fill > div").m5181c(), arrayList);

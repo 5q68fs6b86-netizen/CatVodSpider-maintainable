@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Base64;
@@ -160,7 +162,7 @@ public class PianKu8 extends Spider {
             i = 1;
         }
         Page pageM637d = m637d(i, str);
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5829w(pageM637d.f257b);
         c2192c.m5817i(i, Math.max(i, pageM637d.f258c), 40, pageM637d.f256a);
         return c2192c.toString();
@@ -413,7 +415,7 @@ public class PianKu8 extends Spider {
         try {
             String[] strArrSplit = str2.split("\\|", -1);
             if (strArrSplit.length < 5) {
-                C2192c c2192c = Result.get()();
+                C2192c c2192c = new C2192c();
                 c2192c.m5827u(str2);
                 return c2192c.toString();
             }
@@ -428,7 +430,7 @@ public class PianKu8 extends Spider {
             String str6 = strArrSplit[4];
             String strOptString = m639i(i, str3, str4, str5, str6).optString("url");
             if (TextUtils.isEmpty(strOptString)) {
-                C2192c c2192c2 = Result.get()();
+                C2192c c2192c2 = new C2192c();
                 c2192c2.m5827u("");
                 c2192c2.m5822k("山楂影视播放地址为空");
                 return c2192c2.toString();
@@ -439,7 +441,7 @@ public class PianKu8 extends Spider {
             }
             HashMap map = new HashMap();
             map.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36");
-            C2192c c2192c3 = Result.get()();
+            C2192c c2192c3 = new C2192c();
             c2192c3.m5827u(strOptString);
             c2192c3.m5811e((Map<String, String>) map);
             return C2137a.addDanmaku(c2192c3.toString());
@@ -447,7 +449,7 @@ public class PianKu8 extends Spider {
             StringBuilder sbM5396a = C2137a.m5396a("[ShanZha] player failed: ");
             sbM5396a.append(th.getMessage());
             SpiderDebug.log(sbM5396a.toString());
-            C2192c c2192c4 = Result.get()();
+            C2192c c2192c4 = new C2192c();
             c2192c4.m5827u("");
             c2192c4.m5822k("山楂影视播放解析失败");
             return c2192c4.toString();
@@ -488,7 +490,7 @@ public class PianKu8 extends Spider {
             arrayList.addAll(page.f257b);
             i2 += page.f256a;
         }
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5829w(arrayList);
         c2192c.m5817i(i, (arrayList.size() < 40 ? 0 : 1) + i, 40, i2);
         return c2192c.toString();

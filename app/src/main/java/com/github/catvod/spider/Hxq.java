@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Base64;
@@ -1632,7 +1634,7 @@ public class Hxq extends Spider {
                 String strM545e = strArrSplit.length > 2 ? strArrSplit[2] : "";
                 String strM567c2 = strArrSplit.length > 3 ? strArrSplit[3] : C0041e.m567c(f6130short, 1579, 2, 1622);
                 if (TextUtils.isEmpty(str3)) {
-                    return Result.get()().toString();
+                    return new C2192c().toString();
                 }
                 if (TextUtils.isEmpty(strM545e)) {
                     strM545e = m545e(str3);
@@ -1686,7 +1688,7 @@ public class Hxq extends Spider {
                         if (!arrayList.isEmpty()) {
                             HashMap mapM5756b = C2186v.m5756b(C0040d.m562b(f6130short, 1650, 10, 2423), C0041e.m567c(f6130short, 1660, 8, 686));
                             if (v4Result.f192a == 1 && arrayList.size() == 1) {
-                                C2192c c2192c = Result.get()();
+                                C2192c c2192c = new C2192c();
                                 c2192c.m5830w((String) arrayList.get(0));
                                 c2192c.m5812e((Map) mapM5756b);
                                 return C2137a.addDanmaku(c2192c.toString());
@@ -1697,7 +1699,7 @@ public class Hxq extends Spider {
                                 ArrayList arrayList2 = v4Result.f194c;
                                 if (i >= arrayList2.size()) {
                                     String str4 = Proxy.getUrl() + C0041e.m567c(f6130short, 1674, 12, 1723) + strEncodeToString + C0038b.m557e(f6130short, 1686, 5, 3124) + v4Result.f192a + C0041e.m567c(f6130short, 1691, 5, 3094) + ((Object) sb);
-                                    C2192c c2192c2 = Result.get()();
+                                    C2192c c2192c2 = new C2192c();
                                     c2192c2.m5830w(str4);
                                     c2192c2.m5812e((Map) mapM5756b);
                                     return C2137a.addDanmaku(c2192c2.toString());
@@ -1711,10 +1713,10 @@ public class Hxq extends Spider {
                         }
                     }
                 }
-                return Result.get()().toString();
+                return new C2192c().toString();
             }
         }
-        return Result.get()().toString();
+        return new C2192c().toString();
     }
 
     /* JADX INFO: renamed from: q */

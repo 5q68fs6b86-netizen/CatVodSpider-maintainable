@@ -1,5 +1,9 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p044FM.p075c.C1765g;
+
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
@@ -164,7 +168,7 @@ public class AppMuou extends Spider {
         }
         new ArrayList();
         List<Vod> vodList = parseVodList(new JSONObject(m425c(str6 + str3 + str4 + str5 + str7)).optJSONObject("data").optJSONArray("list"));
-        C1765g c1765g = Result.get()();
+        C1765g c1765g = new C1765g();
         c1765g.m4202k(Integer.valueOf(str2).intValue(), 0, 0, 0);
         c1765g.m4209z(vodList);
         return c1765g.toString();
@@ -328,7 +332,7 @@ public class AppMuou extends Spider {
             String str3 = Proxy.getUrl() + "?do=appdanmu&vodName=" + this.f103g + "&vodIndex=" + jSONObject.optString("nid") + "&vodUrl=";
             String str4 = TextUtils.isEmpty((CharSequence) this.f99c.get(strOptString2)) ? this.f104h : (String) this.f99c.get(strOptString2);
             if (strOptString.matches(".*(m3u8|mp4).*")) {
-                c1765g = Result.get()();
+                c1765g = new C2192c();
                 c1765g.m4207x(strOptString);
                 c1765g.m4195a(str3);
             } else {
@@ -341,7 +345,7 @@ public class AppMuou extends Spider {
                 } else {
                     strM424b = m424b(C1860a.m4489a(strM4479n, this.f100d, this.f101e));
                 }
-                c1765g = Result.get()();
+                c1765g = new C2192c();
                 c1765g.m4207x(strM424b);
                 c1765g.m4195a(str3);
             }

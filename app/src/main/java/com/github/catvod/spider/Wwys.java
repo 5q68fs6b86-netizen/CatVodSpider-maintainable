@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p044FM.p075c.C1765g;
+
 import android.content.Context;
 import com.github.catvod.crawler.Spider;
 import com.github.catvod.spider.support.p044FM.p045A.C1286l;
@@ -109,7 +111,7 @@ public class Wwys extends Spider {
             Matcher matcher5 = Pattern.compile("\"url\":\\s*\"([^\"]+)\"").matcher(C1840c.m4479n(C1812j.m4399b(matcher4.find() ? matcher4.group(1) : "", str2), m663a()));
             strGroup = matcher5.find() ? matcher5.group(1) : "";
         }
-        C1765g c1765g = Result.get()();
+        C1765g c1765g = new C1765g();
         c1765g.m4207x(strGroup);
         c1765g.m4198f(m663a());
         return C2137a.addDanmaku(c1765g.toString());

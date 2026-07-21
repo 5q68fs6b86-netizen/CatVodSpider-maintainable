@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p044FM.p075c.C1765g;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
@@ -148,7 +150,7 @@ public class SaoHuo extends Spider {
 
     public String playerContent(String str, String str2, List<String> list) {
         String strM3784a = C1286l.m3222g(C1840c.m4479n(this.f274a.concat(str2), m650a())).m3478o0("iframe").m3784a("src");
-        C1765g c1765g = Result.get()();
+        C1765g c1765g = new C1765g();
         c1765g.m4207x(strM3784a);
         c1765g.m4203l();
         c1765g.m4198f(m650a());

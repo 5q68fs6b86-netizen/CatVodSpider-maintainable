@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
@@ -247,7 +249,7 @@ public class BiliYS extends Spider {
             arrayList3.add((String) arrayList.get(i2));
             arrayList3.add(Proxy.getUrl() + "?do=biliys&aid=" + str3 + "&cid=" + str4 + "&qn=" + arrayList2.get(i2) + "&type=mpd");
         }
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5828v(arrayList3);
         c2192c.m5806a(strConcat);
         c2192c.m5808b();

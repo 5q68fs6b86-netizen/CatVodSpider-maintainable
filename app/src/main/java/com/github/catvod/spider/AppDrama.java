@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.os.Build;
 import android.provider.Settings;
@@ -174,7 +176,7 @@ public class AppDrama extends Spider {
         map2.put("vodClass", map.getOrDefault("class", ""));
         map2.put("vodYear", map.getOrDefault("year", ""));
         C0108u c0108uM6061b = C2238b.m6061b(this.f59a + "/api/proto/v5/drama/category", m412g(map2), m409c());
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5833z(m407h(c0108uM6061b.f397a));
         c2192c.m5809b(Integer.parseInt(str2));
         return c2192c.toString();
@@ -430,7 +432,7 @@ public class AppDrama extends Spider {
 
     public String playerContent(String str, String str2, List<String> list) throws BadPaddingException, NoSuchPaddingException, IllegalBlockSizeException, NoSuchAlgorithmException, InvalidKeyException, InvalidAlgorithmParameterException {
         if (str2.matches("(?i).*\\.(mp4|m3u8|flv|mkv|avi|ts|mov|mpd|m4a|wmv)(\\?.*)?$")) {
-            C2192c c2192c = Result.get()();
+            C2192c c2192c = new C2192c();
             c2192c.m5830w(str2);
             return C2137a.addDanmaku(c2192c.toString());
         }
@@ -446,7 +448,7 @@ public class AppDrama extends Spider {
         if (from.getHeadersCount() > 0) {
             map2.putAll(from.getHeadersMap());
         }
-        C2192c c2192c2 = Result.get()();
+        C2192c c2192c2 = new C2192c();
         c2192c2.m5830w(from.getPlayUrl());
         c2192c2.m5812e((Map) map2);
         return C2137a.addDanmaku(c2192c2.toString());

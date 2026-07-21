@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
@@ -220,7 +222,7 @@ public class App99 extends Spider {
             if (jSONObject2.has("data")) {
                 List<Vod> listM398b = m398b(jSONObject2.getJSONArray("data"));
                 int iOptInt = jSONObject2.optInt("page_count", 1);
-                C2192c c2192c = Result.get()();
+                C2192c c2192c = new C2192c();
                 c2192c.m5817i(Integer.parseInt(str2), iOptInt, 0, 0);
                 c2192c.m5829w(listM398b);
                 return c2192c.toString();
@@ -577,7 +579,7 @@ public class App99 extends Spider {
                     str3 = "";
                 }
             }
-            C2192c c2192c = Result.get()();
+            C2192c c2192c = new C2192c();
             c2192c.m5827u(str3);
             c2192c.m5806a(str5);
             return c2192c.toString();

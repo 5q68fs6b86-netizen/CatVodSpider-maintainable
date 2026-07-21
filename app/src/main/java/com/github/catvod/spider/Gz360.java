@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
@@ -621,7 +623,7 @@ public class Gz360 extends Spider {
         JsonObject jsonObjectM519b = m519b("/App/Resource/VurlDetail/showOne", map, 0);
         String asString = jsonObjectM519b.has("url") ? jsonObjectM519b.get("url").getAsString() : "";
         HashMap mapM5658c = C2174h.m5658c("User-Agent", "Lavf/57.83.100", "Referer", "http://WJiZxLXA2.com/");
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5827u(asString);
         c2192c.m5811e((Map<String, String>) mapM5658c);
         return C2137a.addDanmaku(c2192c.toString());

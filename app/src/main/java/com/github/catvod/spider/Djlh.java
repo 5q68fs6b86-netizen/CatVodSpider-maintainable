@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import com.github.catvod.crawler.Spider;
 import com.github.catvod.spider.support.p001A.C0082a;
 import com.github.catvod.spider.support.p101G.C2034f;
@@ -125,7 +127,7 @@ public class Djlh extends Spider {
     }
 
     public String playerContent(String str, String str2, List<String> list) {
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5830w(str2);
         return c2192c.toString();
     }

@@ -987,13 +987,13 @@ public class XYQHiker extends Spider {
     /* JADX WARN: Type inference failed for: r29v0, types: [com.github.catvod.spider.XYQHiker] */
     /* JADX WARN: Type inference failed for: r2v19, types: [org.json.JSONObject] */
     public String homeContent(boolean z) {
-        ?? r16;
-        ?? r1;
+        Object r16;
+        Object r1;
         boolean z2;
         JSONObject jSONObject;
         JSONObject jSONObjectOptJSONObject;
         Object obj;
-        ?? r2;
+        Object r2;
         String strTrim;
         String str = "筛选语言名称";
         String str2 = "筛选年份替换词";
@@ -1006,7 +1006,7 @@ public class XYQHiker extends Spider {
         String str9 = "筛选子分类名称";
         String str10 = "分类链接";
         String str11 = "分类名称替换词";
-        ?? r17 = "筛选数据";
+        Object r17 = "筛选数据";
         String str12 = "分类名称";
         r17 = "";
         try {
@@ -1089,9 +1089,9 @@ public class XYQHiker extends Spider {
             String str18 = strM752ab14;
             JSONObject jSONObject4 = jSONObject2;
             jSONObject4.put("class", jSONArray2);
-            ?? r0 = r17;
+            Object r0 = r17;
             try {
-                ?? r3 = !m752ab(r0, "").isEmpty() ? r0 : "filterdata";
+                Object r3 = !m752ab(r0, "").isEmpty() ? r0 : "filterdata";
                 String strM752ab15 = m752ab(r3, "");
                 InetAddress.getLocalHost();
                 try {
@@ -1165,7 +1165,7 @@ public class XYQHiker extends Spider {
                             } else {
                                 r17 = "";
                                 jSONObject = jSONObject4;
-                                ?? r4 = this;
+                                Object r4 = this;
                                 jSONObjectOptJSONObject = r4.f355j.optJSONObject(r3);
                                 r17 = r4;
                             }
@@ -3260,7 +3260,7 @@ public class XYQHiker extends Spider {
         Object obj5;
         Object obj6;
         Object obj7;
-        ?? Contains;
+        Object Contains;
         Object obj8;
         Object obj9;
         Object obj10;
@@ -3281,7 +3281,7 @@ public class XYQHiker extends Spider {
         String str18;
         JSONObject jSONObject;
         Exception exc5;
-        ?? r31;
+        Object r31;
         boolean z5;
         boolean z6;
         Exception exc6;

@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p044FM.p075c.C1765g;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
@@ -472,7 +474,7 @@ public class SP360 extends Spider {
         } else if (strSubstring.contains("www.mgtv.com") && strSubstring.contains(".html") && (iIndexOf = strSubstring.indexOf(".html")) >= 0) {
             strSubstring = strSubstring.substring(0, ".html".length() + iIndexOf);
         }
-        C1765g c1765g = Result.get()();
+        C1765g c1765g = new C1765g();
         c1765g.m4207x(strSubstring);
         c1765g.m4204m(1);
         c1765g.m4199g();

@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Base64;
@@ -116,7 +118,7 @@ public class Duboku extends Spider {
         String strM6073l = OkHttp.string(sb.toString(), m509c());
         int i = Integer.parseInt(str2);
         int iCeil = (int) Math.ceil(((double) Integer.MAX_VALUE) / ((double) 48));
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         ArrayList arrayList = new ArrayList();
         JSONArray jSONArrayM827c = C0082a.m827c(strM6073l, "VodList");
         for (int i2 = 0; i2 < jSONArrayM827c.length(); i2++) {
@@ -222,7 +224,7 @@ public class Duboku extends Spider {
         String str4 = strArrSplit[1];
         String str5 = strArrSplit[2];
         JSONObject jSONObject = new JSONObject(OkHttp.string("https://api.dbokutv.com" + str3 + m508b(), m509c()));
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5830w(m510d(jSONObject.getString("HId")));
         c2192c.m5806a(Proxy.getUrl() + "?do=appdanmu&vodName=" + str5 + "&vodIndex=" + str4);
         HashMap map = new HashMap();

@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Environment;
@@ -189,7 +191,7 @@ public class PanUC extends Pan {
                 jSONObjectOptJSONObject.optString("sharePwd");
                 m615b(strOptString, strOptString2, arrayList, TextUtils.isEmpty(strOptString), false);
             }
-            C2192c c2192c = Result.get()();
+            C2192c c2192c = new C2192c();
             c2192c.m5817i(1, 1, 0, 0);
             c2192c.m5829w(arrayList);
             return c2192c.toString();

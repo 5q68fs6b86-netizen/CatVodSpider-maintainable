@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Base64;
@@ -437,7 +439,7 @@ public class AppGet extends Spider {
                         strEduAesDecode = matcher.group(1);
                     }
                 }
-                C2192c c2192c = Result.get()();
+                C2192c c2192c = new C2192c();
                 c2192c.m5827u(strEduAesDecode);
                 if (strEduAesDecode.contains("url=")) {
                     c2192c.m5820j();
@@ -447,7 +449,7 @@ public class AppGet extends Spider {
                 return c2192c.toString();
             }
             if (strEduAesDecode.matches(".*(m3u8|mp4|mkv).*")) {
-                C2192c c2192c2 = Result.get()();
+                C2192c c2192c2 = new C2192c();
                 c2192c2.m5827u(strEduAesDecode);
                 c2192c2.m5806a(str3);
                 c2192c2.m5811e(m417b());
@@ -459,14 +461,14 @@ public class AppGet extends Spider {
                 if (matcher2.find()) {
                     String strOptString = new JSONObject(OkHttp.string(matcher2.group(2), null)).optJSONObject("data").optString("url");
                     if (!strOptString.isEmpty()) {
-                        C2192c c2192c3 = Result.get()();
+                        C2192c c2192c3 = new C2192c();
                         c2192c3.m5827u(strOptString);
                         c2192c3.m5806a(str3);
                         c2192c3.m5811e(mapM417b);
                         return c2192c3.toString();
                     }
                     String strM6062b = C2238b.m6062b(strOptString, m417b());
-                    C2192c c2192c4 = Result.get()();
+                    C2192c c2192c4 = new C2192c();
                     c2192c4.m5827u(strM6062b);
                     c2192c4.m5806a(str3);
                     c2192c4.m5811e(mapM417b);
@@ -475,14 +477,14 @@ public class AppGet extends Spider {
             }
             String strM418c = m418c(edu(strEduAesDecode));
             if (!strM418c.isEmpty()) {
-                C2192c c2192c5 = Result.get()();
+                C2192c c2192c5 = new C2192c();
                 c2192c5.m5827u(strM418c);
                 c2192c5.m5806a(str3);
                 c2192c5.m5811e(mapM417b);
                 return c2192c5.toString();
             }
             String strM6062b2 = C2238b.m6062b(strM418c, m417b());
-            C2192c c2192c6 = Result.get()();
+            C2192c c2192c6 = new C2192c();
             c2192c6.m5827u(strM6062b2);
             c2192c6.m5806a(str3);
             c2192c6.m5811e(mapM417b);

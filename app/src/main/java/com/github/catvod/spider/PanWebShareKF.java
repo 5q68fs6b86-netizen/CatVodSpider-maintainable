@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.spider.support.p041D.C1266a;
@@ -118,7 +120,7 @@ public class PanWebShareKF extends Pan {
                     }
                 }
             }
-            C2192c c2192c = Result.get()();
+            C2192c c2192c = new C2192c();
             c2192c.m5817i(Integer.valueOf(str2).intValue(), 0, 0, 0);
             c2192c.m5829w(arrayList);
             return c2192c.toString();
@@ -235,7 +237,7 @@ public class PanWebShareKF extends Pan {
                     arrayList.add(new Vod(strMo4929d, strM4902t0, strM5179a, c2037i.m4896n0("div > div.subject > a.badge,div > div.style3_subject > a.badge").m5181c()));
                 }
             }
-            C2192c c2192c = Result.get()();
+            C2192c c2192c = new C2192c();
             c2192c.m5817i(1, 0, 0, 0);
             c2192c.m5829w(arrayList);
             return c2192c.toString();

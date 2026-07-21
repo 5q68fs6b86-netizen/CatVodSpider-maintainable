@@ -5,9 +5,10 @@ import android.util.Log;
 import com.github.catvod.crawler.Spider;
 import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.spider.support.p003AB.p009o.C0901K;
-import com.github.catvod.net.OkHttp;
+import com.github.catvod.spider.support.p126k.C2238b;
 import com.github.catvod.spider.support.p128m.C2256I;
-import com.github.catvod.utils.Path;
+import com.github.catvod.spider.support.p128m.C2268k;
+import com.github.catvod.spider.support.p128m.C2269l;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.net.URLDecoder;
@@ -42,7 +43,7 @@ public class Danmu extends Spider {
         String realName = getRealName(str);
         int iM499d = m499d(map.get("vodIndex"));
         boolean z = false;
-        String strM6164a = Path.read(Path.tv("/config.json"));
+        String strM6164a = C2268k.m6164a(C2268k.m6169c("/config.json"));
         if (!TextUtils.isEmpty(strM6164a) && "彩色".equals(new JSONObject(strM6164a).optString("danmuColor"))) {
             z = true;
         }
@@ -62,7 +63,7 @@ public class Danmu extends Spider {
         if (!TextUtils.isEmpty(strUpdateDanmuColors)) {
             C2256I.m6113i("弹幕加载成功");
         }
-        
+        C2269l.m6176a("searchvodname", "");
         objArr[2] = new ByteArrayInputStream(strUpdateDanmuColors.getBytes());
         return objArr;
     }
@@ -74,7 +75,7 @@ public class Danmu extends Spider {
         objArr[1] = "application/json";
         String cachedSearchKeyword = getCachedSearchKeyword(map.get("name"));
         int iM499d = m499d(map.get("episode"));
-        String strM6073l = OkHttp.string("http://127.0.0.1:1314/danmu/search?keywords=" + cachedSearchKeyword, null);
+        String strM6073l = C2238b.m6073l("http://127.0.0.1:1314/danmu/search?keywords=" + cachedSearchKeyword, null);
         if (strM6073l == null) {
             strM6073l = "{}";
         }
@@ -105,7 +106,7 @@ public class Danmu extends Spider {
     public static Object[] Danmu(Map<String, String> map) throws JSONException {
         boolean z = false;
         Object[] objArr = {200, "application/xml", new ByteArrayInputStream("".getBytes())};
-        String strM6164a = Path.read(Path.tv("/config.json"));
+        String strM6164a = C2268k.m6164a(C2268k.m6169c("/config.json"));
         if (!TextUtils.isEmpty(strM6164a) && "彩色".equals(new JSONObject(strM6164a).optString("danmuColor"))) {
             z = true;
         }
@@ -124,8 +125,8 @@ public class Danmu extends Spider {
                 C2256I.m6113i("弹幕加载成功");
             }
         } else if ("wangpan".equals(str)) {
-            String str2 = getRealName(
-            int iM499d = m499d(
+            String str2 = getRealName(C2269l.m6177b("danmuvodname")).split(" ")[0];
+            int iM499d = m499d(C2269l.m6177b("danmuvodindex"));
             String strM2180b = C0901K.m2180b(str2, iM499d);
             if (TextUtils.isEmpty(strM2180b)) {
                 strM2180b = getDanmuFromPanOK360(str2, iM499d);
@@ -150,7 +151,7 @@ public class Danmu extends Spider {
                 }
             }
         }
-        
+        C2269l.m6176a("searchvodname", "");
         objArr[2] = new ByteArrayInputStream(strUpdateDanmuColors.getBytes());
         return objArr;
     }
@@ -158,7 +159,7 @@ public class Danmu extends Spider {
     public static Object[] DiyDanmu(Map<String, String> map) {
         SpiderDebug.log("开始获取弹幕");
         Object[] objArr = {200, "application/xml", new ByteArrayInputStream("".getBytes())};
-        JSONObject jSONObject = new JSONObject(OkHttp.string("http://127.0.0.1:9978/media", new HashMap()));
+        JSONObject jSONObject = new JSONObject(C2238b.m6073l("http://127.0.0.1:9978/media", new HashMap()));
         String realName = getRealName(jSONObject.optString("title"));
         String strOptString = jSONObject.optString("artist");
         String str = !TextUtils.isEmpty(strOptString) ? strOptString : realName;
@@ -167,7 +168,7 @@ public class Danmu extends Spider {
         }
         int iM499d = m499d(str);
         boolean z = false;
-        String strM6164a = Path.read(Path.tv("/config.json"));
+        String strM6164a = C2268k.m6164a(C2268k.m6169c("/config.json"));
         if (!TextUtils.isEmpty(strM6164a) && "彩色".equals(new JSONObject(strM6164a).optString("danmuColor"))) {
             z = true;
         }
@@ -187,7 +188,7 @@ public class Danmu extends Spider {
         if (!TextUtils.isEmpty(strUpdateDanmuColors)) {
             C2256I.m6113i("弹幕加载成功");
         }
-        
+        C2269l.m6176a("searchvodname", "");
         objArr[2] = new ByteArrayInputStream(strUpdateDanmuColors.getBytes());
         return objArr;
     }
@@ -350,7 +351,7 @@ public class Danmu extends Spider {
         if (jSONArray == null || jSONArray.length() == 0 || map == null) {
             return jSONArray;
         }
-        String strM6177b = 
+        String strM6177b = C2269l.m6177b("searchvodname");
         if (strM6177b == null || strM6177b.length() <= 0) {
             strM6177b = map.get("name");
         }
@@ -358,7 +359,7 @@ public class Danmu extends Spider {
             return jSONArray;
         }
         try {
-            String strM6177b2 = 
+            String strM6177b2 = C2269l.m6177b("danmakucache");
             if (strM6177b2 == null || strM6177b2.length() == 0) {
                 strM6177b2 = "{}";
             }
@@ -399,19 +400,19 @@ public class Danmu extends Spider {
             return "";
         }
         HashMap map = new HashMap();
-        String strM6073l = OkHttp.string("https://danmu.huaqi.pro/?url=" + str, map);
+        String strM6073l = C2238b.m6073l("https://danmu.huaqi.pro/?url=" + str, map);
         if (strM6073l != null && strM6073l.length() > 0 && strM6073l.startsWith("{") && strM6073l.contains("\"code\":23")) {
             return strM6073l;
         }
-        String strM6073l2 = OkHttp.string("https://dmku.hls.one/?ac=dm&url=" + str, map);
+        String strM6073l2 = C2238b.m6073l("https://dmku.hls.one/?ac=dm&url=" + str, map);
         if (strM6073l2 != null && strM6073l2.length() > 0 && strM6073l2.startsWith("{") && strM6073l2.contains("\"code\":23")) {
             return strM6073l2;
         }
-        String strM6073l3 = OkHttp.string("https://danmu.zxz.ee/?type=json&id=" + str, map);
+        String strM6073l3 = C2238b.m6073l("https://danmu.zxz.ee/?type=json&id=" + str, map);
         if (strM6073l3 != null && strM6073l3.length() > 0 && strM6073l3.startsWith("{") && strM6073l3.contains("\"code\":23")) {
             return strM6073l3;
         }
-        String strM6073l4 = OkHttp.string("https://dm.ruyijx.com?ac=dm&url=" + str, map);
+        String strM6073l4 = C2238b.m6073l("https://dm.ruyijx.com?ac=dm&url=" + str, map);
         return (strM6073l4 == null || strM6073l4.length() <= 0 || !strM6073l4.startsWith("{") || !strM6073l4.contains("\"code\":23")) ? "" : strM6073l4;
     }
 
@@ -423,11 +424,11 @@ public class Danmu extends Spider {
             return str;
         }
         if (str.startsWith("http")) {
-            return OkHttp.string("http://127.0.0.1:1314/danmu/get?url=" + str + "&format=xml", new HashMap());
+            return C2238b.m6073l("http://127.0.0.1:1314/danmu/get?url=" + str + "&format=xml", new HashMap());
         }
         if (str.startsWith("vodid://")) {
             String[] strArrSplit = str.substring("vodid://".length()).split("@");
-            return OkHttp.string("http://127.0.0.1:1314/danmu/get?url=" + strArrSplit[0] + "&platform=" + strArrSplit[1] + "&format=xml", new HashMap());
+            return C2238b.m6073l("http://127.0.0.1:1314/danmu/get?url=" + strArrSplit[0] + "&platform=" + strArrSplit[1] + "&format=xml", new HashMap());
         }
         if (!str.startsWith("vodurl://")) {
             return "";
@@ -438,7 +439,7 @@ public class Danmu extends Spider {
         String str4 = strArrSplit2[2];
         String str5 = strArrSplit2[3];
         processDanmuRequest(str2, str5);
-        return OkHttp.string("http://127.0.0.1:1314/danmu/auto?name=" + str2 + "&episode=" + str3 + "&total=" + str4 + "&platform=" + str5 + "&format=xml", new HashMap());
+        return C2238b.m6073l("http://127.0.0.1:1314/danmu/auto?name=" + str2 + "&episode=" + str3 + "&total=" + str4 + "&platform=" + str5 + "&format=xml", new HashMap());
     }
 
     public static String generateCombinedRGB() {
@@ -456,11 +457,11 @@ public class Danmu extends Spider {
             return str;
         }
         try {
-            String strM6177b = 
+            String strM6177b = C2269l.m6177b("searchvodname");
             if (strM6177b != null && strM6177b.length() > 0) {
                 return strM6177b;
             }
-            String strM6177b2 = 
+            String strM6177b2 = C2269l.m6177b("danmakucache");
             if (strM6177b2 == null || strM6177b2.length() == 0) {
                 strM6177b2 = "{}";
             }
@@ -478,7 +479,7 @@ public class Danmu extends Spider {
 
     public static String getDanmuFrom1314(String str, int i) {
         try {
-            String strM6072k = OkHttp.string("http://127.0.0.1:1314/danmu/auto?name=" + URLEncoder.encode(str, "UTF-8") + "&episode=" + i + "&format=xml");
+            String strM6072k = C2238b.m6072k("http://127.0.0.1:1314/danmu/auto?name=" + URLEncoder.encode(str, "UTF-8") + "&episode=" + i + "&format=xml");
             if (TextUtils.isEmpty(strM6072k)) {
                 return "";
             }
@@ -491,7 +492,7 @@ public class Danmu extends Spider {
 
     public static String getDanmuFrom1314Space(String str, int i) throws JSONException {
         try {
-            String strM6072k = OkHttp.string("http://127.0.0.1:1314/danmu/auto?name=" + URLEncoder.encode(getOriginalVideoName(str), "UTF-8") + "&episode=" + i + "&format=xml");
+            String strM6072k = C2238b.m6072k("http://127.0.0.1:1314/danmu/auto?name=" + URLEncoder.encode(getOriginalVideoName(str), "UTF-8") + "&episode=" + i + "&format=xml");
             if (TextUtils.isEmpty(strM6072k)) {
                 return "";
             }
@@ -508,7 +509,7 @@ public class Danmu extends Spider {
         int i2;
         JSONObject jSONObjectOptJSONObject;
         try {
-            String strM6072k = OkHttp.string(String.format("https://pizazz.us.ci/1314/search/episodes?anime=%s", str));
+            String strM6072k = C2238b.m6072k(String.format("https://pizazz.us.ci/1314/search/episodes?anime=%s", str));
             if (TextUtils.isEmpty(strM6072k) || (jSONArrayOptJSONArray = new JSONObject(strM6072k).optJSONArray("animes")) == null || jSONArrayOptJSONArray.length() == 0 || (jSONArrayOptJSONArray2 = jSONArrayOptJSONArray.optJSONObject(0).optJSONArray("episodes")) == null || jSONArrayOptJSONArray2.length() == 0 || (i2 = i - 1) < 0 || i2 >= jSONArrayOptJSONArray2.length() || (jSONObjectOptJSONObject = jSONArrayOptJSONArray2.optJSONObject(i2)) == null) {
                 return "";
             }
@@ -534,7 +535,7 @@ public class Danmu extends Spider {
         int iIndexOf3;
         int iIndexOf4;
         try {
-            String strM6072k = OkHttp.string("http://127.0.0.1:9978/media");
+            String strM6072k = C2238b.m6072k("http://127.0.0.1:9978/media");
             if (TextUtils.isEmpty(strM6072k) || !strM6072k.startsWith("{")) {
                 return "";
             }
@@ -544,7 +545,7 @@ public class Danmu extends Spider {
             }
             long j = (jOptLong / 1000) / 60;
             String str2 = j < 30 ? "动漫" : j < 70 ? "电视剧" : "电影";
-            String strM6072k2 = OkHttp.string(String.format("https://api.so.360kan.com/index?force_v=1&kw=%s&from=&pageno=1&v_ap=1&tab=all", URLEncoder.encode(str, "UTF-8")));
+            String strM6072k2 = C2238b.m6072k(String.format("https://api.so.360kan.com/index?force_v=1&kw=%s&from=&pageno=1&v_ap=1&tab=all", URLEncoder.encode(str, "UTF-8")));
             if (TextUtils.isEmpty(strM6072k2) || (jSONObjectOptJSONObject = new JSONObject(strM6072k2).optJSONObject("data")) == null || (jSONObjectOptJSONObject2 = jSONObjectOptJSONObject.optJSONObject("longData")) == null || (jSONArrayOptJSONArray = jSONObjectOptJSONObject2.optJSONArray("rows")) == null || jSONArrayOptJSONArray.length() == 0) {
                 return "";
             }
@@ -627,7 +628,7 @@ public class Danmu extends Spider {
         int iIndexOf3;
         int iIndexOf4;
         try {
-            String strM6072k = OkHttp.string("http://127.0.0.1:9978/media");
+            String strM6072k = C2238b.m6072k("http://127.0.0.1:9978/media");
             if (TextUtils.isEmpty(strM6072k) || !strM6072k.startsWith("{")) {
                 return "";
             }
@@ -637,7 +638,7 @@ public class Danmu extends Spider {
             }
             long j = (jOptLong / 1000) / 60;
             String str2 = j < 30 ? "动漫" : j < 70 ? "电视剧" : "电影";
-            String strM6072k2 = OkHttp.string(String.format("https://api.so.360kan.com/index?force_v=1&kw=%s&from=&pageno=1&v_ap=1&tab=all", URLEncoder.encode(str, "UTF-8")));
+            String strM6072k2 = C2238b.m6072k(String.format("https://api.so.360kan.com/index?force_v=1&kw=%s&from=&pageno=1&v_ap=1&tab=all", URLEncoder.encode(str, "UTF-8")));
             if (TextUtils.isEmpty(strM6072k2) || (jSONObjectOptJSONObject = new JSONObject(strM6072k2).optJSONObject("data")) == null || (jSONObjectOptJSONObject2 = jSONObjectOptJSONObject.optJSONObject("longData")) == null || (jSONArrayOptJSONArray = jSONObjectOptJSONObject2.optJSONArray("rows")) == null || jSONArrayOptJSONArray.length() == 0) {
                 return "";
             }
@@ -721,7 +722,7 @@ public class Danmu extends Spider {
         int iIndexOf3;
         int iIndexOf4;
         try {
-            String strM6072k = OkHttp.string("http://127.0.0.1:9978/media");
+            String strM6072k = C2238b.m6072k("http://127.0.0.1:9978/media");
             if (TextUtils.isEmpty(strM6072k) || !strM6072k.startsWith("{")) {
                 return "";
             }
@@ -732,7 +733,7 @@ public class Danmu extends Spider {
             long j = (jOptLong / 1000) / 60;
             String str2 = j < 30 ? "动漫" : j < 70 ? "电视剧" : "电影";
             String originalVideoName = getOriginalVideoName(str);
-            String strM6072k2 = OkHttp.string(String.format("https://api.so.360kan.com/index?force_v=1&kw=%s&from=&pageno=1&v_ap=1&tab=all", URLEncoder.encode(originalVideoName, "UTF-8")));
+            String strM6072k2 = C2238b.m6072k(String.format("https://api.so.360kan.com/index?force_v=1&kw=%s&from=&pageno=1&v_ap=1&tab=all", URLEncoder.encode(originalVideoName, "UTF-8")));
             if (TextUtils.isEmpty(strM6072k2) || (jSONObjectOptJSONObject = new JSONObject(strM6072k2).optJSONObject("data")) == null || (jSONObjectOptJSONObject2 = jSONObjectOptJSONObject.optJSONObject("longData")) == null || (jSONArrayOptJSONArray = jSONObjectOptJSONObject2.optJSONArray("rows")) == null || jSONArrayOptJSONArray.length() == 0) {
                 return "";
             }
@@ -807,13 +808,13 @@ public class Danmu extends Spider {
     }
 
     private static String getOriginalVideoName(String str) throws JSONException {
-        String strM6177b = 
+        String strM6177b = C2269l.m6177b("danmuvodname");
         if (TextUtils.isEmpty(strM6177b)) {
             return strM6177b;
         }
-        String strM6177b2 = 
+        String strM6177b2 = C2269l.m6177b("searchvodname");
         if (!TextUtils.isEmpty(strM6177b2) && !"获取视频名称失败".equals(strM6177b2)) {
-            String strM6177b3 = 
+            String strM6177b3 = C2269l.m6177b("danmucache");
             if (TextUtils.isEmpty(strM6177b3)) {
                 strM6177b3 = "{}";
             }
@@ -834,10 +835,10 @@ public class Danmu extends Spider {
                 }
                 jSONObject = jSONObject2;
             }
-            
-            
+            C2269l.m6176a("danmucache", jSONObject.toString());
+            C2269l.m6176a("searchvodname", "");
         }
-        String strM6177b4 = 
+        String strM6177b4 = C2269l.m6177b("danmucache");
         if (TextUtils.isEmpty(strM6177b4)) {
             return strM6177b;
         }
@@ -876,7 +877,7 @@ public class Danmu extends Spider {
         }
         try {
             String str3 = str + "  •  " + str2;
-            String strM6073l = OkHttp.string("http://127.0.0.1:9978/media", new HashMap());
+            String strM6073l = C2238b.m6073l("http://127.0.0.1:9978/media", new HashMap());
             if (strM6073l == null || strM6073l.length() == 0) {
                 strM6073l = "{}";
             }
@@ -884,7 +885,7 @@ public class Danmu extends Spider {
             if (strOptString == null || strOptString.length() == 0) {
                 return;
             }
-            String strM6177b = 
+            String strM6177b = C2269l.m6177b("danmakucache");
             if (strM6177b == null || strM6177b.length() == 0) {
                 strM6177b = "{}";
             }
@@ -903,7 +904,7 @@ public class Danmu extends Spider {
                 }
                 jSONObject = jSONObject2;
             }
-            
+            C2269l.m6176a("danmakucache", jSONObject.toString());
         } catch (Exception e) {
             e.printStackTrace();
         }

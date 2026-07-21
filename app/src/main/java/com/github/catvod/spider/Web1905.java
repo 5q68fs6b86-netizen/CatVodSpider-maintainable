@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
@@ -47,7 +49,7 @@ public class Web1905 extends Spider {
             }
             C2177k.m5715b(strMo4929d, c2037i.mo4929d("title"), c2037i.m4896n0("img").m5179a("src"), c2037i.m4896n0("p").m5181c(), arrayList);
         }
-        return C2174h.m5655a(str2, Result.get()(), 0, 0, 0, arrayList);
+        return C2174h.m5655a(str2, new C2192c(), 0, 0, 0, arrayList);
     }
 
     public String detailContent(List<String> list) {
@@ -127,7 +129,7 @@ public class Web1905 extends Spider {
             strOptString = "";
         }
         String strM5754a = C2185u.m5754a(jSONObjectOptJSONObject.optJSONObject("quality").optJSONObject(str3).optString("host"), strOptString, jSONObjectOptJSONObject.optJSONObject("path").optJSONObject(str3).optString("path"));
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5821k(0);
         c2192c.m5827u(strM5754a);
         return c2192c.toString();

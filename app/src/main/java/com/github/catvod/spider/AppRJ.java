@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
@@ -93,7 +95,7 @@ public class AppRJ extends Spider {
             }
             arrayList.add(new Vod(jSONObjectOptJSONObject.optString("vod_id"), jSONObjectOptJSONObject.optString("vod_name"), strOptString, jSONObjectOptJSONObject.optString("vod_remarks")));
         }
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5817i(Integer.valueOf(str2).intValue(), 0, 0, 0);
         c2192c.m5829w(arrayList);
         return c2192c.toString();
@@ -279,7 +281,7 @@ public class AppRJ extends Spider {
             if (!TextUtils.isEmpty(strOptString2)) {
                 map2.put("User-Agent", strOptString2);
             }
-            C2192c c2192c = Result.get()();
+            C2192c c2192c = new C2192c();
             c2192c.m5820j();
             c2192c.m5827u(strOptString);
             c2192c.m5806a(str9);

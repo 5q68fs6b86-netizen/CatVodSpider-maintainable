@@ -4,6 +4,7 @@ import android.content.Context;
 import com.github.catvod.crawler.Spider;
 import com.github.catvod.bean.Class;
 import com.github.catvod.bean.Result;
+import com.github.catvod.spider.support.p118c.C2192c;
 import com.github.catvod.bean.Vod;
 import com.github.catvod.net.OkHttp;
 import java.net.URLEncoder;
@@ -114,7 +115,7 @@ public class App3Q extends Spider {
     public String categoryContent(String str, String str2, boolean z, HashMap<String, String> map) {
         new ArrayList();
         List<Vod> vodList = parseVodList(new JSONObject(m394a("/api.php/app/filter/vod?type_name=" + str + "&page=" + str2 + "&sort=hits")).optJSONArray("data"));
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         c2192c.m5817i(Integer.valueOf(str2).intValue(), 0, 0, 0);
         c2192c.m5829w(vodList);
         return c2192c.toString();

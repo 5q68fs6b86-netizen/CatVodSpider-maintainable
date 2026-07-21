@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
@@ -232,7 +234,7 @@ public class AppSy extends Spider {
             String str5 = strArrSplit[2];
             String str6 = Proxy.getUrl() + "?do=appdanmu&vodName=" + strArrSplit[3] + "&vodIndex=" + str5 + "&vodUrl=";
             if (C2137a.m5397a(str4)) {
-                C2192c c2192c = Result.get()();
+                C2192c c2192c = new C2192c();
                 c2192c.m5827u(str4);
                 c2192c.m5806a(str6);
                 return c2192c.toString();
@@ -257,7 +259,7 @@ public class AppSy extends Spider {
             }
             Map<String, String> mapM437e = m437e();
             ((HashMap) mapM437e).remove("Content-Type");
-            C2192c c2192c2 = Result.get()();
+            C2192c c2192c2 = new C2192c();
             c2192c2.m5827u(strOptString);
             c2192c2.m5806a(str6);
             c2192c2.m5811e(mapM437e);

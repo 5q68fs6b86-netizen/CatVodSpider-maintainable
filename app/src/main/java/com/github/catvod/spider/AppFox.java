@@ -4,6 +4,7 @@ import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
 import com.github.catvod.bean.Result;
+import com.github.catvod.spider.support.p118c.C2192c;
 import com.github.catvod.net.OkHttp;
 import java.net.URLEncoder;
 import java.util.ArrayList;
@@ -147,7 +148,7 @@ public class AppFox extends Spider {
     public String categoryContent(String str, String str2, boolean z, HashMap<String, String> map) {
         JSONObject jSONObject;
         if (TextUtils.isEmpty(this.f74g)) {
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
         HashMap map2 = new HashMap(this.f68a);
         String str3 = (String) this.f71d.get("category");
@@ -194,7 +195,7 @@ public class AppFox extends Spider {
             return jSONObject.toString();
         } catch (Exception e) {
             e.printStackTrace();
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
     }
 
@@ -337,7 +338,7 @@ public class AppFox extends Spider {
 
     public String homeContent(boolean z) {
         if (TextUtils.isEmpty(this.f74g) || this.f78k == 0) {
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
         HashMap map = new HashMap(this.f68a);
         String str = (String) this.f71d.get("home");
@@ -386,10 +387,10 @@ public class AppFox extends Spider {
     public String homeVideoContent() {
         String str;
         if (TextUtils.isEmpty(this.f74g) || this.f78k == 0) {
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
         if (!TextUtils.isEmpty(this.f79l) && this.f78k != 2) {
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
         HashMap map = new HashMap(this.f68a);
         HashMap map2 = this.f71d;
@@ -408,7 +409,7 @@ public class AppFox extends Spider {
                     }
                 }
                 if (TextUtils.isEmpty(string)) {
-                    return Result.get()().toString();
+                    return new C2192c().toString();
                 }
                 str = "nav_video?id=" + string;
             } else {
@@ -445,7 +446,7 @@ public class AppFox extends Spider {
             return new JSONObject().put("list", jSONArray3).toString();
         } catch (Exception e) {
             e.printStackTrace();
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
     }
 
@@ -550,7 +551,7 @@ public class AppFox extends Spider {
         int i4 = 1;
         String[] strArrSplit = str2.split("@", 4);
         if (strArrSplit.length != 4) {
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
         String str3 = strArrSplit[0];
         String str4 = strArrSplit[1];
@@ -652,7 +653,7 @@ public class AppFox extends Spider {
             return jSONObject3.toString();
         } catch (Exception e) {
             e.printStackTrace();
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
     }
 
@@ -663,7 +664,7 @@ public class AppFox extends Spider {
     public String searchContent(String str, boolean z, String str2) {
         JSONObject jSONObject;
         if (TextUtils.isEmpty(this.f74g)) {
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
         HashMap map = new HashMap(this.f68a);
         String str3 = (String) this.f71d.get("search");
@@ -705,7 +706,7 @@ public class AppFox extends Spider {
             return jSONObject.toString();
         } catch (Exception e) {
             e.printStackTrace();
-            return Result.get()().toString();
+            return new C2192c().toString();
         }
     }
 }

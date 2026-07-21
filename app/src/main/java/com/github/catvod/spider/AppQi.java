@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Base64;
@@ -439,7 +441,7 @@ public class AppQi extends Spider {
                     if (strGroup.contains("?url=") || strGroup.contains("?key=")) {
                         this = OkHttp.string(strGroup, m429b());
                         strGroup = new JSONObject((String) this).optString("url");
-                        C2192c c2192c = Result.get()();
+                        C2192c c2192c = new C2192c();
                         c2192c.m5827u(strGroup);
                         c2192c.m5806a(str3);
                         c2192c.m5811e(mapM429b);
@@ -453,7 +455,7 @@ public class AppQi extends Spider {
                 }
             }
             if (strGroup.matches(".*(m3u8|mp4|mkv).*")) {
-                C2192c c2192c2 = Result.get()();
+                C2192c c2192c2 = new C2192c();
                 c2192c2.m5827u(strGroup);
                 c2192c2.m5806a(str3);
                 c2192c2.m5811e(m429b());
@@ -465,14 +467,14 @@ public class AppQi extends Spider {
                 if (matcher2.find()) {
                     String strOptString = new JSONObject(OkHttp.string(matcher2.group(2), null)).optJSONObject("data").optString("url");
                     if (!strOptString.isEmpty()) {
-                        C2192c c2192c3 = Result.get()();
+                        C2192c c2192c3 = new C2192c();
                         c2192c3.m5827u(strOptString);
                         c2192c3.m5806a(str3);
                         c2192c3.m5811e(mapM429b);
                         return c2192c3.toString();
                     }
                     String strM6062b = C2238b.m6062b(strOptString, m429b());
-                    C2192c c2192c4 = Result.get()();
+                    C2192c c2192c4 = new C2192c();
                     c2192c4.m5827u(strM6062b);
                     c2192c4.m5806a(str3);
                     c2192c4.m5811e(mapM429b);
@@ -481,14 +483,14 @@ public class AppQi extends Spider {
             }
             String strM430c = m430c(edu(strGroup));
             if (!strM430c.isEmpty()) {
-                C2192c c2192c5 = Result.get()();
+                C2192c c2192c5 = new C2192c();
                 c2192c5.m5827u(strM430c);
                 c2192c5.m5806a(str3);
                 c2192c5.m5811e(mapM429b);
                 return c2192c5.toString();
             }
             String strM6062b2 = C2238b.m6062b(strM430c, m429b());
-            C2192c c2192c6 = Result.get()();
+            C2192c c2192c6 = new C2192c();
             c2192c6.m5827u(strM6062b2);
             c2192c6.m5806a(str3);
             c2192c6.m5811e(mapM429b);

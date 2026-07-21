@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
 import com.github.catvod.spider.support.p117b.C2185u;
@@ -160,12 +162,12 @@ public class Kuwo extends Spider {
                     }
                 }
             }
-            C2192c c2192c = Result.get()();
+            C2192c c2192c = new C2192c();
             c2192c.m5829w(arrayList);
             c2192c.m5817i(iMax, 9999, 30, 999999);
             return c2192c.toString();
         } catch (Exception unused2) {
-            C2192c c2192c2 = Result.get()();
+            C2192c c2192c2 = new C2192c();
             c2192c2.m5829w(new ArrayList());
             return c2192c2.toString();
         }
@@ -237,7 +239,7 @@ public class Kuwo extends Spider {
             }
             String strTrim = strSubstring.trim();
             if (TextUtils.isEmpty(strTrim)) {
-                C2192c c2192c = Result.get()();
+                C2192c c2192c = new C2192c();
                 c2192c.m5821k(0);
                 c2192c.m5827u("");
                 return c2192c.toString();
@@ -255,7 +257,7 @@ public class Kuwo extends Spider {
                 HashMap map2 = new HashMap();
                 map2.put("User-Agent", "Mozilla/5.0 (Linux; Android 10)");
                 map2.put("Accept", "*/*");
-                C2192c c2192c2 = Result.get()();
+                C2192c c2192c2 = new C2192c();
                 c2192c2.m5821k(0);
                 c2192c2.m5827u(strOptString);
                 c2192c2.m5815h();
@@ -284,12 +286,12 @@ public class Kuwo extends Spider {
                 }
                 return c2192c2.toString();
             }
-            C2192c c2192c3 = Result.get()();
+            C2192c c2192c3 = new C2192c();
             c2192c3.m5821k(0);
             c2192c3.m5827u("");
             return c2192c3.toString();
         } catch (Exception unused3) {
-            C2192c c2192c4 = Result.get()();
+            C2192c c2192c4 = new C2192c();
             c2192c4.m5821k(0);
             c2192c4.m5827u("");
             return c2192c4.toString();
@@ -330,7 +332,7 @@ public class Kuwo extends Spider {
                     }
                 }
             }
-            C2192c c2192c = Result.get()();
+            C2192c c2192c = new C2192c();
             c2192c.m5829w(arrayList);
             c2192c.m5817i(iMax, 9999, 30, 999999);
             return c2192c.toString();

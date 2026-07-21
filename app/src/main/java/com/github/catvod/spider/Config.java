@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -940,7 +942,7 @@ public class Config extends Spider {
                     if ("recovery".equals(str)) {
                         c2194e = new Vod("recovery", "重置配置中心", "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260503/o2Gy/1200X800/recovery.jpg/webp", "双击重置", this.f159i ? "recovery" : "");
                     }
-                    C2192c c2192c = Result.get()();
+                    C2192c c2192c = new C2192c();
                     c2192c.m5817i(1, 1, 1, 1);
                     c2192c.m5829w(arrayList);
                     return c2192c.toString();
@@ -975,7 +977,7 @@ public class Config extends Spider {
                 c2194e = new Vod("update", str7, "https://pic7.fukit.cn/autoupload/gE6Y0Af2tjXBCNig6CtNDI12_FRYNb81z6UPhMWD8iI/20260503/ZnKX/1200X800/update.jpg/webp", str8, this.f159i ? "update" : "");
             }
             arrayList.add(c2194e);
-            C2192c c2192c2 = Result.get()();
+            C2192c c2192c2 = new C2192c();
             c2192c2.m5817i(1, 1, 1, 1);
             c2192c2.m5829w(arrayList);
             return c2192c2.toString();

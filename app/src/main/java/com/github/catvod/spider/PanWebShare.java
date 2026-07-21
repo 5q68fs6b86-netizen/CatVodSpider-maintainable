@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p044FM.p075c.C1765g;
+
 import android.content.Context;
 import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.spider.support.p044FM.p045A.C1286l;
@@ -138,7 +140,7 @@ public class PanWebShare extends Pan {
         String str8 = this.f246f + "/index.php/vod/show/id/" + str + "/page/" + str2 + str6 + str3 + str7 + str5 + str4 + ".html";
         SpiderDebug.log("categoryContent cateUrl: " + str8);
         List<Vod> vodList = parseVodList(C1286l.m3222g(C1840c.m4479n(str8, m617g())).m3478o0(".module-item"));
-        C1765g c1765g = Result.get()();
+        C1765g c1765g = new C1765g();
         c1765g.m4209z(vodList);
         return c1765g.toString();
     }

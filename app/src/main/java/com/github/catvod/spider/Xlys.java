@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p044FM.p075c.C1765g;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
@@ -146,7 +148,7 @@ public class Xlys extends Spider {
             if (strMo3431t != null && strMo3431t.contains("var now=")) {
                 int iIndexOf = strMo3431t.indexOf("var now=\"") + 9;
                 String str3 = "https://www.xlysw.ggff.net/js/player/videojs/ry.m3u8?url=" + strMo3431t.substring(iIndexOf, strMo3431t.indexOf("\"", iIndexOf));
-                C1765g c1765g = Result.get()();
+                C1765g c1765g = new C1765g();
                 c1765g.m4207x(str3);
                 c1765g.m4198f(m768a());
                 return C2137a.addDanmaku(c1765g.toString());

@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p044FM.p075c.C1765g;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.crawler.Spider;
@@ -180,7 +182,7 @@ public class XueLuo extends Spider {
             upperCase = null;
         }
         String strTrim = new JSONObject(C1840c.m4479n(f361a + "/lines?t=" + jCurrentTimeMillis + "&sg=" + upperCase + "&pid=" + strSubstring, m769a())).getJSONObject("data").getString("url3").split(",")[0].trim();
-        C1765g c1765g = Result.get()();
+        C1765g c1765g = new C1765g();
         c1765g.m4207x(strTrim);
         c1765g.m4198f(m769a());
         return C2137a.addDanmaku(c1765g.toString());

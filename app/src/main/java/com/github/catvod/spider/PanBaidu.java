@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.spider.support.p117b.C2176j;
@@ -18,7 +20,7 @@ public class PanBaidu extends Pan {
     private C2176j f239g;
 
     public String categoryContent(String str, String str2, boolean z, HashMap<String, String> map) {
-        C2192c c2192c = Result.get()();
+        C2192c c2192c = new C2192c();
         ArrayList arrayList = new ArrayList();
         C2176j c2176j = this.f239g;
         ArrayList<C2210a> arrayList2 = new ArrayList();

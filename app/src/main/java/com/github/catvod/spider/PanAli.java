@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p118c.C2192c;
+
 import android.content.Context;
 import android.text.TextUtils;
 import com.github.catvod.spider.support.p117b.C2175i;
@@ -108,7 +110,7 @@ public class PanAli extends Pan {
                     m612c(strOptString, strOptString3, new C2203g(strOptString2), arrayList, "", false);
                 }
             }
-            C2192c c2192c = Result.get()();
+            C2192c c2192c = new C2192c();
             c2192c.m5817i(1, 1, 0, 0);
             c2192c.m5829w(arrayList);
             return c2192c.toString();
