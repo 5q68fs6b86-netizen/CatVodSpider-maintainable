@@ -1,0 +1,1 @@
+package rxhttp.wrapper.param; public class Param implements IParam { public Param(){} public Param(Object... a){} }

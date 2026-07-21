@@ -1,0 +1,1 @@
+package rxhttp.wrapper.cookie; public interface ICookieJar {}

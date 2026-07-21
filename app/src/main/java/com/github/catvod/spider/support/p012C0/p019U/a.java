@@ -1,9 +1,9 @@
 package com.github.catvod.spider.support.p012C0.p019U;
 
 /** Auto-stub for missing decompile package/class to allow compilation. */
-public class a {
-    public a() {}
-    public a(Object... args) {}
+public interface a {
+    
+    
     public Object a(Object... args) { return null; }
     public Object b(Object... args) { return null; }
     public Object c(Object... args) { return null; }

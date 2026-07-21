@@ -1,0 +1,1 @@
+package kotlinx.coroutines; public class GlobalScope {}

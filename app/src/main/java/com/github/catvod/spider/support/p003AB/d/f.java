@@ -1,9 +1,9 @@
 package com.github.catvod.spider.support.p003AB.d;
 
 /** Auto-stub for missing decompile package/class to allow compilation. */
-public class f {
-    public f() {}
-    public f(Object... args) {}
+public interface f {
+    
+    
     public Object a(Object... args) { return null; }
     public Object b(Object... args) { return null; }
     public Object c(Object... args) { return null; }

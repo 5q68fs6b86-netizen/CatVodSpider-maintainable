@@ -1,0 +1,1 @@
+package rxhttp.wrapper.entity; public class UpFile { public UpFile(Object... a){} }

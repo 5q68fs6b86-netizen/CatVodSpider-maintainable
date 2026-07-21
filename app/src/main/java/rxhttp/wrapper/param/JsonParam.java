@@ -1,0 +1,1 @@
+package rxhttp.wrapper.param; public class JsonParam extends Param {}

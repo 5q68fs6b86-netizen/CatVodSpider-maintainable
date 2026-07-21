@@ -1,7 +1,7 @@
 package com.github.catvod.spider.support.p012C0.p015Q;
 
 /** Auto-stub for missing decompile package/class to allow compilation. */
-public class e {
+public class e<T> {
     public e() {}
     public e(Object... args) {}
     public Object a(Object... args) { return null; }

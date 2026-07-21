@@ -1,0 +1,1 @@
+package rxhttp.wrapper.callback; public interface IConverter {}
