@@ -70,8 +70,8 @@ public final class C2198b {
         return new Gson().toJson(this);
     }
 
-    public String m5868a() { return ""; }
-    public String m5869b() { return ""; }
+    public C2198b m5868a() { return this; }
+    public C2198b m5869b() { return this; }
     public String m5884a() { return ""; }
     public String m5900a() { return ""; }
 }
