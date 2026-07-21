@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.fq */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0266fq extends EnumC0709wa {
+public static final class C0266fq extends EnumC0709wa {
     public C0266fq() {
         super("ScriptData", 5);
     }

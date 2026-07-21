@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.T0 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1442T0 extends EnumC1484j1 {
+static final class C1442T0 extends EnumC1484j1 {
     C1442T0() {
         super("DoctypePublicIdentifier_doubleQuoted", 56, null);
     }

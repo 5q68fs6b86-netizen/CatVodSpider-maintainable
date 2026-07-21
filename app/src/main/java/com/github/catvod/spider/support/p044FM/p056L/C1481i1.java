@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.i1 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1481i1 extends EnumC1484j1 {
+static final class C1481i1 extends EnumC1484j1 {
     C1481i1() {
         super("EndTagOpen", 8, null);
     }

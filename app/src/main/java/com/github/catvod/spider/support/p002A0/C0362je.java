@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.je */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0362je extends EnumC0709wa {
+public static final class C0362je extends EnumC0709wa {
     public C0362je() {
         super("RCDATAEndTagName", 12);
     }

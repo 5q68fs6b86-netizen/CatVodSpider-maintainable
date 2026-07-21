@@ -4,7 +4,7 @@ import java.io.IOException;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.kc */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0387kc extends EnumC0700vs {
+public static final class C0387kc extends EnumC0700vs {
     public C0387kc() {
         super("LONG_OR_DOUBLE", 2);
     }

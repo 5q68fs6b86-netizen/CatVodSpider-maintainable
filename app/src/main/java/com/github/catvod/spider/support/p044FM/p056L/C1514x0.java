@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.x0 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1514x0 extends EnumC1484j1 {
+static final class C1514x0 extends EnumC1484j1 {
     C1514x0() {
         super("BeforeAttributeValue", 36, null);
     }

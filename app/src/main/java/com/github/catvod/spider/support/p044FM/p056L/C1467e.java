@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p098x.C1932g;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.e */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1467e extends EnumC1406B {
+static final class C1467e extends EnumC1406B {
     C1467e() {
         super("InColumnGroup", 11, null);
     }

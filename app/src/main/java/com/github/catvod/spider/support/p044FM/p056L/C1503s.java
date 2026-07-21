@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p054J.C1380b;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.s */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1503s extends EnumC1406B {
+static final class C1503s extends EnumC1406B {
     C1503s() {
         super("BeforeHtml", 1, null);
     }

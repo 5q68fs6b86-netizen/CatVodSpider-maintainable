@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.cq */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0185cq extends EnumC0416le {
+public static final class C0185cq extends EnumC0416le {
     public C0185cq() {
         super("InTemplate", 17);
     }

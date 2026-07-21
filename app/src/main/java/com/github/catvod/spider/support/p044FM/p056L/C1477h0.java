@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.h0 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1477h0 extends EnumC1484j1 {
+static final class C1477h0 extends EnumC1484j1 {
     C1477h0() {
         super("ScriptDataEscaped", 21, null);
     }

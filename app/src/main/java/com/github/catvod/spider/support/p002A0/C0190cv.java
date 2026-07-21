@@ -4,7 +4,7 @@ import java.util.Locale;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.cv */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0190cv extends EnumC0709wa {
+public static final class C0190cv extends EnumC0709wa {
     public C0190cv() {
         super("RcdataLessthanSign", 10);
     }

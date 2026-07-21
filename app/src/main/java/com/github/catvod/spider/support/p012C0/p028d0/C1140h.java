@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p012C0.p024b0.C1034b;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.h */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1140h extends EnumC1068A {
+static final class C1140h extends EnumC1068A {
     C1140h() {
         super("InCell", 14, null);
     }

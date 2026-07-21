@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.cs */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0187cs extends EnumC0416le {
+public static final class C0187cs extends EnumC0416le {
     public C0187cs() {
         super("AfterAfterBody", 21);
     }

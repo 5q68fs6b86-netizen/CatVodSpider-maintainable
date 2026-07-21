@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.fn */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0263fn extends EnumC0416le {
+public static final class C0263fn extends EnumC0416le {
     public C0263fn() {
         super("Text", 7);
     }

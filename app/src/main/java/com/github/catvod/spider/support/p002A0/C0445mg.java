@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.mg */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0445mg extends EnumC0416le {
+public static final class C0445mg extends EnumC0416le {
     public C0445mg() {
         super("InFrameset", 19);
     }

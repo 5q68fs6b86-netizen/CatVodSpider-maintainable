@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.c */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1125c extends EnumC1068A {
+static final class C1125c extends EnumC1068A {
     C1125c() {
         super("InTableText", 9, null);
     }

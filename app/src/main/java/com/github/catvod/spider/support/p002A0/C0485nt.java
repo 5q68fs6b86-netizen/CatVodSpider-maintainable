@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.nt */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0485nt extends EnumC0709wa {
+public static final class C0485nt extends EnumC0709wa {
     public C0485nt() {
         super("BogusComment", 42);
     }

@@ -5,7 +5,7 @@ import java.util.Locale;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ia */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0331ia extends EnumC0252fc {
+public static final class C0331ia extends EnumC0252fc {
     public C0331ia() {
         super("LOWER_CASE_WITH_DASHES", 5);
     }

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.e1 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1469e1 extends EnumC1484j1 {
+static final class C1469e1 extends EnumC1484j1 {
     C1469e1() {
         super("CdataSection", 66, null);
     }

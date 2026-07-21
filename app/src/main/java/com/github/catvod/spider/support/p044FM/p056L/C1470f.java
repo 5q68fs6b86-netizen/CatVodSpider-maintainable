@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p098x.C1932g;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.f */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1470f extends EnumC1406B {
+static final class C1470f extends EnumC1406B {
     C1470f() {
         super("InTableBody", 12, null);
     }

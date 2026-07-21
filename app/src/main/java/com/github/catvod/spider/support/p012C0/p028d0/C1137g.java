@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p012C0.p024b0.C1034b;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.g */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1137g extends EnumC1068A {
+static final class C1137g extends EnumC1068A {
     C1137g() {
         super("InRow", 13, null);
     }

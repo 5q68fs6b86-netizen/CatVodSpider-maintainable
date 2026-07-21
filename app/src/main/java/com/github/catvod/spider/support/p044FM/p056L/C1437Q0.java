@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.Q0 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1437Q0 extends EnumC1484j1 {
+static final class C1437Q0 extends EnumC1484j1 {
     C1437Q0() {
         super("AfterDoctypeName", 53, null);
     }

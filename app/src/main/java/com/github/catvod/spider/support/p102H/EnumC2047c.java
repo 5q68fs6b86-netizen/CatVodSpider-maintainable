@@ -97,7 +97,7 @@ abstract class EnumC2047c {
     private static final /* synthetic */ EnumC2047c[] f4710z;
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$a */
-    final enum a extends EnumC2047c {
+    static final class a extends EnumC2047c {
         a() {
             super("InTableText", 9, null);
         }
@@ -144,7 +144,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$b */
-    final enum b extends EnumC2047c {
+    static final class b extends EnumC2047c {
         b() {
             super("InCaption", 10, null);
         }
@@ -185,7 +185,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$c */
-    final enum c extends EnumC2047c {
+    static final class c extends EnumC2047c {
         c() {
             super("InColumnGroup", 11, null);
         }
@@ -276,7 +276,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$d */
-    final enum d extends EnumC2047c {
+    static final class d extends EnumC2047c {
         d() {
             super("InTableBody", 12, null);
         }
@@ -339,7 +339,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$e */
-    final enum e extends EnumC2047c {
+    static final class e extends EnumC2047c {
         e() {
             super("InRow", 13, null);
         }
@@ -403,7 +403,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$f */
-    final enum f extends EnumC2047c {
+    static final class f extends EnumC2047c {
         f() {
             super("InCell", 14, null);
         }
@@ -457,7 +457,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$g */
-    final enum g extends EnumC2047c {
+    static final class g extends EnumC2047c {
         g() {
             super("InSelect", 15, null);
         }
@@ -589,7 +589,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$h */
-    final enum h extends EnumC2047c {
+    static final class h extends EnumC2047c {
         h() {
             super("InSelectInTable", 16, null);
         }
@@ -620,7 +620,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$i */
-    final enum i extends EnumC2047c {
+    static final class i extends EnumC2047c {
         i() {
             super("InTemplate", 17, null);
         }
@@ -698,7 +698,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$j */
-    final enum j extends EnumC2047c {
+    static final class j extends EnumC2047c {
         j() {
             super("AfterBody", 18, null);
         }
@@ -739,7 +739,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$k */
-    final enum k extends EnumC2047c {
+    static final class k extends EnumC2047c {
         k() {
             super("Initial", 0, null);
         }
@@ -772,7 +772,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$l */
-    final enum l extends EnumC2047c {
+    static final class l extends EnumC2047c {
         l() {
             super("InFrameset", 19, null);
         }
@@ -835,7 +835,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$m */
-    final enum m extends EnumC2047c {
+    static final class m extends EnumC2047c {
         m() {
             super("AfterFrameset", 20, null);
         }
@@ -877,7 +877,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$n */
-    final enum n extends EnumC2047c {
+    static final class n extends EnumC2047c {
         n() {
             super("AfterAfterBody", 21, null);
         }
@@ -906,7 +906,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$o */
-    final enum o extends EnumC2047c {
+    static final class o extends EnumC2047c {
         o() {
             super("AfterAfterFrameset", 22, null);
         }
@@ -933,7 +933,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$q */
-    final enum q extends EnumC2047c {
+    static final class q extends EnumC2047c {
         q() {
             super("BeforeHtml", 1, null);
         }
@@ -973,7 +973,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$r */
-    final enum r extends EnumC2047c {
+    static final class r extends EnumC2047c {
         r() {
             super("BeforeHead", 2, null);
         }
@@ -1018,7 +1018,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$s */
-    final enum s extends EnumC2047c {
+    static final class s extends EnumC2047c {
         s() {
             super("InHead", 3, null);
         }
@@ -1122,7 +1122,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$t */
-    final enum t extends EnumC2047c {
+    static final class t extends EnumC2047c {
         t() {
             super("InHeadNoscript", 4, null);
         }
@@ -1165,7 +1165,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$u */
-    final enum u extends EnumC2047c {
+    static final class u extends EnumC2047c {
         u() {
             super("AfterHead", 5, null);
         }
@@ -1240,7 +1240,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$v */
-    final enum v extends EnumC2047c {
+    static final class v extends EnumC2047c {
         v() {
             super("InBody", 6, null);
         }
@@ -2875,7 +2875,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$w */
-    final enum w extends EnumC2047c {
+    static final class w extends EnumC2047c {
         w() {
             super("Text", 7, null);
         }
@@ -2903,7 +2903,7 @@ abstract class EnumC2047c {
     }
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.H.c$x */
-    final enum x extends EnumC2047c {
+    static final class x extends EnumC2047c {
         x() {
             super("InTable", 8, null);
         }

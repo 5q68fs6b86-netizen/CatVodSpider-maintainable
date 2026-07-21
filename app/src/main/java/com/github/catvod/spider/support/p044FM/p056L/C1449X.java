@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.X */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1449X extends EnumC1484j1 {
+static final class C1449X extends EnumC1484j1 {
     C1449X() {
         super("RCDATAEndTagName", 12, null);
     }

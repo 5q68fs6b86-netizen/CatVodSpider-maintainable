@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.nv */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0487nv extends EnumC0709wa {
+public static final class C0487nv extends EnumC0709wa {
     public C0487nv() {
         super("ScriptDataEscapedDashDash", 23);
     }

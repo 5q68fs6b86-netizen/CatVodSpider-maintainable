@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.W */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1111W extends EnumC1142h1 {
+static final class C1111W extends EnumC1142h1 {
     C1111W() {
         super("RawtextLessthanSign", 13, null);
     }

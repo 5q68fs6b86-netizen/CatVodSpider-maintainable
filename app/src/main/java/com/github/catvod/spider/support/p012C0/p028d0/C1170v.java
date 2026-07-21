@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.v */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1170v extends EnumC1068A {
+static final class C1170v extends EnumC1068A {
     C1170v() {
         super("AfterHead", 5, null);
     }

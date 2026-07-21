@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.d1 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1466d1 extends EnumC1484j1 {
+static final class C1466d1 extends EnumC1484j1 {
     C1466d1() {
         super("BogusDoctype", 65, null);
     }

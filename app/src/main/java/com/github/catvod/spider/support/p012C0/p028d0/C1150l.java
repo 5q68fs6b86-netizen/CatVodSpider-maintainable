@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.l */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1150l extends EnumC1068A {
+static final class C1150l extends EnumC1068A {
     C1150l() {
         super("InFrameset", 18, null);
     }

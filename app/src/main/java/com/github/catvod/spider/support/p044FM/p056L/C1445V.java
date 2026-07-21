@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.V */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1445V extends EnumC1484j1 {
+static final class C1445V extends EnumC1484j1 {
     C1445V() {
         super("RcdataLessthanSign", 10, null);
     }

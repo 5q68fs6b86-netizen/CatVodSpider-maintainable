@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p098x.C1932g;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.i */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1479i extends EnumC1406B {
+static final class C1479i extends EnumC1406B {
     C1479i() {
         super("InSelect", 15, null);
     }

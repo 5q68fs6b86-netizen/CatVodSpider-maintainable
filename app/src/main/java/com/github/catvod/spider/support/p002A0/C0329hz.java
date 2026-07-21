@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.hz */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0329hz extends EnumC0252fc {
+public static final class C0329hz extends EnumC0252fc {
     public C0329hz() {
         super("UPPER_CAMEL_CASE", 1);
     }

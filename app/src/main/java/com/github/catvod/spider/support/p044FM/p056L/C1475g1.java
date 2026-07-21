@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.g1 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1475g1 extends EnumC1484j1 {
+static final class C1475g1 extends EnumC1484j1 {
     C1475g1() {
         super("PLAINTEXT", 6, null);
     }

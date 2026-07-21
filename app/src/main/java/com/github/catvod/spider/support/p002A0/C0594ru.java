@@ -5,7 +5,7 @@ import java.util.Locale;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ru */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0594ru extends EnumC0252fc {
+public static final class C0594ru extends EnumC0252fc {
     public C0594ru() {
         super("LOWER_CASE_WITH_UNDERSCORES", 4);
     }

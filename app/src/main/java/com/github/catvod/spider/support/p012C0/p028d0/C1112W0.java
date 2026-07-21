@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.W0 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1112W0 extends EnumC1142h1 {
+static final class C1112W0 extends EnumC1142h1 {
     C1112W0() {
         super("AfterDoctypeSystemKeyword", 60, null);
     }

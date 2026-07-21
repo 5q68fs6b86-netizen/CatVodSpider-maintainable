@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p055K.C1393m;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.w */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1511w extends EnumC1406B {
+static final class C1511w extends EnumC1406B {
     C1511w() {
         super("AfterHead", 5, null);
     }

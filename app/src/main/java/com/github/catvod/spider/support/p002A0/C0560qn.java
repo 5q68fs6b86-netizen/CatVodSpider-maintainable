@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.qn */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0560qn extends EnumC0252fc {
+public static final class C0560qn extends EnumC0252fc {
     public C0560qn() {
         super("UPPER_CAMEL_CASE_WITH_SPACES", 2);
     }

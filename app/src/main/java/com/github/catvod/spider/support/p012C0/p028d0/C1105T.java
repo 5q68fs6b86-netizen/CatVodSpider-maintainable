@@ -5,7 +5,7 @@ import java.util.Locale;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.T */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1105T extends EnumC1142h1 {
+static final class C1105T extends EnumC1142h1 {
     C1105T() {
         super("RcdataLessthanSign", 10, null);
     }

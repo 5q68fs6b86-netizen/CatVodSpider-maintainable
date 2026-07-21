@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jq */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0374jq extends EnumC0709wa {
+public static final class C0374jq extends EnumC0709wa {
     public C0374jq() {
         super("ScriptDataDoubleEscaped", 28);
     }

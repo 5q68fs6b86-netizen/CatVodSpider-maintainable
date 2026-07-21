@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.R0 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1102R0 extends EnumC1142h1 {
+static final class C1102R0 extends EnumC1142h1 {
     C1102R0() {
         super("DoctypePublicIdentifier_doubleQuoted", 56, null);
     }

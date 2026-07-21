@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p054J.C1380b;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.g */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1473g extends EnumC1406B {
+static final class C1473g extends EnumC1406B {
     C1473g() {
         super("InRow", 13, null);
     }

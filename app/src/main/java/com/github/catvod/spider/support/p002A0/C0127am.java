@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.am */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0127am extends EnumC0709wa {
+public static final class C0127am extends EnumC0709wa {
     public C0127am() {
         super("ScriptDataEscapedEndTagOpen", 25);
     }

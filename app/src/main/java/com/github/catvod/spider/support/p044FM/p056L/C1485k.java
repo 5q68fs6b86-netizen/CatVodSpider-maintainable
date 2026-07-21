@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p098x.C1932g;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.k */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1485k extends EnumC1406B {
+static final class C1485k extends EnumC1406B {
     C1485k() {
         super("InTemplate", 17, null);
     }

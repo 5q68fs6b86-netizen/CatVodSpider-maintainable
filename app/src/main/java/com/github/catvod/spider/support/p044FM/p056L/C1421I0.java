@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.I0 */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1421I0 extends EnumC1484j1 {
+static final class C1421I0 extends EnumC1484j1 {
     C1421I0() {
         super("Comment", 46, null);
     }

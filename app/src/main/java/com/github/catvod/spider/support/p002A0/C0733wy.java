@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.wy */
 /* JADX INFO: loaded from: classes.dex */
-public final enum C0733wy extends EnumC0709wa {
+public static final class C0733wy extends EnumC0709wa {
     public C0733wy() {
         super("RawtextLessthanSign", 13);
     }

@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.x */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1513x extends EnumC1406B {
+static final class C1513x extends EnumC1406B {
     C1513x() {
         super("InBody", 6, null);
     }

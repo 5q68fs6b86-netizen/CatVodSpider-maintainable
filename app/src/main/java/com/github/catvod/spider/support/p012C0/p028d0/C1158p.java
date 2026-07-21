@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.p */
 /* JADX INFO: loaded from: classes.dex */
-final enum C1158p extends EnumC1068A {
+static final class C1158p extends EnumC1068A {
     C1158p() {
         super("AfterAfterFrameset", 21, null);
     }
