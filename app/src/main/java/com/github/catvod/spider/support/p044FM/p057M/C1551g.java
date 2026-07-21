@@ -6,12 +6,12 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class C1551g extends C1393m implements Iterable<C1393m> {
+public class C1551g implements Iterable<C1393m>, CharSequence {
     private final ArrayList<C1393m> items = new ArrayList<>();
-    public C1551g() {}
+    public C1551g() { items.add(new C1393m()); }
     public C1551g m3478o0(String css) { return this; }
     public C1551g m3479p0(String css) { return this; }
-    public C1393m m3476n0() { return new C1393m(); }
+    public C1393m m3476n0() { return items.isEmpty() ? new C1393m() : items.get(0); }
     public String m3484v0() { return ""; }
     public String m3784a(String attr) { return ""; }
     public String m3785b(String s) { return ""; }
@@ -21,6 +21,11 @@ public class C1551g extends C1393m implements Iterable<C1393m> {
     public List m3786c() { return new ArrayList(); }
     public C1388h m3222g() { return new C1388h(); }
     public int size() { return items.size(); }
-    public C1393m get(int i) { return items.isEmpty() ? new C1393m() : items.get(i); }
+    public C1393m get(int i) { return items.isEmpty() ? new C1393m() : items.get(Math.min(i, items.size()-1)); }
+    public List<C1393m> subList(int from, int to) { return items.subList(Math.max(0,from), Math.min(items.size(), Math.max(from,to))); }
     public Iterator<C1393m> iterator() { return items.iterator(); }
+    public int length() { return 0; }
+    public char charAt(int i) { return 0; }
+    public CharSequence subSequence(int s, int e) { return ""; }
+    public String toString() { return ""; }
 }

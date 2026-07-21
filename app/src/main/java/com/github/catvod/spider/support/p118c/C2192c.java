@@ -27,7 +27,7 @@ public final class C2192c {
 
     /* JADX INFO: renamed from: c */
     @SerializedName("filters")
-    private LinkedHashMap<String, List> f5280c;
+    private LinkedHashMap f5280c;
 
     /* JADX INFO: renamed from: d */
     @SerializedName("header")
@@ -85,7 +85,7 @@ public final class C2192c {
     private String f5293p;
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.c$a */
-    class a extends TypeToken<LinkedHashMap<String, List>> {
+    class a extends TypeToken<LinkedHashMap> {
         a() {
         }
     }
@@ -167,7 +167,7 @@ public final class C2192c {
     }
 
     /* JADX INFO: renamed from: o */
-    public static String m5799o(List list, LinkedHashMap<String, List> linkedHashMap) {
+    public static String m5799o(List list, LinkedHashMap linkedHashMap) {
         C2192c c2192c = new C2192c();
         c2192c.f5278a = list;
         c2192c.f5280c = linkedHashMap;
@@ -192,7 +192,7 @@ public final class C2192c {
     }
 
     /* JADX INFO: renamed from: q */
-    public static String m5802q(List list, List<Vod> list2, LinkedHashMap<String, List> linkedHashMap) {
+    public static String m5802q(List list, List<Vod> list2, LinkedHashMap linkedHashMap) {
         C2192c c2192c = new C2192c();
         c2192c.f5278a = list;
         c2192c.f5279b = list2;
@@ -433,4 +433,7 @@ public final class C2192c {
     public final void m5833z(List list) {
         this.f5279b = list;
     }
+
+    public C2192c r(java.util.ArrayList list) { this.f5279b = list; return this; }
+    public C2192c r(java.util.List list) { this.f5279b = list; return this; }
 }

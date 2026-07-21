@@ -7,10 +7,9 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-public class C1393m extends AbstractC1399s implements Iterable, CharSequence {
+public class C1393m extends AbstractC1399s implements CharSequence {
     public C1393m() {}
     public C1393m(Object... a) {}
-
     public C1551g m3478o0(String css) { return new C1551g(); }
     public C1551g m3479p0(String css) { return new C1551g(); }
     public C1393m m3476n0() { return this; }
@@ -19,6 +18,7 @@ public class C1393m extends AbstractC1399s implements Iterable, CharSequence {
     public C1393m m3461b0() { return this; }
     public C1393m m3462c0() { return this; }
     public C1393m mo3404i() { return this; }
+    public String mo3431t() { return ""; }
     public List m3786c() { return new ArrayList(); }
     public String m3784a(String attr) { return ""; }
     public String m3785b(String s) { return ""; }
@@ -35,9 +35,7 @@ public class C1393m extends AbstractC1399s implements Iterable, CharSequence {
     public void mo3406v(Appendable a, int i, Object g) {}
     public void mo3407w(Appendable a, int i, Object g) {}
     public int size() { return 0; }
-    public Object get(int i) { return this; }
-    public Iterator iterator() { return Collections.emptyList().iterator(); }
-    // CharSequence
+    public C1393m get(int i) { return this; }
     public int length() { return 0; }
     public char charAt(int index) { return 0; }
     public CharSequence subSequence(int start, int end) { return ""; }

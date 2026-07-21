@@ -20,7 +20,7 @@ public class PanBaidu extends Pan {
     /* JADX INFO: renamed from: g */
     private C2176j f239g;
 
-    public String categoryContent(String str, String str2, boolean z, HashMap<String, String> map) {
+    public String categoryContent(String str, String str2, boolean z, HashMap<String, String> map) throws Exception {
         C2192c c2192c = new C2192c();
         ArrayList arrayList = new ArrayList();
         C2176j c2176j = this.f239g;
@@ -52,7 +52,7 @@ public class PanBaidu extends Pan {
     }
 
     @Override // com.github.catvod.spider.Pan
-    public String detailContent(List<String> list) {
+    public String detailContent(List<String> list) throws Exception {
         String str = list.get(0);
         int iLastIndexOf = str.lastIndexOf("/");
         String strSubstring = iLastIndexOf > 0 ? str.substring(0, iLastIndexOf) : str;
@@ -96,7 +96,7 @@ public class PanBaidu extends Pan {
         return C2137a.processVodData(Result.string(c2194e));
     }
 
-    public String homeContent(boolean z) {
+    public String homeContent(boolean z) throws Exception {
         ArrayList arrayList = new ArrayList();
         try {
             if (TextUtils.isEmpty(this.f239g.m5701j())) {

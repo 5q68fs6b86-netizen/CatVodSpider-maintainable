@@ -6,6 +6,11 @@ import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
 public class Drive {
+    public Drive() {}
+    public Drive(String s) {}
+
+    public Drive() { this(""); }
+
 
     @SerializedName("default_drive_id")
     private String defaultDriveId;

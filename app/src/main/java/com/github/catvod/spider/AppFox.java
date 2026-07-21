@@ -589,7 +589,7 @@ public class AppFox extends Spider {
                     if (i == i4 || i2 == i4) {
                         break;
                     }
-                    for (Map.Entry entry : ((Map)map5).entrySet()) {
+                    for (Object __oe : ((Map)map5).entrySet()) { Map.Entry entry = (Map.Entry) __oe;
                         if (((String) entry.getKey()).contains(str3)) {
                             Object value = entry.getValue();
                             if (value instanceof List) {

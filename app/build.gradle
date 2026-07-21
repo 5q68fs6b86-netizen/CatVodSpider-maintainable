@@ -45,7 +45,9 @@ android {
     sourceSets {
         main {
             java {
-                                                                                                exclude 'com/github/catvod/spider/XBPQPlay.java'
+                                                                                                exclude 'com/github/catvod/spider/Hxq.java'
+                exclude 'com/github/catvod/spider/AppYsV2.java'
+                exclude 'com/github/catvod/spider/XBPQPlay.java'
                 exclude 'com/github/catvod/spider/XYQHiker.java'
                 exclude 'com/github/catvod/spider/XYQBiu.java'
                 exclude 'com/github/catvod/spider/PushAgent.java'

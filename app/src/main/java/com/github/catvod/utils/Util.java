@@ -98,4 +98,12 @@ public class Util {
         }
         return sb.length() == 0 ? name : sb.toString();
     }
+
+    public static boolean isVideoFormat(String url) {
+        if (url == null) return false;
+        String u = url.toLowerCase();
+        return u.contains(".mp4") || u.contains(".m3u8") || u.contains(".mkv") || u.contains(".flv");
+    }
+    public static boolean isVip(String url) { return false; }
+    public static boolean isBlackVodUrl(String url) { return false; }
 }

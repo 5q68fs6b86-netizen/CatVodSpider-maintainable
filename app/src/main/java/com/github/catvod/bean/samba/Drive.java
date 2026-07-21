@@ -17,6 +17,8 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 public class Drive {
+    public Drive() { this(""); }
+
 
     @SerializedName("name")
     private String name;
