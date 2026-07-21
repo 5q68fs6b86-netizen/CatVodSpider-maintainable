@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.x */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1174x extends EnumC1068A {
+final class C1174x extends EnumC1068A {
     C1174x() {
         super("Text", 7, null);
     }

@@ -5,7 +5,7 @@ import java.util.Locale;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.lg */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0418lg extends EnumC0252fc {
+public final class C0418lg extends EnumC0252fc {
     public C0418lg() {
         super("UPPER_CASE_WITH_UNDERSCORES", 3);
     }

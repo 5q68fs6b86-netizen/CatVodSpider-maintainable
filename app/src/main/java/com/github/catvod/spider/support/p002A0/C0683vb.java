@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.vb */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0683vb extends EnumC0709wa {
+public final class C0683vb extends EnumC0709wa {
     public C0683vb() {
         super("CommentStartDash", 45);
     }

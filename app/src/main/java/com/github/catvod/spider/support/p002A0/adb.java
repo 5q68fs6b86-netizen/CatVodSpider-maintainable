@@ -1,7 +1,7 @@
 package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: loaded from: classes.dex */
-public static final class adb extends EnumC0709wa {
+public final class adb extends EnumC0709wa {
     public adb() {
         super("SelfClosingStartTag", 41);
     }

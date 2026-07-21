@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.yv */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0784yv extends EnumC0700vs {
+public final class C0784yv extends EnumC0700vs {
     public C0784yv() {
         super("LAZILY_PARSED_NUMBER", 1);
     }

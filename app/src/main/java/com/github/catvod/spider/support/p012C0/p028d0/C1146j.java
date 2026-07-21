@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p012C0.p024b0.C1034b;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.j */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1146j extends EnumC1068A {
+final class C1146j extends EnumC1068A {
     C1146j() {
         super("InSelectInTable", 16, null);
     }

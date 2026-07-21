@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.f1 */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1136f1 extends EnumC1142h1 {
+final class C1136f1 extends EnumC1142h1 {
     C1136f1() {
         super("TagOpen", 7, null);
     }

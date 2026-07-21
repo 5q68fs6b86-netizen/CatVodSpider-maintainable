@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.X */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1113X extends EnumC1142h1 {
+final class C1113X extends EnumC1142h1 {
     C1113X() {
         super("RawtextEndTagOpen", 14, null);
     }

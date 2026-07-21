@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ij */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0340ij extends EnumC0416le {
+public final class C0340ij extends EnumC0416le {
     public C0340ij() {
         super("AfterHead", 5);
     }

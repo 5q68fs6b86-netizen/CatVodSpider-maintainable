@@ -6,7 +6,7 @@ import java.util.List;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.bn */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0155bn extends EnumC0416le {
+public final class C0155bn extends EnumC0416le {
     public C0155bn() {
         super("InBody", 6);
     }

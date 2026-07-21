@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p054J.C1380b;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.z */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1517z extends EnumC1406B {
+final class C1517z extends EnumC1406B {
     C1517z() {
         super("InTable", 8, null);
     }

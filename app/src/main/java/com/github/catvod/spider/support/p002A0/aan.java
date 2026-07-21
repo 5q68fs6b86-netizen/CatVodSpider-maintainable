@@ -1,7 +1,7 @@
 package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: loaded from: classes.dex */
-public static final class aan extends EnumC0709wa {
+public final class aan extends EnumC0709wa {
     public aan() {
         super("AttributeName", 34);
     }

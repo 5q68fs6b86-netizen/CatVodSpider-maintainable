@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.nz */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0491nz extends EnumC0709wa {
+public final class C0491nz extends EnumC0709wa {
     public C0491nz() {
         super("ScriptDataEscapedEndTagName", 26);
     }

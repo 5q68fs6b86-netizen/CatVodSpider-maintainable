@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p055K.C1389i;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.m */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1491m extends EnumC1406B {
+final class C1491m extends EnumC1406B {
     C1491m() {
         super("Initial", 0, null);
     }

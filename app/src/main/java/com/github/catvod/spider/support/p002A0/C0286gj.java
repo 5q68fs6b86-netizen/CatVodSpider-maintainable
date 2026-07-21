@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.gj */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0286gj extends EnumC0416le {
+public final class C0286gj extends EnumC0416le {
     public C0286gj() {
         super("InCaption", 10);
     }

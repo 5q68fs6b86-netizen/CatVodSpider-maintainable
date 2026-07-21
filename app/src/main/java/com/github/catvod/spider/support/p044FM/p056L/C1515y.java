@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.y */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1515y extends EnumC1406B {
+final class C1515y extends EnumC1406B {
     C1515y() {
         super("Text", 7, null);
     }

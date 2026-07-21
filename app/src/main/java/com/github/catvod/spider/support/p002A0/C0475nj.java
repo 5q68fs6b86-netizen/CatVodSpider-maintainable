@@ -4,7 +4,7 @@ import java.io.IOException;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.nj */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0475nj extends EnumC0700vs {
+public final class C0475nj extends EnumC0700vs {
     public C0475nj() {
         super("BIG_DECIMAL", 3);
     }

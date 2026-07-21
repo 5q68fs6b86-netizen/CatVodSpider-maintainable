@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.dk */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0206dk extends EnumC0416le {
+public final class C0206dk extends EnumC0416le {
     public C0206dk() {
         super("InTableBody", 12);
     }

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.qr */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0564qr extends EnumC0416le {
+public final class C0564qr extends EnumC0416le {
     public C0564qr() {
         super("InColumnGroup", 11);
     }

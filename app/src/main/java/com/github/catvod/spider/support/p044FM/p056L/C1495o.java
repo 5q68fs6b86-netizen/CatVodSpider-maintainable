@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.o */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1495o extends EnumC1406B {
+final class C1495o extends EnumC1406B {
     C1495o() {
         super("AfterFrameset", 20, null);
     }

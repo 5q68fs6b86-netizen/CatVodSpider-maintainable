@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.r0 */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1502r0 extends EnumC1484j1 {
+final class C1502r0 extends EnumC1484j1 {
     C1502r0() {
         super("ScriptDataDoubleEscapedDashDash", 30, null);
     }

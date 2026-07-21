@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.hl */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0315hl extends EnumC0700vs {
+public final class C0315hl extends EnumC0700vs {
     public C0315hl() {
         super("DOUBLE", 0);
     }

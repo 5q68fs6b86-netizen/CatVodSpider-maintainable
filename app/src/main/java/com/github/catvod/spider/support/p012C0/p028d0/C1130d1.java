@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.d1 */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1130d1 extends EnumC1142h1 {
+final class C1130d1 extends EnumC1142h1 {
     C1130d1() {
         super("ScriptData", 5, null);
     }

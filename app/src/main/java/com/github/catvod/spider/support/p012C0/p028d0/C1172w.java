@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.w */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1172w extends EnumC1068A {
+final class C1172w extends EnumC1068A {
     C1172w() {
         super("InBody", 6, null);
     }

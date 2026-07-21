@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.dj */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0205dj extends EnumC0416le {
+public final class C0205dj extends EnumC0416le {
     public C0205dj() {
         super("ForeignContent", 23);
     }

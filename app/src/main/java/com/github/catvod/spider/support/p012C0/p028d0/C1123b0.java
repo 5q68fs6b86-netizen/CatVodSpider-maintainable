@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.b0 */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1123b0 extends EnumC1142h1 {
+final class C1123b0 extends EnumC1142h1 {
     C1123b0() {
         super("ScriptDataEndTagName", 18, null);
     }

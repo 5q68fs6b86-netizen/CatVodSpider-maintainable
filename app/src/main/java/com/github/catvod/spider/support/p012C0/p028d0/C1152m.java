@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p012C0.p026c0.C1050i;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.m */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1152m extends EnumC1068A {
+final class C1152m extends EnumC1068A {
     C1152m() {
         super("Initial", 0, null);
     }

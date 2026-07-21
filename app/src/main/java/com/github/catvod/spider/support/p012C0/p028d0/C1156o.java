@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.o */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1156o extends EnumC1068A {
+final class C1156o extends EnumC1068A {
     C1156o() {
         super("AfterAfterBody", 20, null);
     }

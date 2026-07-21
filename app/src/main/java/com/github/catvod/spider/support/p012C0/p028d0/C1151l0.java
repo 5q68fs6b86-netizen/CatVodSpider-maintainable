@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.l0 */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1151l0 extends EnumC1142h1 {
+final class C1151l0 extends EnumC1142h1 {
     C1151l0() {
         super("ScriptDataDoubleEscapeStart", 27, null);
     }

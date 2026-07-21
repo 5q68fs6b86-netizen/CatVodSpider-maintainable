@@ -6,7 +6,7 @@ import com.github.catvod.spider.support.p044FM.p098x.C1932g;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.u */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1507u extends EnumC1406B {
+final class C1507u extends EnumC1406B {
     C1507u() {
         super("InHead", 3, null);
     }

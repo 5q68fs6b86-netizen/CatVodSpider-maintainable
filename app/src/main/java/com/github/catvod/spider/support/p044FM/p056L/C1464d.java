@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p054J.C1380b;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.d */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1464d extends EnumC1406B {
+final class C1464d extends EnumC1406B {
     C1464d() {
         super("InCaption", 10, null);
     }

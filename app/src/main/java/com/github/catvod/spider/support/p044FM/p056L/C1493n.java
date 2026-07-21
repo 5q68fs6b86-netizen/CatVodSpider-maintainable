@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.n */
 /* JADX INFO: loaded from: classes.dex */
-static final class C1493n extends EnumC1406B {
+final class C1493n extends EnumC1406B {
     C1493n() {
         super("InFrameset", 19, null);
     }

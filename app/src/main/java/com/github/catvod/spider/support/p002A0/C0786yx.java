@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX INFO: renamed from: com.github.catvod.spider.support.A0.yx */
 /* JADX INFO: loaded from: classes.dex */
-public static final class C0786yx extends EnumC0709wa {
+public final class C0786yx extends EnumC0709wa {
     public C0786yx() {
         super("MarkupDeclarationOpen", 43);
     }
