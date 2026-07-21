@@ -98,7 +98,7 @@ final class C1310c extends AbstractC1316i {
         }
         stringBuffer.append(m3292r());
         boolean z = true;
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             Object key = entry.getKey();
             String string = key != null ? key.toString() : null;
             if (string != null) {

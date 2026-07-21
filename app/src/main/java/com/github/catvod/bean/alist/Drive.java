@@ -17,6 +17,8 @@ import java.util.List;
 import java.util.Map;
 
 public class Drive {
+    public Drive() { this(""); }
+
 
     @SerializedName("params")
     private List<Param> params;

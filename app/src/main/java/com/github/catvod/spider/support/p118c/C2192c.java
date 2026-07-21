@@ -19,7 +19,7 @@ public final class C2192c {
 
     /* JADX INFO: renamed from: a */
     @SerializedName("class")
-    private List<C2190a> f5278a;
+    private List f5278a;
 
     /* JADX INFO: renamed from: b */
     @SerializedName("list")
@@ -27,7 +27,7 @@ public final class C2192c {
 
     /* JADX INFO: renamed from: c */
     @SerializedName("filters")
-    private LinkedHashMap<String, List<C2191b>> f5280c;
+    private LinkedHashMap<String, List> f5280c;
 
     /* JADX INFO: renamed from: d */
     @SerializedName("header")
@@ -85,7 +85,7 @@ public final class C2192c {
     private String f5293p;
 
     /* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.c$a */
-    class a extends TypeToken<LinkedHashMap<String, List<C2191b>>> {
+    class a extends TypeToken<LinkedHashMap<String, List>> {
         a() {
         }
     }
@@ -167,7 +167,7 @@ public final class C2192c {
     }
 
     /* JADX INFO: renamed from: o */
-    public static String m5799o(List<C2190a> list, LinkedHashMap<String, List<C2191b>> linkedHashMap) {
+    public static String m5799o(List list, LinkedHashMap<String, List> linkedHashMap) {
         C2192c c2192c = new C2192c();
         c2192c.f5278a = list;
         c2192c.f5280c = linkedHashMap;
@@ -175,7 +175,7 @@ public final class C2192c {
     }
 
     /* JADX INFO: renamed from: p */
-    public static String m5800p(List<C2190a> list, List<Vod> list2) {
+    public static String m5800p(List list, List<Vod> list2) {
         C2192c c2192c = new C2192c();
         c2192c.f5278a = list;
         c2192c.f5279b = list2;
@@ -192,7 +192,7 @@ public final class C2192c {
     }
 
     /* JADX INFO: renamed from: q */
-    public static String m5802q(List<C2190a> list, List<Vod> list2, LinkedHashMap<String, List<C2191b>> linkedHashMap) {
+    public static String m5802q(List list, List<Vod> list2, LinkedHashMap<String, List> linkedHashMap) {
         C2192c c2192c = new C2192c();
         c2192c.f5278a = list;
         c2192c.f5279b = list2;
@@ -201,7 +201,7 @@ public final class C2192c {
     }
 
     /* JADX INFO: renamed from: r */
-    public static String m5803r(List<C2190a> list, List<Vod> list2, JSONObject jSONObject) {
+    public static String m5803r(List list, List<Vod> list2, JSONObject jSONObject) {
         C2192c c2192c = new C2192c();
         c2192c.f5278a = list;
         c2192c.f5279b = list2;
@@ -217,7 +217,7 @@ public final class C2192c {
     }
 
     /* JADX INFO: renamed from: s */
-    public static String m5805s(List<C2190a> list, JSONObject jSONObject) {
+    public static String m5805s(List list, JSONObject jSONObject) {
         C2192c c2192c = new C2192c();
         c2192c.f5278a = list;
         c2192c.m5810d(jSONObject);
@@ -419,7 +419,7 @@ public final class C2192c {
     }
 
     /* JADX INFO: renamed from: x */
-    public final C2192c m5831x(List<C2190a> list) {
+    public final C2192c m5831x(List list) {
         this.f5278a = list;
         return this;
     }

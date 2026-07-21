@@ -414,8 +414,7 @@ public class XYQBiu extends Spider {
                                             str18 = str31;
                                             jSONArray2.put(m730n("cateId", "分类", str3, str35));
                                         }
-                                    } catch (Exception e2) {
-                                        e = e2;
+                                    } catch (Exception e2) { Exception /*e=e2*/
                                         str7 = str7;
                                         str15 = str17;
                                         jSONObject2 = jSONObject2;
@@ -466,8 +465,7 @@ public class XYQBiu extends Spider {
                                                                     jSONArray2.put(m730n("area", "地区", strArrSplit6[i], strArrSplit7[i]));
                                                                 }
                                                             }
-                                                        } catch (Exception e3) {
-                                                            e = e3;
+                                                        } catch (Exception e3) { Exception /*e=e3*/
                                                             str15 = str17;
                                                             jSONObject2 = jSONObject2;
                                                             SpiderDebug.log(e);
@@ -481,12 +479,10 @@ public class XYQBiu extends Spider {
                                                         str7 = str7;
                                                     }
                                                     jSONArray2.put(m730n("area", "地区", str7, str31));
-                                                } catch (Exception e4) {
-                                                    e = e4;
+                                                } catch (Exception e4) { Exception /*e=e4*/
                                                     str7 = str7;
                                                 }
-                                            } catch (Exception e5) {
-                                                e = e5;
+                                            } catch (Exception e5) { Exception /*e=e5*/
                                                 arrayList = arrayList;
                                                 str34 = str34;
                                                 str16 = str16;
@@ -526,8 +522,7 @@ public class XYQBiu extends Spider {
                                                                             if (i < strArrSplit9.length && !strArrSplit9[i].equals("空")) {
                                                                                 jSONArray2.put(m730n("year", "年份", strArrSplit8[i], strArrSplit9[i]));
                                                                             }
-                                                                        } catch (Exception e6) {
-                                                                            e = e6;
+                                                                        } catch (Exception e6) { Exception /*e=e6*/
                                                                             str16 = str16;
                                                                             str35 = str20;
                                                                             jSONObject2 = jSONObject2;
@@ -539,8 +534,7 @@ public class XYQBiu extends Spider {
                                                                             str33 = str16;
                                                                         }
                                                                     }
-                                                                } catch (Exception e7) {
-                                                                    e = e7;
+                                                                } catch (Exception e7) { Exception /*e=e7*/
                                                                     arrayList = arrayList;
                                                                     str34 = str34;
                                                                     str16 = str16;
@@ -558,8 +552,7 @@ public class XYQBiu extends Spider {
                                                             str22 = "\\|\\|";
                                                             str20 = str35;
                                                             jSONArray2.put(m730n("year", "年份", str21, str15));
-                                                        } catch (Exception e8) {
-                                                            e = e8;
+                                                        } catch (Exception e8) { Exception /*e=e8*/
                                                         }
                                                     }
                                                     try {
@@ -587,8 +580,7 @@ public class XYQBiu extends Spider {
                                                                                         if (i < strArrSplit11.length && !strArrSplit11[i].equals("空")) {
                                                                                             jSONArray2.put(m730n("lang", "语言", strArrSplit10[i], strArrSplit11[i]));
                                                                                         }
-                                                                                    } catch (Exception e9) {
-                                                                                        e = e9;
+                                                                                    } catch (Exception e9) { Exception /*e=e9*/
                                                                                         str15 = str25;
                                                                                         str35 = str20;
                                                                                         jSONObject2 = jSONObject2;
@@ -600,8 +592,7 @@ public class XYQBiu extends Spider {
                                                                                         str33 = str16;
                                                                                     }
                                                                                 }
-                                                                            } catch (Exception e10) {
-                                                                                e = e10;
+                                                                            } catch (Exception e10) { Exception /*e=e10*/
                                                                                 str35 = str20;
                                                                                 jSONObject2 = jSONObject2;
                                                                                 SpiderDebug.log(e);
@@ -617,12 +608,10 @@ public class XYQBiu extends Spider {
                                                                         }
                                                                         str25 = str15;
                                                                         jSONArray2.put(m730n("lang", "语言", str24, str16));
-                                                                    } catch (Exception e11) {
-                                                                        e = e11;
+                                                                    } catch (Exception e11) { Exception /*e=e11*/
                                                                     }
                                                                 }
-                                                            } catch (Exception e12) {
-                                                                e = e12;
+                                                            } catch (Exception e12) { Exception /*e=e12*/
                                                                 str16 = str16;
                                                             }
                                                         } else {
@@ -648,8 +637,7 @@ public class XYQBiu extends Spider {
                                                                                                 jSONArray2.put(m730n("by", "排序", strArrSplit12[i], strArrSplit13[i]));
                                                                                             }
                                                                                         }
-                                                                                    } catch (Exception e13) {
-                                                                                        e = e13;
+                                                                                    } catch (Exception e13) { Exception /*e=e13*/
                                                                                         arrayList = arrayList;
                                                                                         str15 = str25;
                                                                                         str35 = str20;
@@ -665,11 +653,9 @@ public class XYQBiu extends Spider {
                                                                                     str27 = str13;
                                                                                 }
                                                                                 jSONArray2.put(m730n("by", "排序", str27, str34));
-                                                                            } catch (Exception e14) {
-                                                                                e = e14;
+                                                                            } catch (Exception e14) { Exception /*e=e14*/
                                                                             }
-                                                                        } catch (Exception e15) {
-                                                                            e = e15;
+                                                                        } catch (Exception e15) { Exception /*e=e15*/
                                                                             arrayList = arrayList;
                                                                             str15 = str25;
                                                                             str35 = str20;
@@ -683,8 +669,7 @@ public class XYQBiu extends Spider {
                                                                             str33 = str16;
                                                                         }
                                                                     }
-                                                                } catch (Exception e16) {
-                                                                    e = e16;
+                                                                } catch (Exception e16) { Exception /*e=e16*/
                                                                     str26 = str34;
                                                                 }
                                                             }
@@ -695,18 +680,15 @@ public class XYQBiu extends Spider {
                                                                     str15 = str25;
                                                                     str35 = str20;
                                                                     jSONArray2 = new JSONArray();
-                                                                } catch (Exception e17) {
-                                                                    e = e17;
+                                                                } catch (Exception e17) { Exception /*e=e17*/
                                                                     str15 = str25;
                                                                     str35 = str20;
                                                                     SpiderDebug.log(e);
                                                                 }
-                                                            } catch (Exception e18) {
-                                                                e = e18;
+                                                            } catch (Exception e18) { Exception /*e=e18*/
                                                                 jSONObject2 = jSONObject2;
                                                             }
-                                                        } catch (Exception e19) {
-                                                            e = e19;
+                                                        } catch (Exception e19) { Exception /*e=e19*/
                                                             str15 = str25;
                                                             str35 = str20;
                                                             str34 = str34;
@@ -717,12 +699,10 @@ public class XYQBiu extends Spider {
                                                             str32 = str15;
                                                             str33 = str16;
                                                         }
-                                                    } catch (Exception e20) {
-                                                        e = e20;
+                                                    } catch (Exception e20) { Exception /*e=e20*/
                                                         str16 = str16;
                                                     }
-                                                } catch (Exception e21) {
-                                                    e = e21;
+                                                } catch (Exception e21) { Exception /*e=e21*/
                                                     str15 = str17;
                                                 }
                                             } else {
@@ -751,14 +731,12 @@ public class XYQBiu extends Spider {
                                                 str35 = str20;
                                                 jSONArray2 = new JSONArray();
                                             }
-                                        } catch (Exception e22) {
-                                            e = e22;
+                                        } catch (Exception e22) { Exception /*e=e22*/
                                             str16 = str16;
                                             str15 = str17;
                                             str20 = str35;
                                         }
-                                    } catch (Exception e23) {
-                                        e = e23;
+                                    } catch (Exception e23) { Exception /*e=e23*/
                                         str19 = str18;
                                     }
                                 } else {
@@ -844,8 +822,7 @@ public class XYQBiu extends Spider {
                                         jSONArray2 = new JSONArray();
                                     }
                                 }
-                            } catch (Exception e24) {
-                                e = e24;
+                            } catch (Exception e24) { Exception /*e=e24*/
                                 arrayList = arrayList;
                                 str34 = str34;
                                 str16 = str16;
@@ -855,13 +832,11 @@ public class XYQBiu extends Spider {
                                 str35 = str35;
                                 str31 = str18;
                             }
-                        } catch (Exception e25) {
-                            e = e25;
+                        } catch (Exception e25) { Exception /*e=e25*/
                             str17 = str32;
                         }
                     }
-                } catch (Exception e26) {
-                    e = e26;
+                } catch (Exception e26) { Exception /*e=e26*/
                     str15 = str32;
                     str16 = str33;
                     jSONObject2 = jSONObject2;
@@ -1029,8 +1004,7 @@ public class XYQBiu extends Spider {
                                     str8 = str5;
                                     str9 = str4;
                                 }
-                            } catch (Exception e2) {
-                                e = e2;
+                            } catch (Exception e2) { Exception /*e=e2*/
                                 i = i2;
                             }
                         } else {
@@ -1063,8 +1037,7 @@ public class XYQBiu extends Spider {
                                     str5 = str8;
                                     map2.put("searchword", str5);
                                     strM736q = m737r(AbstractC0716wh.m1787g(str, "/search.php?scheckAC=check&page=&searchtype=&order=&tid=&area=&year=&letter=&yuyan=&state=&money=&ver=&jq="), map2, this.f340e, mapM740u);
-                                } catch (Exception e3) {
-                                    e = e3;
+                                } catch (Exception e3) { Exception /*e=e3*/
                                     str5 = str8;
                                     SpiderDebug.log(e);
                                     i2 = i + 1;
@@ -1093,8 +1066,7 @@ public class XYQBiu extends Spider {
                                         if (!str6.contains("输入正确的验证码") && !checkveriry(str6)) {
                                             return str6;
                                         }
-                                    } catch (Exception e4) {
-                                        e = e4;
+                                    } catch (Exception e4) { Exception /*e=e4*/
                                         str4 = str6;
                                         SpiderDebug.log(e);
                                     }
@@ -1168,8 +1140,7 @@ public class XYQBiu extends Spider {
                             str6 = str4;
                         }
                         str4 = str6;
-                    } catch (Exception e5) {
-                        e = e5;
+                    } catch (Exception e5) { Exception /*e=e5*/
                     }
                     String strEncodeToString2 = Base64.encodeToString(((Response) c00651.getResult()).body().bytes(), 2);
                     HashMap map3 = new HashMap();
@@ -1193,12 +1164,10 @@ public class XYQBiu extends Spider {
                         str5 = str8;
                         strM736q = m736q(AbstractC0716wh.m1787g(str, "/inc/ajax.php?ac=code_check&type=" + str2 + "&code=" + strM734o), this.f340e, mapM740u);
                     }
-                } catch (Exception e6) {
-                    e = e6;
+                } catch (Exception e6) { Exception /*e=e6*/
                     str7 = str7;
                 }
-            } catch (Exception e7) {
-                e = e7;
+            } catch (Exception e7) { Exception /*e=e7*/
                 i = i2;
                 str4 = str9;
             }
@@ -1468,8 +1437,7 @@ public class XYQBiu extends Spider {
                                                     }
                                                     arrayList5 = arrayList;
                                                     arrayList5.add(strM732ab);
-                                                } catch (Exception e2) {
-                                                    e = e2;
+                                                } catch (Exception e2) { Exception /*e=e2*/
                                                     arrayList5 = arrayList;
                                                 }
                                                 i5++;
@@ -1522,13 +1490,10 @@ public class XYQBiu extends Spider {
                                                 str9 = str6;
                                                 try {
                                                     strReplaceAll = ((String) AbstractC0716wh.m1797q(str9, m742w("proj_actor", "").split(str8)[0], m742w("proj_actor", "").split(str8)[1]).get(0)).replaceAll("\\&nbsp;", " ").replaceAll("\\&[a-zA-Z]{1,10};", "").replaceAll("<[^>]*>", "").replaceAll("\\s{2,}", "");
-                                                } catch (Exception e3) {
-                                                    e = e3;
-                                                    SpiderDebug.log(e);
+                                                } catch (Exception e3) { Exception SpiderDebug.log(e3);
                                                     strReplaceAll = "";
                                                 }
-                                            } catch (Exception e4) {
-                                                e = e4;
+                                            } catch (Exception e4) { Exception /*e=e4*/
                                                 str9 = str6;
                                                 SpiderDebug.log(e);
                                                 strReplaceAll = "";
@@ -1563,8 +1528,7 @@ public class XYQBiu extends Spider {
                                                 jSONObject2.put("list", jSONArray);
                                                 return jSONObject2.toString();
                                             }
-                                        } catch (Exception e6) {
-                                            e = e6;
+                                        } catch (Exception e6) { Exception /*e=e6*/
                                             str8 = str7;
                                         }
                                         if (m742w("proj_plot", "").isEmpty()) {
@@ -2405,13 +2369,10 @@ public class XYQBiu extends Spider {
                                         if (zEquals2) {
                                             try {
                                                 strM739t2 = m739t(strM739t2, strReplaceAll4);
-                                            } catch (Exception e2) {
-                                                e = e2;
-                                                SpiderDebug.log(e);
+                                            } catch (Exception e2) { Exception SpiderDebug.log(e2);
                                             }
                                         }
-                                    } catch (Exception e3) {
-                                        e = e3;
+                                    } catch (Exception e3) { Exception /*e=e3*/
                                         str16 = str10;
                                         strM739t2 = str9;
                                         SpiderDebug.log(e);
@@ -2433,8 +2394,7 @@ public class XYQBiu extends Spider {
                                         str24 = str210;
                                         str8 = strTrim;
                                     }
-                                } catch (Exception e4) {
-                                    e = e4;
+                                } catch (Exception e4) { Exception /*e=e4*/
                                 }
                             }
                             try {
@@ -2460,9 +2420,7 @@ public class XYQBiu extends Spider {
                                 jSONArray3 = jSONArray7;
                                 str24 = str211;
                                 str8 = strTrim;
-                            } catch (Exception e6) {
-                                e = e6;
-                                SpiderDebug.log(e);
+                            } catch (Exception e6) { Exception SpiderDebug.log(e6);
                                 jSONArray2 = jSONArray;
                                 jSONObject2.put("page", str26);
                                 jSONObject2.put("pagecount", Integer.MAX_VALUE);
@@ -2474,8 +2432,7 @@ public class XYQBiu extends Spider {
                                 }
                                 return jSONObject2;
                             }
-                        } catch (Exception e7) {
-                            e = e7;
+                        } catch (Exception e7) { Exception /*e=e7*/
                             jSONArray = jSONArray6;
                             SpiderDebug.log(e);
                             jSONArray2 = jSONArray;
@@ -2580,8 +2537,7 @@ public class XYQBiu extends Spider {
                                             str4 = str23;
                                             try {
                                                 strM1787g = AbstractC0716wh.m1787g(strReplaceAll4, (String) AbstractC0716wh.m1797q(str36, m742w(str40, "").split(str39)[0], m742w(str40, "").split(str39)[1]).get(0));
-                                            } catch (Exception e8) {
-                                                e = e8;
+                                            } catch (Exception e8) { Exception /*e=e8*/
                                                 strM739t = str37;
                                                 SpiderDebug.log(e);
                                                 boolean z2 = zEquals2;
@@ -2604,15 +2560,11 @@ public class XYQBiu extends Spider {
                                                         try {
                                                             try {
                                                                 strM732ab = m732ab((String) AbstractC0716wh.m1797q(str36, m741v(str5).split(str39)[0], m741v(str5).split(str39)[1]).get(0));
-                                                            } catch (Exception e9) {
-                                                                e = e9;
-                                                                SpiderDebug.log(e);
+                                                            } catch (Exception e9) { Exception SpiderDebug.log(e9);
                                                             }
-                                                        } catch (Exception e10) {
-                                                            e = e10;
+                                                        } catch (Exception e10) { Exception /*e=e10*/
                                                         }
-                                                    } catch (Exception e11) {
-                                                        e = e11;
+                                                    } catch (Exception e11) { Exception /*e=e11*/
                                                         str6 = str25;
                                                     }
                                                 }
@@ -2646,13 +2598,10 @@ public class XYQBiu extends Spider {
                                         if (zEquals2) {
                                             try {
                                                 strM739t = m739t(strM739t, strReplaceAll4);
-                                            } catch (Exception e12) {
-                                                e = e12;
-                                                SpiderDebug.log(e);
+                                            } catch (Exception e12) { Exception SpiderDebug.log(e12);
                                             }
                                         }
-                                    } catch (Exception e13) {
-                                        e = e13;
+                                    } catch (Exception e13) { Exception /*e=e13*/
                                         str4 = str23;
                                         strM739t = str37;
                                         SpiderDebug.log(e);
@@ -2699,8 +2648,7 @@ public class XYQBiu extends Spider {
                                         str35 = strM739t;
                                         str23 = str412;
                                     }
-                                } catch (Exception e14) {
-                                    e = e14;
+                                } catch (Exception e14) { Exception /*e=e14*/
                                 }
                             }
                             boolean z4 = zEquals2;
@@ -3107,7 +3055,7 @@ public class XYQBiu extends Spider {
                 String strM1787g = AbstractC0716wh.m1787g(str, sb.toString());
                 HashMap map = new HashMap();
                 AbstractC0771yi.m1890l(strM1787g, mapM740u, map);
-                for (Map.Entry entry : map.entrySet()) {
+                for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
                     if (((String) entry.getKey()).equalsIgnoreCase("set-cookie")) {
                         this.f339d = TextUtils.join(";", (Iterable) entry.getValue());
                         break;
@@ -3147,7 +3095,7 @@ public class XYQBiu extends Spider {
                 String string = sb.toString();
                 HashMap map = new HashMap();
                 String strM1890l = AbstractC0771yi.m1890l(string, mapM740u, map);
-                for (Map.Entry entry : map.entrySet()) {
+                for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
                     if (((String) entry.getKey()).equalsIgnoreCase("set-cookie")) {
                         this.f339d = TextUtils.join(";", (Iterable) entry.getValue());
                         break;

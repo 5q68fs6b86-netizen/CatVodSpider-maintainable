@@ -103,14 +103,14 @@ public final class C0615so implements InterfaceC0578re, InterfaceC0614sn {
             sb.append("CompanionObject");
             map3.put(sb.toString(), str.concat(".Companion"));
         }
-        for (Map.Entry entry : f1498a.entrySet()) {
+        for (Object __en : f1498a.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             Class cls = (Class) entry.getKey();
             int iIntValue = ((Number) entry.getValue()).intValue();
             map3.put(cls.getName(), "kotlin.Function" + iIntValue);
         }
         f1499b = map3;
         LinkedHashMap linkedHashMap = new LinkedHashMap(AbstractC0711wc.m1767b(map3.size()));
-        for (Map.Entry entry2 : map3.entrySet()) {
+        for (Object __en : map3.entrySet()) { Map.Entry entry2 = (Map.Entry) __en;
             linkedHashMap.put(entry2.getKey(), AbstractC0198dc.m1113u((String) entry2.getValue()));
         }
         f1500c = linkedHashMap;

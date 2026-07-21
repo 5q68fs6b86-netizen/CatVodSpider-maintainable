@@ -376,13 +376,11 @@ public final class C1722J {
                     if (!TextUtils.isEmpty(strOptString)) {
                         break;
                     }
-                } catch (Exception e2) {
-                    e = e2;
+                } catch (Exception e2) { Exception /*e=e2*/
                     C1751v.m4143c(new byte[]{-52, 2, 98, -1, 37, 38, 36}, new byte[]{-88, 103, 14, -102, 81, 67, 30, -78}, new StringBuilder(), e);
                     return true;
                 }
-            } catch (Exception e3) {
-                e = e3;
+            } catch (Exception e3) { Exception /*e=e3*/
                 C1751v.m4143c(new byte[]{-52, 2, 98, -1, 37, 38, 36}, new byte[]{-88, 103, 14, -102, 81, 67, 30, -78}, new StringBuilder(), e);
                 return true;
             }

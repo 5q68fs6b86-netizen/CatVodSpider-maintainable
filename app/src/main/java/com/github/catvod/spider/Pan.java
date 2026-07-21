@@ -93,4 +93,18 @@ public class Pan extends Spider {
     public static final java.util.regex.Pattern f233e = PAN123;
     public static final java.util.regex.Pattern f234f = BAIDU;
     public static final java.util.regex.Pattern f235g = XUNLEI;
+
+    public static String detailContentVodPlayFrom(java.util.List<?> list) {
+        if (list == null || list.isEmpty()) return "";
+        java.util.ArrayList<String> names = new java.util.ArrayList<>();
+        for (int i = 0; i < list.size(); i++) names.add(String.valueOf(list.get(i)));
+        return android.text.TextUtils.join("$$$", names);
+    }
+
+    public static String detailContentVodPlayUrl(java.util.List<?> list) {
+        if (list == null || list.isEmpty()) return "";
+        java.util.ArrayList<String> urls = new java.util.ArrayList<>();
+        for (int i = 0; i < list.size(); i++) urls.add(String.valueOf(list.get(i)));
+        return android.text.TextUtils.join("$$$", urls);
+    }
 }

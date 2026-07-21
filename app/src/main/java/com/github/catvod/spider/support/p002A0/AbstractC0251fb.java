@@ -57,7 +57,7 @@ public abstract /* synthetic */ class AbstractC0251fb {
 
     /* JADX INFO: renamed from: g */
     public static Param m1211g(IFile iFile, Map map) {
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             String str = (String) entry.getKey();
             Object value = entry.getValue();
             if (value instanceof String) {

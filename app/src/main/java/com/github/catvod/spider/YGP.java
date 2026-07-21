@@ -270,8 +270,7 @@ public class YGP extends Spider {
             }
             jSONObject.put("list", jSONArray2);
             return jSONObject.toString();
-        } catch (Exception e2) {
-            Exception e = e2;
+        } catch (Exception e2) { Exception /*e=e2*/
         }
     }
 

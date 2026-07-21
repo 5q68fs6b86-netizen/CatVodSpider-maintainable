@@ -260,7 +260,7 @@ public final class C2138b {
                     try {
                         c2141e.close();
                     } catch (IOException e3) {
-                        e = e3;
+                        /*e=e3*/
                     }
                     if (e != null) {
                         throw e;

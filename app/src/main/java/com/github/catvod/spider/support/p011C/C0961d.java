@@ -694,7 +694,7 @@ public final class C0961d implements Serializable {
         Locale localeM6434a = C2420c.m6434a(locale);
         Map<String, Integer> displayNames = calendar.getDisplayNames(i2, 0, localeM6434a);
         TreeSet treeSet = new TreeSet(f2263h);
-        for (Map.Entry<String, Integer> entry : displayNames.entrySet()) {
+        for (Object __en : displayNames.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             String lowerCase = entry.getKey().toLowerCase(localeM6434a);
             if (treeSet.add(lowerCase)) {
                 map.put(lowerCase, entry.getValue());
@@ -841,3 +841,5 @@ public final class C0961d implements Serializable {
         return sbM5396a.toString();
     }
 }
+}
+

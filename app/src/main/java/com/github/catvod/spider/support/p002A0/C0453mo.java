@@ -30,7 +30,7 @@ public final class C0453mo extends AbstractC0457ms {
         Locale localeM1018a = AbstractC0134at.m1018a(locale);
         Map<String, Integer> displayNames = calendar.getDisplayNames(i, 0, localeM1018a);
         TreeSet treeSet = new TreeSet(abe.f477b);
-        for (Map.Entry<String, Integer> entry : displayNames.entrySet()) {
+        for (Object __en : displayNames.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             String lowerCase = entry.getKey().toLowerCase(localeM1018a);
             if (treeSet.add(lowerCase)) {
                 map.put(lowerCase, entry.getValue());

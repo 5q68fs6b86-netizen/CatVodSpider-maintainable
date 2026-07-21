@@ -30,7 +30,7 @@ public abstract class AbstractC0584rk {
                     throw new C0765yc(e);
                 }
             } catch (EOFException e2) {
-                e = e2;
+                /*e=e2*/
                 z = true;
             }
         } catch (C0657uc e3) {

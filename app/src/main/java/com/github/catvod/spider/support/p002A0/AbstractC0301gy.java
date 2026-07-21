@@ -9,7 +9,7 @@ import rxhttp.wrapper.param.Param;
 public abstract /* synthetic */ class AbstractC0301gy {
     /* JADX INFO: renamed from: a */
     public static Param m1263a(IParam iParam, Map map) {
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             iParam.add((String) entry.getKey(), entry.getValue());
         }
         return (Param) iParam;
@@ -17,7 +17,7 @@ public abstract /* synthetic */ class AbstractC0301gy {
 
     /* JADX INFO: renamed from: b */
     public static Param m1264b(IParam iParam, Map map) {
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             iParam.addEncodedQuery((String) entry.getKey(), entry.getValue());
         }
         return (Param) iParam;
@@ -25,7 +25,7 @@ public abstract /* synthetic */ class AbstractC0301gy {
 
     /* JADX INFO: renamed from: c */
     public static Param m1265c(IParam iParam, Map map) {
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             iParam.addQuery((String) entry.getKey(), entry.getValue());
         }
         return (Param) iParam;
@@ -33,7 +33,7 @@ public abstract /* synthetic */ class AbstractC0301gy {
 
     /* JADX INFO: renamed from: d */
     public static Param m1266d(IParam iParam, Map map) {
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             iParam.setEncodedQuery((String) entry.getKey(), entry.getValue());
         }
         return (Param) iParam;
@@ -41,7 +41,7 @@ public abstract /* synthetic */ class AbstractC0301gy {
 
     /* JADX INFO: renamed from: e */
     public static Param m1267e(IParam iParam, Map map) {
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             iParam.setQuery((String) entry.getKey(), entry.getValue());
         }
         return (Param) iParam;

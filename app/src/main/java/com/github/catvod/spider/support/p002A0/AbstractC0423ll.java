@@ -10,7 +10,7 @@ import rxhttp.wrapper.param.Param;
 public abstract /* synthetic */ class AbstractC0423ll {
     /* JADX INFO: renamed from: a */
     public static Param m1386a(IHeaders iHeaders, Map map) {
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             iHeaders.addHeader((String) entry.getKey(), (String) entry.getValue());
         }
         return (Param) iHeaders;
@@ -53,7 +53,7 @@ public abstract /* synthetic */ class AbstractC0423ll {
 
     /* JADX INFO: renamed from: h */
     public static Param m1393h(IHeaders iHeaders, Map map) {
-        for (Map.Entry entry : map.entrySet()) {
+        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
             iHeaders.setHeader((String) entry.getKey(), (String) entry.getValue());
         }
         return (Param) iHeaders;

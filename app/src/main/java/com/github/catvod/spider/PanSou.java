@@ -55,7 +55,7 @@ public class PanSou extends Pan {
             JsonObject merged = JsonParser.parseString(PanSearchSupport.get(url)).getAsJsonObject()
                     .getAsJsonObject("data").getAsJsonObject("merged_by_type");
             JsonArray folders = new JsonArray();
-            for (Map.Entry<String, JsonElement> e : merged.entrySet()) {
+            for (Object __en : merged.entrySet()) { Map.Entry e = (Map.Entry) __en;
                 synchronized (CACHE) {
                     CACHE.put(e.getKey() + "_json", e.getValue());
                 }

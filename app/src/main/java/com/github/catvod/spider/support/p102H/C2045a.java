@@ -159,7 +159,7 @@ public final class C2045a {
         if (str != null) {
             if (i2 != str.length()) {
                 z = false;
-                break;
+                /*break*/;
             }
             int i6 = i;
             int i7 = i2;
@@ -241,7 +241,7 @@ public final class C2045a {
             }
         } else {
             z = false;
-            break;
+            /*break*/;
         }
         if (!z) {
             return false;
@@ -270,7 +270,7 @@ public final class C2045a {
             }
         } else {
             z = false;
-            break;
+            /*break*/;
         }
         if (!z) {
             return false;

@@ -22,7 +22,8 @@ import okhttp3.Response;
  */
 public class Wallpaper extends Spider {
 
-    public static Object[] proxy(Map<String, String> params) {
+    @Override
+    public Object[] proxy(Map<String, String> params) {
         boolean landscape = false;
         try {
             Application app = Init.context();

@@ -58,7 +58,7 @@ public final class C0107t {
                 throw th;
             }
         } catch (IOException e) {
-            SpiderDebug.log(e);
+            SpiderDebug.log("error");
             return new C0108u();
         }
     }

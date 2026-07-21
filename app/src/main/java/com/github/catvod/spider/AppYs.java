@@ -513,13 +513,10 @@ public class AppYs extends Spider {
                 jSONObject5.put("total", Integer.MAX_VALUE);
                 jSONObject5.put("list", jSONArray2);
                 return jSONObject5.toString();
-            } catch (Exception e2) {
-                e = e2;
-                SpiderDebug.log(e);
+            } catch (Exception e2) { Exception SpiderDebug.log(e2);
                 return str3;
             }
-        } catch (Exception e3) {
-            e = e3;
+        } catch (Exception e3) { Exception /*e=e3*/
             str3 = "";
         }
     }
@@ -757,8 +754,7 @@ public class AppYs extends Spider {
             str = str14;
             jSONObject3.put("class", jSONArray3);
             return jSONObject3.toString();
-        } catch (Exception e2) {
-            e = e2;
+        } catch (Exception e2) { Exception /*e=e2*/
             str = str14;
         }
     }
@@ -1037,8 +1033,7 @@ public class AppYs extends Spider {
                                         jSONArray3 = jSONArray;
                                         length = i;
                                         arrayList13 = arrayList3;
-                                    } catch (Exception e2) {
-                                        e = e2;
+                                    } catch (Exception e2) { Exception /*e=e2*/
                                         arrayList3 = arrayList13;
                                         map4 = map4;
                                         SpiderDebug.log(e);
@@ -1109,8 +1104,7 @@ public class AppYs extends Spider {
                                                             sb.append(matcher3.group(0));
                                                             sb.append(matcher4.group(0).replace("..", "."));
                                                             string = sb.toString();
-                                                        } catch (Exception e3) {
-                                                            e = e3;
+                                                        } catch (Exception e3) { Exception /*e=e3*/
                                                             map4 = map4;
                                                             SpiderDebug.log(e);
                                                             i3++;
@@ -1122,24 +1116,19 @@ public class AppYs extends Spider {
                                                             jSONArray3 = jSONArray;
                                                         }
                                                     }
-                                                } catch (Exception e4) {
-                                                    e = e4;
+                                                } catch (Exception e4) { Exception /*e=e4*/
                                                 }
                                             }
                                             map4.put(strM445s2, string);
                                         }
                                         map4.put(strM445s2, string);
-                                    } catch (Exception e5) {
-                                        e = e5;
-                                        SpiderDebug.log(e);
+                                    } catch (Exception e5) { Exception SpiderDebug.log(e5);
                                     }
                                 }
-                            } catch (Exception e6) {
-                                e = e6;
+                            } catch (Exception e6) { Exception /*e=e6*/
                                 jSONArray = jSONArray3;
                             }
-                        } catch (Exception e7) {
-                            e = e7;
+                        } catch (Exception e7) { Exception /*e=e7*/
                             jSONArray = jSONArray3;
                             arrayList3 = arrayList13;
                             str3 = str4;
@@ -1322,4 +1311,3 @@ public class AppYs extends Spider {
         }
         return "";
     }
-}

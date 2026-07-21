@@ -165,6 +165,8 @@ public class Vod {
     }
 
     public static class Style {
+        public Style() {}
+
 
         @SerializedName("type")
         private String type;

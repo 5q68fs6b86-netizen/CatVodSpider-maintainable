@@ -87,8 +87,7 @@ public final class C0100m {
                 jSONObjectOptJSONObject.put("device_id", str2);
                 C0101n.m865u("uc_token.txt", jSONObjectOptJSONObject.toString());
             }
-        } catch (Exception e2) {
-            e = e2;
+        } catch (Exception e2) { Exception /*e=e2*/
         }
     }
 
@@ -344,8 +343,7 @@ public final class C0100m {
                 e = e;
                 SpiderDebug.log("getQRCode e: " + e);
             }
-        } catch (Exception e2) {
-            e = e2;
+        } catch (Exception e2) { Exception /*e=e2*/
         }
     }
 

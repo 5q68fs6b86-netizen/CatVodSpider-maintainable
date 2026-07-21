@@ -79,11 +79,11 @@ final class C2141e implements Closeable {
                 m5409a(this.f5018e);
                 throw e;
             } catch (Error e2) {
-                e = e2;
+                /*e=e2*/
                 m5409a(this.f5018e);
                 throw e;
             } catch (RuntimeException e3) {
-                e = e3;
+                /*e=e3*/
                 m5409a(this.f5018e);
                 throw e;
             }

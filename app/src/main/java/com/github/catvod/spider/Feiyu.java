@@ -26,6 +26,8 @@ import org.json.JSONObject;
 
 /* JADX INFO: loaded from: classes.dex */
 public class Feiyu extends Spider {
+    private static String f377a = "";
+
 
     /* JADX INFO: renamed from: a */
     private String f169a = "";
@@ -93,7 +95,7 @@ public class Feiyu extends Spider {
             } else {
                 ArrayList arrayList = new ArrayList();
                 ArrayList arrayList2 = new ArrayList();
-                for (Map.Entry entry : map.entrySet()) {
+                for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
                     String str4 = (String) entry.getValue();
                     String strEncode = URLEncoder.encode(str4, "UTF-8");
                     StringBuilder sb2 = new StringBuilder();

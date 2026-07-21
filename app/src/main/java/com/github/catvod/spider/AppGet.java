@@ -289,12 +289,10 @@ public class AppGet extends Spider {
             try {
                 c2194e.m5851m(TextUtils.join(str6, arrayList2));
                 c2194e.m5852n(TextUtils.join(str6, arrayList6));
-            } catch (Exception e2) {
-                e = e2;
+            } catch (Exception e2) { Exception /*e=e2*/
                 e.printStackTrace();
             }
-        } catch (Exception e3) {
-            e = e3;
+        } catch (Exception e3) { Exception /*e=e3*/
             c2194e = c2194e3;
         }
         String strM5795m2 = Result.string(c2194e);
@@ -511,3 +509,5 @@ public class AppGet extends Spider {
         return Result.string(arrayList);
     }
 }
+}
+

@@ -168,7 +168,7 @@ public abstract class AbstractC0204di {
             parseException.initCause(e);
             throw parseException;
         } catch (IndexOutOfBoundsException e2) {
-            e = e2;
+            /*e=e2*/
             if (str == null) {
                 str2 = null;
             } else {

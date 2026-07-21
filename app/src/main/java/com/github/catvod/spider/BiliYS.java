@@ -109,7 +109,8 @@ public class BiliYS extends Spider {
         return map;
     }
 
-    public static Object[] proxy(Map<String, String> map) {
+    @Override
+    public Object[] proxy(Map<String, String> map) {
         String str = map.get("aid");
         String str2 = map.get("cid");
         String str3 = map.get("qn");

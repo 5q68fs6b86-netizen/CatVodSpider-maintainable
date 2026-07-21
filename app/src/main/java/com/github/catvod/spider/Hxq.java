@@ -523,7 +523,8 @@ public class Hxq extends Spider {
         return sb.toString();
     }
 
-    public static Object[] proxy(Map<String, String> map) {
+    @Override
+    public Object[] proxy(Map<String, String> map) {
         int i;
         String[] strArr;
         int i2;
@@ -1210,8 +1211,7 @@ public class Hxq extends Spider {
                     length = i5;
                     strArr2 = strArr7;
                 }
-            } catch (Exception e2) {
-                e = e2;
+            } catch (Exception e2) { Exception /*e=e2*/
                 strArr = strArr4;
             }
             arrayList = new ArrayList();
