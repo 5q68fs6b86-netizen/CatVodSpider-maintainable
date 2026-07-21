@@ -1,7 +1,6 @@
 package com.github.catvod.spider;
 
 import android.content.Context;
-import android.net.Uri;
 import android.text.TextUtils;
 
 import com.github.catvod.bean.Class;
@@ -17,8 +16,10 @@ import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.net.OkHttp;
 import com.github.catvod.utils.Util;
 
-import org.json.JSONException;
 import org.json.JSONObject;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -27,7 +28,6 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -36,8 +36,8 @@ import java.util.concurrent.TimeUnit;
 
 public class AList extends Spider {
 
-    private ExecutorService executor;
     private List<Drive> drives;
+    private String vodPic;
     private String ext;
 
     private List<Filter> getFilter() {
@@ -50,7 +50,9 @@ public class AList extends Spider {
     private void fetchRule() {
         if (drives != null && !drives.isEmpty()) return;
         if (ext.startsWith("http")) ext = OkHttp.string(ext);
-        drives = Drive.arrayFrom(ext);
+        Drive drive = Drive.objectFrom(ext);
+        drives = drive.getDrives();
+        vodPic = drive.getVodPic();
     }
 
     private Drive getDrive(String name) {
@@ -70,13 +72,16 @@ public class AList extends Spider {
 
     @Override
     public void init(Context context, String extend) {
-        executor = Executors.newCachedThreadPool();
-        ext = extend;
-        fetchRule();
+        try {
+            ext = extend;
+            fetchRule();
+        } catch (Exception ignored) {
+        }
     }
 
     @Override
-    public String homeContent(boolean filter) {
+    public String homeContent(boolean filter) throws Exception {
+        fetchRule();
         List<Class> classes = new ArrayList<>();
         LinkedHashMap<String, List<Filter>> filters = new LinkedHashMap<>();
         for (Drive drive : drives) if (!drive.hidden()) classes.add(drive.toType());
@@ -85,7 +90,8 @@ public class AList extends Spider {
     }
 
     @Override
-    public String categoryContent(String tid, String pg, boolean filter, HashMap<String, String> extend) {
+    public String categoryContent(String tid, String pg, boolean filter, HashMap<String, String> extend) throws Exception {
+        fetchRule();
         String type = extend.containsKey("type") ? extend.get("type") : "";
         String order = extend.containsKey("order") ? extend.get("order") : "";
         List<Item> folders = new ArrayList<>();
@@ -101,43 +107,38 @@ public class AList extends Spider {
             Sorter.sort(type, order, files);
         }
 
-        for (Item item : folders) list.add(item.getVod(tid));
-        for (Item item : files) list.add(item.getVod(tid));
+        for (Item item : folders) list.add(item.getVod(tid, vodPic));
+        for (Item item : files) list.add(item.getVod(tid, vodPic));
         return Result.get().vod(list).page().string();
     }
 
     @Override
-    public String detailContent(List<String> ids) {
+    public String detailContent(List<String> ids) throws Exception {
+        fetchRule();
         String id = ids.get(0);
         String key = id.contains("/") ? id.substring(0, id.indexOf("/")) : id;
         String path = id.substring(0, id.lastIndexOf("/"));
         String name = path.substring(path.lastIndexOf("/") + 1);
         Drive drive = getDrive(key);
+        List<Item> parents = getList(path, false);
+        Sorter.sort("name", "asc", parents);
         Vod vod = new Vod();
         vod.setVodPlayFrom(key);
         vod.setVodId(id);
         vod.setVodName(name);
+        vod.setVodPic(vodPic);
         List<String> playUrls = new ArrayList<>();
-        List<Item> parents = getList(path, false);
-        for (Item item : parents) if (item.isMedia(drive.isNew())) playUrls.add(item.getName() + "$" + encodeVodId(item.getVodId(path) + findSubs(path, parents)));
+        for (Item item : parents) if (item.isMedia(drive.isNew())) playUrls.add(item.getName() + "$" + item.getVodId(path) + findSubs(path, parents));
         vod.setVodPlayUrl(TextUtils.join("#", playUrls));
         return Result.string(vod);
     }
 
-    private String encodeVodId(String vodId) {
-        if (vodId.contains("#")) return vodId.replace("#", "***");
-        return vodId;
-    }
-
-    private String decodeVodId(String vodId) {
-        if (vodId.contains("***")) return vodId.replace("***", "#");
-        return vodId;
-    }
-
     @Override
     public String searchContent(String keyword, boolean quick) throws Exception {
+        fetchRule();
         List<Vod> list = new ArrayList<>();
         List<Job> jobs = new ArrayList<>();
+        ExecutorService executor = Executors.newCachedThreadPool();
         for (Drive drive : drives) if (drive.search()) jobs.add(new Job(drive.check(), keyword));
         for (Future<List<Vod>> future : executor.invokeAll(jobs, 15, TimeUnit.SECONDS)) list.addAll(future.get());
         return Result.string(list);
@@ -145,26 +146,8 @@ public class AList extends Spider {
 
     @Override
     public String playerContent(String flag, String id, List<String> vipFlags) {
-        String[] ids = decodeVodId(id).split("~~~");
-        String url = getDetail(ids[0]).getUrl();
-        return Result.get().url(url).header(getPlayHeader(url)).subs(getSubs(ids)).string();
-    }
-
-    @Override
-    public void destroy() {
-        executor.shutdownNow();
-    }
-
-    private static Map<String, String> getPlayHeader(String url) {
-        try {
-            Uri uri = Uri.parse(url);
-            Map<String, String> header = new HashMap<>();
-            if (uri.getHost().contains("115")) header.put("User-Agent", Util.CHROME);
-            if (uri.getHost().contains("baidupcs.com")) header.put("User-Agent", "pan.baidu.com");
-            return header;
-        } catch (Exception e) {
-            return new HashMap<>();
-        }
+        String[] ids = id.split("~~~");
+        return Result.get().url(getDetail(ids[0]).getUrl()).subs(getSub(ids)).string();
     }
 
     private boolean login(Drive drive) {
@@ -216,7 +199,7 @@ public class AList extends Spider {
         }
     }
 
-    private String getListJson(boolean isNew, String response) throws JSONException {
+    private String getListJson(boolean isNew, String response) throws Exception {
         if (isNew) {
             return new JSONObject(response).getJSONObject("data").getJSONArray("content").toString();
         } else {
@@ -224,7 +207,7 @@ public class AList extends Spider {
         }
     }
 
-    private String getDetailJson(boolean isNew, String response) throws JSONException {
+    private String getDetailJson(boolean isNew, String response) throws Exception {
         if (isNew) {
             return new JSONObject(response).getJSONObject("data").toString();
         } else {
@@ -232,7 +215,7 @@ public class AList extends Spider {
         }
     }
 
-    private String getSearchJson(boolean isNew, String response) throws JSONException {
+    private String getSearchJson(boolean isNew, String response) throws Exception {
         if (isNew) {
             return new JSONObject(response).getJSONObject("data").getJSONArray("content").toString();
         } else {
@@ -242,14 +225,11 @@ public class AList extends Spider {
 
     private String findSubs(String path, List<Item> items) {
         StringBuilder sb = new StringBuilder();
-        for (Item item : items) {
-            String ext = Util.getExt(item.getName());
-            if (Util.isSub(ext)) sb.append("~~~").append(item.getName()).append("@@@").append(ext).append("@@@").append(item.getVodId(path));
-        }
+        for (Item item : items) if (Util.isSub(item.getExt())) sb.append("~~~").append(item.getName()).append("@@@").append(item.getExt()).append("@@@").append(item.getVodId(path));
         return sb.toString();
     }
 
-    private List<Sub> getSubs(String[] ids) {
+    private List<Sub> getSub(String[] ids) {
         List<Sub> sub = new ArrayList<>();
         for (String text : ids) {
             if (!text.contains("@@@")) continue;
@@ -274,11 +254,34 @@ public class AList extends Spider {
 
         @Override
         public List<Vod> call() {
+            List<Vod> alist = alist();
+            return alist.size() > 0 ? alist : xiaoya();
+        }
+
+        private List<Vod> xiaoya() {
+            List<Vod> list = new ArrayList<>();
+            Document doc = Jsoup.parse(OkHttp.string(drive.searchApi(keyword)));
+            for (Element a : doc.select("ul > a")) {
+                String[] splits = a.text().split("#");
+                if (!splits[0].contains("/")) continue;
+                int index = splits[0].lastIndexOf("/");
+                boolean file = Util.isMedia(splits[0]);
+                Item item = new Item();
+                item.setType(file ? 0 : 1);
+                item.setThumb(splits.length > 3 ? splits[4] : "");
+                item.setPath("/" + splits[0].substring(0, index));
+                item.setName(splits[0].substring(index + 1));
+                list.add(item.getVod(drive, vodPic));
+            }
+            return list;
+        }
+
+        private List<Vod> alist() {
             try {
                 List<Vod> list = new ArrayList<>();
                 String response = post(drive, drive.searchApi(), drive.params(keyword));
                 List<Item> items = Item.arrayFrom(getSearchJson(drive.isNew(), response));
-                for (Item item : items) if (!item.ignore(drive.isNew())) list.add(item.getVod(drive));
+                for (Item item : items) if (!item.ignore(drive.isNew())) list.add(item.getVod(drive, vodPic));
                 return list;
             } catch (Exception e) {
                 return Collections.emptyList();
