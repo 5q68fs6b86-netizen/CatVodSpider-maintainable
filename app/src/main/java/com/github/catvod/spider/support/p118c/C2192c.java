@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p118c;
+
 import com.github.catvod.bean.Vod;
-import Vod;
 
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
