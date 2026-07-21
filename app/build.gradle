@@ -81,6 +81,7 @@ android {
                 exclude 'com/github/catvod/spider/UCPan.java'
                 exclude 'com/github/catvod/spider/ShuangXing.java'
                 exclude 'com/github/catvod/spider/Kuwo.java'
+                exclude 'com/github/catvod/spider/AppMH.java'
                 exclude 'com/github/catvod/spider/XBPQPlay.java'
                 exclude 'com/github/catvod/spider/XYQHiker.java'
                 exclude 'com/github/catvod/spider/XYQBiu.java'

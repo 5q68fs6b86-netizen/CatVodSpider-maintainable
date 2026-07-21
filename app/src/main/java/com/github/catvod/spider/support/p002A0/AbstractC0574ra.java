@@ -1,6 +1,2 @@
 package com.github.catvod.spider.support.p002A0;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ra */
-/* JADX INFO: loaded from: classes.dex */
-public abstract class AbstractC0574ra {
-}
+public class AbstractC0574ra { public AbstractC0574ra(){} public AbstractC0574ra(Object... a){} }

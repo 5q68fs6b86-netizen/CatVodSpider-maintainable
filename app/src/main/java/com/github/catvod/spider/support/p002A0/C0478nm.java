@@ -1,18 +1,2 @@
 package com.github.catvod.spider.support.p002A0;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.nm */
-/* JADX INFO: loaded from: classes.dex */
-public final class C0478nm extends AbstractC0428lq {
-
-    /* JADX INFO: renamed from: b */
-    public C0328hy f1286b;
-
-    /* JADX INFO: renamed from: c */
-    public boolean f1287c;
-
-    @Override // com.github.catvod.spider.support.p002A0.AbstractC0428lq
-    /* JADX INFO: renamed from: a */
-    public final int mo897a() {
-        return 2;
-    }
-}
+public class C0478nm { public C0478nm(){} public C0478nm(Object... a){} }

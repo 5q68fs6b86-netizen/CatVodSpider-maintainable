@@ -1,9 +1,2 @@
 package com.github.catvod.spider.support.p118c;
-public class C2198b {
-    public C2198b() {}
-    public String m5868a() { return ""; }
-    public String m5869b() { return ""; }
-    public String m5884a() { return ""; }
-    public String m5900a() { return ""; }
-    public String toString() { return ""; }
-}
+public class C2198b { public C2198b(){} public C2198b(Object... a){} }

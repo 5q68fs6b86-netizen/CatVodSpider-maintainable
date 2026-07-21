@@ -1,6 +1,2 @@
 package com.github.catvod.spider.support.p002A0;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.au */
-/* JADX INFO: loaded from: classes.dex */
-public abstract class AbstractC0135au extends AbstractC0600s {
-}
+public class AbstractC0135au { public AbstractC0135au(){} public AbstractC0135au(Object... a){} }

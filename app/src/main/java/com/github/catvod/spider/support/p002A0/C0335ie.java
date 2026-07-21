@@ -1,11 +1,2 @@
 package com.github.catvod.spider.support.p002A0;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ie */
-/* JADX INFO: loaded from: classes.dex */
-public final class C0335ie extends AbstractC0428lq {
-    @Override // com.github.catvod.spider.support.p002A0.AbstractC0428lq
-    /* JADX INFO: renamed from: a */
-    public final int mo897a() {
-        return 9;
-    }
-}
+public class C0335ie { public C0335ie(){} public C0335ie(Object... a){} }

@@ -1,9 +1,2 @@
 package com.github.catvod.spider.support.p110P;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p110P.c */
-/* JADX INFO: loaded from: classes.dex */
-public final class C2120c extends RuntimeException {
-    public C2120c(String str) {
-        super(str);
-    }
-}
+public class C2120c { public C2120c(){} public C2120c(Object... a){} }

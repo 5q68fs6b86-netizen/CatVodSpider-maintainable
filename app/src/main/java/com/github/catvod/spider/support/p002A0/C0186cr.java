@@ -1,6 +1,2 @@
 package com.github.catvod.spider.support.p002A0;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.cr */
-/* JADX INFO: loaded from: classes.dex */
-public final class C0186cr extends C0809zt {
-}
+public class C0186cr { public C0186cr(){} public C0186cr(Object... a){} }

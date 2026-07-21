@@ -1,6 +1,2 @@
 package com.github.catvod.spider.support.p002A0;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.fv */
-/* JADX INFO: loaded from: classes.dex */
-public interface InterfaceC0271fv extends InterfaceC0568qv {
-}
+public interface InterfaceC0271fv {}

@@ -1,11 +1,2 @@
 package com.github.catvod.spider.support.p002A0;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.hy */
-/* JADX INFO: loaded from: classes.dex */
-public final class C0328hy extends AbstractC0428lq {
-    @Override // com.github.catvod.spider.support.p002A0.AbstractC0428lq
-    /* JADX INFO: renamed from: a */
-    public final int mo897a() {
-        return 7;
-    }
-}
+public class C0328hy { public C0328hy(){} public C0328hy(Object... a){} }

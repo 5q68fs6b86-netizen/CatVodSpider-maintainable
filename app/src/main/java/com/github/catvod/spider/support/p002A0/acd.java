@@ -1,5 +1,2 @@
 package com.github.catvod.spider.support.p002A0;
-
-/* JADX INFO: loaded from: classes.dex */
-public abstract class acd {
-}
+public class acd { public acd(){} public acd(Object... a){} }

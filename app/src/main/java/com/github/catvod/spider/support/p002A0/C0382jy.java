@@ -1,11 +1,2 @@
 package com.github.catvod.spider.support.p002A0;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jy */
-/* JADX INFO: loaded from: classes.dex */
-public final class C0382jy extends acc {
-    @Override // com.github.catvod.spider.support.p002A0.AbstractC0428lq
-    /* JADX INFO: renamed from: a */
-    public final int mo897a() {
-        return 6;
-    }
-}
+public class C0382jy { public C0382jy(){} public C0382jy(Object... a){} }
