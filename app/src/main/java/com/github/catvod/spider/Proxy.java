@@ -13,11 +13,15 @@ import java.util.Map;
  * 可维护工程约定：各站点的 proxy 能力在此显式分发，禁止再依赖混淆 merge 包。
  */
 public class Proxy {
+    public static Object[] proxy(Map<String, String> params) throws Exception {
+        return new Proxy().doProxy(params);
+    }
+
 
     private static Method method;
     private static int port;
 
-    public Object[] proxy(Map<String, String> params) throws Exception {
+    public Object[] doProxy(Map<String, String> params) throws Exception {
         String action = params.get("do");
         if (action == null) return null;
         if ("ck".equals(action)) {
