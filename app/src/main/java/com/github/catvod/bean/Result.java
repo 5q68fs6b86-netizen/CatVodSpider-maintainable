@@ -249,4 +249,15 @@ public class Result {
     public String toString() {
         return new Gson().newBuilder().disableHtmlEscaping().create().toJson(this);
     }
+
+    public static String string(int page, int pagecount, int limit, Integer total, java.util.List list) {
+        try {
+            return string(list);
+        } catch (Throwable e) {
+            return "{\"list\":[]}";
+        }
+    }
+    public static String string(Integer page, Integer pagecount, Integer limit, Integer total, java.util.List list) {
+        return string(page == null ? 1 : page, pagecount == null ? 1 : pagecount, limit == null ? 20 : limit, total, list);
+    }
 }

@@ -46,4 +46,11 @@ public class Class {
         Class it = (Class) obj;
         return getTypeId().equals(it.getTypeId());
     }
+
+    public static Class m5790a() { return new Class(); }
+    public static Class m5790a(String typeId, String typeName) {
+        Class c = new Class();
+        try { c.setTypeId(typeId); c.setTypeName(typeName); } catch (Throwable ignored) {}
+        return c;
+    }
 }
