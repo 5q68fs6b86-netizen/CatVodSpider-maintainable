@@ -1,4 +1,2 @@
 package com.github.catvod.spider.support.p102H;
-public class o extends EnumC2047c {
-    public o() { super("o", 0); }
-}
+public class o { public o(){} public o(Object... a){} }

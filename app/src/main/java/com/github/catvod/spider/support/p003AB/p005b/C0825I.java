@@ -1,9 +1,2 @@
 package com.github.catvod.spider.support.p003AB.p005b;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.I */
-/* JADX INFO: loaded from: classes.dex */
-final class C0825I {
-
-    /* JADX INFO: renamed from: a */
-    static volatile C0826J f1938a = new C0826J();
-}
+public class C0825I { public C0825I(){} public C0825I(Object... a){} }

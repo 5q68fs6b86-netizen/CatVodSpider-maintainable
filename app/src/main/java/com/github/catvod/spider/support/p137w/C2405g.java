@@ -1,6 +1,2 @@
 package com.github.catvod.spider.support.p137w;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p137w.g */
-/* JADX INFO: loaded from: classes.dex */
-public final class C2405g extends C2404f {
-}
+public class C2405g { public C2405g(){} public C2405g(Object... a){} }
