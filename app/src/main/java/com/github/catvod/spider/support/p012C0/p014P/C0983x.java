@@ -32,7 +32,7 @@ public class C0983x extends C0968C {
     @Override // com.github.catvod.spider.support.p012C0.p014P.C0968C, com.github.catvod.spider.support.p012C0.p018T.InterfaceC1006b
     /* JADX INFO: renamed from: b */
     public final InterfaceC1006b mo2389b(int i) {
-        ?? r0 = this.f2389d;
+        Object r0 = this.f2389d;
         if (r0 == 0 || i < 0 || i >= r0.size()) {
             return null;
         }
@@ -43,7 +43,7 @@ public class C0983x extends C0968C {
     @Override // com.github.catvod.spider.support.p012C0.p014P.C0968C, com.github.catvod.spider.support.p012C0.p018T.InterfaceC1006b
     /* JADX INFO: renamed from: d */
     public final int mo2391d() {
-        ?? r0 = this.f2389d;
+        Object r0 = this.f2389d;
         if (r0 != 0) {
             return r0.size();
         }
@@ -73,7 +73,7 @@ public class C0983x extends C0968C {
     /* JADX INFO: renamed from: k */
     public final C0983x m2451k(Class cls) {
         InterfaceC1006b interfaceC1006b;
-        ?? r0 = this.f2389d;
+        Object r0 = this.f2389d;
         if (r0 == 0 || r0.size() <= 0) {
             interfaceC1006b = null;
         } else {
@@ -90,7 +90,7 @@ public class C0983x extends C0968C {
     /* JADX WARN: Type inference failed for: r1v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.b>] */
     /* JADX INFO: renamed from: l */
     public final <T extends C0983x> List<T> m2452l(Class<? extends T> cls) {
-        ?? r1 = this.f2389d;
+        Object r1 = this.f2389d;
         if (r1 == 0) {
             return Collections.emptyList();
         }
@@ -110,7 +110,7 @@ public class C0983x extends C0968C {
     /* JADX WARN: Type inference failed for: r0v3, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.b>] */
     /* JADX INFO: renamed from: m */
     public final InterfaceC1009f m2453m(int i) {
-        ?? r0 = this.f2389d;
+        Object r0 = this.f2389d;
         if (r0 != 0 && r0.size() > 0) {
             for (InterfaceC1006b interfaceC1006b : this.f2389d) {
                 if (interfaceC1006b instanceof InterfaceC1009f) {

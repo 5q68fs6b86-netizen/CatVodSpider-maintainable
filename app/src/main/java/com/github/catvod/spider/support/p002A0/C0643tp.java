@@ -116,8 +116,8 @@ public final class C0643tp implements InterfaceC0669uo {
     public final int m1723h(int i) {
         C0642to c0642toM1339n;
         int i2;
-        ?? r10;
-        ?? r15;
+        Object r10;
+        Object r15;
         int iM1224n;
         boolean z;
         int i3 = 0;

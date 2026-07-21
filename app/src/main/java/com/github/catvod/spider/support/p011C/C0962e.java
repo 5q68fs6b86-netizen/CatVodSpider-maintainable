@@ -1216,7 +1216,7 @@ public final class C0962e implements Serializable {
     /* JADX INFO: renamed from: h */
     static String m2356h(TimeZone timeZone, boolean z, int i2, Locale locale) {
         i iVar = new i(timeZone, z, i2, locale);
-        ?? r1 = f2306g;
+        Object r1 = f2306g;
         String str = (String) r1.get(iVar);
         if (str != null) {
             return str;

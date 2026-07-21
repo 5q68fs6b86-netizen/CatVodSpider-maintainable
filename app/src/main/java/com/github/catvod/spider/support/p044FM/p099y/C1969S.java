@@ -615,7 +615,7 @@ public final class C1969S extends AbstractC1999l {
         boolean z5;
         BitSet bitSet2;
         int i3;
-        ?? r4 = 1;
+        Object r4 = 1;
         int iMo4659h = interfaceC1922H.mo4659h(1);
         C2028e c2028e2 = c2028e;
         while (true) {

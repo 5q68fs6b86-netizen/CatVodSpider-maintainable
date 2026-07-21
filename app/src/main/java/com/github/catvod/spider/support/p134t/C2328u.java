@@ -32,7 +32,7 @@ public class C2328u extends C2332y {
     @Override // com.github.catvod.spider.support.p134t.C2332y, com.github.catvod.spider.support.p138x.InterfaceC2412b
     /* JADX INFO: renamed from: c */
     public final InterfaceC2412b mo6288c(int i) {
-        ?? r0 = this.f5787d;
+        Object r0 = this.f5787d;
         if (r0 == 0 || i < 0 || i >= r0.size()) {
             return null;
         }
@@ -43,7 +43,7 @@ public class C2328u extends C2332y {
     @Override // com.github.catvod.spider.support.p134t.C2332y, com.github.catvod.spider.support.p138x.InterfaceC2412b
     /* JADX INFO: renamed from: d */
     public final int mo6289d() {
-        ?? r0 = this.f5787d;
+        Object r0 = this.f5787d;
         if (r0 != 0) {
             return r0.size();
         }
@@ -73,7 +73,7 @@ public class C2328u extends C2332y {
     /* JADX INFO: renamed from: j */
     public final C2328u m6291j(Class cls) {
         InterfaceC2412b interfaceC2412b;
-        ?? r0 = this.f5787d;
+        Object r0 = this.f5787d;
         if (r0 == 0 || r0.size() <= 0) {
             interfaceC2412b = null;
         } else {
@@ -90,7 +90,7 @@ public class C2328u extends C2332y {
     /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
     /* JADX INFO: renamed from: k */
     public final <T extends C2328u> List<T> m6292k(Class<? extends T> cls) {
-        ?? r0 = this.f5787d;
+        Object r0 = this.f5787d;
         if (r0 == 0) {
             return Collections.emptyList();
         }
@@ -110,7 +110,7 @@ public class C2328u extends C2332y {
     /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
     /* JADX INFO: renamed from: l */
     public final InterfaceC2416f m6293l(int i) {
-        ?? r0 = this.f5787d;
+        Object r0 = this.f5787d;
         if (r0 == 0 || r0.size() <= 0) {
             return null;
         }

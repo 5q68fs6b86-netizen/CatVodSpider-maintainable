@@ -434,7 +434,7 @@ public class Gz360 extends Spider {
         mapM5658c.put("year", map.containsKey("year") ? map.get("year") : "0");
         mapM5658c.put("sort", map.containsKey("sort") ? map.get("sort") : "d_id");
         if (!map.containsKey("sub")) {
-            ?? r6 = f175k;
+            Object r6 = f175k;
             if (r6.containsKey(str)) {
                 obj = r6.get(str);
             }
@@ -598,7 +598,7 @@ public class Gz360 extends Spider {
             m522f();
         } catch (Exception unused2) {
         }
-        ?? r8 = f175k;
+        Object r8 = f175k;
         r8.put("1", "5");
         r8.put("2", "12");
         r8.put("3", "30");

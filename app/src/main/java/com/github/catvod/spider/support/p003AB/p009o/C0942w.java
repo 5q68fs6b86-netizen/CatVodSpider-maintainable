@@ -24,7 +24,7 @@ public final class C0942w {
     /* JADX INFO: renamed from: b */
     static char m2280b(char[] cArr, Character ch) {
         Map<char[], Map<Character, Integer>> map = f2229b;
-        ?? map2 = (Map) map.get(cArr);
+        Object map2 = (Map) map.get(cArr);
         if (map2 == 0) {
             map2 = new HashMap();
             map.put(cArr, (Map<Character, Integer>) map2);

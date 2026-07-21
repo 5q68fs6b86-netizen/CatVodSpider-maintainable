@@ -627,8 +627,8 @@ public class AppYs extends Spider {
                         JSONObject jSONObjectOptJSONObject = jSONObject4.optJSONObject("type_extend");
                         if (z) {
                             String[] strArrSplit3 = appYs.m449w(strM448v, jSONObjectOptJSONObject).split(str18);
-                            ?? jSONArray6 = new JSONArray();
-                            for (?? IsEmpty = strM448v.isEmpty(); IsEmpty < strArrSplit3.length; IsEmpty++) {
+                            Object jSONArray6 = new JSONArray();
+                            for (Object IsEmpty = strM448v.isEmpty(); IsEmpty < strArrSplit3.length; IsEmpty++) {
                                 String strTrim = strArrSplit3[IsEmpty].trim();
                                 if (strTrim.isEmpty()) {
                                     str8 = str15;
@@ -661,7 +661,7 @@ public class AppYs extends Spider {
                                         str8 = str15;
                                         str9 = strTrim2;
                                     }
-                                    ?? jSONObject6 = new JSONObject();
+                                    Object jSONObject6 = new JSONObject();
                                     jSONObject6.put("key", strTrim2);
                                     jSONObject6.put("name", str9);
                                     JSONArray jSONArray7 = new JSONArray();

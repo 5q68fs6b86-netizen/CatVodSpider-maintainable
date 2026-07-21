@@ -64,7 +64,7 @@ public final class C2407i implements InterfaceC2403e {
                     if (i5 <= i6) {
                         C2406h c2406h3 = i5 > i4 ? new C2406h(i4, i5 - 1) : null;
                         C2406h c2406h4 = i3 < i6 ? new C2406h(i3 + 1, i6) : null;
-                        ?? r2 = c2407i3.f5964a;
+                        Object r2 = c2407i3.f5964a;
                         if (c2406h3 != null) {
                             r2.set(i, c2406h3);
                             if (c2406h4 != null) {
@@ -218,7 +218,7 @@ public final class C2407i implements InterfaceC2403e {
     /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.w.h>] */
     /* JADX INFO: renamed from: f */
     public final boolean m6421f() {
-        ?? r0 = this.f5964a;
+        Object r0 = this.f5964a;
         return r0 == 0 || r0.isEmpty();
     }
 
@@ -297,7 +297,7 @@ public final class C2407i implements InterfaceC2403e {
     public final String m6425l(InterfaceC2305D interfaceC2305D) {
         String strM6223a;
         StringBuilder sb = new StringBuilder();
-        ?? r1 = this.f5964a;
+        Object r1 = this.f5964a;
         if (r1 == 0 || r1.isEmpty()) {
             return "{}";
         }
@@ -346,7 +346,7 @@ public final class C2407i implements InterfaceC2403e {
     /* JADX WARN: Type inference failed for: r1v3, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.w.h>] */
     public final String toString() {
         StringBuilder sb = new StringBuilder();
-        ?? r1 = this.f5964a;
+        Object r1 = this.f5964a;
         if (r1 == 0 || r1.isEmpty()) {
             return "{}";
         }

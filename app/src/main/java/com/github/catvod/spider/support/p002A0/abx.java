@@ -15,8 +15,8 @@ public abstract class abx {
     /* JADX WARN: Type inference failed for: r3v6 */
     /* JADX INFO: renamed from: a */
     public static String m927a(Exception exc) {
-        ?? arrayList = new ArrayList();
-        for (?? cause = exc; cause != 0 && !arrayList.contains(cause); cause = cause.getCause()) {
+        Object arrayList = new ArrayList();
+        for (Object cause = exc; cause != 0 && !arrayList.contains(cause); cause = cause.getCause()) {
             arrayList.add(cause);
         }
         Throwable th = arrayList.isEmpty() ? null : (Throwable) arrayList.get(arrayList.size() - 1);

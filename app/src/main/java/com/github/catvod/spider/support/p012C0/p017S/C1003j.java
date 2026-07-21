@@ -65,7 +65,7 @@ public final class C1003j implements f {
                     if (i5 <= i6) {
                         C1002i c1002i3 = i5 > i4 ? new C1002i(i4, i5 - 1) : null;
                         C1002i c1002i4 = i3 < i6 ? new C1002i(i3 + 1, i6) : null;
-                        ?? r6 = c1003j3.f2467a;
+                        Object r6 = c1003j3.f2467a;
                         if (c1002i3 != null) {
                             r6.set(i2, c1002i3);
                             if (c1002i4 != null) {
@@ -213,7 +213,7 @@ public final class C1003j implements f {
     /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.S.i>] */
     /* JADX INFO: renamed from: f */
     public final boolean m2528f() {
-        ?? r0 = this.f2467a;
+        Object r0 = this.f2467a;
         return r0 == 0 || r0.isEmpty();
     }
 
@@ -297,7 +297,7 @@ public final class C1003j implements f {
     public final String m2532l(InterfaceC0971H interfaceC0971H) {
         String strA;
         StringBuilder sb = new StringBuilder();
-        ?? r0 = this.f2467a;
+        Object r0 = this.f2467a;
         if (r0 == 0 || r0.isEmpty()) {
             return "{}";
         }
@@ -346,7 +346,7 @@ public final class C1003j implements f {
     /* JADX WARN: Type inference failed for: r0v4, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.S.i>] */
     public final String toString() {
         StringBuilder sb = new StringBuilder();
-        ?? r0 = this.f2467a;
+        Object r0 = this.f2467a;
         if (r0 == 0 || r0.isEmpty()) {
             return "{}";
         }

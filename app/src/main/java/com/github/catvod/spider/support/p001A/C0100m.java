@@ -199,7 +199,7 @@ public final class C0100m {
                 c0100m.f385f = cancelable.show();
                 Button button = c0100m.f385f.getButton(-3);
                 if (button != 0) {
-                    ?? r1 = new View.OnClickListener(c0100m, jSONObject) { // from class: com.github.catvod.spider.support.A.m.2
+                    Object r1 = new View.OnClickListener(c0100m, jSONObject) { // from class: com.github.catvod.spider.support.A.m.2
                         private Dialog dialog;
                         final C0100m this$0;
                         final JSONObject val$jsonObject;

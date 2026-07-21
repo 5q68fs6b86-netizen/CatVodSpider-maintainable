@@ -34,7 +34,7 @@ public final class aby implements aac, Serializable {
         synchronized (this.f544c) {
             objInvoke = this.f543b;
             if (objInvoke == c0372jo) {
-                ?? r1 = this.f542a;
+                Object r1 = this.f542a;
                 AbstractC0399ko.m1348c(r1);
                 objInvoke = r1.invoke();
                 this.f543b = objInvoke;

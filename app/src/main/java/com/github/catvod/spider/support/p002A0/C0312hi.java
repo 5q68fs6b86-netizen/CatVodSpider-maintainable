@@ -134,7 +134,7 @@ public final class C0312hi implements Serializable {
         int length2;
         char cCharAt;
         Object objM1275k;
-        ?? c0357j;
+        Object c0357j;
         TimeZone timeZone2;
         String strSubstring;
         String[] strArr;

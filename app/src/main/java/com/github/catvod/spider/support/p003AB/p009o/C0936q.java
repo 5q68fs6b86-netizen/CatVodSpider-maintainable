@@ -451,7 +451,7 @@ public final class C0936q {
     /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<java.lang.String>] */
     /* JADX INFO: renamed from: v */
     private void m2270v() {
-        ?? r0 = this.f2207b;
+        Object r0 = this.f2207b;
         if (r0 != 0 && !r0.isEmpty()) {
             this.f2212g.setVisibility(0);
             this.f2213h.setVisibility(8);

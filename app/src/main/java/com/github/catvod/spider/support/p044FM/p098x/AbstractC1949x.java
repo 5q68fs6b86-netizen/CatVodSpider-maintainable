@@ -80,7 +80,7 @@ public abstract class AbstractC1949x extends AbstractC1917C<InterfaceC1919E, C19
         if (interfaceC1919EM4703o.getType() != -1) {
             this.f4451e.mo4661j();
         }
-        ?? r1 = this.f4456j;
+        Object r1 = this.f4456j;
         boolean z = (r1 == 0 || r1.isEmpty()) ? false : true;
         if (this.f4454h || z) {
             if (this.f4450d.f4431a) {
@@ -88,7 +88,7 @@ public abstract class AbstractC1949x extends AbstractC1917C<InterfaceC1919E, C19
                 C1291a c1291a = new C1291a(interfaceC1919EM4703o);
                 c1950y.getClass();
                 c1950y.m4709g(c1291a);
-                ?? r2 = this.f4456j;
+                Object r2 = this.f4456j;
                 if (r2 != 0) {
                     Iterator it = r2.iterator();
                     while (it.hasNext()) {
@@ -100,7 +100,7 @@ public abstract class AbstractC1949x extends AbstractC1917C<InterfaceC1919E, C19
                 C1297g c1297g = new C1297g(interfaceC1919EM4703o);
                 c1950y2.getClass();
                 c1950y2.m4709g(c1297g);
-                ?? r3 = this.f4456j;
+                Object r3 = this.f4456j;
                 if (r3 != 0) {
                     Iterator it2 = r3.iterator();
                     while (it2.hasNext()) {
@@ -118,7 +118,7 @@ public abstract class AbstractC1949x extends AbstractC1917C<InterfaceC1919E, C19
         C1950y c1950y2;
         C1950y c1950y3;
         if (this.f4454h && (c1950y2 = this.f4453g) != c1950y && (c1950y3 = (C1950y) c1950y2.f4394a) != null) {
-            ?? r1 = c1950y3.f4458d;
+            Object r1 = c1950y3.f4458d;
             if (r1 != 0) {
                 r1.remove(r1.size() - 1);
             }
@@ -140,7 +140,7 @@ public abstract class AbstractC1949x extends AbstractC1917C<InterfaceC1919E, C19
                 c1950y3.m4709g(c1950y2);
             }
         }
-        ?? r2 = this.f4456j;
+        Object r2 = this.f4456j;
         if (r2 != 0) {
             for (InterfaceC1293c interfaceC1293c : r2) {
                 interfaceC1293c.m3238c(this.f4453g);
@@ -163,7 +163,7 @@ public abstract class AbstractC1949x extends AbstractC1917C<InterfaceC1919E, C19
             interfaceC1919EMo4647g = this.f4451e.mo4647g(-1);
         }
         c1950y.f4460f = interfaceC1919EMo4647g;
-        ?? r0 = this.f4456j;
+        Object r0 = this.f4456j;
         if (r0 != 0) {
             for (int size = r0.size() - 1; size >= 0; size--) {
                 InterfaceC1293c interfaceC1293c = (InterfaceC1293c) this.f4456j.get(size);
@@ -224,7 +224,7 @@ public abstract class AbstractC1949x extends AbstractC1917C<InterfaceC1919E, C19
     /* JADX WARN: Type inference failed for: r2v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.c>] */
     /* JADX INFO: renamed from: s */
     public final void m4707s(InterfaceC1293c interfaceC1293c) {
-        ?? r0 = this.f4456j;
+        Object r0 = this.f4456j;
         if (r0 != 0 && r0.remove(interfaceC1293c) && this.f4456j.isEmpty()) {
             this.f4456j = null;
         }

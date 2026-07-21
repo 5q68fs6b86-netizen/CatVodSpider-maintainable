@@ -82,7 +82,7 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
         if (interfaceC0969DM2442q.m2399e() != -1) {
             this.f2382e.mo2423j();
         }
-        ?? r0 = this.f2387j;
+        Object r0 = this.f2387j;
         boolean z = (r0 == 0 || r0.isEmpty()) ? false : true;
         if (this.f2385h || z) {
             if (this.f2381d.a) {
@@ -90,7 +90,7 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
                 C1005a c1005a = new C1005a(interfaceC0969DM2442q);
                 c0983x.getClass();
                 c0983x.m2448h(c1005a);
-                ?? r1 = this.f2387j;
+                Object r1 = this.f2387j;
                 if (r1 != 0) {
                     Iterator it = r1.iterator();
                     while (it.hasNext()) {
@@ -102,7 +102,7 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
                 C1010g c1010g = new C1010g(interfaceC0969DM2442q);
                 c0983x2.getClass();
                 c0983x2.m2448h(c1010g);
-                ?? r2 = this.f2387j;
+                Object r2 = this.f2387j;
                 if (r2 != 0) {
                     Iterator it2 = r2.iterator();
                     while (it2.hasNext()) {
@@ -120,7 +120,7 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
         C0983x c0983x2;
         C0983x c0983x3;
         if (this.f2385h && (c0983x2 = this.f2384g) != c0983x && (c0983x3 = (C0983x) c0983x2.f2353a) != null) {
-            ?? r1 = c0983x3.f2389d;
+            Object r1 = c0983x3.f2389d;
             if (r1 != 0) {
                 r1.remove(r1.size() - 1);
             }
@@ -142,7 +142,7 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
                 c0983x3.m2448h(c0983x2);
             }
         }
-        ?? r0 = this.f2387j;
+        Object r0 = this.f2387j;
         if (r0 != 0) {
             for (InterfaceC1007c interfaceC1007c : r0) {
                 interfaceC1007c.m2536h(this.f2384g);
@@ -165,7 +165,7 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
             interfaceC0969DM2403e = this.f2382e.m2403e(-1);
         }
         c0983x.f2391f = interfaceC0969DM2403e;
-        ?? r0 = this.f2387j;
+        Object r0 = this.f2387j;
         if (r0 != 0) {
             for (int size = r0.size() - 1; size >= 0; size--) {
                 InterfaceC1007c interfaceC1007c = (InterfaceC1007c) this.f2387j.get(size);
@@ -226,7 +226,7 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
     /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.c>] */
     /* JADX INFO: renamed from: u */
     public final void m2446u(InterfaceC1007c interfaceC1007c) {
-        ?? r0 = this.f2387j;
+        Object r0 = this.f2387j;
         if (r0 != 0 && r0.remove(interfaceC1007c) && this.f2387j.isEmpty()) {
             this.f2387j = null;
         }

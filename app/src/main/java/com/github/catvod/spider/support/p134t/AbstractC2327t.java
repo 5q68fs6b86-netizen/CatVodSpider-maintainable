@@ -84,7 +84,7 @@ public abstract class AbstractC2327t extends AbstractC2331x<InterfaceC2333z, C23
         if (interfaceC2333zM6282n.getType() != -1) {
             this.f5780e.mo6235i();
         }
-        ?? r1 = this.f5785j;
+        Object r1 = this.f5785j;
         boolean z = (r1 == 0 || r1.isEmpty()) ? false : true;
         if (this.f5783h || z) {
             if (this.f5779d.f5760a) {
@@ -92,7 +92,7 @@ public abstract class AbstractC2327t extends AbstractC2331x<InterfaceC2333z, C23
                 C2411a c2411a = new C2411a(interfaceC2333zM6282n);
                 c2328u.getClass();
                 c2328u.m6290g(c2411a);
-                ?? r2 = this.f5785j;
+                Object r2 = this.f5785j;
                 if (r2 != 0) {
                     Iterator it = r2.iterator();
                     while (it.hasNext()) {
@@ -104,7 +104,7 @@ public abstract class AbstractC2327t extends AbstractC2331x<InterfaceC2333z, C23
                 C2417g c2417g = new C2417g(interfaceC2333zM6282n);
                 c2328u2.getClass();
                 c2328u2.m6290g(c2417g);
-                ?? r3 = this.f5785j;
+                Object r3 = this.f5785j;
                 if (r3 != 0) {
                     Iterator it2 = r3.iterator();
                     while (it2.hasNext()) {
@@ -122,7 +122,7 @@ public abstract class AbstractC2327t extends AbstractC2331x<InterfaceC2333z, C23
         C2328u c2328u2;
         C2328u c2328u3;
         if (this.f5783h && (c2328u2 = this.f5782g) != c2328u && (c2328u3 = (C2328u) c2328u2.f5800a) != null) {
-            ?? r1 = c2328u3.f5787d;
+            Object r1 = c2328u3.f5787d;
             if (r1 != 0) {
                 r1.remove(r1.size() - 1);
             }
@@ -144,7 +144,7 @@ public abstract class AbstractC2327t extends AbstractC2331x<InterfaceC2333z, C23
                 c2328u3.m6290g(c2328u2);
             }
         }
-        ?? r2 = this.f5785j;
+        Object r2 = this.f5785j;
         if (r2 != 0) {
             for (InterfaceC2413c interfaceC2413c : r2) {
                 interfaceC2413c.m6426V(this.f5782g);
@@ -167,7 +167,7 @@ public abstract class AbstractC2327t extends AbstractC2331x<InterfaceC2333z, C23
             interfaceC2333zMo6222f = this.f5780e.mo6222f(-1);
         }
         c2328u.f5789f = interfaceC2333zMo6222f;
-        ?? r0 = this.f5785j;
+        Object r0 = this.f5785j;
         if (r0 != 0) {
             for (int size = r0.size() - 1; size >= 0; size--) {
                 InterfaceC2413c interfaceC2413c = (InterfaceC2413c) this.f5785j.get(size);
@@ -228,7 +228,7 @@ public abstract class AbstractC2327t extends AbstractC2331x<InterfaceC2333z, C23
     /* JADX WARN: Type inference failed for: r2v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.c>] */
     /* JADX INFO: renamed from: r */
     public final void m6286r(InterfaceC2413c interfaceC2413c) {
-        ?? r0 = this.f5785j;
+        Object r0 = this.f5785j;
         if (r0 != 0 && r0.remove(interfaceC2413c) && this.f5785j.isEmpty()) {
             this.f5785j = null;
         }

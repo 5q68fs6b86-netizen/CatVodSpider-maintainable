@@ -230,7 +230,7 @@ public final class C0924e {
             }
             pair = pair2 != null ? pair2 : new Pair(viewGroup3.getChildAt(0), Integer.valueOf(childCount));
         }
-        ?? r4 = (View) pair.first;
+        Object r4 = (View) pair.first;
         if (!c0924e.m2248h()) {
             String str = c0924e.f2176g;
             if (str.contains("tvbox") || !str.contains("mobile") || isTVVersionApk(c0924e.f2170a)) {

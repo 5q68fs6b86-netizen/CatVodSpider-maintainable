@@ -190,7 +190,7 @@ public final class C1195P {
     /* JADX INFO: renamed from: c */
     private void m3001c(boolean z) {
         Object c1223s;
-        ?? r0;
+        Object r0;
         this.f2871a.m2856d(z ? ":containsOwn" : ":contains");
         String strM2852o = C1098P.m2852o(this.f2871a.m2853a('(', ')'));
         C0966a.m2375j(strM2852o, ":contains(text) query must not be empty");
@@ -217,7 +217,7 @@ public final class C1195P {
         int i;
         int i2;
         Object c1184e;
-        ?? r1;
+        Object r1;
         int i3 = 1;
         String strM3148d = C1263a.m3148d(this.f2871a.m2854b());
         Matcher matcher = f2869f.matcher(strM3148d);
@@ -461,7 +461,7 @@ public final class C1195P {
     /* JADX INFO: renamed from: f */
     private void m3004f(boolean z) {
         Object c1190k;
-        ?? r0;
+        Object r0;
         this.f2871a.m2856d(z ? ":matchesOwn" : ":matches");
         String strM2853a = this.f2871a.m2853a('(', ')');
         C0966a.m2375j(strM2853a, ":matches(regex) query must not be empty");

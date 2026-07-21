@@ -63,7 +63,7 @@ public final class C1285k implements InterfaceC1281g {
                     if (i5 <= i6) {
                         C1284j c1284j3 = i5 > i4 ? new C1284j(i4, i5 - 1) : null;
                         C1284j c1284j4 = i3 < i6 ? new C1284j(i3 + 1, i6) : null;
-                        ?? r2 = c1285k3.f3011a;
+                        Object r2 = c1285k3.f3011a;
                         if (c1284j3 != null) {
                             r2.set(i, c1284j3);
                             if (c1284j4 != null) {
@@ -217,7 +217,7 @@ public final class C1285k implements InterfaceC1281g {
     /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.A.j>] */
     /* JADX INFO: renamed from: f */
     public final boolean m3211f() {
-        ?? r0 = this.f3011a;
+        Object r0 = this.f3011a;
         return r0 == 0 || r0.isEmpty();
     }
 
@@ -296,7 +296,7 @@ public final class C1285k implements InterfaceC1281g {
     public final String m3215l(InterfaceC1923I interfaceC1923I) {
         String strM4648a;
         StringBuilder sb = new StringBuilder();
-        ?? r1 = this.f3011a;
+        Object r1 = this.f3011a;
         if (r1 == 0 || r1.isEmpty()) {
             return "{}";
         }
@@ -345,7 +345,7 @@ public final class C1285k implements InterfaceC1281g {
     /* JADX WARN: Type inference failed for: r1v3, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.A.j>] */
     public final String toString() {
         StringBuilder sb = new StringBuilder();
-        ?? r1 = this.f3011a;
+        Object r1 = this.f3011a;
         if (r1 == 0 || r1.isEmpty()) {
             return "{}";
         }

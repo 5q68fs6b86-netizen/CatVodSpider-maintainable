@@ -130,7 +130,7 @@ abstract class EnumC1068A {
         f2648w = c1156o;
         C1158p c1158p = new C1158p();
         f2649x = c1158p;
-        ?? r23 = new EnumC1068A() { // from class: com.github.catvod.spider.support.C0.d0.q
+        Object r23 = new EnumC1068A() { // from class: com.github.catvod.spider.support.C0.d0.q
             @Override // com.github.catvod.spider.support.p012C0.p028d0.EnumC1068A
             /* JADX INFO: renamed from: d */
             final boolean mo2800d(AbstractC1096O abstractC1096O, C1122b c1122b) {

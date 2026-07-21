@@ -32,7 +32,7 @@ public class C1950y extends C1918D {
     @Override // com.github.catvod.spider.support.p044FM.p098x.C1918D, com.github.catvod.spider.support.p044FM.p046B.InterfaceC1292b
     /* JADX INFO: renamed from: c */
     public final InterfaceC1292b mo3233c(int i) {
-        ?? r0 = this.f4458d;
+        Object r0 = this.f4458d;
         if (r0 == 0 || i < 0 || i >= r0.size()) {
             return null;
         }
@@ -43,7 +43,7 @@ public class C1950y extends C1918D {
     @Override // com.github.catvod.spider.support.p044FM.p098x.C1918D, com.github.catvod.spider.support.p044FM.p046B.InterfaceC1292b
     /* JADX INFO: renamed from: d */
     public final int mo3234d() {
-        ?? r0 = this.f4458d;
+        Object r0 = this.f4458d;
         if (r0 != 0) {
             return r0.size();
         }
@@ -73,7 +73,7 @@ public class C1950y extends C1918D {
     /* JADX INFO: renamed from: j */
     public final C1950y m4710j(Class cls) {
         InterfaceC1292b interfaceC1292b;
-        ?? r0 = this.f4458d;
+        Object r0 = this.f4458d;
         if (r0 == 0 || r0.size() <= 0) {
             interfaceC1292b = null;
         } else {
@@ -90,7 +90,7 @@ public class C1950y extends C1918D {
     /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
     /* JADX INFO: renamed from: k */
     public final <T extends C1950y> List<T> m4711k(Class<? extends T> cls) {
-        ?? r0 = this.f4458d;
+        Object r0 = this.f4458d;
         if (r0 == 0) {
             return Collections.emptyList();
         }
@@ -110,7 +110,7 @@ public class C1950y extends C1918D {
     /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
     /* JADX INFO: renamed from: l */
     public final InterfaceC1296f m4712l(int i) {
-        ?? r0 = this.f4458d;
+        Object r0 = this.f4458d;
         if (r0 == 0 || r0.size() <= 0) {
             return null;
         }

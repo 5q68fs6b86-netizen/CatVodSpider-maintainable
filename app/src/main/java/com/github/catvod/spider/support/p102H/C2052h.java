@@ -118,7 +118,7 @@ public final class C2052h implements Cloneable {
     /* JADX INFO: renamed from: m */
     public static C2052h m5079m(String str, C2050f c2050f) {
         C1271c.m3157g(str);
-        ?? r0 = f4758j;
+        Object r0 = f4758j;
         C2052h c2052h = (C2052h) r0.get(str);
         if (c2052h != null) {
             return c2052h;

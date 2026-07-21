@@ -1475,7 +1475,7 @@ abstract class EnumC2047c {
             C2037i c2037i;
             int iLastIndexOf;
             boolean z2;
-            ?? M5031j;
+            Object M5031j;
             int iM6255a = C2314g.m6255a(abstractC2053i.f4774a);
             if (iM6255a == 0) {
                 c2046b.m5046r(this);
@@ -2716,7 +2716,7 @@ abstract class EnumC2047c {
                                 int size5 = arrayList5.size();
                                 boolean z3 = false;
                                 int iM5022c0 = -1;
-                                ?? r11 = 0;
+                                Object r11 = 0;
                                 int i3 = 1;
                                 while (true) {
                                     if (i3 >= size5 || i3 >= 64) {
@@ -2738,9 +2738,9 @@ abstract class EnumC2047c {
                                     c2046b.m5019a0(c2037iM5053w.m4888h0());
                                 } else {
                                     C2037i c2037i8 = c2037i;
-                                    ?? r12 = c2037i8;
+                                    Object r12 = c2037i8;
                                     int i4 = 0;
-                                    ?? r9 = c2037i8;
+                                    Object r9 = c2037i8;
                                     while (i4 < 3) {
                                         if (c2046b.m5015V(r9)) {
                                             M5031j = r9;
@@ -2782,7 +2782,7 @@ abstract class EnumC2047c {
                                             i2++;
                                             str7 = str8;
                                         } else {
-                                            ?? c2037i10 = new C2037i(c2046b.m5173i(M5031j.mo4832t(), C2050f.f4753d), c2046b.f4896f, null);
+                                            Object c2037i10 = new C2037i(c2046b.m5173i(M5031j.mo4832t(), C2050f.f4753d), c2046b.f4896f, null);
                                             c2046b.m5034k0(M5031j, c2037i10);
                                             ArrayList<C2037i> arrayList6 = c2046b.f4895e;
                                             int iLastIndexOf2 = arrayList6.lastIndexOf(M5031j);
@@ -3198,7 +3198,7 @@ abstract class EnumC2047c {
         f4706v = nVar;
         o oVar = new o();
         f4707w = oVar;
-        ?? r23 = new EnumC2047c() { // from class: com.github.catvod.spider.support.H.c.p
+        Object r23 = new EnumC2047c() { // from class: com.github.catvod.spider.support.H.c.p
             @Override // com.github.catvod.spider.support.p102H.EnumC2047c
             /* JADX INFO: renamed from: d */
             final boolean mo5060d(AbstractC2053i abstractC2053i, C2046b c2046b) {

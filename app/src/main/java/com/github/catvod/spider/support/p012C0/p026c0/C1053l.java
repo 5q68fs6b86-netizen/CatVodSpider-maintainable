@@ -135,9 +135,9 @@ public class C1053l extends AbstractC1059r {
     @Override // com.github.catvod.spider.support.p012C0.p026c0.AbstractC1059r
     /* JADX INFO: renamed from: F */
     public final AbstractC1059r mo2689F() {
-        ?? r1 = this;
+        Object r1 = this;
         while (true) {
-            ?? r0 = r1;
+            Object r0 = r1;
             AbstractC1059r abstractC1059r = r0.f2600c;
             if (abstractC1059r == null) {
                 return (C1053l) r0;

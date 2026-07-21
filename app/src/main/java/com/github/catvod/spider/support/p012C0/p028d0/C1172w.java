@@ -110,8 +110,8 @@ static final class C1172w extends EnumC1068A {
         EnumC1068A enumC1068A;
         C1053l c1053lM2972r;
         C1053l c1053l;
-        ?? M2958g;
-        ?? r7;
+        Object M2958g;
+        Object r7;
         int iM2946W;
         int iM3131a = C1257a.m3131a(abstractC1096O.f2694a);
         if (iM3131a == 0) {
@@ -969,8 +969,8 @@ static final class C1172w extends EnumC1068A {
                                 c1122b.m2945V(c1053lM2972r.m2706d0());
                             } else {
                                 int i5 = 0;
-                                ?? r5 = c1053l;
-                                ?? r2 = c1053l;
+                                Object r5 = c1053l;
+                                Object r2 = c1053l;
                                 while (true) {
                                     int i6 = i5;
                                     if (i6 < 3) {
@@ -983,7 +983,7 @@ static final class C1172w extends EnumC1068A {
                                             c1122b.m2954c0(M2958g);
                                             r7 = M2958g;
                                         } else if (M2958g != c1053lM2972r) {
-                                            ?? c1053l10 = new C1053l(C1078F.m2811l(M2958g.mo2658t(), C1074D.f2656d), c1122b.f2819f, null);
+                                            Object c1053l10 = new C1053l(C1078F.m2811l(M2958g.mo2658t(), C1074D.f2656d), c1122b.f2819f, null);
                                             c1122b.m2955d0(M2958g, c1053l10);
                                             ArrayList<C1053l> arrayList6 = c1122b.f2818e;
                                             int iLastIndexOf = arrayList6.lastIndexOf(M2958g);

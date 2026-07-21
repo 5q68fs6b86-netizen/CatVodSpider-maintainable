@@ -88,7 +88,7 @@ public class Function {
     /* JADX WARN: Type inference failed for: r9v4, types: [java.util.List] */
     @JSMethod
     public JSArray pdfl(String str, String str2, String str3, String str4, String str5) {
-        ?? arrayList;
+        Object arrayList;
         QuickJSContext quickJSContext = this.ctx;
         C0153bl c0153bl = this.parser;
         String[] strArrSplit = c0153bl.m1057h(str2, false).split(" ");

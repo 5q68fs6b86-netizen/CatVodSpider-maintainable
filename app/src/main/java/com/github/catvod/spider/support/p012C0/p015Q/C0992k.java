@@ -113,7 +113,7 @@ public final class C0992k {
     /* JADX WARN: Type inference failed for: r1v0, types: [java.util.ArrayList, java.util.List<java.util.UUID>] */
     /* JADX INFO: renamed from: d */
     protected static boolean m2502d(UUID uuid, UUID uuid2) {
-        ?? r1 = f2437e;
+        Object r1 = f2437e;
         int iIndexOf = r1.indexOf(uuid);
         return iIndexOf >= 0 && r1.indexOf(uuid2) >= iIndexOf;
     }

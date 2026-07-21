@@ -1442,7 +1442,7 @@ public final class C1729Q {
                             bArr2[6] = -92;
                             bArr2[7] = -22;
                             if (jSONObjectOptJSONObject.optBoolean(C1711a.m3992b(bArr, bArr2))) {
-                                ?? r13 = this.f3804f;
+                                Object r13 = this.f3804f;
                                 byte[] bArr3 = new byte[10];
                                 bArr3[0] = -53;
                                 bArr3[1] = 85;
