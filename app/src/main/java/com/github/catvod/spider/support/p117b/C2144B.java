@@ -178,7 +178,8 @@ public final class C2144B {
                 jSONObjectOptJSONObject.put("device_id", str2);
                 C0101n.m865u("uc_token.txt", jSONObjectOptJSONObject.toString());
             }
-        } catch (Exception e2) { Exception /*e=e2*/
+        } catch (Exception e2) {
+            e = e2;
         }
     }
 
@@ -877,5 +878,3 @@ public final class C2144B {
         }
     }
 }
-}
-

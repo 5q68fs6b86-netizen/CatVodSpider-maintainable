@@ -56,7 +56,7 @@ public final class C2419b {
         Class cls5 = Void.TYPE;
         map2.put(cls5, cls5);
         f5972c = new HashMap();
-        for (Object __en : map2.entrySet()) { Map.Entry entry = (Map.Entry) __en;
+        for (Map.Entry entry : map2.entrySet()) {
             Class<?> cls6 = (Class) entry.getKey();
             Class<?> cls7 = (Class) entry.getValue();
             if (!cls6.equals(cls7)) {
@@ -71,7 +71,7 @@ public final class C2419b {
         mapM5658c.put("double", "D");
         mapM5658c.put("char", "C");
         HashMap map3 = new HashMap();
-        for (Object __en : mapM5658c.entrySet()) { Map.Entry entry2 = (Map.Entry) __en;
+        for (Map.Entry entry2 : mapM5658c.entrySet()) {
             map3.put(entry2.getValue(), entry2.getKey());
         }
         Collections.unmodifiableMap(mapM5658c);

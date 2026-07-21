@@ -136,13 +136,14 @@ public class Item {
 
     public String getExt() { return ""; }
 
-    public com.github.catvod.bean.Vod getVod(String tid, String pic) {
-        com.github.catvod.bean.Vod v = getVod(tid);
-        if (pic != null && !pic.isEmpty()) v.setVodPic(pic);
+    public Vod getVod(String tid, String pic) {
+        Vod v = getVod(tid);
+        if (pic != null && pic.length() > 0) {
+            try { v.setVodPic(pic); } catch (Throwable ignored) {}
+        }
         return v;
     }
-    public com.github.catvod.bean.Vod getVod(com.github.catvod.bean.alist.Drive drive, String pic) {
-        String tid = drive == null ? "" : String.valueOf(drive);
-        return getVod(tid, pic);
+    public Vod getVod(Drive drive, String pic) {
+        return getVod(drive == null ? "" : String.valueOf(drive), pic);
     }
 }

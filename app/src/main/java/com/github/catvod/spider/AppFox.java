@@ -176,7 +176,7 @@ public class AppFox extends Spider {
                 sb.append(str2);
                 sb.append("&t=");
                 sb.append(str);
-                for (Object __en : map3.entrySet()) { Map.Entry entry = (Map.Entry) __en;
+                for (Map.Entry<String, String> entry : map3.entrySet()) {
                     if (!"全部".equals(entry.getValue())) {
                         sb.append("&");
                         sb.append(entry.getKey());

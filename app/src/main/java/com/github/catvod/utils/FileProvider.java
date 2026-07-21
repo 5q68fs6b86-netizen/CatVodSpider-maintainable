@@ -216,7 +216,7 @@ public class FileProvider extends ContentProvider {
                 throw new IllegalArgumentException("Failed to resolve canonical path for " + file);
             }
             Map.Entry<String, File> mostSpecific = null;
-            for (Object __en : mRoots.entrySet()) { Map.Entry root = (Map.Entry) __en;
+            for (Map.Entry<String, File> root : mRoots.entrySet()) {
                 final String rootPath = root.getValue().getPath();
                 if (path.startsWith(rootPath) && (mostSpecific == null || rootPath.length() > mostSpecific.getValue().getPath().length())) {
                     mostSpecific = root;

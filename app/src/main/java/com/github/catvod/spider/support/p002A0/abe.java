@@ -498,5 +498,3 @@ public final class abe implements Serializable {
         return "FastDateParser[" + this.f495t + ", " + this.f497v + ", " + this.f496u.getID() + "]";
     }
 }
-}
-

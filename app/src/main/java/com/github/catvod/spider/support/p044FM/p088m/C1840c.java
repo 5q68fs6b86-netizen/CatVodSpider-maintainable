@@ -106,7 +106,7 @@ public final class C1840c {
     public static Response m4475j(String str, String str2, Map<String, String> map) {
         OkHttpClient okHttpClientM4466a = m4466a();
         Request.Builder builderMethod = new Request.Builder().url(str).method(f4225b, RequestBody.create(MediaType.parse("application/x-www-form-urlencoded; charset=UTF-8"), str2));
-        for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
+        for (Map.Entry<String, String> entry : map.entrySet()) {
             builderMethod.addHeader(entry.getKey(), entry.getValue());
         }
         return okHttpClientM4466a.newCall(builderMethod.build()).execute();

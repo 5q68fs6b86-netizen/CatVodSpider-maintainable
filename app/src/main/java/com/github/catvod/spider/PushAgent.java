@@ -266,7 +266,8 @@ public class PushAgent extends Spider {
                                                 str6 = str15;
                                                 str12 = str12;
                                                 str8 = str13;
-                                            } catch (Exception e2) { Exception /*e=e2*/
+                                            } catch (Exception e2) {
+                                                e = e2;
                                                 String str18 = str6;
                                                 str7 = str18;
                                                 SpiderDebug.log(e);
@@ -294,7 +295,8 @@ public class PushAgent extends Spider {
                                     jSONObject9.put("list", jSONArray5);
                                     return jSONObject9.toString();
                                 }
-                            } catch (Exception e3) { Exception /*e=e3*/
+                            } catch (Exception e3) {
+                                e = e3;
                                 str10 = "";
                             }
                         }
@@ -359,13 +361,17 @@ public class PushAgent extends Spider {
                         jSONArray7.put(jSONObject14);
                         jSONObject13.put("list", jSONArray7);
                         return jSONObject13.toString();
-                    } catch (Exception e4) { Exception /*e=e4*/
+                    } catch (Exception e4) {
+                        e = e4;
                     }
-                } catch (Exception e5) { Exception /*e=e5*/
+                } catch (Exception e5) {
+                    e = e5;
                 }
-            } catch (Exception e6) { Exception /*e=e6*/
+            } catch (Exception e6) {
+                e = e6;
             }
-        } catch (Exception e7) { Exception /*e=e7*/
+        } catch (Exception e7) {
+            e = e7;
             str7 = "";
         }
     }
@@ -712,11 +718,3 @@ public class PushAgent extends Spider {
         }
     }
 }
-}
-}
-}
-}
-}
-}
-}
-

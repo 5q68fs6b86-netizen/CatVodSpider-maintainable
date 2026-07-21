@@ -375,11 +375,13 @@ public final class C1729Q {
                     if (!TextUtils.isEmpty(strOptString)) {
                         break;
                     }
-                } catch (Exception e2) { Exception /*e=e2*/
+                } catch (Exception e2) {
+                    e = e2;
                     C1751v.m4143c(new byte[]{-3, -121, 118, 8, -8, -33, 36}, new byte[]{-103, -30, 26, 109, -116, -70, 30, -90}, new StringBuilder(), e);
                     return true;
                 }
-            } catch (Exception e3) { Exception /*e=e3*/
+            } catch (Exception e3) {
+                e = e3;
                 C1751v.m4143c(new byte[]{-3, -121, 118, 8, -8, -33, 36}, new byte[]{-103, -30, 26, 109, -116, -70, 30, -90}, new StringBuilder(), e);
                 return true;
             }
@@ -1478,7 +1480,8 @@ public final class C1729Q {
                         }
                         return arrayList3;
                     }
-                } catch (Exception e2) { Exception /*e=e2*/
+                } catch (Exception e2) {
+                    e = e2;
                     exc = e;
                     strM4073n = str4;
                     exc.printStackTrace();
@@ -1505,7 +1508,8 @@ public final class C1729Q {
                 m4074o(str5);
                 throw th;
             }
-        } catch (Exception e3) { Exception /*e=e3*/
+        } catch (Exception e3) {
+            e = e3;
             str4 = str2;
         } catch (Throwable th4) {
             th = th4;

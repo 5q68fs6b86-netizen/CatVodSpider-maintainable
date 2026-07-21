@@ -1024,3 +1024,4 @@ public final class C1232D extends AbstractC0982w {
         }
         return fVar;
     }
+}

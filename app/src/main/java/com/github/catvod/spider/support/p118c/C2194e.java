@@ -128,15 +128,7 @@ public final class C2194e {
     /* JADX INFO: renamed from: e */
     public static String m5837e(C2194e c2194e) {
         C2192c c2192c = new C2192c();
-        com.github.catvod.bean.Vod v = new com.github.catvod.bean.Vod();
-        if (c2194e != null) {
-            try {
-                v.m5848j(c2194e.m5838a());
-                v.m5849k(c2194e.m5839b());
-                v.m5852n(c2194e.m5840c());
-            } catch (Throwable ignored) {}
-        }
-        c2192c.m5825q(v);
+        c2192c.m5825q(new com.github.catvod.bean.Vod(c2194e.m5838a(), c2194e.m5839b(), ""));
         return c2192c.toString();
     }
 

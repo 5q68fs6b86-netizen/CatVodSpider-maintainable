@@ -288,3 +288,5 @@ public class C2155P {
         C2192c c2192cM5827u = new C2192c().m5827u(makeApiRequest("https://share-kd-njs.yun.139.com/yun-share/richlifeApp/devapp/IOutLink/getContentInfoFromOutLink", "{\"getContentInfoFromOutLinkReq\":{\"contentId\":\"" + strArr[2] + "\",\"linkID\":\"" + str + "\",\"account\":\"\"},\"commonAccountInfo\":{\"account\":\"\",\"accountType\":1}}").getJSONObject("data").getJSONObject("contentInfo").getString("presentURL"));
         c2192cM5827u.m5811e(m5552i());
         return addDanmaku(c2192cM5827u.toString());
+    }
+}

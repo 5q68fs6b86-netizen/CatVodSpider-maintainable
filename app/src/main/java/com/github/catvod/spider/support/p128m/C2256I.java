@@ -181,7 +181,7 @@ public final class C2256I {
             HashMap<String, String> mapM6121r = m6121r(str);
             mapM6121r.putAll(m6121r(str2.split(";")[0]));
             StringBuilder sb = new StringBuilder();
-            for (Object __en : mapM6121r.entrySet()) { Map.Entry entry = (Map.Entry) __en;
+            for (Map.Entry<String, String> entry : mapM6121r.entrySet()) {
                 if (sb.length() > 0) {
                     sb.append(";");
                 }

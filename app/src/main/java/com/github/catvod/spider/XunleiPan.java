@@ -110,7 +110,7 @@ public class XunleiPan extends Spider {
             sb.append(e.getMessage());
             printStream.println(sb.toString());
         } catch (NoSuchAlgorithmException e2) {
-            /*e=e2*/
+            e = e2;
             printStream = System.err;
             sb = new StringBuilder();
             str = "算法错误: ";
@@ -118,14 +118,15 @@ public class XunleiPan extends Spider {
             sb.append(e.getMessage());
             printStream.println(sb.toString());
         } catch (JSONException e3) {
-            /*e=e3*/
+            e = e3;
             printStream = System.err;
             sb = new StringBuilder();
             str = "JSON 解析错误: ";
             sb.append(str);
             sb.append(e.getMessage());
             printStream.println(sb.toString());
-        } catch (Exception e4) { Exception /*e=e4*/
+        } catch (Exception e4) {
+            e = e4;
             printStream = System.err;
             sb = new StringBuilder();
             str = "发生未知错误: ";

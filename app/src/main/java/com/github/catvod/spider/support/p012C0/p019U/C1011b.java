@@ -53,7 +53,7 @@ public final class C1011b {
         Class cls5 = Void.TYPE;
         map2.put(cls5, cls5);
         f2474c = new HashMap();
-        for (Object __en : map2.entrySet()) { Map.Entry entry = (Map.Entry) __en;
+        for (Map.Entry entry : map2.entrySet()) {
             Class<?> cls6 = (Class) entry.getKey();
             Class<?> cls7 = (Class) entry.getValue();
             if (!cls6.equals(cls7)) {
@@ -70,7 +70,7 @@ public final class C1011b {
         map3.put("double", "D");
         map3.put("char", "C");
         HashMap map4 = new HashMap();
-        for (Object __en : map3.entrySet()) { Map.Entry entry2 = (Map.Entry) __en;
+        for (Map.Entry entry2 : map3.entrySet()) {
             map4.put(entry2.getValue(), entry2.getKey());
         }
         Collections.unmodifiableMap(map3);

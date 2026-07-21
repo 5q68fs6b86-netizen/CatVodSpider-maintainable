@@ -111,7 +111,8 @@ public final class C1753x {
                 }
             }
             return true;
-        } catch (Exception e2) { Exception /*e=e2*/
+        } catch (Exception e2) {
+            e = e2;
         }
     }
 

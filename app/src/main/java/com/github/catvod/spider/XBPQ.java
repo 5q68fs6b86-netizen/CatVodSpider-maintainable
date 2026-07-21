@@ -33459,7 +33459,7 @@ public class XBPQ extends Spider {
             }
             String str4 = string2 + "&key=" + strTrim2 + "&value=" + strM3105a;
             C1254g.m3127h(str4, m724t(str4), map);
-            for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
+            for (Map.Entry entry : map.entrySet()) {
                 if (((String) entry.getKey()).equals("set-cookie") || ((String) entry.getKey()).equals("Set-Cookie")) {
                     this.f322z = this.f322z.length() < 1 ? TextUtils.join(";", (Iterable) entry.getValue()) : this.f322z + ";" + TextUtils.join(";", (Iterable) entry.getValue());
                     break;
@@ -33601,7 +33601,8 @@ public class XBPQ extends Spider {
                                 if (!str5.endsWith("=")) {
                                     jsonObject3.addProperty(str5.split("=")[0], str5.split("=")[1]);
                                 }
-                            } catch (Exception e2) { Exception /*e=e2*/
+                            } catch (Exception e2) {
+                                e = e2;
                                 str2 = ";post";
                                 str3 = str2;
                                 if (this.f309m) {
@@ -33657,7 +33658,8 @@ public class XBPQ extends Spider {
                         if (strM722l.length() > 50) {
                             sb.append(strM722l);
                         }
-                    } catch (Exception e3) { Exception /*e=e3*/
+                    } catch (Exception e3) {
+                        e = e3;
                         str3 = str2;
                         if (this.f309m) {
                             Init.show(this.f293G + "调试->multiReq出错：" + e.toString());
@@ -33680,7 +33682,8 @@ public class XBPQ extends Spider {
                     }
                 }
                 return sb.toString();
-            } catch (Exception e4) { Exception /*e=e4*/
+            } catch (Exception e4) {
+                e = e4;
                 str3 = str2;
                 if (this.f309m) {
                     Init.show(this.f293G + "调试->multiReq出错：" + e.toString());
@@ -33701,7 +33704,8 @@ public class XBPQ extends Spider {
                 }
                 return sb.toString();
             }
-        } catch (Exception e5) { Exception /*e=e5*/
+        } catch (Exception e5) {
+            e = e5;
         }
     }
 
@@ -36865,7 +36869,8 @@ public class XBPQ extends Spider {
                                         sb20.append(str2);
                                         sb20.append("&limit=500");
                                         string = sb20.toString();
-                                    } catch (Exception e5) { Exception /*e=e5*/
+                                    } catch (Exception e5) {
+                                        e = e5;
                                         if (this.f309m) {
                                             Init.show(this.f293G + "调试->搜索模式0出错：" + e.toString());
                                         }
@@ -36923,9 +36928,11 @@ public class XBPQ extends Spider {
                                         jSONObject2.put(str6, jSONArray);
                                         return jSONObject2;
                                     }
-                                } catch (Exception e7) { Exception /*e=e7*/
+                                } catch (Exception e7) {
+                                    e = e7;
                                 }
-                            } catch (Exception e8) { Exception /*e=e8*/
+                            } catch (Exception e8) {
+                                e = e8;
                             }
                         } else {
                             string = str37;
@@ -36942,7 +36949,8 @@ public class XBPQ extends Spider {
                                         try {
                                             if (string.indexOf(";post") < 0) {
                                                 try {
-                                                } catch (Exception e9) { Exception /*e=e9*/
+                                                } catch (Exception e9) {
+                                                    e = e9;
                                                     str20 = str6;
                                                     str21 = strReplaceAll3;
                                                     strReplaceAll3 = str21;
@@ -37008,7 +37016,8 @@ public class XBPQ extends Spider {
                                                 if (strM722l == null) {
                                                     try {
                                                         spiderApi4.log("未获取到json源码");
-                                                    } catch (Exception e10) { Exception /*e=e10*/
+                                                    } catch (Exception e10) {
+                                                        e = e10;
                                                     }
                                                 } else {
                                                     try {
@@ -37025,9 +37034,11 @@ public class XBPQ extends Spider {
                                                                             sb22.append("获取到json源码--> ");
                                                                             sb22.append(strM722l);
                                                                             spiderApi17.log(sb22.toString());
-                                                                        } catch (Exception e11) { Exception /*e=e11*/
+                                                                        } catch (Exception e11) {
+                                                                            e = e11;
                                                                         }
-                                                                    } catch (Exception e12) { Exception /*e=e12*/
+                                                                    } catch (Exception e12) {
+                                                                        e = e12;
                                                                     }
                                                                 } else {
                                                                     try {
@@ -37037,7 +37048,8 @@ public class XBPQ extends Spider {
                                                                         sb23.append(strM722l.split(str36)[0].split(str17)[0]);
                                                                         sb23.append(str8);
                                                                         string3 = sb23.toString();
-                                                                    } catch (Exception e13) { Exception /*e=e13*/
+                                                                    } catch (Exception e13) {
+                                                                        e = e13;
                                                                     }
                                                                 }
                                                                 if (this.f309m) {
@@ -37052,9 +37064,11 @@ public class XBPQ extends Spider {
                                                                 }
                                                             }
                                                             spiderApi6.log(string3);
-                                                        } catch (Exception e14) { Exception /*e=e14*/
+                                                        } catch (Exception e14) {
+                                                            e = e14;
                                                         }
-                                                    } catch (Exception e15) { Exception /*e=e15*/
+                                                    } catch (Exception e15) {
+                                                        e = e15;
                                                     }
                                                 }
                                             }
@@ -37082,7 +37096,8 @@ public class XBPQ extends Spider {
                                                                 if (strTrim9 == null) {
                                                                     try {
                                                                         strTrim3 = jSONObject4.optString(str11).trim();
-                                                                    } catch (Exception e16) { Exception /*e=e16*/
+                                                                    } catch (Exception e16) {
+                                                                        e = e16;
                                                                         e = e;
                                                                         e = e;
                                                                         strReplaceAll3 = str21;
@@ -37166,7 +37181,8 @@ public class XBPQ extends Spider {
                                                                         if (strTrim11 == null) {
                                                                             try {
                                                                                 strTrim11 = jSONObject4.optString(str44).trim();
-                                                                            } catch (Exception e17) { Exception /*e=e17*/
+                                                                            } catch (Exception e17) {
+                                                                                e = e17;
                                                                                 e = e;
                                                                                 e = e;
                                                                                 strReplaceAll3 = str21;
@@ -37235,7 +37251,8 @@ public class XBPQ extends Spider {
                                                                             } else {
                                                                                 try {
                                                                                     strM669G = m669G(str39, str49, "").replace(str21, "").length() < 1 ? m669G("搜索后缀", "sousuohouzhui", "") : "";
-                                                                                } catch (Exception e18) { Exception /*e=e18*/
+                                                                                } catch (Exception e18) {
+                                                                                    e = e18;
                                                                                     str40 = str40;
                                                                                     e = e;
                                                                                     str11 = str11;
@@ -37355,7 +37372,8 @@ public class XBPQ extends Spider {
                                                                                                     sb24.append(strM669G);
                                                                                                     spiderApi19.log(sb24.toString());
                                                                                                 }
-                                                                                            } catch (Exception e19) { Exception /*e=e19*/
+                                                                                            } catch (Exception e19) {
+                                                                                                e = e19;
                                                                                                 str20 = str20;
                                                                                                 str21 = str21;
                                                                                                 e = e;
@@ -37373,7 +37391,8 @@ public class XBPQ extends Spider {
                                                                                                 }
                                                                                             }
                                                                                         }
-                                                                                    } catch (Exception e20) { Exception /*e=e20*/
+                                                                                    } catch (Exception e20) {
+                                                                                        e = e20;
                                                                                     }
                                                                                 }
                                                                                 try {
@@ -37415,7 +37434,8 @@ public class XBPQ extends Spider {
                                                                                                                 if (jSONArray.length() >= i7) {
                                                                                                                     break;
                                                                                                                 }
-                                                                                                            } catch (Exception e21) { Exception /*e=e21*/
+                                                                                                            } catch (Exception e21) {
+                                                                                                                e = e21;
                                                                                                                 strReplaceAll3 = str21;
                                                                                                                 str6 = str20;
                                                                                                                 if (this.f309m) {
@@ -37432,7 +37452,8 @@ public class XBPQ extends Spider {
                                                                                                         } else {
                                                                                                             continue;
                                                                                                         }
-                                                                                                    } catch (Exception e22) { Exception /*e=e22*/
+                                                                                                    } catch (Exception e22) {
+                                                                                                        e = e22;
                                                                                                         str6 = str20;
                                                                                                         strReplaceAll3 = str21;
                                                                                                         if (this.f309m) {
@@ -37446,11 +37467,14 @@ public class XBPQ extends Spider {
                                                                                                             str7 = str7;
                                                                                                         }
                                                                                                     }
-                                                                                                } catch (Exception e23) { Exception /*e=e23*/
+                                                                                                } catch (Exception e23) {
+                                                                                                    e = e23;
                                                                                                 }
-                                                                                            } catch (Exception e24) { Exception /*e=e24*/
+                                                                                            } catch (Exception e24) {
+                                                                                                e = e24;
                                                                                             }
-                                                                                        } catch (Exception e25) { Exception /*e=e25*/
+                                                                                        } catch (Exception e25) {
+                                                                                            e = e25;
                                                                                             e = e;
                                                                                             str6 = str20;
                                                                                             strReplaceAll3 = str21;
@@ -37512,7 +37536,8 @@ public class XBPQ extends Spider {
                                                                                     } else {
                                                                                         continue;
                                                                                     }
-                                                                                } catch (Exception e26) { Exception /*e=e26*/
+                                                                                } catch (Exception e26) {
+                                                                                    e = e26;
                                                                                     str40 = str40;
                                                                                     e = e;
                                                                                     str11 = str11;
@@ -37579,14 +37604,17 @@ public class XBPQ extends Spider {
                                                                                     jSONObject10.put(str6, jSONArray);
                                                                                     return jSONObject10;
                                                                                 }
-                                                                            } catch (Exception e27) { Exception /*e=e27*/
+                                                                            } catch (Exception e27) {
+                                                                                e = e27;
                                                                             }
-                                                                        } catch (Exception e28) { Exception /*e=e28*/
+                                                                        } catch (Exception e28) {
+                                                                            e = e28;
                                                                         }
                                                                     }
                                                                 }
                                                                 str49 = str49;
-                                                            } catch (Exception e29) { Exception /*e=e29*/
+                                                            } catch (Exception e29) {
+                                                                e = e29;
                                                                 str44 = str44;
                                                                 str40 = str40;
                                                                 str11 = str11;
@@ -37650,7 +37678,8 @@ public class XBPQ extends Spider {
                                                                 return jSONObject11;
                                                             }
                                                         }
-                                                    } catch (Exception e30) { Exception /*e=e30*/
+                                                    } catch (Exception e30) {
+                                                        e = e30;
                                                         str21 = strReplaceAll3;
                                                         str20 = str6;
                                                     }
@@ -37676,7 +37705,8 @@ public class XBPQ extends Spider {
                                                                         spiderApi20.log(sb27.toString());
                                                                         strReplaceAll3 = str21;
                                                                         str6 = str20;
-                                                                    } catch (Exception e31) { Exception /*e=e31*/
+                                                                    } catch (Exception e31) {
+                                                                        e = e31;
                                                                         strReplaceAll3 = str21;
                                                                         str6 = str20;
                                                                         if (this.f309m) {
@@ -37690,16 +37720,19 @@ public class XBPQ extends Spider {
                                                                             str7 = str7;
                                                                         }
                                                                     }
-                                                                } catch (Exception e32) { Exception /*e=e32*/
+                                                                } catch (Exception e32) {
+                                                                    e = e32;
                                                                 }
                                                             }
                                                             spiderApi5.log(str23);
                                                             strReplaceAll3 = str21;
                                                             str6 = str20;
                                                         }
-                                                    } catch (Exception e33) { Exception /*e=e33*/
+                                                    } catch (Exception e33) {
+                                                        e = e33;
                                                     }
-                                                } catch (Exception e34) { Exception /*e=e34*/
+                                                } catch (Exception e34) {
+                                                    e = e34;
                                                 }
                                             } else {
                                                 str21 = strReplaceAll3;
@@ -37729,11 +37762,14 @@ public class XBPQ extends Spider {
                                                     str6 = str20;
                                                 }
                                             }
-                                        } catch (Exception e35) { Exception /*e=e35*/
+                                        } catch (Exception e35) {
+                                            e = e35;
                                         }
-                                    } catch (Exception e36) { Exception /*e=e36*/
+                                    } catch (Exception e36) {
+                                        e = e36;
                                     }
-                                } catch (Exception e37) { Exception /*e=e37*/
+                                } catch (Exception e37) {
+                                    e = e37;
                                     if (this.f309m) {
                                         Init.show(this.f293G + "调试->搜索模式0出错：" + e.toString());
                                     }
@@ -37888,9 +37924,11 @@ public class XBPQ extends Spider {
                                     }
                                 }
                             }
-                        } catch (Exception e38) { Exception /*e=e38*/
+                        } catch (Exception e38) {
+                            e = e38;
                         }
-                    } catch (Exception e39) { Exception /*e=e39*/
+                    } catch (Exception e39) {
+                        e = e39;
                     }
                 }
             }
@@ -38405,7 +38443,8 @@ public class XBPQ extends Spider {
                 C1241b.m3070a(e, C1064d.m2774b("替换tH()错误！-->"), spiderApi);
                 return str3;
             }
-        } catch (Exception e2) { Exception /*e=e2*/
+        } catch (Exception e2) {
+            e = e2;
             str3 = str2;
         }
     }
@@ -40551,7 +40590,8 @@ public class XBPQ extends Spider {
                                 strSubstring = sb2.toString().substring(0, sb2.toString().length() - 1);
                             }
                             str2 = "\\s";
-                        } catch (Exception e2) { Exception /*e=e2*/
+                        } catch (Exception e2) {
+                            e = e2;
                             str = "\\s";
                         }
                     } else {
@@ -40665,7 +40705,8 @@ public class XBPQ extends Spider {
                         }
                     }
                 }
-            } catch (Exception e3) { Exception /*e=e3*/
+            } catch (Exception e3) {
+                e = e3;
                 str = "\\s";
             }
             this.f299c = strSubstring.replace("電影", "电影").replace("連續劇", "连续剧").replace("電視劇", "电视剧").replace("劇集", "剧集").replace("動漫", "动漫").replace("綜藝", "综艺").replaceAll(str2, "");
@@ -42118,7 +42159,8 @@ public class XBPQ extends Spider {
                     }
                 }
                 str5 = string3;
-            } catch (Exception e3) { Exception /*e=e3*/
+            } catch (Exception e3) {
+                e = e3;
                 str5 = string3;
                 if (this.f309m) {
                     Init.show(this.f293G + "调试->验证出错：" + e.toString());
@@ -42205,7 +42247,8 @@ public class XBPQ extends Spider {
                 }
                 return str3;
             }
-        } catch (Exception e5) { Exception /*e=e5*/
+        } catch (Exception e5) {
+            e = e5;
             str5 = str4;
         }
         if ("1".equals(this.f287A)) {
@@ -42437,7 +42480,8 @@ public class XBPQ extends Spider {
                                     jSONObject.put("filters", jSONObjectOptJSONObject);
                                 }
                             }
-                        } catch (Exception e2) { Exception /*e=e2*/
+                        } catch (Exception e2) {
+                            e = e2;
                             try {
                                 if (this.f309m) {
                                     Init.show(this.f293G + "调试->获取筛选出错：" + e.toString());
@@ -42446,7 +42490,8 @@ public class XBPQ extends Spider {
                                 if (spiderApi2 != null) {
                                     spiderApi2.log("获取筛选错误！-->" + e.toString());
                                 }
-                            } catch (Exception e3) { Exception /*e=e3*/
+                            } catch (Exception e3) {
+                                e = e3;
                                 if (this.f309m) {
                                     Init.show(this.f293G + "调试->homeContent出错：" + e.toString());
                                 }
@@ -42485,10 +42530,12 @@ public class XBPQ extends Spider {
                         }
                     }
                 }
-            } catch (Exception e4) { Exception /*e=e4*/
+            } catch (Exception e4) {
+                e = e4;
             }
             return jSONObject.toString();
-        } catch (Exception e5) { Exception /*e=e5*/
+        } catch (Exception e5) {
+            e = e5;
         }
     }
 
@@ -43454,7 +43501,8 @@ public class XBPQ extends Spider {
                                 exc = e4;
                                 str3 = strTrim2;
                             }
-                        } catch (Exception e5) { Exception /*e=e5*/
+                        } catch (Exception e5) {
+                            e = e5;
                             str = strTrim5;
                             str2 = "";
                             strTrim3 = "";
@@ -43569,7 +43617,8 @@ public class XBPQ extends Spider {
                             jSONObject2.put("list", jSONArray);
                             return jSONObject2.toString();
                         }
-                    } catch (Exception e6) { Exception /*e=e6*/
+                    } catch (Exception e6) {
+                        e = e6;
                         str = "";
                         e = e;
                         str2 = "";
@@ -43685,7 +43734,8 @@ public class XBPQ extends Spider {
                         jSONObject4.put("list", jSONArray2);
                         return jSONObject4.toString();
                     }
-                } catch (Exception e7) { Exception /*e=e7*/
+                } catch (Exception e7) {
+                    e = e7;
                     strTrim2 = "";
                     str = "";
                     e = e;
@@ -43802,7 +43852,8 @@ public class XBPQ extends Spider {
                     jSONObject6.put("list", jSONArray3);
                     return jSONObject6.toString();
                 }
-            } catch (Exception e8) { Exception /*e=e8*/
+            } catch (Exception e8) {
+                e = e8;
                 strTrim = "";
             }
             JSONObject jSONObject7 = new JSONObject();
@@ -43873,38 +43924,3 @@ public class XBPQ extends Spider {
         }
     }
 }
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-}
-

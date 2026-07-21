@@ -127,7 +127,8 @@ public class AppSy extends Spider {
                 e = e;
                 e.printStackTrace();
             }
-        } catch (Exception e2) { Exception /*e=e2*/
+        } catch (Exception e2) {
+            e = e2;
         }
         return Result.string(arrayList);
     }
@@ -285,7 +286,8 @@ public class AppSy extends Spider {
                 e = e;
                 e.printStackTrace();
             }
-        } catch (Exception e2) { Exception /*e=e2*/
+        } catch (Exception e2) {
+            e = e2;
         }
         return Result.string(arrayList);
     }

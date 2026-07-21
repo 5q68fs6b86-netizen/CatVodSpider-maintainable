@@ -95,7 +95,7 @@ public class Feiyu extends Spider {
             } else {
                 ArrayList arrayList = new ArrayList();
                 ArrayList arrayList2 = new ArrayList();
-                for (Object __en : map.entrySet()) { Map.Entry entry = (Map.Entry) __en;
+                for (Map.Entry entry : map.entrySet()) {
                     String str4 = (String) entry.getValue();
                     String strEncode = URLEncoder.encode(str4, "UTF-8");
                     StringBuilder sb2 = new StringBuilder();

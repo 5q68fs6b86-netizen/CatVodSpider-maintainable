@@ -47,7 +47,7 @@ public abstract class AbstractC0616sp {
         map2.put(cls8, Float.class);
         map2.put(cls9, cls9);
         f1502a = new HashMap();
-        for (Object __en : map2.entrySet()) { Map.Entry entry = (Map.Entry) __en;
+        for (Map.Entry entry : map2.entrySet()) {
             Class cls10 = (Class) entry.getKey();
             Class cls11 = (Class) entry.getValue();
             if (!cls10.equals(cls11)) {
@@ -64,7 +64,7 @@ public abstract class AbstractC0616sp {
         map3.put("double", "D");
         map3.put("char", "C");
         HashMap map4 = new HashMap();
-        for (Object __en : map3.entrySet()) { Map.Entry entry2 = (Map.Entry) __en;
+        for (Map.Entry entry2 : map3.entrySet()) {
             map4.put(entry2.getValue(), entry2.getKey());
         }
         Collections.unmodifiableMap(map3);

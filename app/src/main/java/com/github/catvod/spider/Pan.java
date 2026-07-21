@@ -100,7 +100,6 @@ public class Pan extends Spider {
         for (int i = 0; i < list.size(); i++) names.add(String.valueOf(list.get(i)));
         return android.text.TextUtils.join("$$$", names);
     }
-
     public static String detailContentVodPlayUrl(java.util.List<?> list) {
         if (list == null || list.isEmpty()) return "";
         java.util.ArrayList<String> urls = new java.util.ArrayList<>();

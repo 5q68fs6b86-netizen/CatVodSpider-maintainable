@@ -342,17 +342,23 @@ public final class C1715C {
                                             Thread.sleep(1000L);
                                         }
                                         i = i2;
-                                    } catch (Exception e2) { Exception /*e=e2*/
+                                    } catch (Exception e2) {
+                                        e = e2;
                                     }
-                                } catch (Exception e3) { Exception /*e=e3*/
+                                } catch (Exception e3) {
+                                    e = e3;
                                 }
-                            } catch (Exception e4) { Exception /*e=e4*/
+                            } catch (Exception e4) {
+                                e = e4;
                             }
-                        } catch (Exception e5) { Exception /*e=e5*/
+                        } catch (Exception e5) {
+                            e = e5;
                         }
-                    } catch (Exception e6) { Exception /*e=e6*/
+                    } catch (Exception e6) {
+                        e = e6;
                     }
-                } catch (Exception e7) { Exception /*e=e7*/
+                } catch (Exception e7) {
+                    e = e7;
                 }
             }
             strOptString = "";
@@ -422,7 +428,8 @@ public final class C1715C {
                     e = e;
                 }
                 e = e;
-            } catch (Exception e2) { Exception /*e=e2*/
+            } catch (Exception e2) {
+                e = e2;
             }
             C1751v.m4143c(new byte[]{51, -96, 107, -27, -10, -16, -123, 99, 61, -73, 89, -34, -11, -6, -107, 110, 48, -27, 122, -59, -21, -91, -47}, new byte[]{84, -59, 31, -73, -103, -97, -15, 39}, new StringBuilder(), e);
             return 0;

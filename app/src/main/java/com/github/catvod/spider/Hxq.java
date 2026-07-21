@@ -1211,7 +1211,8 @@ public class Hxq extends Spider {
                     length = i5;
                     strArr2 = strArr7;
                 }
-            } catch (Exception e2) { Exception /*e=e2*/
+            } catch (Exception e2) {
+                e = e2;
                 strArr = strArr4;
             }
             arrayList = new ArrayList();
