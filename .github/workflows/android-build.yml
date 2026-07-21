@@ -39,14 +39,20 @@ jobs:
           cat gradle/libs.versions.toml
 
       - name: Gradle compile debug
+        env:
+          JAVA_HOME: ${{ env.JAVA_HOME }}
         run: |
           chmod +x gradlew
-          ./gradlew --no-daemon :app:compileDebugJavaWithJavac --stacktrace 2>&1 | tee compile.log
+          echo "JAVA_HOME=$JAVA_HOME"
+          java -version
+          # prevent Gradle from auto-downloading JetBrains JBR 21 daemon toolchain
+          rm -f gradle/gradle-daemon-jvm.properties
+          ./gradlew --no-daemon -Dorg.gradle.java.home="$JAVA_HOME" :app:compileDebugJavaWithJavac --stacktrace 2>&1 | tee compile.log
         continue-on-error: true
 
       - name: Gradle assembleDebug
         run: |
-          ./gradlew --no-daemon :app:assembleDebug --stacktrace 2>&1 | tee assemble.log
+          ./gradlew --no-daemon -Dorg.gradle.java.home="$JAVA_HOME" :app:assembleDebug --stacktrace 2>&1 | tee assemble.log
         continue-on-error: true
 
       - name: Upload logs and APK
