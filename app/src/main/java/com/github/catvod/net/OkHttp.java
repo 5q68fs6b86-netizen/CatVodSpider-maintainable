@@ -164,4 +164,14 @@ public class OkHttp {
             }
         };
     }
+
+    public static okhttp3.Response newCall(String url, java.util.Map<String, String> headers) throws Exception {
+        okhttp3.Request.Builder b = new okhttp3.Request.Builder().url(url);
+        if (headers != null) {
+            for (java.util.Map.Entry<String, String> e : headers.entrySet()) {
+                if (e.getKey() != null && e.getValue() != null) b.addHeader(e.getKey(), e.getValue());
+            }
+        }
+        return client().newCall(b.build()).execute();
+    }
 }

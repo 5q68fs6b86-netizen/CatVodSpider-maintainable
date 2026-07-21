@@ -1,4 +1,5 @@
 package com.github.catvod.spider.support.p001A;
+import com.github.catvod.bean.Vod;
 
 import android.text.TextUtils;
 import android.util.Base64;
@@ -9,7 +10,7 @@ import com.github.catvod.spider.support.p114T.C2131b;
 import com.github.catvod.spider.support.p116a.C2137a;
 import com.github.catvod.spider.support.p118c.C2190a;
 import com.github.catvod.spider.support.p118c.C2192c;
-import com.github.catvod.spider.support.p118c.C2194e;
+import com.github.catvod.spider.support.p118c.Vod;
 import com.github.catvod.spider.support.p126k.C2238b;
 import com.github.catvod.spider.support.p139y.C2419b;
 import com.github.catvod.spider.support.p139y.C2423f;
@@ -182,8 +183,8 @@ public final class C0082a implements InterfaceC2124a {
     }
 
     /* JADX INFO: renamed from: b */
-    public static C2194e m812b(String str) {
-        C2194e c2194e = new C2194e();
+    public static com.github.catvod.bean.Vod m812b(String str) {
+        Vod c2194e = new Vod();
         c2194e.m5848j(str);
         return c2194e;
     }
@@ -270,7 +271,7 @@ public final class C0082a implements InterfaceC2124a {
     }
 
     /* JADX INFO: renamed from: b */
-    public static void m821b(LinkedHashMap linkedHashMap, String str, C2194e c2194e, String str2) {
+    public static void m821b(LinkedHashMap linkedHashMap, String str, Vod c2194e, String str2) {
         c2194e.m5851m(TextUtils.join(str, linkedHashMap.keySet()));
         c2194e.m5852n(TextUtils.join(str2, linkedHashMap.values()));
     }
@@ -474,7 +475,7 @@ public final class C0082a implements InterfaceC2124a {
     }
 
     /* JADX INFO: renamed from: p */
-    public static void m845p(LinkedHashMap linkedHashMap, String str, C2194e c2194e, String str2) {
+    public static void m845p(LinkedHashMap linkedHashMap, String str, Vod c2194e, String str2) {
         c2194e.m5851m(TextUtils.join(str, linkedHashMap.keySet()));
         c2194e.m5852n(TextUtils.join(str2, linkedHashMap.values()));
     }

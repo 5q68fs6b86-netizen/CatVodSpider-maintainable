@@ -46,6 +46,7 @@ android {
         main {
             java {
                 // use maven protobuf, not incomplete decompiled stubs
+                exclude 'com/base/model/proto/**'
                 exclude 'com/google/protobuf/**'
             }
         }

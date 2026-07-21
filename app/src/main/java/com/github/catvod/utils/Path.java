@@ -146,4 +146,11 @@ public class Path {
             return file;
         }
     }
+
+    public static void write(File file, String content) {
+        try {
+            write(file, content == null ? new byte[0] : content.getBytes("UTF-8"));
+        } catch (Exception ignored) {
+        }
+    }
 }

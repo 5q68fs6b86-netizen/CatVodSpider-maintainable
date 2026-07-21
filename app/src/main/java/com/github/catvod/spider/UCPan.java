@@ -1,5 +1,9 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.spider.support.p128m.C2268k;
+
+import com.github.catvod.spider.support.p126k.C2238b;
+
 import android.text.TextUtils;
 import android.util.Log;
 import com.github.catvod.crawler.Spider;
@@ -79,7 +83,7 @@ public class UCPan extends Spider {
                     }
                 }
             }
-        } catch (JSONException | Exception e) {
+        } catch (Exception e) {
             System.err.println(e.getMessage());
         }
     }

@@ -1,5 +1,6 @@
 package com.github.catvod.spider;
 
+import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
@@ -46,5 +47,20 @@ public class Init {
 
     public static void post(Runnable runnable, int delay) {
         get().handler.postDelayed(runnable, delay);
+    }
+
+    public static void checkPermission() {
+    }
+
+    public static void run(Runnable runnable) {
+        post(runnable);
+    }
+
+    public static void run(Runnable runnable, int delay) {
+        post(runnable, delay);
+    }
+
+    public static Activity getActivity() {
+        return null;
     }
 }

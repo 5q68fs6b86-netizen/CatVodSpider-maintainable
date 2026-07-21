@@ -13,14 +13,8 @@ public final class C0586rm extends C0706vy {
 
     @Override // com.github.catvod.spider.support.p002A0.C0706vy, com.github.catvod.spider.support.p002A0.AbstractC0272fw
     /* JADX INFO: renamed from: b */
-    public final AbstractC0272fw clone() {
-        return (C0586rm) super.clone();
-    }
 
     @Override // com.github.catvod.spider.support.p002A0.C0706vy, com.github.catvod.spider.support.p002A0.AbstractC0272fw
-    public final Object clone() {
-        return (C0586rm) super.clone();
-    }
 
     @Override // com.github.catvod.spider.support.p002A0.C0706vy, com.github.catvod.spider.support.p002A0.AbstractC0272fw
     /* JADX INFO: renamed from: s */

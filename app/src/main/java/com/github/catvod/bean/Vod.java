@@ -200,4 +200,63 @@ public class Vod {
             this.ratio = ratio;
         }
     }
+
+
+    public String m5838a() {
+        return this.vodId;
+    }
+    public String m5839b() {
+        return this.vodName;
+    }
+    public String m5840c() {
+        return this.vodPlayUrl;
+    }
+    public void m5841d(Style aVar) {
+        this.style = aVar;
+    }
+    public void m5842e(String str) {
+        this.typeName = str;
+    }
+    public void m5843f(String str) {
+        this.vodActor = str;
+    }
+    public String m5844g() {
+        return this.vodPlayUrl;
+    }
+    public void m5845g(String str) {
+        this.vodArea = str;
+    }
+    public void m5846h(String str) {
+        this.vodContent = str;
+    }
+    public void m5847i(String str) {
+        this.vodDirector = str;
+    }
+    public void m5848j(String str) {
+        this.vodId = str;
+    }
+    public void m5849k(String str) {
+        this.vodName = str;
+    }
+    public void m5850l(String str) {
+        this.vodPic = str;
+    }
+    public void m5851m(String str) {
+        this.vodPlayFrom = str;
+    }
+    public void m5852n(String str) {
+        this.vodPlayUrl = str;
+    }
+    public void m5853o(String str) {
+        this.vodRemarks = str;
+    }
+    public void m5854p(String str) {
+        this.vodTag = str;
+    }
+    public void m5855q(String str) {
+        this.vodYear = str;
+    }
+    public void m5856r(String str) {
+        this.action = str;
+    }
 }

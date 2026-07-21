@@ -1,5 +1,7 @@
 package com.github.catvod.spider;
 
+import com.github.catvod.crawler.Spider;
+
 import android.content.Context;
 import android.net.Uri;
 import android.text.TextUtils;

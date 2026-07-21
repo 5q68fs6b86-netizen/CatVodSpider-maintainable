@@ -77,4 +77,25 @@ public class Util {
         manager.setPrimaryClip(ClipData.newPlainText("fongmi", text));
         Notify.show("已複製 " + text);
     }
+
+
+    public static byte[] toUtf8(byte[] bytes) {
+        if (bytes == null) return new byte[0];
+        try {
+            String s = new String(bytes, "UTF-8");
+            return s.getBytes("UTF-8");
+        } catch (Exception e) {
+            return bytes;
+        }
+    }
+
+    public static String getDigit(String name) {
+        if (name == null) return "";
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < name.length(); i++) {
+            char c = name.charAt(i);
+            if (Character.isDigit(c)) sb.append(c);
+        }
+        return sb.length() == 0 ? name : sb.toString();
+    }
 }

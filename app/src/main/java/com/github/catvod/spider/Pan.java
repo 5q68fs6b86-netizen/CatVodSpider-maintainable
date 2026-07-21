@@ -80,7 +80,8 @@ public class Pan extends Spider {
         return Result.get().url(id).string();
     }
 
-    public static Object[] proxy(Map<String, String> params) {
+    @Override
+    public Object[] proxy(Map<String, String> params) throws Exception {
         return null;
     }
 }

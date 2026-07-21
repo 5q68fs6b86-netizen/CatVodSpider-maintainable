@@ -12,9 +12,6 @@ public final class C0638tk extends AbstractC0672ur {
     }
 
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0272fw
-    public final Object clone() {
-        return (C0638tk) super.clone();
-    }
 
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0272fw
     /* JADX INFO: renamed from: s */
