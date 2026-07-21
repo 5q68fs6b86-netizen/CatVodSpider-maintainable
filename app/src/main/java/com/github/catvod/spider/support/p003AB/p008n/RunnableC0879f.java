@@ -1,2 +1,2 @@
 package com.github.catvod.spider.support.p003AB.p008n;
-public class RunnableC0879f { public RunnableC0879f(){} public RunnableC0879f(Object... a){} }
+public class RunnableC0879f implements Runnable { public RunnableC0879f(){} public RunnableC0879f(Object... a){} public void run(){} }

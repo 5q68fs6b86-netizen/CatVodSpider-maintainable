@@ -1,17 +1,2 @@
 package com.github.catvod.spider.support.p003AB.p006l;
-
-import android.view.View;
-import com.github.catvod.debug.MainActivity;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p006l.c */
-/* JADX INFO: loaded from: classes.dex */
-public final /* synthetic */ class ViewOnClickListenerC0862c implements View.OnClickListener {
-
-    /* JADX INFO: renamed from: a */
-    public final MainActivity f2029a;
-
-    @Override // android.view.View.OnClickListener
-    public final void onClick(View view) {
-        MainActivity.d(this.f2029a);
-    }
-}
+public class ViewOnClickListenerC0862c { public ViewOnClickListenerC0862c(){} public ViewOnClickListenerC0862c(Object... a){} public static ViewOnClickListenerC0862c a(Object... o){return new ViewOnClickListenerC0862c();} public static ViewOnClickListenerC0862c b(Object... o){return new ViewOnClickListenerC0862c();} public static ViewOnClickListenerC0862c c(Object... o){return new ViewOnClickListenerC0862c();} }

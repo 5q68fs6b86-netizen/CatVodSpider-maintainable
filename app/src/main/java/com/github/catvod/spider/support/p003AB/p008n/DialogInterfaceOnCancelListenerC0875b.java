@@ -1,2 +1,2 @@
 package com.github.catvod.spider.support.p003AB.p008n;
-public class DialogInterfaceOnCancelListenerC0875b { public DialogInterfaceOnCancelListenerC0875b(){} public DialogInterfaceOnCancelListenerC0875b(Object... a){} }
+public class DialogInterfaceOnCancelListenerC0875b { public DialogInterfaceOnCancelListenerC0875b(){} public DialogInterfaceOnCancelListenerC0875b(Object... a){} public static DialogInterfaceOnCancelListenerC0875b a(Object... o){return new DialogInterfaceOnCancelListenerC0875b();} public static DialogInterfaceOnCancelListenerC0875b b(Object... o){return new DialogInterfaceOnCancelListenerC0875b();} public static DialogInterfaceOnCancelListenerC0875b c(Object... o){return new DialogInterfaceOnCancelListenerC0875b();} }

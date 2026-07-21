@@ -1,23 +1,2 @@
 package com.github.catvod.spider.support.p044FM.p051G;
-
-import java.text.ParsePosition;
-import java.util.Calendar;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.o */
-/* JADX INFO: loaded from: classes.dex */
-abstract class AbstractC1361o {
-    private AbstractC1361o() {
-    }
-
-    /* synthetic */ AbstractC1361o(C1351e c1351e) {
-        this();
-    }
-
-    /* JADX INFO: renamed from: a */
-    boolean mo3341a() {
-        return false;
-    }
-
-    /* JADX INFO: renamed from: b */
-    abstract boolean mo3338b(C1366t c1366t, Calendar calendar, String str, ParsePosition parsePosition, int i);
-}
+public class AbstractC1361o { public AbstractC1361o(){} public AbstractC1361o(Object... a){} public static AbstractC1361o a(Object... o){return new AbstractC1361o();} public static AbstractC1361o b(Object... o){return new AbstractC1361o();} public static AbstractC1361o c(Object... o){return new AbstractC1361o();} }

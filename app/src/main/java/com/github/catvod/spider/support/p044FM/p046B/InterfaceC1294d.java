@@ -1,2 +1,2 @@
 package com.github.catvod.spider.support.p044FM.p046B;
-public interface InterfaceC1294d {}
+public interface InterfaceC1294d<T> {}

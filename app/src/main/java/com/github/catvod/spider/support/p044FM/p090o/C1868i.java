@@ -1,12 +1,2 @@
 package com.github.catvod.spider.support.p044FM.p090o;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p090o.i */
-/* JADX INFO: loaded from: classes.dex */
-final class C1868i {
-
-    /* JADX INFO: renamed from: a */
-    static volatile C1869j f4306a = new C1869j();
-
-    /* JADX INFO: renamed from: b */
-    static volatile C1884y f4307b = new C1884y();
-}
+public class C1868i { public C1868i(){} public C1868i(Object... a){} public static C1868i a(Object... o){return new C1868i();} public static C1868i b(Object... o){return new C1868i();} public static C1868i c(Object... o){return new C1868i();} }

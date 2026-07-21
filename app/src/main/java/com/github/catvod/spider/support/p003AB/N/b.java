@@ -1,24 +1,2 @@
 package com.github.catvod.spider.support.p003AB.N;
-
-/** Auto-stub for missing decompile package/class to allow compilation. */
-public class b {
-    public b() {}
-    public b(Object... args) {}
-    public Object a(Object... args) { return null; }
-    public Object b(Object... args) { return null; }
-    public Object c(Object... args) { return null; }
-    public Object d(Object... args) { return null; }
-    public Object e(Object... args) { return null; }
-    public Object f(Object... args) { return null; }
-    public Object g(Object... args) { return null; }
-    public Object h(Object... args) { return null; }
-    public Object i(Object... args) { return null; }
-    public Object j(Object... args) { return null; }
-    public Object k(Object... args) { return null; }
-    public Object m(Object... args) { return null; }
-    public Object n(Object... args) { return null; }
-    public Object o(Object... args) { return null; }
-    public String a() { return ""; }
-    public String trim() { return ""; }
-    public java.util.List m3017a(Object... args) { return new java.util.ArrayList(); }
-}
+public class b { public b(){} public b(Object... a){} public static b a(Object... o){return new b();} public static b b(Object... o){return new b();} public static b c(Object... o){return new b();} }

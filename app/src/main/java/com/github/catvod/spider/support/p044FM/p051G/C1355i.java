@@ -1,18 +1,2 @@
 package com.github.catvod.spider.support.p044FM.p051G;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.i */
-/* JADX INFO: loaded from: classes.dex */
-final class C1355i extends C1359m {
-    C1355i() {
-        super(10);
-    }
-
-    @Override // com.github.catvod.spider.support.p044FM.p051G.C1359m
-    /* JADX INFO: renamed from: c */
-    final int mo3336c(C1366t c1366t, int i) {
-        if (i == 12) {
-            return 0;
-        }
-        return i;
-    }
-}
+public class C1355i { public C1355i(){} public C1355i(Object... a){} public static C1355i a(Object... o){return new C1355i();} public static C1355i b(Object... o){return new C1355i();} public static C1355i c(Object... o){return new C1355i();} }

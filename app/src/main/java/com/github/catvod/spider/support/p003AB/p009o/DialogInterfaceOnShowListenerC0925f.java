@@ -1,16 +1,2 @@
 package com.github.catvod.spider.support.p003AB.p009o;
-
-import android.content.DialogInterface;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.f */
-/* JADX INFO: loaded from: classes.dex */
-public final /* synthetic */ class DialogInterfaceOnShowListenerC0925f implements DialogInterface.OnShowListener {
-
-    /* JADX INFO: renamed from: a */
-    public final C0936q f2177a;
-
-    @Override // android.content.DialogInterface.OnShowListener
-    public final void onShow(DialogInterface dialogInterface) {
-        C0936q.m2261m(this.f2177a);
-    }
-}
+public class DialogInterfaceOnShowListenerC0925f { public DialogInterfaceOnShowListenerC0925f(){} public DialogInterfaceOnShowListenerC0925f(Object... a){} public static DialogInterfaceOnShowListenerC0925f a(Object... o){return new DialogInterfaceOnShowListenerC0925f();} public static DialogInterfaceOnShowListenerC0925f b(Object... o){return new DialogInterfaceOnShowListenerC0925f();} public static DialogInterfaceOnShowListenerC0925f c(Object... o){return new DialogInterfaceOnShowListenerC0925f();} }

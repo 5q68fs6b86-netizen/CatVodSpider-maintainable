@@ -1,2 +1,2 @@
 package com.github.catvod.spider.support.p003AB.p005b;
-public class DialogInterfaceOnClickListenerC0847n { public DialogInterfaceOnClickListenerC0847n(){} public DialogInterfaceOnClickListenerC0847n(Object... a){} }
+public class DialogInterfaceOnClickListenerC0847n { public DialogInterfaceOnClickListenerC0847n(){} public DialogInterfaceOnClickListenerC0847n(Object... a){} public static DialogInterfaceOnClickListenerC0847n a(Object... o){return new DialogInterfaceOnClickListenerC0847n();} public static DialogInterfaceOnClickListenerC0847n b(Object... o){return new DialogInterfaceOnClickListenerC0847n();} public static DialogInterfaceOnClickListenerC0847n c(Object... o){return new DialogInterfaceOnClickListenerC0847n();} }
