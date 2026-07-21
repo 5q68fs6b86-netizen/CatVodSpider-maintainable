@@ -1,13 +1,2 @@
 package com.github.catvod.spider.support.p012C0.p037l;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p037l.u */
-/* JADX INFO: loaded from: classes.dex */
-public final class C1258u extends RuntimeException {
-    public /* synthetic */ C1258u(String str) {
-        super(str);
-    }
-
-    public /* synthetic */ C1258u(String str, Throwable th) {
-        super(str, th);
-    }
-}
+public class C1258u { public C1258u(){} public static C1258u a(Object... o){return new C1258u();} public static C1258u b(Object... o){return new C1258u();} public static C1258u c(Object... o){return new C1258u();} public C1258u(Object... a){} }

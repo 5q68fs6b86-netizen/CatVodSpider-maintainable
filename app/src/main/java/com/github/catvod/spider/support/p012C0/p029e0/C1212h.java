@@ -1,18 +1,2 @@
 package com.github.catvod.spider.support.p012C0.p029e0;
-
-import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
-import org.slf4j.Marker;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.h */
-/* JADX INFO: loaded from: classes.dex */
-public final class C1212h extends AbstractC1193N {
-    @Override // com.github.catvod.spider.support.p012C0.p029e0.AbstractC1193N
-    /* JADX INFO: renamed from: a */
-    public final boolean mo2996a(C1053l c1053l, C1053l c1053l2) {
-        return true;
-    }
-
-    public final String toString() {
-        return Marker.ANY_MARKER;
-    }
-}
+public class C1212h { public C1212h(){} public static C1212h a(Object... o){return new C1212h();} public static C1212h b(Object... o){return new C1212h();} public static C1212h c(Object... o){return new C1212h();} public C1212h(Object... a){} }

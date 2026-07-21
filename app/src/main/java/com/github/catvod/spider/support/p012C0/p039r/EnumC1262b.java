@@ -1,17 +1,2 @@
 package com.github.catvod.spider.support.p012C0.p039r;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p039r.b */
-/* JADX INFO: loaded from: classes.dex */
-public enum EnumC1262b {
-    ERROR_CORRECTION,
-    CHARACTER_SET,
-    DATA_MATRIX_SHAPE,
-    MIN_SIZE,
-    MAX_SIZE,
-    MARGIN,
-    PDF417_COMPACT,
-    PDF417_COMPACTION,
-    PDF417_DIMENSIONS,
-    AZTEC_LAYERS,
-    QR_VERSION
-}
+public class EnumC1262b { public EnumC1262b(){} public static EnumC1262b a(Object... o){return new EnumC1262b();} public static EnumC1262b b(Object... o){return new EnumC1262b();} public static EnumC1262b c(Object... o){return new EnumC1262b();} public EnumC1262b(Object... a){} }

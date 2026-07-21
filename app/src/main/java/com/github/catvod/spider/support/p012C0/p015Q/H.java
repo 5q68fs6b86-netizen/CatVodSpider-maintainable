@@ -1,24 +1,2 @@
 package com.github.catvod.spider.support.p012C0.p015Q;
-
-/** Auto-stub for missing decompile package/class to allow compilation. */
-public class H {
-    public H() {}
-    public H(Object... args) {}
-    public Object a(Object... args) { return null; }
-    public Object b(Object... args) { return null; }
-    public Object c(Object... args) { return null; }
-    public Object d(Object... args) { return null; }
-    public Object e(Object... args) { return null; }
-    public Object f(Object... args) { return null; }
-    public Object g(Object... args) { return null; }
-    public Object h(Object... args) { return null; }
-    public Object i(Object... args) { return null; }
-    public Object j(Object... args) { return null; }
-    public Object k(Object... args) { return null; }
-    public Object m(Object... args) { return null; }
-    public Object n(Object... args) { return null; }
-    public Object o(Object... args) { return null; }
-    public String a() { return ""; }
-    public String trim() { return ""; }
-    public java.util.List m3017a(Object... args) { return new java.util.ArrayList(); }
-}
+public class H { public H(){} public static H a(Object... o){return new H();} public static H b(Object... o){return new H();} public static H c(Object... o){return new H();} public H(Object... a){} }

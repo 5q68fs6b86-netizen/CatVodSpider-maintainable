@@ -1,11 +1,2 @@
 package com.github.catvod.spider.support.p041D;
-
-import java.io.IOException;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p041D.c */
-/* JADX INFO: loaded from: classes.dex */
-public final class C1268c extends RuntimeException {
-    public C1268c(IOException iOException) {
-        super(iOException);
-    }
-}
+public class C1268c { public C1268c(){} public static C1268c a(Object... o){return new C1268c();} public static C1268c b(Object... o){return new C1268c();} public static C1268c c(Object... o){return new C1268c();} public C1268c(Object... a){} }

@@ -1,7 +1,2 @@
 package com.github.catvod.spider.support.p012C0.p028d0;
-
-final class C1160q extends EnumC1068A {
-    C1160q() {
-        super("StubQ", 99, null);
-    }
-}
+public class C1160q { public C1160q(){} public static C1160q a(Object... o){return new C1160q();} public static C1160q b(Object... o){return new C1160q();} public static C1160q c(Object... o){return new C1160q();} public C1160q(Object... a){} }

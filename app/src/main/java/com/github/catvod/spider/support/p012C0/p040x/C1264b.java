@@ -1,13 +1,2 @@
 package com.github.catvod.spider.support.p012C0.p040x;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p040x.b */
-/* JADX INFO: loaded from: classes.dex */
-public final class C1264b extends RuntimeException {
-    public /* synthetic */ C1264b(String str) {
-        super(str);
-    }
-
-    public /* synthetic */ C1264b(Throwable th) {
-        super("date format exception!", th);
-    }
-}
+public class C1264b { public C1264b(){} public static C1264b a(Object... o){return new C1264b();} public static C1264b b(Object... o){return new C1264b();} public static C1264b c(Object... o){return new C1264b();} public C1264b(Object... a){} }

@@ -1,14 +1,2 @@
 package com.github.catvod.spider.support.p012C0.p015Q;
-
-import com.github.catvod.spider.support.p012C0.p015Q.m;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p015Q.v */
-/* JADX INFO: loaded from: classes.dex */
-public abstract class AbstractC0996v extends m {
-
-    /* JADX INFO: renamed from: g */
-    public int f2446g = -1;
-
-    /* JADX INFO: renamed from: h */
-    public boolean f2447h;
-}
+public class AbstractC0996v { public AbstractC0996v(){} public static AbstractC0996v a(Object... o){return new AbstractC0996v();} public static AbstractC0996v b(Object... o){return new AbstractC0996v();} public static AbstractC0996v c(Object... o){return new AbstractC0996v();} public AbstractC0996v(Object... a){} }

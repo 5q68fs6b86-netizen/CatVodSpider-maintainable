@@ -1,15 +1,2 @@
 package com.github.catvod.spider.support.p012C0.p028d0;
-
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.b0 */
-/* JADX INFO: loaded from: classes.dex */
-final class C1123b0 extends EnumC1142h1 {
-    C1123b0() {
-        super("ScriptDataEndTagName", 18, null);
-    }
-
-    @Override // com.github.catvod.spider.support.p012C0.p028d0.EnumC1142h1
-    /* JADX INFO: renamed from: g */
-    final void mo2801g(C1100Q c1100q, C1119a c1119a) {
-        EnumC1142h1.m2987e(c1100q, c1119a, EnumC1142h1.f2781h);
-    }
-}
+public class C1123b0 { public C1123b0(){} public static C1123b0 a(Object... o){return new C1123b0();} public static C1123b0 b(Object... o){return new C1123b0();} public static C1123b0 c(Object... o){return new C1123b0();} public C1123b0(Object... a){} }
