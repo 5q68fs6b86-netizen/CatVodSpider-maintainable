@@ -15,6 +15,10 @@ import java.util.regex.Pattern;
 /* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2203g implements Comparable<C2203g> {
+    public C2203g() {}
+    public C2203g(String s) {}
+    public C2203g(Object... a) {}
+
 
     /* JADX INFO: renamed from: a */
     @SerializedName("items")

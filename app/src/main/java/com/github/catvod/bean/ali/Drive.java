@@ -9,7 +9,7 @@ public class Drive {
     public Drive() {}
     public Drive(String s) {}
 
-    public Drive() { this(""); }
+    
 
 
     @SerializedName("default_drive_id")
