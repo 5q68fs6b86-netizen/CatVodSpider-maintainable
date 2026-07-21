@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p135u;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.j0 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.j0 */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2378j0 extends AbstractC2376i0 {
     public C2378j0(AbstractC2375i abstractC2375i) {

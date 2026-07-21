@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p055K;
 import com.github.catvod.spider.support.p044FM.p052H.C1374b;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.d */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1384d extends C1402v {
     public C1384d(String str) {

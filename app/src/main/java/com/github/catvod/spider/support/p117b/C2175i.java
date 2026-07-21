@@ -46,7 +46,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.i */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2175i {
 
@@ -56,7 +56,7 @@ public final class C2175i {
     /* JADX INFO: renamed from: b */
     private C2207k f5205b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.i$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.i$a */
     private static class a {
 
         /* JADX INFO: renamed from: a */
@@ -265,7 +265,7 @@ public final class C2175i {
             }
         } catch (Throwable th) {
             if (!TextUtils.isEmpty(str)) {
-                Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.b.a
+                Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.p117b.a
                     @Override // java.lang.Runnable
                     public final void run() {
                         switch (i) {
@@ -344,7 +344,7 @@ public final class C2175i {
                     arrayList = m5672j(str, str2);
                 }
                 if (!TextUtils.isEmpty(str)) {
-                    Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.b.e
+                    Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.p117b.e
                         @Override // java.lang.Runnable
                         public final void run() {
                             switch (i) {
@@ -368,7 +368,7 @@ public final class C2175i {
             } catch (Exception e) {
                 e.printStackTrace();
                 if (!TextUtils.isEmpty(str)) {
-                    Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.b.b
+                    Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.p117b.b
                         @Override // java.lang.Runnable
                         public final void run() {
                             switch (i) {

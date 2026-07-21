@@ -5,7 +5,7 @@ import java.io.ObjectStreamClass;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.yt */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.yt */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0782yt {
 

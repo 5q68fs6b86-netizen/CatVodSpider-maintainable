@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ym */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ym */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0775ym extends AbstractC0522pc implements InterfaceC0749xn {
 
@@ -19,7 +19,7 @@ public abstract class AbstractC0775ym extends AbstractC0522pc implements Interfa
         return !(this instanceof AbstractC0336if);
     }
 
-    /* JADX WARN: Type inference failed for: r4v2, types: [com.github.catvod.spider.support.A0.qw, com.github.catvod.spider.support.A0.zy] */
+    /* JADX WARN: Type inference failed for: r4v2, types: [com.github.catvod.spider.support.p002A0.qw, com.github.catvod.spider.support.p002A0.zy] */
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0522pc, com.github.catvod.spider.support.p002A0.InterfaceC0769yg
     public final InterfaceC0750xo get(InterfaceC0751xp interfaceC0751xp) {
         AbstractC0399ko.m1351f("key", interfaceC0751xp);
@@ -42,7 +42,7 @@ public abstract class AbstractC0775ym extends AbstractC0522pc implements Interfa
         return null;
     }
 
-    /* JADX WARN: Type inference failed for: r4v2, types: [com.github.catvod.spider.support.A0.qw, com.github.catvod.spider.support.A0.zy] */
+    /* JADX WARN: Type inference failed for: r4v2, types: [com.github.catvod.spider.support.p002A0.qw, com.github.catvod.spider.support.p002A0.zy] */
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0522pc, com.github.catvod.spider.support.p002A0.InterfaceC0769yg
     public final InterfaceC0769yg minusKey(InterfaceC0751xp interfaceC0751xp) {
         AbstractC0399ko.m1351f("key", interfaceC0751xp);

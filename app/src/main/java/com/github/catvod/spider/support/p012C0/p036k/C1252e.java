@@ -6,7 +6,7 @@ import okhttp3.Cookie;
 import okhttp3.CookieJar;
 import okhttp3.HttpUrl;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.k.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p036k.e */
 /* JADX INFO: loaded from: classes.dex */
 final class C1252e implements CookieJar {
     C1252e() {

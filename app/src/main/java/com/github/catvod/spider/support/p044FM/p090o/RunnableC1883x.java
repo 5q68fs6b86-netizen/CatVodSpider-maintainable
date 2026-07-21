@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p090o;
 
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.o.x */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p090o.x */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1883x implements Runnable {
 

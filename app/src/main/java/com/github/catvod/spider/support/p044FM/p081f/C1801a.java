@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p056L.C1434P;
 import com.github.catvod.spider.support.p044FM.p090o.C1885z;
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.f.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p081f.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1801a implements Comparable<C1801a> {
 

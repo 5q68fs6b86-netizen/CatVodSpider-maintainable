@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p099y;
 
 import java.util.HashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.s0 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.s0 */
 /* JADX INFO: loaded from: classes.dex */
 final class C2014s0 extends HashMap<Class<? extends AbstractC2016t0>, Integer> {
     C2014s0() {

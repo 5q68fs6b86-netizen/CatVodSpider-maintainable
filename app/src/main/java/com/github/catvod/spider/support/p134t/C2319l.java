@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p134t;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.l */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2319l extends C2309b {
 

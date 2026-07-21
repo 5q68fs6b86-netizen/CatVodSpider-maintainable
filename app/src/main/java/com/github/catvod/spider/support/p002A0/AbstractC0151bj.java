@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import kotlinx.coroutines.CoroutineExceptionHandler;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.bj */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.bj */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0151bj {
     /* JADX INFO: renamed from: a */

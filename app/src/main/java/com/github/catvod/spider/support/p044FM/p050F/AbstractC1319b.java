@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p050F;
 
 import java.io.Writer;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.F.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p050F.b */
 /* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public abstract class AbstractC1319b {

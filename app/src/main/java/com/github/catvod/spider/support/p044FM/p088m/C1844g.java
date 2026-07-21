@@ -15,7 +15,7 @@ import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.X509TrustManager;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.m.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p088m.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1844g extends SSLSocketFactory {
 

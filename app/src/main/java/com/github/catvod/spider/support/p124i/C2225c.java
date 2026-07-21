@@ -4,7 +4,7 @@ import android.text.TextUtils;
 import com.github.catvod.spider.support.p116a.C2137a;
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.i.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p124i.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2225c {
 
@@ -22,7 +22,7 @@ public final class C2225c {
     /* JADX INFO: renamed from: d */
     private String f5566d;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.i.c$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p124i.c$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */

@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p089n;
 import com.github.catvod.spider.support.p044FM.p055K.C1393m;
 import com.github.catvod.spider.support.p044FM.p071a.C1711a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.n.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p089n.a */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C1845a {
     /* JADX INFO: renamed from: a */

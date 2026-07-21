@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p036k;
 import okhttp3.Call;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.k.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p036k.c */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC1250c<T> {
 

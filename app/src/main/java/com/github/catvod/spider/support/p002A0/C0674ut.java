@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.nio.charset.Charset;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ut */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ut */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0674ut implements Cloneable {
 

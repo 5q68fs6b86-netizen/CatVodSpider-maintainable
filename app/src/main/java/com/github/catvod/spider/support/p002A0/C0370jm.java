@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jm */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jm */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0370jm implements Set {
 

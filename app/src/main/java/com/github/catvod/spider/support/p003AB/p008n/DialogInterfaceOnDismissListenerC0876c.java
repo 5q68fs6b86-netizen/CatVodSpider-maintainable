@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p003AB.p008n;
 import android.content.DialogInterface;
 import com.github.catvod.spider.Bili;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.n.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p008n.c */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnDismissListenerC0876c implements DialogInterface.OnDismissListener {
 

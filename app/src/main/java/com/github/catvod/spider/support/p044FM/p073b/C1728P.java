@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p073b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.P */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.P */
 /* JADX INFO: loaded from: classes.dex */
 final class C1728P {
 

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p003AB.p008n;
 
 import com.github.catvod.spider.Market;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.n.q */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p008n.q */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0890q implements Runnable {
 

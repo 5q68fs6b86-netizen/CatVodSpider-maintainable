@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p045A.C1288n;
 import com.github.catvod.spider.support.p044FM.p056L.C1434P;
 import java.io.Serializable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.x.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p098x.m */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1938m implements InterfaceC1925K, Serializable {
 

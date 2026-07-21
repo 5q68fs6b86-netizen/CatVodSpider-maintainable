@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p053I;
 import java.util.ArrayList;
 import java.util.Collection;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.I.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p053I.a */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC1375a<E> extends ArrayList<E> {
     public AbstractC1375a(int i) {

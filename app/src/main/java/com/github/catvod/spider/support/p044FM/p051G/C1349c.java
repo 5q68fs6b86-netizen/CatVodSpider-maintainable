@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.G.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1349c extends Format {
 

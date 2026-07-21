@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p012C0.p015Q.C0987D;
 import com.github.catvod.spider.support.p012C0.p015Q.C0991f;
 import java.util.Arrays;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.R.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p016R.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0999e {
 

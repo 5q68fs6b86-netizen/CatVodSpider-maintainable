@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p074b0.InterfaceC1757b;
 import com.github.catvod.spider.support.p044FM.p078d0.C1789c;
 import java.util.Queue;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.c0.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p076c0.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1769a implements InterfaceC1757b {
 

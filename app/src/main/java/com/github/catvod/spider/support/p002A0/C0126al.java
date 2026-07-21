@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.lang.reflect.Method;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.al */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.al */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0126al extends AbstractC0782yt {
 

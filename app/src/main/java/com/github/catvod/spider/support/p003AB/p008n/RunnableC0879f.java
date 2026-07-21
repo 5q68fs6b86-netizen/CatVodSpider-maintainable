@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p003AB.p008n;
 
 import com.github.catvod.spider.Init;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.n.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p008n.f */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0879f implements Runnable {
 

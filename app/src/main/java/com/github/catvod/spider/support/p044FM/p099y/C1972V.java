@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p099y;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.V */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.V */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1972V extends AbstractC2003n {
 

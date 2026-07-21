@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p055K;
 import com.github.catvod.spider.support.p044FM.p054J.C1380b;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.v */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.v */
 /* JADX INFO: loaded from: classes.dex */
 public class C1402v extends AbstractC1397q {
     public C1402v(String str) {

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p026c0;
 
 import com.github.catvod.spider.support.p012C0.p028d0.C1078F;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.t */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.t */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1061t extends C1053l {
     public C1061t(C1078F c1078f, String str, C1044c c1044c) {

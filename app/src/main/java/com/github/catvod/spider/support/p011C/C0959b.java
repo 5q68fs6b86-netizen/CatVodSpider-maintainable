@@ -8,7 +8,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0959b extends Format {
 
@@ -21,7 +21,7 @@ public final class C0959b extends Format {
     /* JADX INFO: renamed from: b */
     private final C0961d f2261b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.b$a */
     static class a extends AbstractC0964g<C0959b> {
         a() {
         }

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.nb */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.nb */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0467nb extends AbstractC0687vf {
 

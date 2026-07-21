@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p071a.C1711a;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.g.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p082g.j */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C1812j {
     /* JADX INFO: renamed from: a */

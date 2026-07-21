@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.I */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.I */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2256I {
 

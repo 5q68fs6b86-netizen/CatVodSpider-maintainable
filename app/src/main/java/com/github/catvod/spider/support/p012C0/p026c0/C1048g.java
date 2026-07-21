@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p012C0.p022a0.C1016b;
 import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1048g implements Cloneable {
 

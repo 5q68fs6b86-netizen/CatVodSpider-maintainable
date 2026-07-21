@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p056L;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.V */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p056L.V */
 /* JADX INFO: loaded from: classes.dex */
 final class C1445V extends EnumC1484j1 {
     C1445V() {

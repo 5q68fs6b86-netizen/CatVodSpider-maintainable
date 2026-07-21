@@ -1,10 +1,10 @@
 package com.github.catvod.spider.support.p012C0.p040x;
 
-import com.github.catvod.spider.support.C0.E.f;
+import com.github.catvod.spider.support.p012C0.E.f;
 import com.github.catvod.spider.support.p012C0.p027d.C1064d;
 import java.io.Serializable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.x.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p040x.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1265f implements Serializable {
 

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.lang.reflect.InvocationTargetException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.sj */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.sj */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0610sj extends AbstractC0455mq implements InterfaceC0609si {
 

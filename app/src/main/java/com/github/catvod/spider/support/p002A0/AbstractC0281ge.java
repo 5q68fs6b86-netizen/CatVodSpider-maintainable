@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Arrays;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ge */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ge */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0281ge {
     private volatile int _size = 0;

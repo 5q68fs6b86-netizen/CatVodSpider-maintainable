@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Arrays;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.wz */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.wz */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0734wz {
 

@@ -1,14 +1,14 @@
 package com.github.catvod.spider.support.p012C0.p040x;
 
-import com.github.catvod.spider.support.C0.A.c;
-import com.github.catvod.spider.support.C0.E.f;
-import com.github.catvod.spider.support.C0.u0.a;
+import com.github.catvod.spider.support.p012C0.A.c;
+import com.github.catvod.spider.support.p012C0.E.f;
+import com.github.catvod.spider.support.p012C0.u0.a;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 import okhttp3.HttpUrl;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.x.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p040x.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1263a {
     /* JADX INFO: renamed from: a */

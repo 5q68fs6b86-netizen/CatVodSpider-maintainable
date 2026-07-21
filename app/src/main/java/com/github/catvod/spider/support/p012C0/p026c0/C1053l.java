@@ -17,7 +17,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.l */
 /* JADX INFO: loaded from: classes.dex */
 public class C1053l extends AbstractC1059r {
 
@@ -128,7 +128,7 @@ public class C1053l extends AbstractC1059r {
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    /* JADX WARN: Type inference failed for: r0v0, types: [com.github.catvod.spider.support.C0.c0.r] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [com.github.catvod.spider.support.p012C0.p026c0.r] */
     /* JADX WARN: Type inference failed for: r1v1 */
     /* JADX WARN: Type inference failed for: r1v3 */
     /* JADX WARN: Type inference failed for: r1v4 */

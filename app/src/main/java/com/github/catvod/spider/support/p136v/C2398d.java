@@ -7,7 +7,7 @@ import com.github.catvod.spider.support.p135u.C2363c;
 import com.github.catvod.spider.support.p135u.C2393y;
 import java.util.Arrays;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.v.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p136v.d */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2398d {
 
@@ -35,7 +35,7 @@ public final class C2398d {
     /* JADX INFO: renamed from: h */
     public a[] f5939h;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.v.d$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p136v.d$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */

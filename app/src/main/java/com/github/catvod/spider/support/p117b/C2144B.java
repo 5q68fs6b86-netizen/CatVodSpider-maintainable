@@ -40,7 +40,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.B */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.B */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2144B {
 
@@ -83,14 +83,14 @@ public final class C2144B {
     private ConcurrentHashMap<String, c> f5037u;
     private String url;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.B$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.B$a */
     private static class a {
 
         /* JADX INFO: renamed from: a */
         static volatile C2144B f5038a = new C2144B();
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.B$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.B$b */
     class b {
 
         /* JADX INFO: renamed from: a */
@@ -106,7 +106,7 @@ public final class C2144B {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.B$c */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.B$c */
     class c {
 
         /* JADX INFO: renamed from: a */
@@ -116,7 +116,7 @@ public final class C2144B {
         public long f5043b;
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.B$d */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.B$d */
     class d implements Runnable {
         d() {
         }

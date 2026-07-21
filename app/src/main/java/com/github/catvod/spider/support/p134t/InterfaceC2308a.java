@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p135u.C2363c;
 import com.github.catvod.spider.support.p136v.C2396b;
 import java.util.BitSet;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.a */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC2308a {
     /* JADX INFO: renamed from: a */

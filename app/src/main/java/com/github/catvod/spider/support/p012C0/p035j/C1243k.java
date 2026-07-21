@@ -20,17 +20,17 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import com.github.catvod.spider.Init;
 import com.github.catvod.spider.XBPQ;
-import com.github.catvod.spider.support.C0.j.a;
-import com.github.catvod.spider.support.C0.j.b;
-import com.github.catvod.spider.support.C0.j.c;
-import com.github.catvod.spider.support.C0.j.d;
-import com.github.catvod.spider.support.C0.j.e;
-import com.github.catvod.spider.support.C0.j.f;
-import com.github.catvod.spider.support.C0.j.g;
-import com.github.catvod.spider.support.C0.j.h;
-import com.github.catvod.spider.support.C0.j.i;
+import com.github.catvod.spider.support.p012C0.p035j.a;
+import com.github.catvod.spider.support.p012C0.p035j.b;
+import com.github.catvod.spider.support.p012C0.p035j.c;
+import com.github.catvod.spider.support.p012C0.p035j.d;
+import com.github.catvod.spider.support.p012C0.p035j.e;
+import com.github.catvod.spider.support.p012C0.p035j.f;
+import com.github.catvod.spider.support.p012C0.p035j.g;
+import com.github.catvod.spider.support.p012C0.p035j.h;
+import com.github.catvod.spider.support.p012C0.p035j.i;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.j.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p035j.k */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1243k {
 

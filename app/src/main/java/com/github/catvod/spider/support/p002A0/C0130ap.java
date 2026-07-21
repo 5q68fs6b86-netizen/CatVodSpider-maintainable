@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ap */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ap */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0130ap implements InterfaceC0698vq {
 

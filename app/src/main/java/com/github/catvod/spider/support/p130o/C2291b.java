@@ -4,7 +4,7 @@ import com.whl.quickjs.wrapper.JSCallFunction;
 import com.whl.quickjs.wrapper.QuickJSObject;
 import java.lang.reflect.Method;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.o.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p130o.b */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2291b implements JSCallFunction {
 

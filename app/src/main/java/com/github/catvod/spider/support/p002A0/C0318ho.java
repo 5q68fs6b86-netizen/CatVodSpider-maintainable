@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.io.IOException;
 import java.io.StringWriter;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ho */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ho */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0318ho extends AbstractC0604sd {
 

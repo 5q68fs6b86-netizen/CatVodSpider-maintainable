@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p026c0;
 
 import java.util.Arrays;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.m */
 /* JADX INFO: loaded from: classes.dex */
 public enum EnumC1054m {
     xhtml("amp=12;1&gt=1q;3&lt=1o;2&quot=y;0&", 4),

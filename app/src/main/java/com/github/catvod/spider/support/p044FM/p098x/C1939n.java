@@ -1,13 +1,13 @@
 package com.github.catvod.spider.support.p044FM.p098x;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.x.n */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p098x.n */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1939n extends C1928c {
     public C1939n(InterfaceC1921G interfaceC1921G) {
         super(interfaceC1921G);
     }
 
-    /* JADX WARN: Type inference failed for: r5v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.x.E>] */
+    /* JADX WARN: Type inference failed for: r5v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p098x.E>] */
     @Override // com.github.catvod.spider.support.p044FM.p098x.C1928c, com.github.catvod.spider.support.p044FM.p098x.InterfaceC1922H
     /* JADX INFO: renamed from: g */
     public final InterfaceC1919E mo4647g(int i) {
@@ -34,8 +34,8 @@ public final class C1939n extends C1928c {
         return m4665n(i);
     }
 
-    /* JADX WARN: Type inference failed for: r3v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.x.E>] */
-    /* JADX WARN: Type inference failed for: r7v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.x.E>] */
+    /* JADX WARN: Type inference failed for: r3v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p098x.E>] */
+    /* JADX WARN: Type inference failed for: r7v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p098x.E>] */
     /* JADX INFO: renamed from: p */
     protected final InterfaceC1919E m4684p(int i) {
         if (i != 0) {

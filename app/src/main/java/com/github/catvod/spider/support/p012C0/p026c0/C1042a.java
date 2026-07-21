@@ -1,13 +1,13 @@
 package com.github.catvod.spider.support.p012C0.p026c0;
 
-import com.github.catvod.spider.support.C0.Z.a;
+import com.github.catvod.spider.support.p012C0.p021Z.a;
 import com.github.catvod.spider.support.p012C0.p013N.C0966a;
 import com.github.catvod.spider.support.p012C0.p024b0.C1034b;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1042a implements Map.Entry<String, String>, Cloneable {
 
@@ -123,7 +123,7 @@ public final class C1042a implements Map.Entry<String, String>, Cloneable {
         return strM2645j == null ? "" : strM2645j;
     }
 
-    /* JADX INFO: Thrown type has an unknown type hierarchy: com.github.catvod.spider.support.C0.Z.a */
+    /* JADX INFO: Thrown type has an unknown type hierarchy: com.github.catvod.spider.support.p012C0.p021Z.a */
     public final String toString() throws a {
         StringBuilder sbM2595a = C1034b.m2595a();
         try {

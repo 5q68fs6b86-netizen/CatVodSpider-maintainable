@@ -9,7 +9,7 @@ import com.google.gson.annotations.SerializedName;
 import java.net.URLEncoder;
 import java.util.LinkedHashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.g.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p082g.k */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1813k {
 

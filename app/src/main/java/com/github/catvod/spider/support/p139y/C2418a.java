@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p139y;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.y.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p139y.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2418a {
     /* JADX INFO: renamed from: a */

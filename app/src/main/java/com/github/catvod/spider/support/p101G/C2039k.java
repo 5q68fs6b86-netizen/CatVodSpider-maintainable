@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p101G;
 import com.github.catvod.spider.support.p102H.C2052h;
 import com.github.catvod.spider.support.p103I.C2060c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.k */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2039k extends C2037i {
 

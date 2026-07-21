@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p117b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.n */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.n */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC2180n implements Runnable {
 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A.z */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.z */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0113z {
 
@@ -14,7 +14,7 @@ public final class C0113z {
     /* JADX INFO: renamed from: b */
     public String f412b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.A.z$1, reason: invalid class name */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.z$1, reason: invalid class name */
     public final class AnonymousClass1 {
 
         /* JADX INFO: renamed from: d */
@@ -88,7 +88,7 @@ public final class C0113z {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.A.z$2, reason: invalid class name */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.z$2, reason: invalid class name */
     public final class AnonymousClass2 {
 
         /* JADX INFO: renamed from: a */

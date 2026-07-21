@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.Arrays;
 import java.util.Collections;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.nw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.nw */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0488nw {
 

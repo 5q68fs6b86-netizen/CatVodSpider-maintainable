@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.sql.Date;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.gt */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.gt */
 /* JADX INFO: loaded from: classes.dex */
 public class C0296gt implements InterfaceC0698vq {
     @Override // com.github.catvod.spider.support.p002A0.InterfaceC0698vq

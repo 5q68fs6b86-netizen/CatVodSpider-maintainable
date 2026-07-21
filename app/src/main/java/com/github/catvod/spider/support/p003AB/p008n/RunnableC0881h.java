@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p003AB.p008n;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.n.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p008n.h */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0881h implements Runnable {
 

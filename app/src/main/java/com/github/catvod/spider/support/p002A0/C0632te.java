@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.te */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.te */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0632te extends AbstractC0814zy implements InterfaceC0304ha {
 

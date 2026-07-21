@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.v.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p136v.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2397c {
 
@@ -48,7 +48,7 @@ public final class C2397c {
         return sb.toString();
     }
 
-    /* JADX WARN: Type inference failed for: r2v1, types: [java.util.HashMap, java.util.Map<com.github.catvod.spider.support.v.d, com.github.catvod.spider.support.v.d>] */
+    /* JADX WARN: Type inference failed for: r2v1, types: [java.util.HashMap, java.util.Map<com.github.catvod.spider.support.p136v.d, com.github.catvod.spider.support.p136v.d>] */
     public final String toString() {
         if (this.f5930a.f5926b == null) {
             return null;

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p113S;
 
 import com.github.catvod.spider.support.p114T.C2132c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.S.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p113S.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2129c implements InterfaceC2128b {
 

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.lang.reflect.InvocationTargetException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.pb */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.pb */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0521pb extends C0150bi implements InterfaceC0747xl, InterfaceC0779yq {
 

@@ -4,7 +4,7 @@ import com.github.catvod.debug.MainActivity;
 import com.github.catvod.spider.JSDemo;
 import com.github.catvod.spider.support.p044FM.p090o.C1884y;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.q */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.q */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1746q implements Runnable {
 

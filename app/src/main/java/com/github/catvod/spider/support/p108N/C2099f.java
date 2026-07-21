@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p106L.C2078f;
 import com.github.catvod.spider.support.p106L.InterfaceC2075c;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.N.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p108N.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2099f implements InterfaceC2075c {
     @Override // com.github.catvod.spider.support.p106L.InterfaceC2075c

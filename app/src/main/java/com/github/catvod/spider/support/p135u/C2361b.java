@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p135u;
 
 import com.github.catvod.spider.support.p043F.C1273a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.b */
 /* JADX INFO: loaded from: classes.dex */
 public class C2361b {
 

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p098x;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.x.r */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p098x.r */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1943r extends C1915A {
     public C1943r(AbstractC1949x abstractC1949x) {

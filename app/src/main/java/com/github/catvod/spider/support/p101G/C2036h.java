@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p101G;
 
 import com.github.catvod.spider.support.p103I.InterfaceC2062e;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.h */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2036h implements InterfaceC2062e {
 

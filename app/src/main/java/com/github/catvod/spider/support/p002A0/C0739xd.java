@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.xd */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.xd */
 /* JADX INFO: loaded from: classes.dex */
 public class C0739xd {
 

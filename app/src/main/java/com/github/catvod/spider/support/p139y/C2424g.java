@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p139y;
 
 import java.util.function.Supplier;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.y.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p139y.g */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2424g implements Supplier {
 

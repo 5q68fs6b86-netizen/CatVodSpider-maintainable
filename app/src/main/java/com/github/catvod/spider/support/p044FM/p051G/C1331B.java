@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p051G;
 
 import java.util.Calendar;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.G.B */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.B */
 /* JADX INFO: loaded from: classes.dex */
 final class C1331B implements InterfaceC1372z {
 

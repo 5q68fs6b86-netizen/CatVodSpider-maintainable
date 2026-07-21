@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.io.IOException;
 import java.io.StringReader;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.or */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.or */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0510or {
     /* JADX INFO: renamed from: a */

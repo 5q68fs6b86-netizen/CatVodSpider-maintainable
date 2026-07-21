@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.pl */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.pl */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0531pl extends AbstractC0488nw {
 

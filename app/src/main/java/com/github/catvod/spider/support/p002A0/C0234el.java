@@ -5,7 +5,7 @@ import java.util.IdentityHashMap;
 import java.util.List;
 import java.util.function.Function;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.el */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.el */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0234el implements Function {
 

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p026c0;
 
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1046e extends AbstractC1057p {
     public C1046e(String str) {

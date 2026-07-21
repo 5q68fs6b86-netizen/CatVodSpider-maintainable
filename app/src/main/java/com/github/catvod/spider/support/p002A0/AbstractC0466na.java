@@ -11,7 +11,7 @@ import rxhttp.wrapper.param.IPart;
 import rxhttp.wrapper.param.Param;
 import rxhttp.wrapper.utils.BuildUtil;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.na */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.na */
 /* JADX INFO: loaded from: classes.dex */
 public abstract /* synthetic */ class AbstractC0466na {
     /* JADX INFO: renamed from: a */

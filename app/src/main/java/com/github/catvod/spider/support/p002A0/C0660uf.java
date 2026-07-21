@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.uf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.uf */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0660uf extends EnumC0709wa {
     public C0660uf() {

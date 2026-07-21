@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicLongFieldUpdater;
 import java.util.concurrent.atomic.AtomicReferenceArray;
 import java.util.concurrent.locks.LockSupport;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.yp */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.yp */
 /* JADX INFO: loaded from: classes.dex */
 public final class ExecutorC0778yp implements Executor, Closeable {
     private volatile int _isTerminated;

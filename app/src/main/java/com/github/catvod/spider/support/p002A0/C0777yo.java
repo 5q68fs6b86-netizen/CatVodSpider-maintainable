@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 import java.util.concurrent.locks.LockSupport;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.yo */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.yo */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0777yo extends Thread {
 

@@ -16,7 +16,7 @@ import java.util.Map;
 import java.util.Stack;
 import org.slf4j.LoggerFactory;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.xa */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.xa */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0736xa implements InterfaceC0656ub, InterfaceC0253fd {
 

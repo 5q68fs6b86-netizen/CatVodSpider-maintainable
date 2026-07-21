@@ -49,7 +49,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.J */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.J */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1722J {
 
@@ -293,7 +293,7 @@ public final class C1722J {
             FrameLayout frameLayout = new FrameLayout(Init.context());
             layoutParams.gravity = 17;
             frameLayout.addView(imageView, layoutParams);
-            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(frameLayout).setOnCancelListener(new DialogInterface.OnCancelListener() { // from class: com.github.catvod.spider.support.FM.b.D
+            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(frameLayout).setOnCancelListener(new DialogInterface.OnCancelListener() { // from class: com.github.catvod.spider.support.p044FM.p073b.D
                 @Override // android.content.DialogInterface.OnCancelListener
                 public final void onCancel(DialogInterface dialogInterface) {
                     switch (i) {
@@ -305,7 +305,7 @@ public final class C1722J {
                             break;
                     }
                 }
-            }).setOnDismissListener(new DialogInterface.OnDismissListener() { // from class: com.github.catvod.spider.support.FM.b.G
+            }).setOnDismissListener(new DialogInterface.OnDismissListener() { // from class: com.github.catvod.spider.support.p044FM.p073b.G
                 @Override // android.content.DialogInterface.OnDismissListener
                 public final void onDismiss(DialogInterface dialogInterface) {
                     switch (i) {
@@ -995,8 +995,8 @@ public final class C1722J {
         }
     }
 
-    /* JADX WARN: Type inference failed for: r2v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.FM.j.e>] */
-    /* JADX WARN: Type inference failed for: r2v14, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.FM.j.e>] */
+    /* JADX WARN: Type inference failed for: r2v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p044FM.p085j.e>] */
+    /* JADX WARN: Type inference failed for: r2v14, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p044FM.p085j.e>] */
     /* JADX INFO: renamed from: I */
     public final String m4046I(String str) {
         C1824e c1824e = (C1824e) f3776i.get(str);

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p096u;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.u.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p096u.b */
 /* JADX INFO: loaded from: classes.dex */
 abstract class AbstractC1906b {
     private AbstractC1906b() {

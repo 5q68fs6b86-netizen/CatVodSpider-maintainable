@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p057M;
 
 import com.github.catvod.spider.support.p044FM.p055K.C1393m;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.M.I */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p057M.I */
 /* JADX INFO: loaded from: classes.dex */
 public class C1527I extends AbstractC1566v {
     public C1527I(int i, int i2) {

@@ -7,7 +7,7 @@ import com.github.catvod.spider.support.p044FM.p090o.C1884y;
 import java.io.PipedOutputStream;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.g */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1736g implements Runnable {
 

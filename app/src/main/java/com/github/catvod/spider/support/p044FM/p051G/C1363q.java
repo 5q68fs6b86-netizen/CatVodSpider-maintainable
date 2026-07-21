@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p051G;
 
 import java.util.Calendar;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.G.q */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.q */
 /* JADX INFO: loaded from: classes.dex */
 final class C1363q {
 

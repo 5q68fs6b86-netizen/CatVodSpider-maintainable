@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p052H.C1373a;
 import com.github.catvod.spider.support.p044FM.p057M.InterfaceC1533O;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.r */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.r */
 /* JADX INFO: loaded from: classes.dex */
 final class C1398r implements InterfaceC1533O {
 

@@ -15,7 +15,7 @@ import com.github.catvod.spider.support.p044FM.p098x.C1932g;
 import java.io.Reader;
 import javax.annotation.ParametersAreNonnullByDefault;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.l1 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p056L.l1 */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1490l1 extends AbstractC1487k1 {
     @Override // com.github.catvod.spider.support.p044FM.p056L.AbstractC1487k1

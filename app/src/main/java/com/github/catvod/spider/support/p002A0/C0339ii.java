@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ii */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ii */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0339ii {
 

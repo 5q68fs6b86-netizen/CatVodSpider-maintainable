@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p014P;
 
 import com.github.catvod.spider.support.p012C0.p017S.C1003j;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.z */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.z */
 /* JADX INFO: loaded from: classes.dex */
 public class C0985z extends RuntimeException {
 

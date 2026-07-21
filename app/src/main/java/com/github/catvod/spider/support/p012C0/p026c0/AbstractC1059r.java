@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.r */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.r */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC1059r implements Cloneable {
 

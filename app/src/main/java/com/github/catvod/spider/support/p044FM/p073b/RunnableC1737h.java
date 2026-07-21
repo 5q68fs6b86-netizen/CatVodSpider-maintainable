@@ -5,7 +5,7 @@ import com.github.catvod.spider.Config;
 import com.github.catvod.spider.support.p044FM.p082g.C1804b;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.h */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1737h implements Runnable {
 

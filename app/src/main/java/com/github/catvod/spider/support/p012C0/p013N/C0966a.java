@@ -2,8 +2,8 @@ package com.github.catvod.spider.support.p012C0.p013N;
 
 import android.graphics.Bitmap;
 import android.util.Base64;
-import com.github.catvod.spider.support.C0.A0.a;
-import com.github.catvod.spider.support.C0.s.b;
+import com.github.catvod.spider.support.p012C0.A0.a;
+import com.github.catvod.spider.support.p012C0.s.b;
 import com.github.catvod.spider.support.p012C0.p026c0.C1049h;
 import com.github.catvod.spider.support.p012C0.p028d0.C1076E;
 import com.github.catvod.spider.support.p012C0.p035j.C1247o;
@@ -19,7 +19,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.N.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p013N.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0966a {
     /* JADX INFO: renamed from: a */
@@ -41,7 +41,7 @@ public final class C0966a {
             EnumMap enumMap = new EnumMap(EnumC1262b.class);
             enumMap.put(EnumC1262b.CHARACTER_SET, "UTF-8");
             enumMap.put(EnumC1262b.MARGIN, 2);
-            b bVarA = new a().a(str, com.github.catvod.spider.support.C0.r.a.l, C1247o.m3111a(240), C1247o.m3111a(240), enumMap);
+            b bVarA = new a().a(str, com.github.catvod.spider.support.p012C0.p039r.a.l, C1247o.m3111a(240), C1247o.m3111a(240), enumMap);
             int iC = bVarA.c();
             int iB = bVarA.b();
             int[] iArr = new int[iC * iB];

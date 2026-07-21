@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p099y;
 
 import com.github.catvod.spider.support.p044FM.p100z.C2028e;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.A */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.A */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1952A {
 

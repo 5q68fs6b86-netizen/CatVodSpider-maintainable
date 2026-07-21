@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.Stack;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.xs */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.xs */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0754xs extends C0579rf {
     @Override // com.github.catvod.spider.support.p002A0.C0579rf, com.github.catvod.spider.support.p002A0.InterfaceC0207dl

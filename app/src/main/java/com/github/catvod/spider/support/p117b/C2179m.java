@@ -22,7 +22,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.m */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2179m {
 
@@ -32,7 +32,7 @@ public final class C2179m {
     /* JADX INFO: renamed from: b */
     private String f5233b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.m$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.m$a */
     private static final class a {
 
         /* JADX INFO: renamed from: a */

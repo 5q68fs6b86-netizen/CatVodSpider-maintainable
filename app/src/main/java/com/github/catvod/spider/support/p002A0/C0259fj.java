@@ -7,7 +7,7 @@ import java.lang.reflect.TypeVariable;
 import java.lang.reflect.WildcardType;
 import java.util.Objects;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.fj */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.fj */
 /* JADX INFO: loaded from: classes.dex */
 public class C0259fj<T> {
 

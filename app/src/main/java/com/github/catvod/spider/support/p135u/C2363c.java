@@ -10,7 +10,7 @@ import java.util.IdentityHashMap;
 import java.util.Iterator;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.c */
 /* JADX INFO: loaded from: classes.dex */
 public class C2363c implements Set<C2361b> {
 
@@ -41,7 +41,7 @@ public class C2363c implements Set<C2361b> {
     /* JADX INFO: renamed from: i */
     private int f5866i;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.u.c$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.c$a */
     public static abstract class a extends C2400b<C2361b> {
         public a(AbstractC2399a abstractC2399a) {
             super(abstractC2399a, 2);
@@ -69,7 +69,7 @@ public class C2363c implements Set<C2361b> {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.u.c$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.c$b */
     public static final class b extends AbstractC2399a {
 
         /* JADX INFO: renamed from: a */
@@ -97,7 +97,7 @@ public class C2363c implements Set<C2361b> {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.u.c$c */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.c$c */
     public static class c extends a {
         public c() {
             super(b.f5867a);

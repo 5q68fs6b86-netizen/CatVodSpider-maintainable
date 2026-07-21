@@ -4,7 +4,7 @@ import android.app.AlertDialog;
 import android.view.View;
 import com.github.catvod.debug.MainActivity;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.j.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p125j.h */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class ViewOnClickListenerC2234h implements View.OnClickListener {
 

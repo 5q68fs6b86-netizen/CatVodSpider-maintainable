@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p112R.InterfaceC2125b;
 import com.github.catvod.spider.support.p114T.C2132c;
 import java.util.Queue;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.S.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p113S.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2127a implements InterfaceC2125b {
 

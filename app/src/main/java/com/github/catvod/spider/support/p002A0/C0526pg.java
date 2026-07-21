@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.RandomAccess;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.pg */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.pg */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0526pg extends AbstractC0527ph implements RandomAccess {
 

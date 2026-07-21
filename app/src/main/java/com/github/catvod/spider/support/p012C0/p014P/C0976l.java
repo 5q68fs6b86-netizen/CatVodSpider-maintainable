@@ -1,10 +1,10 @@
 package com.github.catvod.spider.support.p012C0.p014P;
 
-import com.github.catvod.spider.support.C0.P.E;
-import com.github.catvod.spider.support.C0.P.k;
+import com.github.catvod.spider.support.p012C0.p014P.E;
+import com.github.catvod.spider.support.p012C0.p014P.k;
 import com.github.catvod.spider.support.p012C0.p017S.C1004l;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.l */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0976l implements E<k> {
 

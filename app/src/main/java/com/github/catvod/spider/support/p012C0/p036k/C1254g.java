@@ -9,7 +9,7 @@ import okhttp3.Call;
 import okhttp3.Cookie;
 import okhttp3.OkHttpClient;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.k.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p036k.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1254g {
 

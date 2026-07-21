@@ -7,7 +7,7 @@ import com.github.catvod.spider.Init;
 import com.github.catvod.spider.support.p128m.C2256I;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.g */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC2173g implements Runnable {
 

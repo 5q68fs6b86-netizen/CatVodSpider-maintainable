@@ -4,7 +4,7 @@ import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.spider.support.p003AB.p009o.C0915Z;
 import java.util.HashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.n.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p008n.i */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0882i implements Runnable {
 

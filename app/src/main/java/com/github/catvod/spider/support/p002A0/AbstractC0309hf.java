@@ -5,7 +5,7 @@ import android.os.Handler;
 import android.os.Looper;
 import java.lang.reflect.InvocationTargetException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.hf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.hf */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0309hf {
     static {

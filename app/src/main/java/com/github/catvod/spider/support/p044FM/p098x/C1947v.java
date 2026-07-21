@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p098x;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.x.v */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p098x.v */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1947v extends C1915A {
 

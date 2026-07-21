@@ -8,7 +8,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.Queue;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.T.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p114T.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2132c implements InterfaceC2125b {
 

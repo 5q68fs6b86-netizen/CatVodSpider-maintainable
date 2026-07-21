@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p042E.C1271c;
 import com.github.catvod.spider.support.p043F.C1274b;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2035g extends AbstractC2040l {
     public C2035g(String str, String str2, String str3) {

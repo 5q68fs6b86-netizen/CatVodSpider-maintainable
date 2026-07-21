@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p026c0;
 import com.github.catvod.spider.support.p012C0.p028d0.C1076E;
 import com.github.catvod.spider.support.p012C0.p028d0.C1122b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.s */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.s */
 /* JADX INFO: loaded from: classes.dex */
 final class C1060s {
     /* JADX INFO: renamed from: a */

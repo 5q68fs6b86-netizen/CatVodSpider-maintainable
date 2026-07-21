@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p046B;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.B.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p046B.d */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC1294d<T> {
     /* JADX WARN: Incorrect return type in method signature: (Ljava/lang/Object;)TT; */

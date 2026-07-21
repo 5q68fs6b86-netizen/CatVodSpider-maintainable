@@ -8,7 +8,7 @@ import java.util.function.Supplier;
 import java.util.regex.Pattern;
 import java.util.stream.Collector;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ws */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ws */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0727ws {
 
@@ -108,10 +108,10 @@ public abstract class AbstractC0727ws {
         return m1852n(sbM1845g);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [com.github.catvod.spider.support.A0.ai] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [com.github.catvod.spider.support.p002A0.ai] */
     /* JADX INFO: renamed from: m */
     public static Collector m1851m(final String str) {
-        return Collector.of(new Supplier() { // from class: com.github.catvod.spider.support.A0.ai
+        return Collector.of(new Supplier() { // from class: com.github.catvod.spider.support.p002A0.ai
             @Override // java.util.function.Supplier
             public final Object get() {
                 return new C0593rt(str);

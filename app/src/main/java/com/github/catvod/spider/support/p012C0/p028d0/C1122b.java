@@ -16,7 +16,7 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1122b extends AbstractC1145i1 {
 
@@ -416,14 +416,14 @@ public final class C1122b extends AbstractC1145i1 {
     final void m2950a0() {
         /*
             r6 = this;
-            java.util.ArrayList<com.github.catvod.spider.support.C0.c0.l> r0 = r6.f2737p
+            java.util.ArrayList<com.github.catvod.spider.support.p012C0.p026c0.l> r0 = r6.f2737p
             int r0 = r0.size()
             if (r0 <= 0) goto L1f
-            java.util.ArrayList<com.github.catvod.spider.support.C0.c0.l> r0 = r6.f2737p
+            java.util.ArrayList<com.github.catvod.spider.support.p012C0.p026c0.l> r0 = r6.f2737p
             int r1 = r0.size()
             int r1 = r1 + (-1)
             java.lang.Object r0 = r0.get(r1)
-            com.github.catvod.spider.support.C0.c0.l r0 = (com.github.catvod.spider.support.p012C0.p026c0.C1053l) r0
+            com.github.catvod.spider.support.p012C0.p026c0.l r0 = (com.github.catvod.spider.support.p012C0.p026c0.C1053l) r0
         L16:
             if (r0 == 0) goto L1e
             boolean r1 = r6.m2942S(r0)
@@ -434,7 +434,7 @@ public final class C1122b extends AbstractC1145i1 {
             r0 = 0
             goto L16
         L21:
-            java.util.ArrayList<com.github.catvod.spider.support.C0.c0.l> r1 = r6.f2737p
+            java.util.ArrayList<com.github.catvod.spider.support.p012C0.p026c0.l> r1 = r6.f2737p
             int r1 = r1.size()
             r2 = 1
             int r3 = r1 + (-1)
@@ -443,28 +443,28 @@ public final class C1122b extends AbstractC1145i1 {
             if (r1 != 0) goto L58
         L2d:
             if (r2 != 0) goto L39
-            java.util.ArrayList<com.github.catvod.spider.support.C0.c0.l> r0 = r6.f2737p
+            java.util.ArrayList<com.github.catvod.spider.support.p012C0.p026c0.l> r0 = r6.f2737p
             int r1 = r1 + 1
             java.lang.Object r0 = r0.get(r1)
-            com.github.catvod.spider.support.C0.c0.l r0 = (com.github.catvod.spider.support.p012C0.p026c0.C1053l) r0
+            com.github.catvod.spider.support.p012C0.p026c0.l r0 = (com.github.catvod.spider.support.p012C0.p026c0.C1053l) r0
         L39:
             com.github.catvod.spider.support.p012C0.p013N.C0966a.m2376k(r0)
             java.lang.String r2 = r0.m2706d0()
-            com.github.catvod.spider.support.C0.c0.l r2 = r6.m2936L(r2)
-            com.github.catvod.spider.support.C0.c0.c r4 = r2.mo2705d()
-            com.github.catvod.spider.support.C0.c0.c r5 = r0.mo2705d()
+            com.github.catvod.spider.support.p012C0.p026c0.l r2 = r6.m2936L(r2)
+            com.github.catvod.spider.support.p012C0.p026c0.c r4 = r2.mo2705d()
+            com.github.catvod.spider.support.p012C0.p026c0.c r5 = r0.mo2705d()
             r4.m2641e(r5)
-            java.util.ArrayList<com.github.catvod.spider.support.C0.c0.l> r4 = r6.f2737p
+            java.util.ArrayList<com.github.catvod.spider.support.p012C0.p026c0.l> r4 = r6.f2737p
             r4.set(r1, r2)
             if (r1 == r3) goto L1e
         L56:
             r2 = 0
             goto L2d
         L58:
-            java.util.ArrayList<com.github.catvod.spider.support.C0.c0.l> r0 = r6.f2737p
+            java.util.ArrayList<com.github.catvod.spider.support.p012C0.p026c0.l> r0 = r6.f2737p
             int r1 = r1 + (-1)
             java.lang.Object r0 = r0.get(r1)
-            com.github.catvod.spider.support.C0.c0.l r0 = (com.github.catvod.spider.support.p012C0.p026c0.C1053l) r0
+            com.github.catvod.spider.support.p012C0.p026c0.l r0 = (com.github.catvod.spider.support.p012C0.p026c0.C1053l) r0
             if (r0 == 0) goto L56
             boolean r4 = r6.m2942S(r0)
             if (r4 == 0) goto L2b

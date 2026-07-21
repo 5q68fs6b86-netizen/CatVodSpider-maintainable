@@ -63,7 +63,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.locks.ReentrantLock;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.u */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.u */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1750u {
 
@@ -299,12 +299,12 @@ public final class C1750u {
             FrameLayout frameLayout = new FrameLayout(Init.context());
             layoutParams.gravity = 17;
             frameLayout.addView(imageView, layoutParams);
-            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(frameLayout).setOnCancelListener(new DialogInterface.OnCancelListener() { // from class: com.github.catvod.spider.support.FM.b.k
+            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(frameLayout).setOnCancelListener(new DialogInterface.OnCancelListener() { // from class: com.github.catvod.spider.support.p044FM.p073b.k
                 @Override // android.content.DialogInterface.OnCancelListener
                 public final void onCancel(DialogInterface dialogInterface) {
                     C1750u.m4112c(this.f3833a);
                 }
-            }).setOnDismissListener(new DialogInterface.OnDismissListener() { // from class: com.github.catvod.spider.support.FM.b.m
+            }).setOnDismissListener(new DialogInterface.OnDismissListener() { // from class: com.github.catvod.spider.support.p044FM.p073b.m
                 @Override // android.content.DialogInterface.OnDismissListener
                 public final void onDismiss(DialogInterface dialogInterface) {
                     C1750u.m4116g(this.f3835a);
@@ -387,7 +387,7 @@ public final class C1750u {
         ScheduledExecutorService scheduledExecutorServiceNewScheduledThreadPool = Executors.newScheduledThreadPool(1);
         c1750u.f3851g = scheduledExecutorServiceNewScheduledThreadPool;
         final int i = 0;
-        scheduledExecutorServiceNewScheduledThreadPool.scheduleAtFixedRate(new Runnable() { // from class: com.github.catvod.spider.support.FM.b.i
+        scheduledExecutorServiceNewScheduledThreadPool.scheduleAtFixedRate(new Runnable() { // from class: com.github.catvod.spider.support.p044FM.p073b.i
             @Override // java.lang.Runnable
             public final void run() {
                 switch (i) {

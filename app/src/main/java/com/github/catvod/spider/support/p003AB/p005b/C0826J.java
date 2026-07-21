@@ -12,12 +12,12 @@ import android.widget.ImageView;
 import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.spider.Init;
 import com.github.catvod.spider.Proxy;
-import com.github.catvod.spider.support.AB.c.g;
-import com.github.catvod.spider.support.AB.c.h;
-import com.github.catvod.spider.support.AB.c.j;
-import com.github.catvod.spider.support.AB.j.a;
-import com.github.catvod.spider.support.AB.j.c;
-import com.github.catvod.spider.support.AB.j.e;
+import com.github.catvod.spider.support.p003AB.c.g;
+import com.github.catvod.spider.support.p003AB.c.h;
+import com.github.catvod.spider.support.p003AB.c.j;
+import com.github.catvod.spider.support.p003AB.j.a;
+import com.github.catvod.spider.support.p003AB.j.c;
+import com.github.catvod.spider.support.p003AB.j.e;
 import com.github.catvod.spider.support.p003AB.p004a.C0816a;
 import com.github.catvod.spider.support.p003AB.p007m.C0869c;
 import com.github.catvod.spider.support.p003AB.p007m.C0871e;
@@ -46,7 +46,7 @@ import java.util.concurrent.TimeUnit;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.J */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.J */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0826J {
 
@@ -273,7 +273,7 @@ public final class C0826J {
     public static void m1975a(C0826J c0826j, JSONObject jSONObject) {
         c0826j.getClass();
         try {
-            int iA = com.github.catvod.spider.support.AB.J.a.a(240);
+            int iA = com.github.catvod.spider.support.p003AB.J.a.a(240);
             FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(iA, iA);
             ImageView imageView = new ImageView(Init.context());
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
@@ -346,7 +346,7 @@ public final class C0826J {
     }
 
     /* JADX INFO: renamed from: k */
-    private com.github.catvod.spider.support.AB.c.e<String> m1984k(String str, String str2, String str3, Boolean bool) {
+    private com.github.catvod.spider.support.p003AB.c.e<String> m1984k(String str, String str2, String str3, Boolean bool) {
         String strF;
         try {
             List listC = this.f1945d.c();
@@ -373,7 +373,7 @@ public final class C0826J {
                 break;
             }
             if (strF.isEmpty()) {
-                return com.github.catvod.spider.support.AB.c.e.a("fileToken empty");
+                return com.github.catvod.spider.support.p003AB.c.e.a("fileToken empty");
             }
             String strM1990q = m1990q();
             String str4 = "https://drive-pc.quark.cn/1/clouddrive/share/sharepage/save?pr=ucpro&fr=pc&uc_param_str=&__t=" + System.currentTimeMillis();
@@ -387,7 +387,7 @@ public final class C0826J {
             map.put("fid_token_list", Collections.singletonList(strF));
             JSONObject jSONObject = new JSONObject(m1971G(str4, map));
             if (jSONObject.getInt("code") == 41017) {
-                return com.github.catvod.spider.support.AB.c.e.h(str2);
+                return com.github.catvod.spider.support.p003AB.c.e.h(str2);
             }
             if (jSONObject.getInt("status") == 200 && jSONObject.getInt("code") == 0) {
                 String strOptString = jSONObject.optJSONObject("data").optString("task_id");
@@ -404,7 +404,7 @@ public final class C0826J {
                     sb.append(System.currentTimeMillis());
                     String strM1989p = m1989p(sb.toString());
                     if (new JSONObject(strM1989p).optInt("code") == 32003) {
-                        return com.github.catvod.spider.support.AB.c.e.a("容量已满, 建议购买会员");
+                        return com.github.catvod.spider.support.p003AB.c.e.a("容量已满, 建议购买会员");
                     }
                     jSONArray = new JSONObject(strM1989p).optJSONObject("data").optJSONObject("save_as").optJSONArray("save_as_top_fids");
                     if (jSONArray.length() > 0) {
@@ -412,15 +412,15 @@ public final class C0826J {
                     }
                     TimeUnit.SECONDS.sleep(1L);
                 }
-                return (bool.booleanValue() && jSONArray.length() == 0) ? m1984k(str, str2, str3, Boolean.FALSE) : com.github.catvod.spider.support.AB.c.e.h(jSONArray.optString(0));
+                return (bool.booleanValue() && jSONArray.length() == 0) ? m1984k(str, str2, str3, Boolean.FALSE) : com.github.catvod.spider.support.p003AB.c.e.h(jSONArray.optString(0));
             }
             JSONObject jSONObjectM1968C = m1968C(jSONObject, str, str2, map);
             if (jSONObjectM1968C == null) {
-                return com.github.catvod.spider.support.AB.c.e.a("obj null");
+                return com.github.catvod.spider.support.p003AB.c.e.a("obj null");
             }
-            return jSONObjectM1968C.getInt("code") == 41017 ? com.github.catvod.spider.support.AB.c.e.h(str2) : com.github.catvod.spider.support.AB.c.e.a(jSONObjectM1968C.getString("message"));
+            return jSONObjectM1968C.getInt("code") == 41017 ? com.github.catvod.spider.support.p003AB.c.e.h(str2) : com.github.catvod.spider.support.p003AB.c.e.a(jSONObjectM1968C.getString("message"));
         } catch (Exception e) {
-            return com.github.catvod.spider.support.AB.c.e.a(e.getMessage());
+            return com.github.catvod.spider.support.p003AB.c.e.a(e.getMessage());
         }
     }
 
@@ -725,7 +725,7 @@ public final class C0826J {
 
     /* JADX INFO: renamed from: F */
     public final String m1997F(String[] strArr, String str) {
-        com.github.catvod.spider.support.AB.c.e eVarM2006w;
+        com.github.catvod.spider.support.p003AB.c.e eVarM2006w;
         m2003j();
         if (str.split("#")[0].contains("原画")) {
             eVarM2006w = m2004r(strArr[0], strArr[1], strArr.length > 2 ? strArr[2] : "");
@@ -807,7 +807,7 @@ public final class C0826J {
 
     /* JADX INFO: renamed from: H */
     public final Object[] m1998H(Map<String, String> map) {
-        com.github.catvod.spider.support.AB.c.e<String> eVarM2004r = m2004r(map.get("shareId"), map.get("fileId"), map.get("fileToken"));
+        com.github.catvod.spider.support.p003AB.c.e<String> eVarM2004r = m2004r(map.get("shareId"), map.get("fileId"), map.get("fileToken"));
         if (eVarM2004r.b() != 0) {
             return null;
         }
@@ -852,8 +852,8 @@ public final class C0826J {
         }
     }
 
-    /* JADX WARN: Type inference failed for: r0v7, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.AB.j.e>] */
-    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.AB.j.e>] */
+    /* JADX WARN: Type inference failed for: r0v7, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p003AB.j.e>] */
+    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p003AB.j.e>] */
     /* JADX INFO: renamed from: K */
     public final String m2000K(String str) {
         e eVar = (e) f1940j.get(str);
@@ -913,13 +913,13 @@ public final class C0826J {
     /* JADX INFO: renamed from: N */
     public final void m2002N() {
         try {
-            int iA = com.github.catvod.spider.support.AB.J.a.a(16);
+            int iA = com.github.catvod.spider.support.p003AB.J.a.a(16);
             FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(-1, -2);
             FrameLayout frameLayout = new FrameLayout(Init.context());
             layoutParams.setMargins(iA, iA, iA, iA);
             EditText editText = new EditText(Init.context());
             frameLayout.addView(editText, layoutParams);
-            this.f1947f = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入夸克Cookie【支持字符串和Http】").setView(frameLayout).setNeutralButton("点我，使用夸克APP扫码", new DialogInterface.OnClickListener(this) { // from class: com.github.catvod.spider.support.AB.b.D
+            this.f1947f = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入夸克Cookie【支持字符串和Http】").setView(frameLayout).setNeutralButton("点我，使用夸克APP扫码", new DialogInterface.OnClickListener(this) { // from class: com.github.catvod.spider.support.p003AB.p005b.D
 
                 /* JADX INFO: renamed from: a */
                 public final C0826J f1929a;
@@ -967,19 +967,19 @@ public final class C0826J {
     }
 
     /* JADX INFO: renamed from: r */
-    public final com.github.catvod.spider.support.AB.c.e<String> m2004r(String str, String str2, String str3) {
+    public final com.github.catvod.spider.support.p003AB.c.e<String> m2004r(String str, String str2, String str3) {
         try {
             m2000K(str);
             if (!TextUtils.isEmpty(str)) {
                 m1985l();
             }
-            com.github.catvod.spider.support.AB.c.e<String> eVarM1984k = m1984k(str, str2, str3, Boolean.TRUE);
+            com.github.catvod.spider.support.p003AB.c.e<String> eVarM1984k = m1984k(str, str2, str3, Boolean.TRUE);
             if (eVarM1984k.b() != 0) {
                 return eVarM1984k;
             }
             String str4 = (String) eVarM1984k.c();
             if (TextUtils.isEmpty(str4)) {
-                return com.github.catvod.spider.support.AB.c.e.a("fileId 转存失败");
+                return com.github.catvod.spider.support.p003AB.c.e.a("fileId 转存失败");
             }
             HashMap map = new HashMap();
             ArrayList arrayList = new ArrayList();
@@ -991,11 +991,11 @@ public final class C0826J {
             }
             JSONObject jSONObject = new JSONObject(m1971G("https://drive-pc.quark.cn/1/clouddrive/file/download?pr=ucpro&fr=pc", map));
             if (jSONObject.getInt("status") == 200 && jSONObject.getInt("code") == 0) {
-                return com.github.catvod.spider.support.AB.c.e.h(jSONObject.optJSONArray("data").optJSONObject(0).optString("download_url"));
+                return com.github.catvod.spider.support.p003AB.c.e.h(jSONObject.optJSONArray("data").optJSONObject(0).optString("download_url"));
             }
-            return com.github.catvod.spider.support.AB.c.e.a(jSONObject.getString("message"));
+            return com.github.catvod.spider.support.p003AB.c.e.a(jSONObject.getString("message"));
         } catch (Exception e) {
-            return com.github.catvod.spider.support.AB.c.e.a(e.getMessage());
+            return com.github.catvod.spider.support.p003AB.c.e.a(e.getMessage());
         }
     }
 
@@ -1006,12 +1006,12 @@ public final class C0826J {
 
     /* JADX WARN: Type inference failed for: r4v2, types: [java.util.HashMap, java.util.Map<java.lang.String, java.lang.String>] */
     /* JADX INFO: renamed from: w */
-    public final com.github.catvod.spider.support.AB.c.e<List<String>> m2006w(String str, String str2, String str3, Boolean bool) {
+    public final com.github.catvod.spider.support.p003AB.c.e<List<String>> m2006w(String str, String str2, String str3, Boolean bool) {
         try {
             m2000K(str);
-            com.github.catvod.spider.support.AB.c.e<String> eVarM1984k = m1984k(str, str2, str3, Boolean.TRUE);
+            com.github.catvod.spider.support.p003AB.c.e<String> eVarM1984k = m1984k(str, str2, str3, Boolean.TRUE);
             if (eVarM1984k.b() != 0) {
-                return com.github.catvod.spider.support.AB.c.e.a((String) eVarM1984k.c());
+                return com.github.catvod.spider.support.p003AB.c.e.a((String) eVarM1984k.c());
             }
             String str4 = (String) eVarM1984k.c();
             HashMap map = new HashMap();
@@ -1020,7 +1020,7 @@ public final class C0826J {
             map.put("supports", "fmp4,m3u8");
             JSONObject jSONObject = new JSONObject(m1971G("https://drive-pc.quark.cn/1/clouddrive/file/v2/play?pr=ucpro&fr=pc&uc_param_str=", map));
             if (jSONObject.optString("message").contains("file not found")) {
-                return com.github.catvod.spider.support.AB.c.e.h(new ArrayList());
+                return com.github.catvod.spider.support.p003AB.c.e.h(new ArrayList());
             }
             JSONArray jSONArrayOptJSONArray = jSONObject.optJSONObject("data").optJSONArray("video_list");
             ArrayList arrayList = new ArrayList();
@@ -1031,10 +1031,10 @@ public final class C0826J {
                     arrayList.add(jSONObjectOptJSONObject.optJSONObject("video_info").optString("url"));
                 }
             }
-            return (bool.booleanValue() && arrayList.size() == 0) ? m2006w(str, str4, str3, Boolean.FALSE) : com.github.catvod.spider.support.AB.c.e.h(arrayList);
+            return (bool.booleanValue() && arrayList.size() == 0) ? m2006w(str, str4, str3, Boolean.FALSE) : com.github.catvod.spider.support.p003AB.c.e.h(arrayList);
         } catch (Exception e) {
             e.printStackTrace();
-            return com.github.catvod.spider.support.AB.c.e.h(new ArrayList());
+            return com.github.catvod.spider.support.p003AB.c.e.h(new ArrayList());
         } finally {
             if (!TextUtils.isEmpty(str)) {
                 m1986m();

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.vb */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.vb */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0683vb extends EnumC0709wa {
     public C0683vb() {

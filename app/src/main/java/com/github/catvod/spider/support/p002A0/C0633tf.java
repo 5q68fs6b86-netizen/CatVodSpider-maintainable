@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.io.Serializable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.tf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tf */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0633tf implements InterfaceC0769yg, Serializable {
 

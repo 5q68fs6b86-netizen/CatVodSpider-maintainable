@@ -5,7 +5,7 @@ import java.util.Calendar;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ms */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ms */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0457ms extends AbstractC0157bp {
 

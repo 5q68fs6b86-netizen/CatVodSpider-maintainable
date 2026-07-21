@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import com.base.model.proto.DramaDetailProto;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.zd */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.zd */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0793zd extends C0579rf {
 

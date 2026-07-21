@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.wn */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.wn */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0722wn extends EnumC0416le {
     public C0722wn() {

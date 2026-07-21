@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.LinkedBlockingQueue;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.T.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p114T.d */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2133d implements InterfaceC2124a {
 
@@ -22,8 +22,8 @@ public final class C2133d implements InterfaceC2124a {
     /* JADX INFO: renamed from: c */
     final LinkedBlockingQueue<C2129c> f4999c = new LinkedBlockingQueue<>();
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.T.c>] */
-    /* JADX WARN: Type inference failed for: r1v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.T.c>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p114T.c>] */
+    /* JADX WARN: Type inference failed for: r1v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p114T.c>] */
     @Override // com.github.catvod.spider.support.p112R.InterfaceC2124a
     /* JADX INFO: renamed from: a */
     public final synchronized InterfaceC2125b mo850a(String str) {
@@ -36,7 +36,7 @@ public final class C2133d implements InterfaceC2124a {
         return c2132c;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.T.c>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p114T.c>] */
     /* JADX INFO: renamed from: b */
     public final void m5383b() {
         this.f4998b.clear();
@@ -48,7 +48,7 @@ public final class C2133d implements InterfaceC2124a {
         return this.f4999c;
     }
 
-    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.T.c>] */
+    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p114T.c>] */
     /* JADX INFO: renamed from: d */
     public final List<C2132c> m5385d() {
         return new ArrayList(this.f4998b.values());

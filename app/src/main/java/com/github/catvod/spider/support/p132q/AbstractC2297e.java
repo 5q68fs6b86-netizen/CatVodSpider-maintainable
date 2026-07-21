@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p132q;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.q.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p132q.e */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC2297e {
     protected AbstractC2297e() {

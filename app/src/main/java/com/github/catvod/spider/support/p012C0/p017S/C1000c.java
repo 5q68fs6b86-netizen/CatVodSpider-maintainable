@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p017S;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.S.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p017S.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1000c<Key1, Key2, Value> {
 

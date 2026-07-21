@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.dt */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.dt */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0215dt extends C0277ga {
     @Override // com.github.catvod.spider.support.p002A0.C0277ga, com.github.catvod.spider.support.p002A0.AbstractC0753xr

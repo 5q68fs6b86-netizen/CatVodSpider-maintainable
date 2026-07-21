@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ml */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ml */
 /* JADX INFO: loaded from: classes.dex */
 public class C0450ml extends AbstractC0673us {
 

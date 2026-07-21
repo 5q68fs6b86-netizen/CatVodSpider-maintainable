@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p118c;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.c.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2191b {
 
@@ -19,7 +19,7 @@ public final class C2191b {
     @SerializedName("value")
     private List<a> f5275c;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.c.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.b$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */

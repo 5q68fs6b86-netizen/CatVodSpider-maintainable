@@ -9,7 +9,7 @@ import com.github.catvod.spider.support.p044FM.p099y.C1977a;
 import com.github.catvod.spider.support.p044FM.p099y.C1997k;
 import com.github.catvod.spider.support.p044FM.p100z.C2025b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.U.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p065U.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1634a extends AbstractC1945t {
 

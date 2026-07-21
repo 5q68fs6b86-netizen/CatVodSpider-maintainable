@@ -101,7 +101,7 @@ import java.util.zip.ZipOutputStream;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.G */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2253G {
     public static AlertDialog currentDialog;
@@ -123,7 +123,7 @@ public final class C2253G {
     /* JADX INFO: renamed from: d */
     private boolean f5626d;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$1, reason: invalid class name */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$1, reason: invalid class name */
     class AnonymousClass1 implements View.OnClickListener {
         AnonymousClass1() {
         }
@@ -140,7 +140,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$8, reason: invalid class name */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$8, reason: invalid class name */
     /* synthetic */ class AnonymousClass8 implements View.OnClickListener {
         AnonymousClass8() {
         }
@@ -151,7 +151,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$ArrowAdapter */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$ArrowAdapter */
     class ArrowAdapter extends ArrayAdapter {
         public final ArrayList<String> items;
 
@@ -205,7 +205,7 @@ public final class C2253G {
             textView.setText(this.items.get(i));
             TextView textView4 = (TextView) relativeLayout.findViewById(1);
             final boolean z = true;
-            textView4.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.ArrowAdapter.1
+            textView4.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.ArrowAdapter.1
                 @Override // android.view.View.OnClickListener
                 public void onClick(View view2) {
                     int size = ArrowAdapter.this.items.size();
@@ -245,7 +245,7 @@ public final class C2253G {
                     }
                 }
             });
-            textView4.setOnFocusChangeListener(new View.OnFocusChangeListener(textView4) { // from class: com.github.catvod.spider.support.m.G.ArrowAdapter.2
+            textView4.setOnFocusChangeListener(new View.OnFocusChangeListener(textView4) { // from class: com.github.catvod.spider.support.p128m.G.ArrowAdapter.2
                 private int originalColor;
                 final /* synthetic */ TextView val$textView;
 
@@ -265,7 +265,7 @@ public final class C2253G {
                 }
             });
             final int i2 = 1;
-            textView4.setOnKeyListener(new View.OnKeyListener() { // from class: com.github.catvod.spider.support.m.G.ArrowAdapter.3
+            textView4.setOnKeyListener(new View.OnKeyListener() { // from class: com.github.catvod.spider.support.p128m.G.ArrowAdapter.3
                 @Override // android.view.View.OnKeyListener
                 public boolean onKey(View view2, int i3, KeyEvent keyEvent) {
                     View viewFindViewById;
@@ -328,7 +328,7 @@ public final class C2253G {
             });
             TextView textView5 = (TextView) relativeLayout.findViewById(2);
             final boolean z2 = false;
-            textView5.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.ArrowAdapter.1
+            textView5.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.ArrowAdapter.1
                 @Override // android.view.View.OnClickListener
                 public void onClick(View view2) {
                     int size = ArrowAdapter.this.items.size();
@@ -368,7 +368,7 @@ public final class C2253G {
                     }
                 }
             });
-            textView5.setOnFocusChangeListener(new View.OnFocusChangeListener(textView5) { // from class: com.github.catvod.spider.support.m.G.ArrowAdapter.2
+            textView5.setOnFocusChangeListener(new View.OnFocusChangeListener(textView5) { // from class: com.github.catvod.spider.support.p128m.G.ArrowAdapter.2
                 private int originalColor;
                 final /* synthetic */ TextView val$textView;
 
@@ -388,7 +388,7 @@ public final class C2253G {
                 }
             });
             final int i3 = 2;
-            textView5.setOnKeyListener(new View.OnKeyListener() { // from class: com.github.catvod.spider.support.m.G.ArrowAdapter.3
+            textView5.setOnKeyListener(new View.OnKeyListener() { // from class: com.github.catvod.spider.support.p128m.G.ArrowAdapter.3
                 @Override // android.view.View.OnKeyListener
                 public boolean onKey(View view2, int i4, KeyEvent keyEvent) {
                     View viewFindViewById;
@@ -453,7 +453,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$ArrowConfirm */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$ArrowConfirm */
     class ArrowConfirm implements DialogInterface.OnClickListener {
         final /* synthetic */ ArrayList val$items;
 
@@ -495,7 +495,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$BackupTip */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$BackupTip */
     class BackupTip implements DialogInterface.OnClickListener {
         final /* synthetic */ Context val$context;
 
@@ -544,7 +544,7 @@ public final class C2253G {
             layoutParams4.gravity = 1;
             linearLayout.addView(textView3, layoutParams4);
             final AlertDialog alertDialogShow = new AlertDialog.Builder(this.val$context).setView(linearLayout).setCancelable(true).show();
-            textView3.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.BackupTip.1
+            textView3.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.BackupTip.1
                 @Override // android.view.View.OnClickListener
                 public void onClick(View view2) {
                     alertDialogShow.dismiss();
@@ -553,7 +553,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$CloudDialogClickListener */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$CloudDialogClickListener */
     public class CloudDialogClickListener implements DialogInterface.OnClickListener {
         private final String cloudType;
         private final Context context;
@@ -572,7 +572,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$DeleteBackup */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$DeleteBackup */
     class DeleteBackup implements DialogInterface.OnClickListener {
         private final Context context;
 
@@ -593,7 +593,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$FocusRestorer */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$FocusRestorer */
     class FocusRestorer implements Runnable {
         FocusRestorer() {
         }
@@ -624,7 +624,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$HomePageOption */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$HomePageOption */
     public class HomePageOption implements DialogInterface.OnMultiChoiceClickListener {
         private boolean[] selectedOptions;
 
@@ -654,7 +654,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$LocalBackup */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$LocalBackup */
     class LocalBackup implements DialogInterface.OnClickListener {
         final /* synthetic */ Context val$context;
 
@@ -717,7 +717,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$Option */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$Option */
     public static class Option implements DialogInterface.OnClickListener {
         private int selectedOption = 0;
 
@@ -731,7 +731,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$UpdateListener */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$UpdateListener */
     class UpdateListener implements DialogInterface.OnClickListener {
         private final boolean enable;
 
@@ -750,14 +750,14 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$a */
     private static class a {
 
         /* JADX INFO: renamed from: a */
         static volatile C2253G f5628a = new C2253G();
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$b */
     class b implements Runnable {
         final /* synthetic */ TextView val$goView;
         final /* synthetic */ TextView val$javaView;
@@ -788,7 +788,7 @@ public final class C2253G {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$c */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$c */
     class c implements Runnable {
         final /* synthetic */ TextView val$targetView;
         final /* synthetic */ String val$text;
@@ -900,7 +900,7 @@ public final class C2253G {
             linearLayout.addView(imageView2, layoutParams7);
         }
         AlertDialog.Builder view = new AlertDialog.Builder(Init.getConfigActivity()).setView(linearLayout);
-        view.setPositiveButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.4
+        view.setPositiveButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.4
             @Override // android.content.DialogInterface.OnClickListener
             public void onClick(DialogInterface dialogInterface, int i) {
                 File file = new File(new File(Environment.getExternalStorageDirectory(), "TVBox"), "diy_cookie.txt");
@@ -947,7 +947,7 @@ public final class C2253G {
         if (TextUtils.isEmpty(str)) {
             view.setNeutralButton("远程输入", new DialogInterfaceOnClickListenerC2248C(this, map));
         } else {
-            view.setNeutralButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.DD
+            view.setNeutralButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.DD
                 @Override // android.content.DialogInterface.OnClickListener
                 public final void onClick(DialogInterface dialogInterface, int i) {
                     C2253G c2253g = this.f5616a;
@@ -1805,7 +1805,7 @@ public final class C2253G {
         gradientDrawable.setCornerRadius(C2256I.m6110c(40));
         gradientDrawable.setColor(-14059009);
         button.setBackground(gradientDrawable);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.62
+        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.62
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 C2253G.this.dismissAlertDialog();
@@ -1824,14 +1824,14 @@ public final class C2253G {
             window.setLayout(-2, -2);
         }
         this.f5623a = alertDialogShow;
-        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.m.G.63
+        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.63
             @Override // java.lang.Runnable
             public void run() {
                 try {
                     String strM5751j = C2179m.m5742a().m5751j();
                     if (TextUtils.isEmpty(strM5751j)) {
                         final String str = "获取失败：账号未登录或Token已失效";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.63.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.63.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str);
@@ -1846,7 +1846,7 @@ public final class C2253G {
                     JSONObject jSONObject = new JSONObject(C2238b.m6073l("https://open-api.123pan.com/api/v1/user/info", map2));
                     if (jSONObject.optInt("code") != 0) {
                         final String str2 = "获取失败：账号未登录或Token已失效";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.63.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.63.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str2);
@@ -1857,7 +1857,7 @@ public final class C2253G {
                     JSONObject jSONObjectOptJSONObject = jSONObject.optJSONObject("data");
                     if (jSONObjectOptJSONObject == null) {
                         final String str3 = "获取失败：返回数据为空";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.63.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.63.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str3);
@@ -1885,7 +1885,7 @@ public final class C2253G {
                     sb.append("\n\n");
                     sb.append(zOptBoolean ? "✅ 会员有效" : "⚠️ 未开通会员");
                     final String string = sb.toString();
-                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.63.1
+                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.63.1
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(string);
@@ -1895,7 +1895,7 @@ public final class C2253G {
                     th.printStackTrace();
                     TextView textView3 = textView2;
                     final String str4 = "获取失败：" + th.getMessage();
-                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.63.2
+                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.63.2
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str4);
@@ -1939,7 +1939,7 @@ public final class C2253G {
         gradientDrawable.setCornerRadius(C2256I.m6110c(40));
         gradientDrawable.setColor(-14059009);
         button.setBackground(gradientDrawable);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.52
+        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.52
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 C2253G.this.dismissAlertDialog();
@@ -1958,7 +1958,7 @@ public final class C2253G {
             window.setLayout(-2, -2);
         }
         this.f5623a = alertDialogShow;
-        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.m.G.53
+        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.53
             @Override // java.lang.Runnable
             public void run() {
                 int i = 0;
@@ -1967,7 +1967,7 @@ public final class C2253G {
                         String strM5734k = C2178l.m5718c().m5734k();
                         if (TextUtils.isEmpty(strM5734k)) {
                             final String str = "获取失败：账号未登录或Cookie已失效";
-                            textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.53.1
+                            textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.53.1
                                 @Override // java.lang.Runnable
                                 public void run() {
                                     textView2.setText(str);
@@ -1988,7 +1988,7 @@ public final class C2253G {
                             if (jSONObject2.optInt("res_code") != 0) {
                                 TextView textView3 = textView2;
                                 final String str2 = "获取信息失败：" + jSONObject2.optString("res_message");
-                                textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.53.1
+                                textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.53.1
                                     @Override // java.lang.Runnable
                                     public void run() {
                                         textView2.setText(str2);
@@ -2038,7 +2038,7 @@ public final class C2253G {
                             }
                             sb.append("\n");
                             final String string = sb.toString();
-                            textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.53.1
+                            textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.53.1
                                 @Override // java.lang.Runnable
                                 public void run() {
                                     textView2.setText(string);
@@ -2049,7 +2049,7 @@ public final class C2253G {
                         if (!"InvalidSessionKey".equals(strOptString)) {
                             TextView textView4 = textView2;
                             final String str3 = "获取信息失败：" + jSONObject.optString("errorMsg");
-                            textView4.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.53.1
+                            textView4.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.53.1
                                 @Override // java.lang.Runnable
                                 public void run() {
                                     textView2.setText(str3);
@@ -2059,7 +2059,7 @@ public final class C2253G {
                         }
                         if (i >= 1) {
                             final String str4 = "获取失败：账号未登录或Cookie已失效";
-                            textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.53.1
+                            textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.53.1
                                 @Override // java.lang.Runnable
                                 public void run() {
                                     textView2.setText(str4);
@@ -2074,7 +2074,7 @@ public final class C2253G {
                         e.printStackTrace();
                         TextView textView5 = textView2;
                         final String str5 = "获取失败：" + e.getMessage();
-                        textView5.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.53.2
+                        textView5.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.53.2
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str5);
@@ -2120,7 +2120,7 @@ public final class C2253G {
         gradientDrawable.setCornerRadius(C2256I.m6110c(40));
         gradientDrawable.setColor(-14059009);
         button.setBackground(gradientDrawable);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.12
+        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.12
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 C2253G.this.dismissAlertDialog();
@@ -2139,9 +2139,9 @@ public final class C2253G {
             window.setLayout(-2, -2);
         }
         this.f5623a = alertDialogShow;
-        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.m.G.13
+        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.13
 
-            /* JADX INFO: renamed from: com.github.catvod.spider.support.m.G$13$1, reason: invalid class name */
+            /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.G$13$1, reason: invalid class name */
             class AnonymousClass1 implements Runnable {
                 final /* synthetic */ String val$text;
 
@@ -2216,7 +2216,7 @@ public final class C2253G {
                     e.printStackTrace();
                     TextView textView3 = textView2;
                     final String str = "获取失败：" + e.getMessage();
-                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.13.2
+                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.13.2
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str);
@@ -2260,7 +2260,7 @@ public final class C2253G {
         gradientDrawable.setCornerRadius(C2256I.m6110c(40));
         gradientDrawable.setColor(-14059009);
         button.setBackground(gradientDrawable);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.42
+        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.42
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 C2253G.this.dismissAlertDialog();
@@ -2279,7 +2279,7 @@ public final class C2253G {
             window.setLayout(-2, -2);
         }
         this.f5623a = alertDialogShow;
-        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.m.G.43
+        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.43
             @Override // java.lang.Runnable
             public void run() {
                 String strM6111e;
@@ -2293,7 +2293,7 @@ public final class C2253G {
                     JSONObject jSONObject = new JSONObject(C2238b.m6073l("https://mbd.baidu.com/userx/v1/info/get?appname=baiduboxapp&fields=[\"bg_image\",\"member\",\"uid\",\"avatar\",\"avatar_member\",\"username\",\"displayname\"]", map2));
                     if (jSONObject.optInt("errno") != 0) {
                         final String str = "获取失败：账号未登录或Cookie已失效";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.43.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.43.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str);
@@ -2304,7 +2304,7 @@ public final class C2253G {
                     JSONObject jSONObjectOptJSONObject = jSONObject.optJSONObject("data").optJSONObject("fields");
                     if (jSONObjectOptJSONObject == null) {
                         final String str2 = "获取失败：数据格式异常";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.43.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.43.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str2);
@@ -2330,7 +2330,7 @@ public final class C2253G {
                         strM6111e2 = jOptLong2 == 0 ? "0 B" : C2256I.m6111e(jOptLong2);
                     }
                     final String str3 = "👤 用户：" + strOptString + "\n\n👑️ 会员类型：" + (iOptInt == 1 ? "VIP会员" : "普通用户") + "\n\n💾 存储空间：" + strM6111e + " / " + strM6111e2 + "\n";
-                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.43.1
+                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.43.1
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str3);
@@ -2340,7 +2340,7 @@ public final class C2253G {
                     e.printStackTrace();
                     TextView textView3 = textView2;
                     final String str4 = "获取失败：" + e.getMessage();
-                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.43.2
+                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.43.2
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str4);
@@ -2382,7 +2382,7 @@ public final class C2253G {
             window.setLayout(-2, -2);
         }
         this.f5623a = alertDialogShow;
-        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.m.G.73
+        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.73
             @Override // java.lang.Runnable
             public void run() {
                 String str;
@@ -2390,7 +2390,7 @@ public final class C2253G {
                     String strM6164a = C2268k.m6164a(C2268k.m6166b("/bili_cookie.txt"));
                     if (TextUtils.isEmpty(strM6164a)) {
                         final String str2 = "获取失败：Cookie为空，请先登录";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.73.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.73.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str2);
@@ -2401,7 +2401,7 @@ public final class C2253G {
                     String strOptString = new JSONObject(strM6164a).optString("cookie");
                     if (TextUtils.isEmpty(strOptString)) {
                         final String str3 = "获取失败：Cookie字段为空";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.73.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.73.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str3);
@@ -2417,7 +2417,7 @@ public final class C2253G {
                     if (jSONObject.optInt("code") != 0) {
                         TextView textView3 = textView2;
                         final String str4 = "获取信息失败：" + jSONObject.optString("message");
-                        textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.73.1
+                        textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.73.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str4);
@@ -2428,7 +2428,7 @@ public final class C2253G {
                     JSONObject jSONObjectOptJSONObject = jSONObject.optJSONObject("data");
                     if (jSONObjectOptJSONObject == null) {
                         final String str5 = "获取失败：数据为空";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.73.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.73.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str5);
@@ -2438,7 +2438,7 @@ public final class C2253G {
                     }
                     if (!jSONObjectOptJSONObject.optBoolean("isLogin")) {
                         final String str6 = "获取失败：未登录状态";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.73.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.73.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str6);
@@ -2501,7 +2501,7 @@ public final class C2253G {
                         sb.append("👑 大会员：未开通");
                     }
                     final String string = sb.toString();
-                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.73.1
+                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.73.1
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(string);
@@ -2511,7 +2511,7 @@ public final class C2253G {
                     e.printStackTrace();
                     TextView textView4 = textView2;
                     final String str7 = "获取失败：" + e.getMessage();
-                    textView4.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.73.2
+                    textView4.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.73.2
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str7);
@@ -2555,7 +2555,7 @@ public final class C2253G {
         gradientDrawable.setCornerRadius(C2256I.m6110c(40));
         gradientDrawable.setColor(-14059009);
         button.setBackground(gradientDrawable);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.92
+        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.92
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 C2253G.this.dismissAlertDialog();
@@ -2574,7 +2574,7 @@ public final class C2253G {
             window.setLayout(-2, -2);
         }
         this.f5623a = alertDialogShow;
-        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.m.G.93
+        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.93
             @Override // java.lang.Runnable
             public void run() {
                 try {
@@ -2583,7 +2583,7 @@ public final class C2253G {
                     String strM5468j = c2145gM5459r.m5468j();
                     if (TextUtils.isEmpty(strM5468j)) {
                         final String str = "未登录光鸭账号，请先登录";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.93.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.93.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str);
@@ -2599,7 +2599,7 @@ public final class C2253G {
                     JSONObject jSONObject2 = new JSONObject(C2238b.m6073l("https://account.guangyapan.com/v1/user/me", map2));
                     if (!TextUtils.isEmpty(jSONObject2.optString("error"))) {
                         final String str3 = "获取失败：token已失效或账号异常";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.93.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.93.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str3);
@@ -2619,7 +2619,7 @@ public final class C2253G {
                         strOptString5 = strOptString5.replace("T", " ").replaceAll("\\..*Z", "");
                     }
                     final String str4 = "👤 用户：" + strOptString2 + "\n\n🆔 ID：" + strOptString + "\n\n📱 手机：" + strOptString3 + "\n\n📅 注册时间：" + strOptString4 + "\n\n🔑 密码更新：" + strOptString5;
-                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.93.1
+                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.93.1
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str4);
@@ -2629,7 +2629,7 @@ public final class C2253G {
                     e.printStackTrace();
                     TextView textView3 = textView2;
                     final String str5 = "获取失败：" + e.getMessage();
-                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.93.2
+                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.93.2
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str5);
@@ -2673,7 +2673,7 @@ public final class C2253G {
         gradientDrawable.setCornerRadius(C2256I.m6110c(40));
         gradientDrawable.setColor(-14059009);
         button.setBackground(gradientDrawable);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.22
+        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.22
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 C2253G.this.dismissAlertDialog();
@@ -2692,7 +2692,7 @@ public final class C2253G {
             window.setLayout(-2, -2);
         }
         this.f5623a = alertDialogShow;
-        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.m.G.23
+        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.23
             @Override // java.lang.Runnable
             public void run() {
                 try {
@@ -2705,7 +2705,7 @@ public final class C2253G {
                     JSONObject jSONObjectOptJSONObject = new JSONObject(C2238b.m6073l("https://drive-pc.quark.cn/1/clouddrive/member?pr=ucpro&fr=pc&fetch_subscribe=true&_ch=home&fetch_identity=true", map2)).optJSONObject("data");
                     if (jSONObjectOptJSONObject == null) {
                         final String str = "获取失败：账号未登录或Cookie已失效";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.23.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.23.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str);
@@ -2720,7 +2720,7 @@ public final class C2253G {
                     String strM6111e = jOptLong == 0 ? "0 B" : C2256I.m6111e(jOptLong);
                     String strM6111e2 = jOptLong2 == 0 ? "0 B" : C2256I.m6111e(jOptLong2);
                     final String str2 = "👤 用户：" + strNickname + "\n\n👑 会员：" + strOptString + "\n\n⏳ 到期时间：" + (jOptLong3 == 0 ? "已过期" : new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.CHINA).format(new Date(jOptLong3))) + "\n\n💾 已用空间：" + strM6111e + " / " + strM6111e2;
-                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.23.1
+                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.23.1
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str2);
@@ -2730,7 +2730,7 @@ public final class C2253G {
                     e.printStackTrace();
                     TextView textView3 = textView2;
                     final String str3 = "获取失败：" + e.getMessage();
-                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.23.2
+                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.23.2
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str3);
@@ -2774,7 +2774,7 @@ public final class C2253G {
         gradientDrawable.setCornerRadius(C2256I.m6110c(40));
         gradientDrawable.setColor(-14059009);
         button.setBackground(gradientDrawable);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.32
+        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.32
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 C2253G.this.dismissAlertDialog();
@@ -2793,7 +2793,7 @@ public final class C2253G {
             window.setLayout(-2, -2);
         }
         this.f5623a = alertDialogShow;
-        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.m.G.33
+        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.33
             @Override // java.lang.Runnable
             public void run() {
                 try {
@@ -2806,7 +2806,7 @@ public final class C2253G {
                     JSONObject jSONObjectOptJSONObject = new JSONObject(C2238b.m6073l("https://pc-api.uc.cn/1/clouddrive/member?pr=UCBrowser&fr=pc&fetch_subscribe=true&_ch=home", map2)).optJSONObject("data");
                     if (jSONObjectOptJSONObject == null) {
                         final String str = "获取失败：账号未登录或Cookie已失效";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.33.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.33.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str);
@@ -2839,7 +2839,7 @@ public final class C2253G {
                     String strM6164a = C2268k.m6164a(C2268k.m6166b("/uc_token.txt"));
                     sb.append((strM6164a == null || strM6164a.length() == 0) ? "🖥️ UC TV Token：未登录" : "🖥️ UC TV Token：已登录");
                     final String string = sb.toString();
-                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.33.1
+                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.33.1
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(string);
@@ -2849,7 +2849,7 @@ public final class C2253G {
                     th.printStackTrace();
                     TextView textView3 = textView2;
                     final String str3 = "获取失败：" + th.getMessage();
-                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.33.2
+                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.33.2
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str3);
@@ -2893,7 +2893,7 @@ public final class C2253G {
         gradientDrawable.setCornerRadius(C2256I.m6110c(40));
         gradientDrawable.setColor(-14059009);
         button.setBackground(gradientDrawable);
-        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.82
+        button.setOnClickListener(new View.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.82
             @Override // android.view.View.OnClickListener
             public void onClick(View view) {
                 C2253G.this.dismissAlertDialog();
@@ -2912,7 +2912,7 @@ public final class C2253G {
             window.setLayout(-2, -2);
         }
         this.f5623a = alertDialogShow;
-        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.m.G.83
+        new Thread(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.83
             @Override // java.lang.Runnable
             public void run() {
                 String str;
@@ -2925,7 +2925,7 @@ public final class C2253G {
                     String strM5571j = c2156xM5559m.m5571j();
                     if (TextUtils.isEmpty(strM5571j)) {
                         final String str3 = "未登录迅雷账号，请先登录";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.83.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.83.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str3);
@@ -2941,7 +2941,7 @@ public final class C2253G {
                     JSONObject jSONObject2 = new JSONObject(C2238b.m6073l("https://xluser-ssl.xunlei.com/v1/user/me", map2));
                     if (!TextUtils.isEmpty(jSONObject2.optString("error"))) {
                         final String str5 = "获取失败：token已失效或账号异常";
-                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.83.1
+                        textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.83.1
                             @Override // java.lang.Runnable
                             public void run() {
                                 textView2.setText(str5);
@@ -2976,7 +2976,7 @@ public final class C2253G {
                         string = sb.toString();
                     }
                     final String str6 = "👤 用户：" + strOptString + "\n\n🆔 ID：" + strOptString4 + "\n\n👤 性别：" + str + "\n\n📧 邮箱：" + strOptString2 + "\n\n📱 手机：" + strOptString3 + "\n\n👑 会员：" + string;
-                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.83.1
+                    textView2.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.83.1
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str6);
@@ -2986,7 +2986,7 @@ public final class C2253G {
                     e.printStackTrace();
                     TextView textView3 = textView2;
                     final String str7 = "获取失败：" + e.getMessage();
-                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.m.G.83.2
+                    textView3.post(new Runnable() { // from class: com.github.catvod.spider.support.p128m.G.83.2
                         @Override // java.lang.Runnable
                         public void run() {
                             textView2.setText(str7);
@@ -3427,14 +3427,14 @@ public final class C2253G {
                 if (!"xunlei".equals(str) && !"guangya".equals(str)) {
                     AlertDialog.Builder positiveButton = z3 ? view.setPositiveButton("扫码授权", new DialogInterfaceOnClickListenerC2272o(this, map, str, 0)) : view.setPositiveButton("远程输入", new DialogInterfaceOnClickListenerC2281x(this, map, 0));
                     if ((Init.context().getPackageManager().hasSystemFeature("android.hardware.type.television") ? false : true) && !"ali".equals(str) && !"cloud123".equals(str) && !"cloud".equals(str)) {
-                        positiveButton = positiveButton.setNeutralButton("APP授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.A
+                        positiveButton = positiveButton.setNeutralButton("APP授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.A
                             @Override // android.content.DialogInterface.OnClickListener
                             public final void onClick(DialogInterface dialogInterface, int i) {
                                 C2253G.m6084b(this.f5606a, map);
                             }
                         });
                     }
-                    view = positiveButton.setNegativeButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.B
+                    view = positiveButton.setNegativeButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.B
                         @Override // android.content.DialogInterface.OnClickListener
                         public final void onClick(DialogInterface dialogInterface, int i) {
                             C2253G.m6097o(this.f5608a, map);
@@ -3442,12 +3442,12 @@ public final class C2253G {
                     });
                     if (z2) {
                         final EditText editText = null;
-                        view = view.setNeutralButton("扫码授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.F
+                        view = view.setNeutralButton("扫码授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.F
                             @Override // android.content.DialogInterface.OnClickListener
                             public final void onClick(DialogInterface dialogInterface, int i) {
                                 C2253G.m6087e(this.f5620a, map, str);
                             }
-                        }).setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.z
+                        }).setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.z
                             @Override // android.content.DialogInterface.OnClickListener
                             public final void onClick(DialogInterface dialogInterface, int i) {
                                 final C2253G c2253g = this.f5703a;
@@ -3456,7 +3456,7 @@ public final class C2253G {
                                 EditText editText3 = editText;
                                 c2253g.getClass();
                                 if (editText2 != null && !TextUtils.isEmpty(editText2.getText().toString())) {
-                                    Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.m.w
+                                    Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.p128m.w
                                         @Override // java.lang.Runnable
                                         public final void run() {
                                             C2253G.m6089g(c2253g, str3, editText2);
@@ -3477,7 +3477,7 @@ public final class C2253G {
                         alertDialogShow.setOnCancelListener(new DialogInterfaceOnCancelListenerC2255H0(this));
                         return;
                     }
-                    view = view.setNeutralButton("APP授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.A
+                    view = view.setNeutralButton("APP授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.A
                         @Override // android.content.DialogInterface.OnClickListener
                         public final void onClick(DialogInterface dialogInterface, int i) {
                             C2253G.m6084b(this.f5606a, map);
@@ -3486,12 +3486,12 @@ public final class C2253G {
                 }
             } else if (z2) {
                 final EditText editText2 = null;
-                view = view.setNeutralButton("扫码授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.F
+                view = view.setNeutralButton("扫码授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.F
                     @Override // android.content.DialogInterface.OnClickListener
                     public final void onClick(DialogInterface dialogInterface, int i) {
                         C2253G.m6087e(this.f5620a, map, str);
                     }
-                }).setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.z
+                }).setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.z
                     @Override // android.content.DialogInterface.OnClickListener
                     public final void onClick(DialogInterface dialogInterface, int i) {
                         final C2253G c2253g = this.f5703a;
@@ -3500,7 +3500,7 @@ public final class C2253G {
                         EditText editText4 = editText2;
                         c2253g.getClass();
                         if (editText3 != null && !TextUtils.isEmpty(editText3.getText().toString())) {
-                            Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.m.w
+                            Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.p128m.w
                                 @Override // java.lang.Runnable
                                 public final void run() {
                                     C2253G.m6089g(c2253g, str3, editText3);
@@ -3969,21 +3969,21 @@ public final class C2253G {
             linearLayout.addView(imageView, layoutParams5);
         }
         AlertDialog.Builder view = new AlertDialog.Builder(Init.getConfigActivity()).setView(linearLayout);
-        this.f5623a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterfaceOnClickListenerC2248C(this, map)).setNegativeButton("登录", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.y
+        this.f5623a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterfaceOnClickListenerC2248C(this, map)).setNegativeButton("登录", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.y
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i) {
                 final C2253G c2253g = this.f5700a;
                 final EditText editText3 = editText;
                 final EditText editText4 = editText2;
                 c2253g.getClass();
-                Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.m.v
+                Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.p128m.v
                     @Override // java.lang.Runnable
                     public final void run() {
                         C2253G.m6095m(c2253g, editText3, editText4);
                     }
                 });
             }
-        }) : view.setNeutralButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.D
+        }) : view.setNeutralButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.D
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i) {
                 C2253G c2253g = this.f5614a;
@@ -4073,7 +4073,7 @@ public final class C2253G {
             linearLayout.addView(imageView, layoutParams5);
         }
         AlertDialog.Builder view = new AlertDialog.Builder(Init.getConfigActivity()).setView(linearLayout);
-        this.f5623a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.E
+        this.f5623a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.E
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i2) {
                 C2253G c2253g = this.f5618a;
@@ -4083,7 +4083,7 @@ public final class C2253G {
                 map2.put("flag", "请使用浏览器或者微信扫描二维码");
                 Init.execute(new RunnableC2277t(c2253g, map2, 0));
             }
-        }).setPositiveButton("登录", new DialogInterfaceOnClickListenerC2272o(this, editText, editText2, i)).setNegativeButton("扫码授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.7
+        }).setPositiveButton("登录", new DialogInterfaceOnClickListenerC2272o(this, editText, editText2, i)).setNegativeButton("扫码授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.7
             @Override // android.content.DialogInterface.OnClickListener
             public void onClick(DialogInterface dialogInterface, int i2) {
                 HashMap map2 = new HashMap();
@@ -4094,7 +4094,7 @@ public final class C2253G {
                 Init.execute(new RunnableC2274q(C2253G.this, map2, 1));
                 dialogInterface.dismiss();
             }
-        }) : view.setNeutralButton("手动输入", new DialogInterfaceOnClickListenerC2281x(this, map, i)).setNegativeButton("扫码授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.m.G.7
+        }) : view.setNeutralButton("手动输入", new DialogInterfaceOnClickListenerC2281x(this, map, i)).setNegativeButton("扫码授权", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p128m.G.7
             @Override // android.content.DialogInterface.OnClickListener
             public void onClick(DialogInterface dialogInterface, int i2) {
                 HashMap map2 = new HashMap();

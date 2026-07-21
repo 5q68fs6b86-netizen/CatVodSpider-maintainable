@@ -12,7 +12,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.Gf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.Gf */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2149Gf {
 

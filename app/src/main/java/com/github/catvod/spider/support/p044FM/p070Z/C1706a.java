@@ -8,7 +8,7 @@ import com.github.catvod.spider.support.p044FM.p098x.C1943r;
 import com.github.catvod.spider.support.p044FM.p098x.C1950y;
 import com.github.catvod.spider.support.p044FM.p098x.InterfaceC1919E;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.Z.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p070Z.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1706a extends C1941p {
     @Override // com.github.catvod.spider.support.p044FM.p098x.C1941p

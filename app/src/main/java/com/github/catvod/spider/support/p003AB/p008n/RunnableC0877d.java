@@ -1,9 +1,9 @@
 package com.github.catvod.spider.support.p003AB.p008n;
 
 import com.github.catvod.spider.Bili;
-import com.github.catvod.spider.support.AB.g.b;
+import com.github.catvod.spider.support.p003AB.g.b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.n.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p008n.d */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0877d implements Runnable {
 

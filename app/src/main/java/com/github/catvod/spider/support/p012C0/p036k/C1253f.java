@@ -6,7 +6,7 @@ import java.util.Map;
 import okhttp3.Call;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.k.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p036k.f */
 /* JADX INFO: loaded from: classes.dex */
 final class C1253f extends AbstractC1250c<String> {
 

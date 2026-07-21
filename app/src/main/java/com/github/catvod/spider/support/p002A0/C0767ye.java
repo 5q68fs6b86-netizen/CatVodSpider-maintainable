@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ye */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ye */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0767ye extends C0579rf {
     @Override // com.github.catvod.spider.support.p002A0.C0579rf, com.github.catvod.spider.support.p002A0.InterfaceC0207dl

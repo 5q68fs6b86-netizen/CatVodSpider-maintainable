@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.u */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.u */
 /* JADX INFO: loaded from: classes.dex */
 public class C2328u extends C2332y {
 
@@ -27,8 +27,8 @@ public class C2328u extends C2332y {
         super(c2328u, i);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p138x.b>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p138x.b>] */
     @Override // com.github.catvod.spider.support.p134t.C2332y, com.github.catvod.spider.support.p138x.InterfaceC2412b
     /* JADX INFO: renamed from: c */
     public final InterfaceC2412b mo6288c(int i) {
@@ -39,7 +39,7 @@ public class C2328u extends C2332y {
         return (InterfaceC2412b) this.f5787d.get(i);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p138x.b>] */
     @Override // com.github.catvod.spider.support.p134t.C2332y, com.github.catvod.spider.support.p138x.InterfaceC2412b
     /* JADX INFO: renamed from: d */
     public final int mo6289d() {
@@ -68,8 +68,8 @@ public class C2328u extends C2332y {
     public void mo5284i(InterfaceC2413c interfaceC2413c) {
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p138x.b>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p138x.b>] */
     /* JADX INFO: renamed from: j */
     public final C2328u m6291j(Class cls) {
         InterfaceC2412b interfaceC2412b;
@@ -87,7 +87,7 @@ public class C2328u extends C2332y {
         return (C2328u) interfaceC2412b;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p138x.b>] */
     /* JADX INFO: renamed from: k */
     public final <T extends C2328u> List<T> m6292k(Class<? extends T> cls) {
         Object r0 = this.f5787d;
@@ -106,8 +106,8 @@ public class C2328u extends C2332y {
         return arrayList == null ? Collections.emptyList() : arrayList;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.x.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p138x.b>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p138x.b>] */
     /* JADX INFO: renamed from: l */
     public final InterfaceC2416f m6293l(int i) {
         Object r0 = this.f5787d;

@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 import com.github.catvod.spider.support.p012C0.p026c0.C1044c;
 import com.github.catvod.spider.support.p012C0.p040x.C1263a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.D */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.D */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1074D {
 

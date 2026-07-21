@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 import okhttp3.Response;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.wh */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.wh */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0716wh {
 

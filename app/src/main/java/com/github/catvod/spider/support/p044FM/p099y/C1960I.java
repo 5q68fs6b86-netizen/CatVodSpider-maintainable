@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p099y;
 import com.github.catvod.spider.support.p044FM.p045A.C1286l;
 import com.github.catvod.spider.support.p044FM.p098x.AbstractC1945t;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.I */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.I */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1960I implements InterfaceC1954C {
 

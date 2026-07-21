@@ -4,7 +4,7 @@ import android.text.TextUtils;
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.d.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.h */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2204h {
 

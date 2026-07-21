@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.Collections;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.d.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.j */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2206j {
 
@@ -25,7 +25,7 @@ public final class C2206j {
     @SerializedName("status")
     private int f5384d;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.d.j$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.j$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */

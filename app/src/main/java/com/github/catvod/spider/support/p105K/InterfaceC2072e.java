@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p105K;
 
 import com.github.catvod.spider.support.p138x.InterfaceC2414d;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.K.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p105K.e */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC2072e<T> extends InterfaceC2414d<T> {
     /* JADX INFO: renamed from: B */

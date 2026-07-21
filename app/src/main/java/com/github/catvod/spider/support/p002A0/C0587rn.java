@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.rn */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.rn */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0587rn extends C0579rf {
     @Override // com.github.catvod.spider.support.p002A0.C0579rf, com.github.catvod.spider.support.p002A0.InterfaceC0207dl

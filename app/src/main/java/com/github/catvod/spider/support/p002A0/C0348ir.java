@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.function.BiConsumer;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ir */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ir */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0348ir implements BiConsumer {
     @Override // java.util.function.BiConsumer

@@ -749,7 +749,7 @@ public class Config extends Spider {
             AlertDialog.Builder builder = new AlertDialog.Builder(this.f159i ? Init.getConfigActivity() : Init.getActivity());
             builder.setTitle("提示");
             builder.setMessage(i == 1 ? "将当前设备的云盘、B站登录信息上传至云端" : "从云端下载云盘、B站登录信息,并覆盖已有的");
-            builder.setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.l.a
+            builder.setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p127l.a
                 @Override // android.content.DialogInterface.OnClickListener
                 public final void onClick(DialogInterface dialogInterface, int i2) {
                     Config config = this.f5602a;
@@ -759,7 +759,7 @@ public class Config extends Spider {
                     Init.execute(i3 == 1 ? new RunnableC2169c(config, i4) : new RunnableC2173g(config, i4));
                 }
             });
-            builder.setPositiveButton("取消", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.l.b
+            builder.setPositiveButton("取消", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p127l.b
                 @Override // android.content.DialogInterface.OnClickListener
                 public final void onClick(DialogInterface dialogInterface, int i2) {
                 }

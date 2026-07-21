@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p055K;
 
 import com.github.catvod.spider.support.p044FM.p056L.C1416G;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.u */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.u */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1401u extends C1393m {
     public C1401u(C1416G c1416g, String str, C1383c c1383c) {

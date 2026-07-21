@@ -5,7 +5,7 @@ import java.lang.reflect.Field;
 import java.security.PrivilegedAction;
 import java.util.ArrayList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.iq */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.iq */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0347iq implements PrivilegedAction {
 

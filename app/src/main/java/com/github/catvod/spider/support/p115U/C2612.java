@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p115U;
 
 import java.io.ByteArrayOutputStream;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.U.۟ۢۦۥۧ, reason: contains not printable characters */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p115U.۟ۢۦۥۧ, reason: contains not printable characters */
 /* JADX INFO: loaded from: classes.dex */
 public class C2612 {
 

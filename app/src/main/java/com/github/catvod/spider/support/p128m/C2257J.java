@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p128m;
 
 import android.util.Base64;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.J */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.J */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2257J {
 

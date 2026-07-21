@@ -1,7 +1,7 @@
 package com.github.catvod.spider.support.p012C0.p016R;
 
-import com.github.catvod.spider.support.C0.P.I;
-import com.github.catvod.spider.support.C0.R.c;
+import com.github.catvod.spider.support.p012C0.p014P.I;
+import com.github.catvod.spider.support.p012C0.p016R.c;
 import com.github.catvod.spider.support.p012C0.p015Q.AbstractC0996v;
 import com.github.catvod.spider.support.p012C0.p015Q.C0991f;
 import com.github.catvod.spider.support.p012C0.p015Q.C0995p0;
@@ -9,7 +9,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.R.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p016R.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0997b {
 

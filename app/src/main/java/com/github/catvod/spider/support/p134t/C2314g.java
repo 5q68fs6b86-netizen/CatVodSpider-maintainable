@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p134t;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.g */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2314g {
 

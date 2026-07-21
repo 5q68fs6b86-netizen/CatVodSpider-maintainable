@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p128m.C2256I;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.Xd */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.Xd */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC2160Xd implements Runnable {
 

@@ -8,7 +8,7 @@ import com.github.catvod.spider.support.p134t.C2330w;
 import com.github.catvod.spider.support.p134t.InterfaceC2333z;
 import com.github.catvod.spider.support.p137w.C2410l;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.P.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p110P.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2118a extends C2320m {
     @Override // com.github.catvod.spider.support.p134t.C2320m

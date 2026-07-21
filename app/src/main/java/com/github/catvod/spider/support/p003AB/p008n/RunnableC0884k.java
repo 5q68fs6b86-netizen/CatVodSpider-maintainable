@@ -4,7 +4,7 @@ import com.github.catvod.spider.Init;
 import com.github.catvod.spider.support.p003AB.p005b.C0833Q;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.n.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p008n.k */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0884k implements Runnable {
 

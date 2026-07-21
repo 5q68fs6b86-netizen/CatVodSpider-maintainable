@@ -636,7 +636,7 @@ public class XBPQ extends Spider {
                         str14 = "空";
                         String strM669G4 = m669G("链接", "cateVodId", "/@href");
                         String strM669G5 = m669G("副标题", "cateVodMark", "");
-                        List<com.github.catvod.spider.support.C0.f0.b> listM3017a = m719i0(str11).m3017a(strM673K);
+                        List<com.github.catvod.spider.support.p012C0.p030f0.b> listM3017a = m719i0(str11).m3017a(strM673K);
                         new ArrayList();
                         Object r6 = this.f307k;
                         if (r6 != 0) {
@@ -658,29 +658,29 @@ public class XBPQ extends Spider {
                                 str47 = strTrim13;
                                 break;
                             }
-                            String strTrim14 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(strM669G2).a().trim();
-                            String strTrim15 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(strM669G4).a().trim();
-                            String strTrim16 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(strM669G3).a().trim();
-                            String strTrim17 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(strM669G5).a().trim();
+                            String strTrim14 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(strM669G2).a().trim();
+                            String strTrim15 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(strM669G4).a().trim();
+                            String strTrim16 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(strM669G3).a().trim();
+                            String strTrim17 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(strM669G5).a().trim();
                             if (z3) {
                                 if (str3.length() > 0) {
-                                    strTrim10 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(str3).a().trim();
+                                    strTrim10 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(str3).a().trim();
                                 }
                                 if (str4.length() > 0) {
-                                    strTrim11 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(str4).a().trim();
+                                    strTrim11 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(str4).a().trim();
                                 }
                                 if (str5.length() > 0) {
-                                    strTrim12 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(str5).a().trim();
+                                    strTrim12 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(str5).a().trim();
                                 }
                                 if (str6.length() > 0) {
-                                    strM709w = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(str6).a().trim();
+                                    strM709w = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(str6).a().trim();
                                 }
                                 if (str7.length() > 0) {
-                                    strTrim13 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(str7).a().trim();
+                                    strTrim13 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(str7).a().trim();
                                 }
                                 if (strM704q.length() > 0) {
                                     str48 = strTrim13;
-                                    strTrim9 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i8)).c(strM704q).a().trim();
+                                    strTrim9 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i8)).c(strM704q).a().trim();
                                 } else {
                                     str48 = strTrim13;
                                     strTrim9 = str55;
@@ -40351,7 +40351,7 @@ public class XBPQ extends Spider {
         String str7;
         String str8;
         String str9;
-        List<com.github.catvod.spider.support.C0.f0.b> listM3017a;
+        List<com.github.catvod.spider.support.p012C0.p030f0.b> listM3017a;
         int i;
         String str10;
         int i2;
@@ -40419,16 +40419,16 @@ public class XBPQ extends Spider {
                                                 break;
                                             }
                                             try {
-                                                strTrim = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c(m669G("分类标题", "cateName", "//text()")).a().replaceAll("\\s", "").trim();
+                                                strTrim = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c(m669G("分类标题", "cateName", "//text()")).a().replaceAll("\\s", "").trim();
                                                 if (strTrim.length() < 2) {
-                                                    strTrim2 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c("/@title").a().trim();
+                                                    strTrim2 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c("/@title").a().trim();
                                                 } else {
                                                     strTrim2 = strTrim;
                                                 }
                                                 if (strTrim2.length() > 9 && strTrim2.length() >= 2 && sb.toString().indexOf(strTrim2) < 0) {
                                                     if ((strTrim2.indexOf("直播") < 0 || str5.indexOf("直播") >= 0) && (this.f315s.indexOf("!") < 0 || (strTrim2.indexOf("理") < 0 && strTrim2.indexOf("福") < 0 && strTrim2.indexOf("美女") < 0))) {
                                                         String strM670H = m670H("分类ID", "分类链接", "cateId", str10);
-                                                        String strTrim3 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c(strM670H.startsWith("http") ? str10 : strM670H).a().trim();
+                                                        String strTrim3 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c(strM670H.startsWith("http") ? str10 : strM670H).a().trim();
                                                         if (strTrim3.indexOf("search") >= 0) {
                                                             if ((sb.toString().indexOf("剧") < 0 && sb.toString().indexOf("劇") < 0) || (this.f315s.indexOf("s0") < 0 && this.f315s.indexOf("s") >= 0)) {
                                                                 sb.append(strTrim2);
@@ -40529,9 +40529,9 @@ public class XBPQ extends Spider {
                                             break;
                                             break;
                                         }
-                                        strTrim = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c(m669G("分类标题", "cateName", "//text()")).a().replaceAll("\\s", "").trim();
+                                        strTrim = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c(m669G("分类标题", "cateName", "//text()")).a().replaceAll("\\s", "").trim();
                                         if (strTrim.length() < 2) {
-                                            strTrim2 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c("/@title").a().trim();
+                                            strTrim2 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c("/@title").a().trim();
                                         } else {
                                             strTrim2 = strTrim;
                                         }
@@ -40629,9 +40629,9 @@ public class XBPQ extends Spider {
                                     break;
                                     break;
                                 }
-                                strTrim = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c(m669G("分类标题", "cateName", "//text()")).a().replaceAll("\\s", "").trim();
+                                strTrim = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c(m669G("分类标题", "cateName", "//text()")).a().replaceAll("\\s", "").trim();
                                 if (strTrim.length() < 2) {
-                                    strTrim2 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c("/@title").a().trim();
+                                    strTrim2 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c("/@title").a().trim();
                                 } else {
                                     strTrim2 = strTrim;
                                 }
@@ -40675,9 +40675,9 @@ public class XBPQ extends Spider {
                                 break;
                                 break;
                             }
-                            strTrim = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c(m669G("分类标题", "cateName", "//text()")).a().replaceAll("\\s", "").trim();
+                            strTrim = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c(m669G("分类标题", "cateName", "//text()")).a().replaceAll("\\s", "").trim();
                             if (strTrim.length() < 2) {
-                                strTrim2 = ((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c("/@title").a().trim();
+                                strTrim2 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c("/@title").a().trim();
                             } else {
                                 strTrim2 = strTrim;
                             }
@@ -43379,7 +43379,7 @@ public class XBPQ extends Spider {
         String str4;
         String str5;
         ArrayList arrayList;
-        List<com.github.catvod.spider.support.C0.f0.b> listM3017a;
+        List<com.github.catvod.spider.support.p012C0.p030f0.b> listM3017a;
         int i;
         int i2;
         LinkedList linkedList;
@@ -43387,7 +43387,7 @@ public class XBPQ extends Spider {
         String strM669G;
         String strM669G2;
         String strM669G3;
-        List<com.github.catvod.spider.support.C0.f0.b> listM3017a2;
+        List<com.github.catvod.spider.support.p012C0.p030f0.b> listM3017a2;
         int i3;
         LinkedList linkedList2;
         int size;
@@ -43417,7 +43417,7 @@ public class XBPQ extends Spider {
             String strM670H = m670H("主演", "演员", "dtActor", "");
             try {
                 LinkedList linkedList4 = (LinkedList) c1231aM719i0.m3017a(strM669G4);
-                com.github.catvod.spider.support.C0.f0.b bVar = linkedList4.size() > 0 ? (com.github.catvod.spider.support.C0.f0.b) linkedList4.get(0) : null;
+                com.github.catvod.spider.support.p012C0.p030f0.b bVar = linkedList4.size() > 0 ? (com.github.catvod.spider.support.p012C0.p030f0.b) linkedList4.get(0) : null;
                 strTrim = bVar.c(strM669G6).a().trim();
                 try {
                     strTrim2 = bVar.c(strM669G8).a().trim();
@@ -43440,7 +43440,7 @@ public class XBPQ extends Spider {
                                             if (i2 < linkedList.size()) {
                                                 break;
                                             }
-                                            arrayList.add(((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c(m669G("线路标题", "dtFromName", "/text()")).a().trim());
+                                            arrayList.add(((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c(m669G("线路标题", "dtFromName", "/text()")).a().trim());
                                             i = i2 + 1;
                                         }
                                         while (true) {
@@ -43448,7 +43448,7 @@ public class XBPQ extends Spider {
                                             if (i3 < linkedList2.size()) {
                                                 break;
                                             }
-                                            listB = ((com.github.catvod.spider.support.C0.f0.b) linkedList2.get(i3)).b(strM669G);
+                                            listB = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList2.get(i3)).b(strM669G);
                                             arrayList3 = new ArrayList();
                                             i4 = 0;
                                             while (true) {
@@ -43461,8 +43461,8 @@ public class XBPQ extends Spider {
                                                 } else {
                                                     size2 = i4;
                                                 }
-                                                String strTrim9 = ((com.github.catvod.spider.support.C0.f0.b) linkedList3.get(size2)).c(strM669G2).a().trim();
-                                                strTrim6 = ((com.github.catvod.spider.support.C0.f0.b) linkedList3.get(size2)).c(strM669G3).a().trim();
+                                                String strTrim9 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList3.get(size2)).c(strM669G2).a().trim();
+                                                strTrim6 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList3.get(size2)).c(strM669G3).a().trim();
                                                 if (strTrim6 == null && strTrim6.length() >= 1) {
                                                     arrayList3.add(strTrim9 + "$" + strTrim6);
                                                 }
@@ -43540,7 +43540,7 @@ public class XBPQ extends Spider {
                                     break;
                                     break;
                                 }
-                                arrayList.add(((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c(m669G("线路标题", "dtFromName", "/text()")).a().trim());
+                                arrayList.add(((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c(m669G("线路标题", "dtFromName", "/text()")).a().trim());
                                 i = i2 + 1;
                             }
                             arrayList2 = new ArrayList();
@@ -43556,7 +43556,7 @@ public class XBPQ extends Spider {
                                     break;
                                     break;
                                 }
-                                listB = ((com.github.catvod.spider.support.C0.f0.b) linkedList2.get(i3)).b(strM669G);
+                                listB = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList2.get(i3)).b(strM669G);
                                 arrayList3 = new ArrayList();
                                 i4 = 0;
                                 while (true) {
@@ -43570,8 +43570,8 @@ public class XBPQ extends Spider {
                                     } else {
                                         size2 = i4;
                                     }
-                                    String strTrim10 = ((com.github.catvod.spider.support.C0.f0.b) linkedList3.get(size2)).c(strM669G2).a().trim();
-                                    strTrim6 = ((com.github.catvod.spider.support.C0.f0.b) linkedList3.get(size2)).c(strM669G3).a().trim();
+                                    String strTrim10 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList3.get(size2)).c(strM669G2).a().trim();
+                                    strTrim6 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList3.get(size2)).c(strM669G3).a().trim();
                                     if (strTrim6 == null) {
                                     }
                                     i4++;
@@ -43657,7 +43657,7 @@ public class XBPQ extends Spider {
                                 break;
                                 break;
                             }
-                            arrayList.add(((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c(m669G("线路标题", "dtFromName", "/text()")).a().trim());
+                            arrayList.add(((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c(m669G("线路标题", "dtFromName", "/text()")).a().trim());
                             i = i2 + 1;
                         }
                         arrayList2 = new ArrayList();
@@ -43673,7 +43673,7 @@ public class XBPQ extends Spider {
                                 break;
                                 break;
                             }
-                            listB = ((com.github.catvod.spider.support.C0.f0.b) linkedList2.get(i3)).b(strM669G);
+                            listB = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList2.get(i3)).b(strM669G);
                             arrayList3 = new ArrayList();
                             i4 = 0;
                             while (true) {
@@ -43687,8 +43687,8 @@ public class XBPQ extends Spider {
                                 } else {
                                     size2 = i4;
                                 }
-                                String strTrim11 = ((com.github.catvod.spider.support.C0.f0.b) linkedList3.get(size2)).c(strM669G2).a().trim();
-                                strTrim6 = ((com.github.catvod.spider.support.C0.f0.b) linkedList3.get(size2)).c(strM669G3).a().trim();
+                                String strTrim11 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList3.get(size2)).c(strM669G2).a().trim();
+                                strTrim6 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList3.get(size2)).c(strM669G3).a().trim();
                                 if (strTrim6 == null) {
                                 }
                                 i4++;
@@ -43775,7 +43775,7 @@ public class XBPQ extends Spider {
                             break;
                             break;
                         }
-                        arrayList.add(((com.github.catvod.spider.support.C0.f0.b) linkedList.get(i2)).c(m669G("线路标题", "dtFromName", "/text()")).a().trim());
+                        arrayList.add(((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList.get(i2)).c(m669G("线路标题", "dtFromName", "/text()")).a().trim());
                         i = i2 + 1;
                     }
                     arrayList2 = new ArrayList();
@@ -43791,7 +43791,7 @@ public class XBPQ extends Spider {
                             break;
                             break;
                         }
-                        listB = ((com.github.catvod.spider.support.C0.f0.b) linkedList2.get(i3)).b(strM669G);
+                        listB = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList2.get(i3)).b(strM669G);
                         arrayList3 = new ArrayList();
                         i4 = 0;
                         while (true) {
@@ -43805,8 +43805,8 @@ public class XBPQ extends Spider {
                             } else {
                                 size2 = i4;
                             }
-                            String strTrim12 = ((com.github.catvod.spider.support.C0.f0.b) linkedList3.get(size2)).c(strM669G2).a().trim();
-                            strTrim6 = ((com.github.catvod.spider.support.C0.f0.b) linkedList3.get(size2)).c(strM669G3).a().trim();
+                            String strTrim12 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList3.get(size2)).c(strM669G2).a().trim();
+                            strTrim6 = ((com.github.catvod.spider.support.p012C0.p030f0.b) linkedList3.get(size2)).c(strM669G3).a().trim();
                             if (strTrim6 == null) {
                             }
                             i4++;

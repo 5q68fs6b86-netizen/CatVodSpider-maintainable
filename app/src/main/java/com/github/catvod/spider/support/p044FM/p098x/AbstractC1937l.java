@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p098x;
 
 import com.github.catvod.spider.support.p044FM.p045A.C1284j;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.x.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p098x.l */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC1937l implements InterfaceC1929d {
 

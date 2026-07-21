@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p056L.C1434P;
 import com.github.catvod.spider.support.p044FM.p090o.C1885z;
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.j.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p085j.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1820a implements Comparable<C1820a> {
 

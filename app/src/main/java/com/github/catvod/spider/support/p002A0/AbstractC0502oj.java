@@ -4,7 +4,7 @@ import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.oj */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.oj */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0502oj {
     /* JADX INFO: renamed from: a */

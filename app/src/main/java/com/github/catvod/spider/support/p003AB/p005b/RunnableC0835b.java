@@ -5,7 +5,7 @@ import com.github.catvod.spider.JSDemo;
 import com.github.catvod.spider.Market;
 import com.github.catvod.spider.support.p003AB.p009o.C0915Z;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.b */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0835b implements Runnable {
 

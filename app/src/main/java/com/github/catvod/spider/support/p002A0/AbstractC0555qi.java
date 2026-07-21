@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.qi */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.qi */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0555qi implements InterfaceC0747xl, InterfaceC0785yw, Serializable {
     private final InterfaceC0747xl completion;

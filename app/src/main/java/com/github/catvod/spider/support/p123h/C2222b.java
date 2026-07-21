@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p116a.C2137a;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.h.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p123h.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2222b {
 
@@ -16,7 +16,7 @@ public final class C2222b {
     @SerializedName("message")
     private String f5542b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.h.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p123h.b$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */

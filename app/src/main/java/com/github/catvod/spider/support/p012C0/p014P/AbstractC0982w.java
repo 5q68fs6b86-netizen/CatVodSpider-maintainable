@@ -1,7 +1,7 @@
 package com.github.catvod.spider.support.p012C0.p014P;
 
-import com.github.catvod.spider.support.C0.P.o;
-import com.github.catvod.spider.support.C0.P.v;
+import com.github.catvod.spider.support.p012C0.p014P.o;
+import com.github.catvod.spider.support.p012C0.p014P.v;
 import com.github.catvod.spider.support.p012C0.p015Q.C0988S;
 import com.github.catvod.spider.support.p012C0.p017S.C1001h;
 import com.github.catvod.spider.support.p012C0.p018T.C1005a;
@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.WeakHashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.w */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.w */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C0988S> {
 
@@ -73,9 +73,9 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
         return i >= c1001h.c(c1001h.f() + (-1));
     }
 
-    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.c>] */
-    /* JADX WARN: Type inference failed for: r0v12, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.c>] */
-    /* JADX WARN: Type inference failed for: r0v7, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.c>] */
+    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p012C0.p018T.c>] */
+    /* JADX WARN: Type inference failed for: r0v12, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p012C0.p018T.c>] */
+    /* JADX WARN: Type inference failed for: r0v7, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p012C0.p018T.c>] */
     /* JADX INFO: renamed from: l */
     public final InterfaceC0969D m2437l() {
         InterfaceC0969D interfaceC0969DM2442q = m2442q();
@@ -114,7 +114,7 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
         return interfaceC0969DM2442q;
     }
 
-    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.b>] */
+    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p012C0.p018T.b>] */
     /* JADX INFO: renamed from: m */
     public final void m2438m(C0983x c0983x) {
         C0983x c0983x2;
@@ -129,7 +129,7 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
         this.f2384g = c0983x;
     }
 
-    /* JADX WARN: Type inference failed for: r0v3, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.c>] */
+    /* JADX WARN: Type inference failed for: r0v3, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p012C0.p018T.c>] */
     /* JADX INFO: renamed from: n */
     public final void m2439n(C0983x c0983x, int i) {
         m2388k(i);
@@ -151,8 +151,8 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
         }
     }
 
-    /* JADX WARN: Type inference failed for: r0v12, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.c>] */
-    /* JADX WARN: Type inference failed for: r0v4, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.c>] */
+    /* JADX WARN: Type inference failed for: r0v12, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p012C0.p018T.c>] */
+    /* JADX WARN: Type inference failed for: r0v4, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p012C0.p018T.c>] */
     /* JADX INFO: renamed from: o */
     public final void m2440o() {
         C0983x c0983x;
@@ -222,8 +222,8 @@ public abstract class AbstractC0982w extends AbstractC0967B<InterfaceC0969D, C09
         ((C0984y) m2384g()).m2454a(this, interfaceC0969D, interfaceC0969D.m2398d(), interfaceC0969D.m2395a(), str, c0985z);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.c>] */
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C0.T.c>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p012C0.p018T.c>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p012C0.p018T.c>] */
     /* JADX INFO: renamed from: u */
     public final void m2446u(InterfaceC1007c interfaceC1007c) {
         Object r0 = this.f2387j;

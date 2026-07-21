@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.sql.Timestamp;
 import java.util.Date;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.av */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.av */
 /* JADX INFO: loaded from: classes.dex */
 public class C0136av implements InterfaceC0698vq {
     @Override // com.github.catvod.spider.support.p002A0.InterfaceC0698vq

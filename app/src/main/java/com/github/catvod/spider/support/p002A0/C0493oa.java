@@ -18,7 +18,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.AtomicLongArray;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.oa */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.oa */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0493oa {
 

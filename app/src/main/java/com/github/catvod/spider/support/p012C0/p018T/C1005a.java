@@ -1,9 +1,9 @@
 package com.github.catvod.spider.support.p012C0.p018T;
 
-import com.github.catvod.spider.support.C0.T.d;
+import com.github.catvod.spider.support.p012C0.p018T.d;
 import com.github.catvod.spider.support.p012C0.p014P.InterfaceC0969D;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.T.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p018T.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1005a extends C1010g {
     public C1005a(InterfaceC0969D interfaceC0969D) {

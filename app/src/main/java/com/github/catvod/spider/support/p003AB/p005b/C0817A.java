@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p003AB.p005b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.A */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.A */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0817A {
     /* JADX INFO: renamed from: a */

@@ -43,7 +43,7 @@ import okhttp3.Request;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0082a implements InterfaceC2124a {
     /* JADX INFO: renamed from: a */

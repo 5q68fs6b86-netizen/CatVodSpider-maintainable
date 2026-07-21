@@ -20,7 +20,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipOutputStream;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.a.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.e */
 /* JADX INFO: loaded from: classes.dex */
 final class C2141e implements Closeable {
 
@@ -42,7 +42,7 @@ final class C2141e implements Closeable {
     /* JADX INFO: renamed from: f */
     private final FileLock f5019f;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.a.e$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.e$a */
     private static class a extends File {
 
         /* JADX INFO: renamed from: a */

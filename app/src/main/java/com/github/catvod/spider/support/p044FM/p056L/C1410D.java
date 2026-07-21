@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 import java.util.ArrayList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.D */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p056L.D */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1410D extends ArrayList<C1408C> {
 

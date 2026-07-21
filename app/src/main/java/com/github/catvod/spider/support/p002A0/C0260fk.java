@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.LinkedList;
 import java.util.Stack;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.fk */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.fk */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0260fk extends C0579rf {
     @Override // com.github.catvod.spider.support.p002A0.C0579rf, com.github.catvod.spider.support.p002A0.InterfaceC0207dl

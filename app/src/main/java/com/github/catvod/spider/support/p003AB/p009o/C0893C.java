@@ -21,7 +21,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.C */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.C */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0893C {
 
@@ -215,7 +215,7 @@ public final class C0893C {
         return zContains ? C0869c.m2132l(str, null) : str;
     }
 
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.concurrent.BlockingQueue<com.github.catvod.spider.support.AB.o.B>, java.util.concurrent.LinkedBlockingQueue] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.concurrent.BlockingQueue<com.github.catvod.spider.support.p003AB.p009o.B>, java.util.concurrent.LinkedBlockingQueue] */
     /* JADX INFO: renamed from: e */
     private byte[] m2148e() throws Exception {
         if (this.f2110k > this.f2109j) {
@@ -302,7 +302,7 @@ public final class C0893C {
         }
         this.f2112m = true;
         for (int i4 = 0; i4 < i3; i4++) {
-            this.f2102c.execute(new Runnable(this, i2) { // from class: com.github.catvod.spider.support.AB.o.A
+            this.f2102c.execute(new Runnable(this, i2) { // from class: com.github.catvod.spider.support.p003AB.p009o.A
 
                 /* JADX INFO: renamed from: a */
                 public final C0893C f2095a;

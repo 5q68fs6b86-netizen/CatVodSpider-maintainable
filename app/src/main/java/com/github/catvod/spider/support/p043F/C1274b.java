@@ -9,7 +9,7 @@ import java.util.Iterator;
 import java.util.Stack;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.F.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p043F.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1274b {
 
@@ -31,7 +31,7 @@ public final class C1274b {
     /* JADX INFO: renamed from: f */
     public static final /* synthetic */ int f2988f = 0;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.F.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p043F.b$a */
     final class a extends ThreadLocal<Stack<StringBuilder>> {
         a() {
         }

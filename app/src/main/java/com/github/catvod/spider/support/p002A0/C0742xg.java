@@ -16,7 +16,7 @@ import java.util.SortedSet;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ConcurrentNavigableMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.xg */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.xg */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0742xg {
 

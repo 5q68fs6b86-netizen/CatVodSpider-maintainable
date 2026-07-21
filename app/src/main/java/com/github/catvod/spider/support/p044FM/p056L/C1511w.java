@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 import com.github.catvod.spider.support.p044FM.p054J.C1380b;
 import com.github.catvod.spider.support.p044FM.p055K.C1393m;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.w */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p056L.w */
 /* JADX INFO: loaded from: classes.dex */
 final class C1511w extends EnumC1406B {
     C1511w() {

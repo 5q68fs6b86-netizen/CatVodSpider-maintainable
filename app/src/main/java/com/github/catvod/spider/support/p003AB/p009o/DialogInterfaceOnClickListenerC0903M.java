@@ -5,7 +5,7 @@ import android.widget.EditText;
 import com.github.catvod.spider.Init;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.M */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.M */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnClickListenerC0903M implements DialogInterface.OnClickListener {
 
@@ -38,7 +38,7 @@ public final /* synthetic */ class DialogInterfaceOnClickListenerC0903M implemen
         final EditText editText = (EditText) this.f2122c;
         final EditText editText2 = (EditText) this.f2123d;
         c0915z.getClass();
-        Init.execute(new Runnable(c0915z, editText, editText2) { // from class: com.github.catvod.spider.support.AB.o.O
+        Init.execute(new Runnable(c0915z, editText, editText2) { // from class: com.github.catvod.spider.support.p003AB.p009o.O
 
             /* JADX INFO: renamed from: a */
             public final C0915Z f2127a;

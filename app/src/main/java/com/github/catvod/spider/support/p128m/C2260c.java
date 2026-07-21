@@ -25,7 +25,7 @@ import org.json.JSONObject;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2260c {
     /* JADX INFO: renamed from: a */

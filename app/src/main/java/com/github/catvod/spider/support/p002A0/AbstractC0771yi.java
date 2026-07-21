@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 import okhttp3.Call;
 import okhttp3.OkHttpClient;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.yi */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.yi */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0771yi {
 

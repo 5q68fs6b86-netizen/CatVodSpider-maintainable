@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p045A;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.A.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p045A.m */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1287m extends AbstractC1275a {
 

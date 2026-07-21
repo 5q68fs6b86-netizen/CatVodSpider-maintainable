@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p073b;
 
 import android.content.DialogInterface;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.l */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnClickListenerC1741l implements DialogInterface.OnClickListener {
 

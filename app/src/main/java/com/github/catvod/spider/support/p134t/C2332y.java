@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p138x.InterfaceC2412b;
 import com.github.catvod.spider.support.p138x.InterfaceC2414d;
 import com.github.catvod.spider.support.p138x.InterfaceC2415e;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.y */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.y */
 /* JADX INFO: loaded from: classes.dex */
 public class C2332y implements InterfaceC2415e {
 

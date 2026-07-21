@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jv */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jv */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0379jv {
 

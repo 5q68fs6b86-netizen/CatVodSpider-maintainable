@@ -22,7 +22,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2263f {
 
@@ -65,7 +65,7 @@ public final class C2263f {
     /* JADX INFO: renamed from: a */
     private final BlockingQueue<a> f5641a = new LinkedBlockingQueue();
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.f$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.f$a */
     private static class a {
 
         /* JADX INFO: renamed from: a */
@@ -242,7 +242,7 @@ public final class C2263f {
         return this.f5644d.contains("/proxy?") ? C2238b.m6073l(this.f5644d, null) : this.f5644d;
     }
 
-    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.concurrent.BlockingQueue<com.github.catvod.spider.support.m.f$a>, java.util.concurrent.LinkedBlockingQueue] */
+    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.concurrent.BlockingQueue<com.github.catvod.spider.support.p128m.f$a>, java.util.concurrent.LinkedBlockingQueue] */
     /* JADX INFO: renamed from: d */
     private byte[] m6153d() throws Exception {
         if (this.f5651k > this.f5650j) {
@@ -322,7 +322,7 @@ public final class C2263f {
         }
         PipedInputStream pipedInputStream = new PipedInputStream();
         final PipedOutputStream pipedOutputStream = new PipedOutputStream(pipedInputStream);
-        Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.b.o
+        Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.p117b.o
             @Override // java.lang.Runnable
             public final void run() {
                 switch (i2) {

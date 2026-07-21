@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.um */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.um */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0667um extends AbstractC0719wk {
     public final String toString() {

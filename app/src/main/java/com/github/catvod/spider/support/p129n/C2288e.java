@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p116a.C2137a;
 import com.github.catvod.spider.support.p116a.C2139c;
 import com.github.catvod.spider.support.p128m.C2268k;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.n.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p129n.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2288e {
 
@@ -21,7 +21,7 @@ public final class C2288e {
     /* JADX INFO: renamed from: d */
     private final String f5714d = "PRETTY_LOGGER";
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.n.e$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p129n.e$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */

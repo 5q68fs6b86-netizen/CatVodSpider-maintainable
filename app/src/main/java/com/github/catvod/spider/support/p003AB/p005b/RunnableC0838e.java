@@ -7,7 +7,7 @@ import com.github.catvod.debug.MainActivity;
 import com.github.catvod.spider.Config;
 import com.github.catvod.spider.support.p003AB.p009o.C0936q;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.e */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0838e implements Runnable {
 

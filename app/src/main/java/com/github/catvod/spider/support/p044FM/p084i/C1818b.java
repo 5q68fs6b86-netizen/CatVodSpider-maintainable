@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p056L.C1434P;
 import com.github.catvod.spider.support.p044FM.p090o.C1885z;
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.i.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p084i.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1818b {
 

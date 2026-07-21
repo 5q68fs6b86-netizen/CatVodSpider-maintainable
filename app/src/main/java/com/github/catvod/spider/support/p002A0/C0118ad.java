@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.function.Consumer;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ad */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ad */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0118ad implements Cloneable {
 
@@ -48,7 +48,7 @@ public final class C0118ad implements Cloneable {
         map.put("http://www.w3.org/1998/Math/MathML", new String[]{"math", "mi", "mo", "msup", "mn", "mtext"});
         map.put("http://www.w3.org/2000/svg", new String[]{"svg", "text"});
         final int i = 0;
-        m986l(new String[]{"html", "head", "body", "frameset", "script", "noscript", "style", "meta", "link", "title", "frame", "noframes", "section", "nav", "aside", "hgroup", "header", "footer", "p", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "pre", "div", "blockquote", "hr", "address", "figure", "figcaption", "form", "fieldset", "ins", "del", "dl", "dt", "dd", "li", "table", "caption", "thead", "tfoot", "tbody", "colgroup", "col", "tr", "th", "td", "video", "audio", "canvas", "details", "menu", "plaintext", "template", "article", "main", "svg", "math", "center", "template", "dir", "applet", "marquee", "listing"}, new Consumer() { // from class: com.github.catvod.spider.support.A0.tz
+        m986l(new String[]{"html", "head", "body", "frameset", "script", "noscript", "style", "meta", "link", "title", "frame", "noframes", "section", "nav", "aside", "hgroup", "header", "footer", "p", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "pre", "div", "blockquote", "hr", "address", "figure", "figcaption", "form", "fieldset", "ins", "del", "dl", "dt", "dd", "li", "table", "caption", "thead", "tfoot", "tbody", "colgroup", "col", "tr", "th", "td", "video", "audio", "canvas", "details", "menu", "plaintext", "template", "article", "main", "svg", "math", "center", "template", "dir", "applet", "marquee", "listing"}, new Consumer() { // from class: com.github.catvod.spider.support.p002A0.tz
             @Override // java.util.function.Consumer
             public final void accept(Object obj) {
                 C0118ad c0118ad = (C0118ad) obj;
@@ -80,7 +80,7 @@ public final class C0118ad implements Cloneable {
             }
         });
         final int i2 = 1;
-        m986l(new String[]{"object", "base", "font", "tt", "i", "b", "u", "big", "small", "em", "strong", "dfn", "code", "samp", "kbd", "var", "cite", "abbr", "time", "acronym", "mark", "ruby", "rt", "rp", "rtc", "a", "img", "br", "wbr", "map", "q", "sub", "sup", "bdo", "iframe", "embed", "span", "input", "select", "textarea", "label", "optgroup", "option", "legend", "datalist", "keygen", "output", "progress", "meter", "area", "param", "source", "track", "summary", "command", "device", "area", "basefont", "bgsound", "menuitem", "param", "source", "track", "data", "bdi", "s", "strike", "nobr", "rb", "text", "mi", "mo", "msup", "mn", "mtext"}, new Consumer() { // from class: com.github.catvod.spider.support.A0.tz
+        m986l(new String[]{"object", "base", "font", "tt", "i", "b", "u", "big", "small", "em", "strong", "dfn", "code", "samp", "kbd", "var", "cite", "abbr", "time", "acronym", "mark", "ruby", "rt", "rp", "rtc", "a", "img", "br", "wbr", "map", "q", "sub", "sup", "bdo", "iframe", "embed", "span", "input", "select", "textarea", "label", "optgroup", "option", "legend", "datalist", "keygen", "output", "progress", "meter", "area", "param", "source", "track", "summary", "command", "device", "area", "basefont", "bgsound", "menuitem", "param", "source", "track", "data", "bdi", "s", "strike", "nobr", "rb", "text", "mi", "mo", "msup", "mn", "mtext"}, new Consumer() { // from class: com.github.catvod.spider.support.p002A0.tz
             @Override // java.util.function.Consumer
             public final void accept(Object obj) {
                 C0118ad c0118ad = (C0118ad) obj;
@@ -112,7 +112,7 @@ public final class C0118ad implements Cloneable {
             }
         });
         final int i3 = 2;
-        m986l(new String[]{"meta", "link", "base", "frame", "img", "br", "wbr", "embed", "hr", "input", "keygen", "col", "command", "device", "area", "basefont", "bgsound", "menuitem", "param", "source", "track"}, new Consumer() { // from class: com.github.catvod.spider.support.A0.tz
+        m986l(new String[]{"meta", "link", "base", "frame", "img", "br", "wbr", "embed", "hr", "input", "keygen", "col", "command", "device", "area", "basefont", "bgsound", "menuitem", "param", "source", "track"}, new Consumer() { // from class: com.github.catvod.spider.support.p002A0.tz
             @Override // java.util.function.Consumer
             public final void accept(Object obj) {
                 C0118ad c0118ad = (C0118ad) obj;
@@ -144,7 +144,7 @@ public final class C0118ad implements Cloneable {
             }
         });
         final int i4 = 3;
-        m986l(new String[]{"title", "a", "p", "h1", "h2", "h3", "h4", "h5", "h6", "pre", "address", "li", "th", "td", "script", "style", "ins", "del", "s", "button"}, new Consumer() { // from class: com.github.catvod.spider.support.A0.tz
+        m986l(new String[]{"title", "a", "p", "h1", "h2", "h3", "h4", "h5", "h6", "pre", "address", "li", "th", "td", "script", "style", "ins", "del", "s", "button"}, new Consumer() { // from class: com.github.catvod.spider.support.p002A0.tz
             @Override // java.util.function.Consumer
             public final void accept(Object obj) {
                 C0118ad c0118ad = (C0118ad) obj;
@@ -176,7 +176,7 @@ public final class C0118ad implements Cloneable {
             }
         });
         final int i5 = 4;
-        m986l(new String[]{"pre", "plaintext", "title", "textarea"}, new Consumer() { // from class: com.github.catvod.spider.support.A0.tz
+        m986l(new String[]{"pre", "plaintext", "title", "textarea"}, new Consumer() { // from class: com.github.catvod.spider.support.p002A0.tz
             @Override // java.util.function.Consumer
             public final void accept(Object obj) {
                 C0118ad c0118ad = (C0118ad) obj;
@@ -208,7 +208,7 @@ public final class C0118ad implements Cloneable {
             }
         });
         final int i6 = 5;
-        m986l(new String[]{"button", "fieldset", "input", "keygen", "object", "output", "select", "textarea"}, new Consumer() { // from class: com.github.catvod.spider.support.A0.tz
+        m986l(new String[]{"button", "fieldset", "input", "keygen", "object", "output", "select", "textarea"}, new Consumer() { // from class: com.github.catvod.spider.support.p002A0.tz
             @Override // java.util.function.Consumer
             public final void accept(Object obj) {
                 C0118ad c0118ad = (C0118ad) obj;
@@ -240,7 +240,7 @@ public final class C0118ad implements Cloneable {
             }
         });
         final int i7 = 6;
-        m986l(strArr, new Consumer() { // from class: com.github.catvod.spider.support.A0.tz
+        m986l(strArr, new Consumer() { // from class: com.github.catvod.spider.support.p002A0.tz
             @Override // java.util.function.Consumer
             public final void accept(Object obj) {
                 C0118ad c0118ad = (C0118ad) obj;
@@ -272,7 +272,7 @@ public final class C0118ad implements Cloneable {
             }
         });
         for (final Map.Entry entry : map.entrySet()) {
-            m986l((String[]) entry.getValue(), new Consumer() { // from class: com.github.catvod.spider.support.A0.ib
+            m986l((String[]) entry.getValue(), new Consumer() { // from class: com.github.catvod.spider.support.p002A0.ib
                 @Override // java.util.function.Consumer
                 public final void accept(Object obj) {
                     ((C0118ad) obj).f591d = (String) entry.getKey();

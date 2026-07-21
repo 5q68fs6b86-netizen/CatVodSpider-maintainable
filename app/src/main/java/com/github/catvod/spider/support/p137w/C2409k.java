@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p137w;
 import com.github.catvod.spider.support.p043F.C1273a;
 import java.io.Serializable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.w.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p137w.k */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2409k<A, B> implements Serializable {
 

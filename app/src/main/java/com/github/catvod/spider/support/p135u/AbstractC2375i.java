@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.i */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC2375i {
 
@@ -33,10 +33,10 @@ public abstract class AbstractC2375i {
         Collections.unmodifiableList(Arrays.asList("INVALID", "BASIC", "RULE_START", "BLOCK_START", "PLUS_BLOCK_START", "STAR_BLOCK_START", "TOKEN_START", "RULE_STOP", "BLOCK_END", "STAR_LOOP_BACK", "STAR_LOOP_ENTRY", "PLUS_LOOP_BACK", "LOOP_END"));
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.u.i0>] */
-    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.u.i0>] */
-    /* JADX WARN: Type inference failed for: r1v4, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.u.i0>] */
-    /* JADX WARN: Type inference failed for: r1v6, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.u.i0>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p135u.i0>] */
+    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p135u.i0>] */
+    /* JADX WARN: Type inference failed for: r1v4, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p135u.i0>] */
+    /* JADX WARN: Type inference failed for: r1v6, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p135u.i0>] */
     /* JADX INFO: renamed from: a */
     public final void m6372a(AbstractC2376i0 abstractC2376i0) {
         int size = this.f5887e.size();
@@ -59,7 +59,7 @@ public abstract class AbstractC2375i {
         this.f5887e.add(size, abstractC2376i0);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.u.i0>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p135u.i0>] */
     /* JADX INFO: renamed from: b */
     public final int m6373b() {
         return this.f5887e.size();
@@ -68,7 +68,7 @@ public abstract class AbstractC2375i {
     /* JADX INFO: renamed from: c */
     public abstract int mo6308c();
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.u.i0>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p135u.i0>] */
     /* JADX INFO: renamed from: d */
     public final AbstractC2376i0 m6374d(int i) {
         return (AbstractC2376i0) this.f5887e.get(i);

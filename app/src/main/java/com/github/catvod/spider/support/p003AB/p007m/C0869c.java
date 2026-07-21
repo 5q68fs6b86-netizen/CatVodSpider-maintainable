@@ -12,7 +12,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.m.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p007m.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0869c {
 
@@ -41,7 +41,7 @@ public final class C0869c {
         }
         OkHttpClient.Builder builderDns = builder.dns(dnsSafeDns);
         TimeUnit timeUnit = TimeUnit.SECONDS;
-        OkHttpClient okHttpClientBuild = builderDns.connectTimeout(30L, timeUnit).readTimeout(30L, timeUnit).writeTimeout(30L, timeUnit).hostnameVerifier(new HostnameVerifier() { // from class: com.github.catvod.spider.support.AB.m.a
+        OkHttpClient okHttpClientBuild = builderDns.connectTimeout(30L, timeUnit).readTimeout(30L, timeUnit).writeTimeout(30L, timeUnit).hostnameVerifier(new HostnameVerifier() { // from class: com.github.catvod.spider.support.p003AB.p007m.a
             @Override // javax.net.ssl.HostnameVerifier
             public final boolean verify(String str, SSLSession sSLSession) {
                 String str2 = C0869c.f2041b;

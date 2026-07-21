@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.stream.Collectors;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.bh */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.bh */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0149bh {
     /* JADX INFO: renamed from: a */

@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.lang.reflect.Field;
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ia */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ia */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0331ia extends EnumC0252fc {
     public C0331ia() {

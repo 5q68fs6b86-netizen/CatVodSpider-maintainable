@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p137w;
 import com.github.catvod.spider.support.p138x.InterfaceC2414d;
 import com.github.catvod.spider.support.p138x.InterfaceC2415e;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.w.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p137w.a */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC2399a implements InterfaceC2414d {
     @Override // com.github.catvod.spider.support.p138x.InterfaceC2414d

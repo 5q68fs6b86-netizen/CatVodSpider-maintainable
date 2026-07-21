@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p116a.C2137a;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.g.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p122g.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2220b {
 
@@ -12,7 +12,7 @@ public final class C2220b {
     @SerializedName("fileListAO")
     private a f5521a;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.g.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p122g.b$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */

@@ -6,7 +6,7 @@ import java.util.AbstractMap;
 import okhttp3.Call;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.oq */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.oq */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0509oq extends AbstractC0743xh {
 

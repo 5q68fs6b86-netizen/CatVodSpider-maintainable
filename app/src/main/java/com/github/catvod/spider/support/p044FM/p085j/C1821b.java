@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.Collections;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.j.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p085j.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1821b {
 

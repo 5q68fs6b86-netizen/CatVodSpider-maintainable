@@ -9,7 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.p */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.p */
 /* JADX INFO: loaded from: classes.dex */
 final class C0935p extends ArrayAdapter<String> {
 

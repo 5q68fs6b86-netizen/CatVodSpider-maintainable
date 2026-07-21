@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p101G.C2037i;
 import com.github.catvod.spider.support.p103I.C2060c;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.J.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p104J.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2067b {
 

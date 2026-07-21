@@ -5,7 +5,7 @@ import java.util.ConcurrentModificationException;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ro */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ro */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0588ro implements ListIterator, InterfaceC0717wi {
 

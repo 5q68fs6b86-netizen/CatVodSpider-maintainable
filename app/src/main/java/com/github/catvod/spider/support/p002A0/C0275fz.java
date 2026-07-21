@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.fz */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.fz */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0275fz extends C0178cj {
     @Override // com.github.catvod.spider.support.p002A0.C0178cj, com.github.catvod.spider.support.p002A0.C0150bi

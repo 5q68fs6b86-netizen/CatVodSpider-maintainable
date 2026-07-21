@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ph */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ph */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0527ph extends AbstractC0520pa implements List {
     public static final C0523pd Companion = new C0523pd();

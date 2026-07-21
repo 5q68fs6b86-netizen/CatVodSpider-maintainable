@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.ArrayList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ln */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ln */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0425ln extends AbstractC0213dr {
 

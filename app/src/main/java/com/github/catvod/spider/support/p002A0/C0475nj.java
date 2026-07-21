@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.nj */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.nj */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0475nj extends EnumC0700vs {
     public C0475nj() {

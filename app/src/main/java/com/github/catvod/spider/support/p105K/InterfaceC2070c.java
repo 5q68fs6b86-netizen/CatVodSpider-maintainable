@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p105K;
 
 import com.github.catvod.spider.support.p138x.InterfaceC2413c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.K.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p105K.c */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC2070c extends InterfaceC2413c {
     /* JADX INFO: renamed from: A */

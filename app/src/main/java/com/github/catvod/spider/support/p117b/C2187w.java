@@ -36,7 +36,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.w */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.w */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2187w {
 
@@ -72,14 +72,14 @@ public final class C2187w {
     private ConcurrentHashMap<String, c> f5259t;
     private Map tokenMap;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.w$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.w$a */
     private static class a {
 
         /* JADX INFO: renamed from: a */
         static volatile C2187w f5260a = new C2187w();
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.w$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.w$b */
     class b {
 
         /* JADX INFO: renamed from: a */
@@ -95,7 +95,7 @@ public final class C2187w {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.w$c */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.w$c */
     class c {
 
         /* JADX INFO: renamed from: a */
@@ -105,7 +105,7 @@ public final class C2187w {
         public long f5265b;
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.w$d */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.w$d */
     class d implements Runnable {
         d() {
         }

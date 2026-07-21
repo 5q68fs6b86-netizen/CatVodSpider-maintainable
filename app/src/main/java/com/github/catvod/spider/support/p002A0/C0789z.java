@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.lang.reflect.Field;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.z */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.z */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0789z extends EnumC0252fc {
     public C0789z() {

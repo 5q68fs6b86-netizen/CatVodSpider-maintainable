@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.vg */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.vg */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0688vg {
 

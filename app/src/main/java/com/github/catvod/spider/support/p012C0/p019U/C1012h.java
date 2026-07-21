@@ -1,10 +1,10 @@
 package com.github.catvod.spider.support.p012C0.p019U;
 
-import com.github.catvod.spider.support.C0.U.a;
+import com.github.catvod.spider.support.p012C0.p019U.a;
 import java.util.Iterator;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.U.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p019U.h */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1012h {
 

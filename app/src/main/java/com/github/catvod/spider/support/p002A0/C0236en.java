@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.en */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.en */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0236en extends AbstractC0672ur {
     /* JADX INFO: renamed from: a */

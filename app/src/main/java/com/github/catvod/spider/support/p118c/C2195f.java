@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p118c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.c.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.f */
 /* JADX INFO: loaded from: classes.dex */
 public class C2195f {
 

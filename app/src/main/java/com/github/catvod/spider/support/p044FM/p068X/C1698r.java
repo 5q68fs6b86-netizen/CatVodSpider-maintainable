@@ -11,7 +11,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.function.BinaryOperator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.X.r */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p068X.r */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1698r implements InterfaceC1662c {
     /* JADX INFO: renamed from: b */
@@ -51,7 +51,7 @@ public final class C1698r implements InterfaceC1662c {
                 }
             }
         }
-        Double d = (Double) linkedList.stream().reduce(Double.valueOf(0.0d), new BinaryOperator() { // from class: com.github.catvod.spider.support.FM.X.q
+        Double d = (Double) linkedList.stream().reduce(Double.valueOf(0.0d), new BinaryOperator() { // from class: com.github.catvod.spider.support.p044FM.p068X.q
             @Override // java.util.function.BiFunction
             public final Object apply(Object obj, Object obj2) {
                 return Double.valueOf(((Double) obj2).doubleValue() + ((Double) obj).doubleValue());

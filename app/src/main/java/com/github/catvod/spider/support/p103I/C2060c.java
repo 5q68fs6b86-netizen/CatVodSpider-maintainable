@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import javax.annotation.Nullable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.I.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p103I.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2060c extends ArrayList<C2037i> {
     public C2060c() {

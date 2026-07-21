@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.tt */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tt */
 /* JADX INFO: loaded from: classes.dex */
 public class C0647tt {
 

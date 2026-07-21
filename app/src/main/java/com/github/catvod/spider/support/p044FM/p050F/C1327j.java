@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p050F;
 import java.io.IOException;
 import java.io.Writer;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.F.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p050F.j */
 /* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class C1327j extends AbstractC1319b {

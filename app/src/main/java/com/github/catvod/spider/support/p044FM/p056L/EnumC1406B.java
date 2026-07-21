@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p054J.C1380b;
 
 /* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
 /* JADX WARN: Unknown enum class pattern. Please report as an issue! */
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.B */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p056L.B */
 /* JADX INFO: loaded from: classes.dex */
 abstract class EnumC1406B {
 
@@ -87,7 +87,7 @@ abstract class EnumC1406B {
     private static final /* synthetic */ EnumC1406B[] f3290z;
 
     /* JADX WARN: Multi-variable type inference failed */
-    /* JADX WARN: Type inference failed for: r23v0, types: [com.github.catvod.spider.support.FM.L.r] */
+    /* JADX WARN: Type inference failed for: r23v0, types: [com.github.catvod.spider.support.p044FM.p056L.r] */
     static {
         C1491m c1491m = new C1491m();
         f3265a = c1491m;
@@ -135,7 +135,7 @@ abstract class EnumC1406B {
         f3286v = c1497p;
         C1499q c1499q = new C1499q();
         f3287w = c1499q;
-        Object r23 = new EnumC1406B() { // from class: com.github.catvod.spider.support.FM.L.r
+        Object r23 = new EnumC1406B() { // from class: com.github.catvod.spider.support.p044FM.p056L.r
             @Override // com.github.catvod.spider.support.p044FM.p056L.EnumC1406B
             /* JADX INFO: renamed from: d */
             final boolean mo3535d(AbstractC1436Q abstractC1436Q, C1458b c1458b) {

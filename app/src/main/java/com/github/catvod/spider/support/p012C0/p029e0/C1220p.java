@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p029e0;
 
 import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.p */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.p */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1220p extends AbstractC1214j {
     public C1220p(String str, String str2) {

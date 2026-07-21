@@ -9,7 +9,7 @@ import java.io.File;
 import java.util.ArrayList;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.h */
 /* JADX INFO: loaded from: classes.dex */
 public class DialogInterfaceOnClickListenerC0095h implements DialogInterface.OnClickListener {
     private C2253G.HomePageOption optionListener;

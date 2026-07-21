@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Comparator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.zm */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.zm */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0802zm implements Comparator {
 

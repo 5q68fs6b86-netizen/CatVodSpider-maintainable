@@ -5,11 +5,11 @@ import com.github.catvod.spider.support.p101G.AbstractC2041m;
 import com.github.catvod.spider.support.p101G.C2037i;
 import javax.annotation.Nullable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.I.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p103I.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2058a {
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.I.a$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p103I.a$a */
     private static class a implements InterfaceC2062e {
 
         /* JADX INFO: renamed from: a */
@@ -44,7 +44,7 @@ public final class C2058a {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.I.a$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p103I.a$b */
     static class b {
 
         /* JADX INFO: renamed from: a */

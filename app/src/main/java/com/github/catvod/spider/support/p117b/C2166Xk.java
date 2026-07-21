@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p117b;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.Xk */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.Xk */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2166Xk extends C2165Xj {
 

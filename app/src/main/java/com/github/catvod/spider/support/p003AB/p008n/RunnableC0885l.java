@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p003AB.p005b.C0833Q;
 import com.github.catvod.spider.support.p003AB.p009o.C0897G;
 import com.github.catvod.spider.support.p003AB.p009o.C0921c0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.n.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p008n.l */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0885l implements Runnable {
 

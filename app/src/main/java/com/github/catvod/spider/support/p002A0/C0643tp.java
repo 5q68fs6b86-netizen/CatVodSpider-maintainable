@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.tp */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tp */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0643tp implements InterfaceC0669uo {
 

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ck */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ck */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0179ck extends AbstractC0346ip {
     public C0179ck(AbstractC0209dn abstractC0209dn) {

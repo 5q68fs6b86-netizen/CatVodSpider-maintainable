@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p117b;
 
 import java.util.HashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.v */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.v */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2186v {
     /* JADX INFO: renamed from: a */

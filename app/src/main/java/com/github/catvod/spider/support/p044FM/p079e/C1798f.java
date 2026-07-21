@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.e.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p079e.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1798f implements Comparator<C1795c> {
 

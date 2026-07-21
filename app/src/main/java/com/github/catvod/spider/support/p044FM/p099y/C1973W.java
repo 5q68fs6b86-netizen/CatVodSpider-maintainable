@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p099y;
 
 import com.github.catvod.spider.support.p044FM.p056L.C1434P;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.W */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.W */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1973W extends AbstractC2003n {
 

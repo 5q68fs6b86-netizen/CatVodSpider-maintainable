@@ -7,7 +7,7 @@ import com.github.catvod.spider.support.p117b.C2177k;
 import com.github.catvod.spider.support.p128m.C2256I;
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.e.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p120e.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2210a implements Comparable<C2210a> {
 

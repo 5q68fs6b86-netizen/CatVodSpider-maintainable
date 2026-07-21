@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.concurrent.TimeUnit;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ak */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ak */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0125ak {
 

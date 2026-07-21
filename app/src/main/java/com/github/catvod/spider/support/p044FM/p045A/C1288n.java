@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p045A;
 
 import java.io.Serializable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.A.n */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p045A.n */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1288n<A, B> implements Serializable {
 

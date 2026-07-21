@@ -13,7 +13,7 @@ import com.google.gson.JsonParser;
 import java.io.File;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.H */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.H */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2254H {
 
@@ -26,7 +26,7 @@ public final class C2254H {
     /* JADX INFO: renamed from: c */
     private static JSONObject f5631c;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.H$1, reason: invalid class name */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.H$1, reason: invalid class name */
     class AnonymousClass1 implements Runnable {
         final /* synthetic */ Context val$context;
 
@@ -53,7 +53,7 @@ public final class C2254H {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.H$2, reason: invalid class name */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.H$2, reason: invalid class name */
     class AnonymousClass2 implements Runnable {
         final /* synthetic */ Context val$context;
 

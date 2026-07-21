@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.Iterator;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.td */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.td */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0631td implements InterfaceC0319hp {
 

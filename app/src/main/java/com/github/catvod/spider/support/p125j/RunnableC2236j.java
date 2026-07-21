@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p125j;
 
 import com.github.catvod.debug.MainActivity;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.j.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p125j.j */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC2236j implements Runnable {
 

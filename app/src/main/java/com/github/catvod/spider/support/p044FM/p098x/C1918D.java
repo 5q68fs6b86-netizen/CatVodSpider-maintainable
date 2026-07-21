@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p046B.InterfaceC1294d;
 import com.github.catvod.spider.support.p044FM.p046B.InterfaceC1295e;
 import com.github.catvod.spider.support.p044FM.p056L.C1434P;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.x.D */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p098x.D */
 /* JADX INFO: loaded from: classes.dex */
 public class C1918D implements InterfaceC1295e {
 

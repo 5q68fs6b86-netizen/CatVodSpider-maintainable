@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.Map;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.w.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p137w.d */
 /* JADX INFO: loaded from: classes.dex */
 public class C2402d<K, V> implements Map<K, V> {
 
@@ -24,7 +24,7 @@ public class C2402d<K, V> implements Map<K, V> {
     /* JADX INFO: renamed from: b */
     protected LinkedList<a<K, V>>[] f5953b = new LinkedList[8];
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.w.d$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p137w.d$a */
     public static class a<K, V> {
 
         /* JADX INFO: renamed from: a */

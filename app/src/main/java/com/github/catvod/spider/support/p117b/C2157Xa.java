@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.Xa */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.Xa */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2157Xa {
 

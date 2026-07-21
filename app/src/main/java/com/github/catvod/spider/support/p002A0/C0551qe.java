@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.qe */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.qe */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0551qe implements Map.Entry, Cloneable {
 

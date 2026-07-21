@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.nio.charset.Charset;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.n */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.n */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2271n implements Serializable {
 

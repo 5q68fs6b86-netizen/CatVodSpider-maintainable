@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p055K;
 
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1386f extends AbstractC1397q {
     public C1386f(String str) {

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jg */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jg */
 /* JADX INFO: loaded from: classes.dex */
 public class C0364jg extends AbstractC0406kv {
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0406kv

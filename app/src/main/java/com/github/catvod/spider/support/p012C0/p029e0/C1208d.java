@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
 import java.util.Arrays;
 import java.util.Collection;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.d */
 /* JADX INFO: loaded from: classes.dex */
 final class C1208d extends AbstractC1210f {
     C1208d(Collection<AbstractC1193N> collection) {

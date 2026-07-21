@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p059O;
 import com.github.catvod.spider.support.p044FM.p058N.C1571a;
 import java.nio.ByteBuffer;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.O.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p059O.i */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1581i extends AbstractC1574b {
 

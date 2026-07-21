@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ix */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ix */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0354ix implements InterfaceC0698vq {
 

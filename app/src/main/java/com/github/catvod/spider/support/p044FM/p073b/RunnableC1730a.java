@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p073b;
 import com.github.catvod.debug.MainActivity;
 import com.github.catvod.spider.Market;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.a */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1730a implements Runnable {
 

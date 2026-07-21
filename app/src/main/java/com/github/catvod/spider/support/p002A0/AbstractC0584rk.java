@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.io.EOFException;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.rk */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.rk */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0584rk {
     /* JADX INFO: renamed from: a */

@@ -78,7 +78,7 @@ import okhttp3.ResponseBody;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.l */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2178l {
 
@@ -133,7 +133,7 @@ public final class C2178l {
     /* JADX INFO: renamed from: a */
     private String f5230a;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.l$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.l$a */
     private static final class a {
 
         /* JADX INFO: renamed from: a */

@@ -1,10 +1,10 @@
 package com.github.catvod.spider.support.p003AB.p005b;
 
 import com.github.catvod.spider.Bili;
-import com.github.catvod.spider.support.AB.g.b;
+import com.github.catvod.spider.support.p003AB.g.b;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.G */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.G */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0823G implements Runnable {
 

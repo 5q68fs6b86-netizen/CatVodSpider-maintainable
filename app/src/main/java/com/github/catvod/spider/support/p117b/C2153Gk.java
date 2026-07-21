@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p117b;
 
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.Gk */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.Gk */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2153Gk extends C2152Gj<C2153Gk> {
 

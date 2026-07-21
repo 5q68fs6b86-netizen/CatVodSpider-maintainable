@@ -9,14 +9,14 @@ import java.util.TimeZone;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.g */
 /* JADX INFO: loaded from: classes.dex */
 abstract class AbstractC0964g<F extends Format> {
 
     /* JADX INFO: renamed from: a */
     private final ConcurrentMap<a, F> f2344a = new ConcurrentHashMap(7);
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.g$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.g$a */
     private static final class a {
 
         /* JADX INFO: renamed from: a */

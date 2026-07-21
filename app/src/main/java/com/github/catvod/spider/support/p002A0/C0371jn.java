@@ -7,7 +7,7 @@ import java.util.IdentityHashMap;
 import java.util.Iterator;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jn */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jn */
 /* JADX INFO: loaded from: classes.dex */
 public class C0371jn implements Set {
 

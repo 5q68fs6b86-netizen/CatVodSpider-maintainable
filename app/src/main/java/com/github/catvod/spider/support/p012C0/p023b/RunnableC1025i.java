@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p023b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.b.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p023b.i */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1025i implements Runnable {
 

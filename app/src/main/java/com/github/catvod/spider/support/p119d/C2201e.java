@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p119d;
 import android.text.TextUtils;
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.d.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2201e {
 

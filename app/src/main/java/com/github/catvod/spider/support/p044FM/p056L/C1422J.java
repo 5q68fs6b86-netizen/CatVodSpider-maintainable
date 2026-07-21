@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 import com.github.catvod.spider.support.p044FM.p073b.C1751v;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.J */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p056L.J */
 /* JADX INFO: loaded from: classes.dex */
 final class C1422J extends AbstractC1436Q {
 

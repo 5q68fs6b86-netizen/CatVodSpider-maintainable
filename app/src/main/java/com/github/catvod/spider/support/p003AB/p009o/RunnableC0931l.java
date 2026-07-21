@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p003AB.p009o;
 import android.widget.EditText;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.l */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0931l implements Runnable {
 

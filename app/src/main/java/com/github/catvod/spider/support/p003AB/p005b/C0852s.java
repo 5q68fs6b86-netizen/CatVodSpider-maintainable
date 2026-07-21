@@ -5,7 +5,7 @@ import com.google.gson.Gson;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.s */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.s */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0852s {
     /* JADX INFO: renamed from: a */

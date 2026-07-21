@@ -10,7 +10,7 @@ import java.util.Map;
 import javax.annotation.ParametersAreNonnullByDefault;
 
 /* JADX INFO: Access modifiers changed from: package-private */
-/* JADX INFO: renamed from: com.github.catvod.spider.support.H.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p102H.m */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC2057m {
 
@@ -131,8 +131,8 @@ public abstract class AbstractC2057m {
         return mo5025e(gVar);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.H.h>] */
-    /* JADX WARN: Type inference failed for: r3v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.H.h>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p102H.h>] */
+    /* JADX WARN: Type inference failed for: r3v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p102H.h>] */
     /* JADX INFO: renamed from: i */
     protected final C2052h m5173i(String str, C2050f c2050f) {
         C2052h c2052h = (C2052h) this.f4899i.get(str);

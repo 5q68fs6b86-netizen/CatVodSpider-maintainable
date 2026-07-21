@@ -5,12 +5,12 @@ import android.graphics.BitmapFactory;
 import android.text.TextUtils;
 import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.spider.Proxy;
-import com.github.catvod.spider.support.AB.C.h;
-import com.github.catvod.spider.support.AB.c.e;
-import com.github.catvod.spider.support.AB.c.g;
-import com.github.catvod.spider.support.AB.c.j;
-import com.github.catvod.spider.support.AB.f.a;
-import com.github.catvod.spider.support.AB.f.b;
+import com.github.catvod.spider.support.p003AB.C.h;
+import com.github.catvod.spider.support.p003AB.c.e;
+import com.github.catvod.spider.support.p003AB.c.g;
+import com.github.catvod.spider.support.p003AB.c.j;
+import com.github.catvod.spider.support.p003AB.f.a;
+import com.github.catvod.spider.support.p003AB.f.b;
 import com.github.catvod.spider.support.p003AB.p004a.C0816a;
 import com.github.catvod.spider.support.p003AB.p007m.C0869c;
 import com.github.catvod.spider.support.p003AB.p009o.C0895E;
@@ -29,7 +29,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.z */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.z */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0859z {
 

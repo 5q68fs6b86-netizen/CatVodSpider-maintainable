@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.function.BinaryOperator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.xe */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.xe */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0740xe implements BinaryOperator {
     @Override // java.util.function.BiFunction

@@ -15,7 +15,7 @@ import java.util.LinkedList;
 import java.util.List;
 import javax.annotation.Nullable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.m */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC2041m implements Cloneable {
 
@@ -29,7 +29,7 @@ public abstract class AbstractC2041m implements Cloneable {
     /* JADX INFO: renamed from: b */
     int f4649b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.G.m$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.m$a */
     private static class a implements InterfaceC2062e {
 
         /* JADX INFO: renamed from: a */

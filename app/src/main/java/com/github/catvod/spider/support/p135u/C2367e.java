@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p135u;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.e */
 /* JADX INFO: loaded from: classes.dex */
 final class C2367e implements C2371g.a {
     C2367e() {

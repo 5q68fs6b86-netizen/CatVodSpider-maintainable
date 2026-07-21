@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p026c0;
 
 import com.github.catvod.spider.support.p012C0.p029e0.InterfaceC1194O;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.j */
 /* JADX INFO: loaded from: classes.dex */
 final class C1051j implements InterfaceC1194O {
 

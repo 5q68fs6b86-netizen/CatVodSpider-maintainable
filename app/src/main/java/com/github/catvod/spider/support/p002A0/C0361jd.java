@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.LinkedList;
 import java.util.Stack;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jd */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jd */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0361jd extends C0579rf {
 

@@ -8,7 +8,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.g.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p082g.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1809g {
 

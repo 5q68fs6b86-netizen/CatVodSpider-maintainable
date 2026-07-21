@@ -1,9 +1,9 @@
 package com.github.catvod.spider.support.p012C0.p030f0;
 
-import com.github.catvod.spider.support.C0.f0.b;
-import com.github.catvod.spider.support.C0.g0.a;
-import com.github.catvod.spider.support.C0.h0.e;
-import com.github.catvod.spider.support.C0.h0.f;
+import com.github.catvod.spider.support.p012C0.p030f0.b;
+import com.github.catvod.spider.support.p012C0.p031g0.a;
+import com.github.catvod.spider.support.p012C0.p033h0.e;
+import com.github.catvod.spider.support.p012C0.p033h0.f;
 import com.github.catvod.spider.support.p012C0.p014P.AbstractC0975j;
 import com.github.catvod.spider.support.p012C0.p014P.C0973e;
 import com.github.catvod.spider.support.p012C0.p014P.C0974f;
@@ -19,7 +19,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.f0.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p030f0.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1231a {
 
@@ -40,7 +40,7 @@ public final class C1231a {
             charBufferAllocate.flip();
             c0973eM2410b.m2408a(charBufferAllocate);
             C1232D c1232d = new C1232D(new C0977m(new a(AbstractC0975j.m2418k(c0973eM2410b.m2409d()))));
-            c1232d.m2447v(new com.github.catvod.spider.support.C0.l0.a());
+            c1232d.m2447v(new com.github.catvod.spider.support.p012C0.l0.a());
             e eVar = (e) c1232d.m3025H().e(new f(this.f2897a));
             if (eVar.n()) {
                 Iterator<C1053l> it = eVar.d().iterator();

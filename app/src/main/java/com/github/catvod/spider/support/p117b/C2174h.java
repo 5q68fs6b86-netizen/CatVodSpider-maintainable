@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p118c.C2192c;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.h */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2174h {
     /* JADX INFO: renamed from: a */

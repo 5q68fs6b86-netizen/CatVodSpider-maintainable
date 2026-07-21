@@ -12,11 +12,11 @@ import android.widget.ImageView;
 import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.spider.Init;
 import com.github.catvod.spider.Proxy;
-import com.github.catvod.spider.support.AB.c.g;
-import com.github.catvod.spider.support.AB.c.j;
-import com.github.catvod.spider.support.AB.k.a;
-import com.github.catvod.spider.support.AB.k.c;
-import com.github.catvod.spider.support.AB.k.e;
+import com.github.catvod.spider.support.p003AB.c.g;
+import com.github.catvod.spider.support.p003AB.c.j;
+import com.github.catvod.spider.support.p003AB.k.a;
+import com.github.catvod.spider.support.p003AB.k.c;
+import com.github.catvod.spider.support.p003AB.k.e;
 import com.github.catvod.spider.support.p003AB.p007m.C0869c;
 import com.github.catvod.spider.support.p003AB.p007m.C0871e;
 import com.github.catvod.spider.support.p003AB.p009o.C0895E;
@@ -44,7 +44,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.Q */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.Q */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0833Q {
 
@@ -393,7 +393,7 @@ public final class C0833Q {
     public static void m2028j(final C0833Q c0833q, JSONObject jSONObject) {
         c0833q.getClass();
         try {
-            int iA = com.github.catvod.spider.support.AB.J.a.a(240);
+            int iA = com.github.catvod.spider.support.p003AB.J.a.a(240);
             FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(iA, iA);
             ImageView imageView = new ImageView(Init.context());
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
@@ -401,7 +401,7 @@ public final class C0833Q {
             FrameLayout frameLayout = new FrameLayout(Init.context());
             layoutParams.gravity = 17;
             frameLayout.addView(imageView, layoutParams);
-            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(frameLayout).setOnCancelListener(new DialogInterface.OnCancelListener(c0833q) { // from class: com.github.catvod.spider.support.AB.b.K
+            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(frameLayout).setOnCancelListener(new DialogInterface.OnCancelListener(c0833q) { // from class: com.github.catvod.spider.support.p003AB.p005b.K
 
                 /* JADX INFO: renamed from: a */
                 public final C0833Q f1950a;
@@ -414,7 +414,7 @@ public final class C0833Q {
                 public final void onCancel(DialogInterface dialogInterface) {
                     C0833Q.m2025g(this.f1950a);
                 }
-            }).setOnDismissListener(new DialogInterface.OnDismissListener(c0833q) { // from class: com.github.catvod.spider.support.AB.b.M
+            }).setOnDismissListener(new DialogInterface.OnDismissListener(c0833q) { // from class: com.github.catvod.spider.support.p003AB.p005b.M
 
                 /* JADX INFO: renamed from: a */
                 public final C0833Q f1952a;
@@ -466,7 +466,7 @@ public final class C0833Q {
     public static void m2030l(C0833Q c0833q, JSONObject jSONObject) {
         c0833q.getClass();
         try {
-            int iA = com.github.catvod.spider.support.AB.J.a.a(240);
+            int iA = com.github.catvod.spider.support.p003AB.J.a.a(240);
             FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(iA, iA);
             ImageView imageView = new ImageView(Init.context());
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
@@ -987,8 +987,8 @@ public final class C0833Q {
         }
     }
 
-    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.AB.k.e>] */
-    /* JADX WARN: Type inference failed for: r1v10, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.AB.k.e>] */
+    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p003AB.k.e>] */
+    /* JADX WARN: Type inference failed for: r1v10, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p003AB.k.e>] */
     /* JADX INFO: renamed from: N */
     public final String m2047N(String str) {
         e eVar = (e) f1960j.get(str);
@@ -1058,13 +1058,13 @@ public final class C0833Q {
     /* JADX INFO: renamed from: R */
     public final void m2049R() {
         try {
-            int iA = com.github.catvod.spider.support.AB.J.a.a(16);
+            int iA = com.github.catvod.spider.support.p003AB.J.a.a(16);
             FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(-1, -2);
             FrameLayout frameLayout = new FrameLayout(Init.context());
             layoutParams.setMargins(iA, iA, iA, iA);
             EditText editText = new EditText(Init.context());
             frameLayout.addView(editText, layoutParams);
-            this.f1966f = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入UC Cookie【支持字符串和Http】").setView(frameLayout).setNeutralButton("点我，使用UC APP扫码", new DialogInterface.OnClickListener(this) { // from class: com.github.catvod.spider.support.AB.b.L
+            this.f1966f = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入UC Cookie【支持字符串和Http】").setView(frameLayout).setNeutralButton("点我，使用UC APP扫码", new DialogInterface.OnClickListener(this) { // from class: com.github.catvod.spider.support.p003AB.p005b.L
 
                 /* JADX INFO: renamed from: a */
                 public final C0833Q f1951a;

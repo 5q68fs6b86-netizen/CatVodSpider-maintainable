@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p057M.C1551g;
 import com.github.catvod.spider.support.p044FM.p066V.C1665f;
 import com.github.catvod.spider.support.p044FM.p066V.InterfaceC1660a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.W.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p067W.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1669c implements InterfaceC1660a {
     @Override // com.github.catvod.spider.support.p044FM.p066V.InterfaceC1660a

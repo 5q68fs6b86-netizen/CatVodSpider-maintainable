@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.tk */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tk */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0638tk extends AbstractC0672ur {
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0272fw

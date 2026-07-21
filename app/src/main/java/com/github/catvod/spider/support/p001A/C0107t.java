@@ -11,7 +11,7 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A.t */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.t */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0107t {
 

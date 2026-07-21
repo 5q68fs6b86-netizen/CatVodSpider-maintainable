@@ -1,13 +1,13 @@
 package com.github.catvod.spider.support.p012C0.p014P;
 
-import com.github.catvod.spider.support.C0.P.A;
-import com.github.catvod.spider.support.C0.P.a;
+import com.github.catvod.spider.support.p012C0.p014P.A;
+import com.github.catvod.spider.support.p012C0.p014P.a;
 import com.github.catvod.spider.support.p012C0.p015Q.AbstractC0993l;
 import com.github.catvod.spider.support.p012C0.p015Q.C0990a;
 import java.util.List;
 import java.util.WeakHashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.B */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.B */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0967B<Symbol, ATNInterpreter extends AbstractC0993l> {
 

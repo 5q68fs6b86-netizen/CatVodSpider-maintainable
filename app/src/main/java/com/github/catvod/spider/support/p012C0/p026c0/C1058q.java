@@ -1,10 +1,10 @@
 package com.github.catvod.spider.support.p012C0.p026c0;
 
-import com.github.catvod.spider.support.C0.Z.a;
+import com.github.catvod.spider.support.p012C0.p021Z.a;
 import com.github.catvod.spider.support.p012C0.p029e0.InterfaceC1194O;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.q */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.q */
 /* JADX INFO: loaded from: classes.dex */
 final class C1058q implements InterfaceC1194O {
 
@@ -20,7 +20,7 @@ final class C1058q implements InterfaceC1194O {
         c1048g.m2667e();
     }
 
-    /* JADX INFO: Thrown type has an unknown type hierarchy: com.github.catvod.spider.support.C0.Z.a */
+    /* JADX INFO: Thrown type has an unknown type hierarchy: com.github.catvod.spider.support.p012C0.p021Z.a */
     @Override // com.github.catvod.spider.support.p012C0.p029e0.InterfaceC1194O
     /* JADX INFO: renamed from: a */
     public final void mo2681a(AbstractC1059r abstractC1059r, int i) throws a {
@@ -31,7 +31,7 @@ final class C1058q implements InterfaceC1194O {
         }
     }
 
-    /* JADX INFO: Thrown type has an unknown type hierarchy: com.github.catvod.spider.support.C0.Z.a */
+    /* JADX INFO: Thrown type has an unknown type hierarchy: com.github.catvod.spider.support.p012C0.p021Z.a */
     @Override // com.github.catvod.spider.support.p012C0.p029e0.InterfaceC1194O
     /* JADX INFO: renamed from: b */
     public final void mo2682b(AbstractC1059r abstractC1059r, int i) throws a {

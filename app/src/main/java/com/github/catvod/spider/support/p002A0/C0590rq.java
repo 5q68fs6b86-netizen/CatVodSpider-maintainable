@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.ArrayList;
 import java.util.Collection;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.rq */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.rq */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0590rq extends ArrayList {
 

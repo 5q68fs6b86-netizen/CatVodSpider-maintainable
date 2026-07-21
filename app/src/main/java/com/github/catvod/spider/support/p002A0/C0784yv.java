@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.yv */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.yv */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0784yv extends EnumC0700vs {
     public C0784yv() {

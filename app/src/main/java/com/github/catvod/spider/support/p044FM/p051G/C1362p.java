@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p051G;
 
 import com.github.catvod.spider.support.p044FM.p056L.C1434P;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.G.p */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.p */
 /* JADX INFO: loaded from: classes.dex */
 final class C1362p {
 

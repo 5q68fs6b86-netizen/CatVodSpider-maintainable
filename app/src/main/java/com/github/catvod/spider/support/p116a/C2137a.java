@@ -17,7 +17,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.a.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.a */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2137a {
 

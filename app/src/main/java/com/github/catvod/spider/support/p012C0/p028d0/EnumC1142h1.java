@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 /* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
 /* JADX WARN: Unknown enum class pattern. Please report as an issue! */
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.h1 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.h1 */
 /* JADX INFO: loaded from: classes.dex */
 abstract class EnumC1142h1 {
 

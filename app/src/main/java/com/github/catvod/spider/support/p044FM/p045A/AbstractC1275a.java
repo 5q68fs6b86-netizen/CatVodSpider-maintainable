@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p045A;
 import com.github.catvod.spider.support.p044FM.p046B.InterfaceC1294d;
 import com.github.catvod.spider.support.p044FM.p046B.InterfaceC1295e;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.A.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p045A.a */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC1275a implements InterfaceC1294d {
     /* JADX INFO: renamed from: E */

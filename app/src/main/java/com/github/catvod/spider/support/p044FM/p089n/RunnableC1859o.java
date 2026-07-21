@@ -4,7 +4,7 @@ import com.github.catvod.spider.Wogg;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicReference;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.n.o */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p089n.o */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1859o implements Runnable {
 

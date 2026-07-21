@@ -5,7 +5,7 @@ import java.lang.reflect.GenericArrayType;
 import java.lang.reflect.Type;
 import java.util.Objects;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.fl */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.fl */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0261fl implements GenericArrayType, Serializable {
 

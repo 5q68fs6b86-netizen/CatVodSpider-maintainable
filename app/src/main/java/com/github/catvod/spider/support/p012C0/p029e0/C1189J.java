@@ -6,7 +6,7 @@ import com.github.catvod.spider.support.p012C0.p026c0.C1062u;
 import com.github.catvod.spider.support.p012C0.p028d0.C1074D;
 import com.github.catvod.spider.support.p012C0.p028d0.C1078F;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.J */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.J */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1189J extends AbstractC1193N {
     @Override // com.github.catvod.spider.support.p012C0.p029e0.AbstractC1193N

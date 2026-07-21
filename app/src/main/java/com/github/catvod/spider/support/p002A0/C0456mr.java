@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.mr */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.mr */
 /* JADX INFO: loaded from: classes.dex */
 public class C0456mr {
 

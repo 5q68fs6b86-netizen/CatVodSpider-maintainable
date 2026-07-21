@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p134t;
 
 import com.github.catvod.spider.support.p137w.C2407i;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.w */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.w */
 /* JADX INFO: loaded from: classes.dex */
 public class C2330w extends RuntimeException {
 

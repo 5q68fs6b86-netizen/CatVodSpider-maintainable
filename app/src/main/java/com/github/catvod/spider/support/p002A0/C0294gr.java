@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.gr */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.gr */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0294gr implements InterfaceC0698vq {
 

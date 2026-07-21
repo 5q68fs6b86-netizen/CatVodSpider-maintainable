@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p101G;
 
 import com.github.catvod.spider.support.p102H.C2052h;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.o */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.o */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2043o extends C2037i {
     public C2043o(C2052h c2052h, String str, C2030b c2030b) {

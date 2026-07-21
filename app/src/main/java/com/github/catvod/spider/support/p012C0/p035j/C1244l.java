@@ -11,7 +11,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.j.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p035j.l */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1244l {
     /* JADX INFO: renamed from: a */

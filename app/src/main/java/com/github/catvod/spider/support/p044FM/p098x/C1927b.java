@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p099y.C1987f;
 import com.github.catvod.spider.support.p044FM.p100z.C2025b;
 import java.util.BitSet;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.x.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p098x.b */
 /* JADX INFO: loaded from: classes.dex */
 public class C1927b implements InterfaceC1926a {
     @Override // com.github.catvod.spider.support.p044FM.p098x.InterfaceC1926a

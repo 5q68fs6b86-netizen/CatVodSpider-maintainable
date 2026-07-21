@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p098x;
 
 import com.github.catvod.spider.support.p044FM.p045A.C1285k;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.x.A */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p098x.A */
 /* JADX INFO: loaded from: classes.dex */
 public class C1915A extends RuntimeException {
 

@@ -5,7 +5,7 @@ import android.widget.EditText;
 import com.github.catvod.spider.support.p003AB.p009o.C0915Z;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.n */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.n */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnClickListenerC0847n implements DialogInterface.OnClickListener {
 

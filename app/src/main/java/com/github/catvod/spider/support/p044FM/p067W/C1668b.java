@@ -7,7 +7,7 @@ import com.github.catvod.spider.support.p044FM.p066V.InterfaceC1660a;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.W.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p067W.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1668b implements InterfaceC1660a {
     @Override // com.github.catvod.spider.support.p044FM.p066V.InterfaceC1660a

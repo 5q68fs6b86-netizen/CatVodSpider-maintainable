@@ -22,7 +22,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.o.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p090o.h */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1867h {
 
@@ -224,7 +224,7 @@ public final class C1867h {
         return this.f4296d.contains("/proxy?") ? C1840c.m4479n(this.f4296d, null) : this.f4296d;
     }
 
-    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.concurrent.BlockingQueue<com.github.catvod.spider.support.FM.o.g>, java.util.concurrent.LinkedBlockingQueue] */
+    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.concurrent.BlockingQueue<com.github.catvod.spider.support.p044FM.p090o.g>, java.util.concurrent.LinkedBlockingQueue] */
     /* JADX INFO: renamed from: e */
     private byte[] m4518e() throws Exception {
         if (this.f4303k > this.f4302j) {
@@ -311,7 +311,7 @@ public final class C1867h {
         }
         this.f4305m = true;
         for (int i4 = 0; i4 < i3; i4++) {
-            this.f4295c.execute(new Runnable() { // from class: com.github.catvod.spider.support.FM.o.f
+            this.f4295c.execute(new Runnable() { // from class: com.github.catvod.spider.support.p044FM.p090o.f
                 @Override // java.lang.Runnable
                 public final void run() {
                     C1867h.m4516b(this.f4288a, i2);

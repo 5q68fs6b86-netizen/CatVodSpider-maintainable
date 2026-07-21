@@ -26,7 +26,7 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0961d implements Serializable {
 
@@ -105,7 +105,7 @@ public final class C0961d implements Serializable {
     /* JADX INFO: renamed from: f */
     private transient List<l> f2286f;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$a */
     static class a extends i {
         a() {
             super(1);
@@ -118,7 +118,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$b */
     static class b extends i {
         b() {
             super(2);
@@ -131,7 +131,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$c */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$c */
     static class c extends i {
         c() {
             super(7);
@@ -147,7 +147,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$d */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$d */
     static class d extends i {
         d() {
             super(11);
@@ -163,7 +163,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$e */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$e */
     static class e extends i {
         e() {
             super(10);
@@ -179,7 +179,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$f */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$f */
     private static class f extends j {
 
         /* JADX INFO: renamed from: b */
@@ -229,7 +229,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$g */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$g */
     private static class g extends k {
 
         /* JADX INFO: renamed from: a */
@@ -263,7 +263,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$h */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$h */
     private static class h extends j {
 
         /* JADX INFO: renamed from: b */
@@ -300,7 +300,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$i */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$i */
     private static class i extends k {
 
         /* JADX INFO: renamed from: a */
@@ -359,7 +359,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$j */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$j */
     private static abstract class j extends k {
 
         /* JADX INFO: renamed from: a */
@@ -396,7 +396,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$k */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$k */
     private static abstract class k {
         private k() {
         }
@@ -414,7 +414,7 @@ public final class C0961d implements Serializable {
         abstract boolean mo2348b(C0961d c0961d, Calendar calendar, String str, ParsePosition parsePosition, int i);
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$l */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$l */
     private static class l {
 
         /* JADX INFO: renamed from: a */
@@ -438,7 +438,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$m */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$m */
     private class m {
 
         /* JADX INFO: renamed from: a */
@@ -496,7 +496,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$n */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$n */
     static class n extends j {
 
         /* JADX INFO: renamed from: b */
@@ -505,7 +505,7 @@ public final class C0961d implements Serializable {
         /* JADX INFO: renamed from: c */
         private final Map<String, a> f2302c = new HashMap();
 
-        /* JADX INFO: renamed from: com.github.catvod.spider.support.C.d$n$a */
+        /* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.d$n$a */
         private static class a {
 
             /* JADX INFO: renamed from: a */
@@ -520,7 +520,7 @@ public final class C0961d implements Serializable {
             }
         }
 
-        /* JADX WARN: Type inference failed for: r13v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C.d$n$a>] */
+        /* JADX WARN: Type inference failed for: r13v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p011C.d$n$a>] */
         n(Locale locale) {
             this.f2301b = C2420c.m6434a(locale);
             StringBuilder sbM5396a = C2137a.m5396a("((?iu)[+-]\\d{4}|GMT[+-]\\d{1,2}:\\d{2}");
@@ -554,8 +554,8 @@ public final class C0961d implements Serializable {
             this.f2295a = Pattern.compile(sbM5396a.toString());
         }
 
-        /* JADX WARN: Type inference failed for: r0v2, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C.d$n$a>] */
-        /* JADX WARN: Type inference failed for: r0v8, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C.d$n$a>] */
+        /* JADX WARN: Type inference failed for: r0v2, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p011C.d$n$a>] */
+        /* JADX WARN: Type inference failed for: r0v8, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p011C.d$n$a>] */
         @Override // com.github.catvod.spider.support.p011C.C0961d.j
         /* JADX INFO: renamed from: c */
         final void mo2347c(Calendar calendar, String str) {
@@ -586,7 +586,7 @@ public final class C0961d implements Serializable {
         }
     }
 
-    /* JADX WARN: Type inference failed for: r3v4, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C.d$l>] */
+    /* JADX WARN: Type inference failed for: r3v4, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p011C.d$l>] */
     protected C0961d(String str, TimeZone timeZone, Locale locale) {
         int i2;
         this.f2281a = str;
@@ -796,7 +796,7 @@ public final class C0961d implements Serializable {
     }
 
     /* JADX WARN: Code duplicated, block: B:13:0x0042  */
-    /* JADX WARN: Type inference failed for: r1v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.C.d$l>] */
+    /* JADX WARN: Type inference failed for: r1v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p011C.d$l>] */
     /* JADX INFO: renamed from: i */
     public final Date m2345i(String str, ParsePosition parsePosition) {
         boolean z;

@@ -8,7 +8,7 @@ import rxhttp.wrapper.entity.UpFile;
 import rxhttp.wrapper.param.IFile;
 import rxhttp.wrapper.param.Param;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.fb */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.fb */
 /* JADX INFO: loaded from: classes.dex */
 public abstract /* synthetic */ class AbstractC0251fb {
     /* JADX INFO: renamed from: a */

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p134t;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.o */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.o */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2322o extends C2330w {
     public C2322o(AbstractC2327t abstractC2327t) {

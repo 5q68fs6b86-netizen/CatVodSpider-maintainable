@@ -10,7 +10,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.os */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.os */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0511os {
 

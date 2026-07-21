@@ -33,7 +33,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.o.y */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p090o.y */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1884y {
 
@@ -447,7 +447,7 @@ public final class C1884y {
                     if (z) {
                         if (z3) {
                             str = "扫码授权";
-                            onClickListener = new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.o.u
+                            onClickListener = new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p090o.u
                                 @Override // android.content.DialogInterface.OnClickListener
                                 public final void onClick(DialogInterface dialogInterface, int i2) {
                                     C1884y.m4546m(this.f4333a, map, str3);
@@ -456,7 +456,7 @@ public final class C1884y {
                         } else {
                             str = "远程输入";
                             final int i2 = 1;
-                            onClickListener = new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.b.E
+                            onClickListener = new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p073b.E
                                 @Override // android.content.DialogInterface.OnClickListener
                                 public final void onClick(DialogInterface dialogInterface, int i3) {
                                     switch (i2) {
@@ -473,7 +473,7 @@ public final class C1884y {
                         view = view.setPositiveButton(str, onClickListener).setNegativeButton("手动输入", new DialogInterfaceOnClickListenerC1875p(this, map, i));
                     }
                     if (z2) {
-                        view = view.setNeutralButton("扫码授权", new DialogInterfaceOnClickListenerC1873n(this, map, str3, i)).setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.o.r
+                        view = view.setNeutralButton("扫码授权", new DialogInterfaceOnClickListenerC1873n(this, map, str3, i)).setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p090o.r
                             @Override // android.content.DialogInterface.OnClickListener
                             public final void onClick(DialogInterface dialogInterface, int i3) {
                                 C1884y c1884y = this.f4325a;
@@ -503,7 +503,7 @@ public final class C1884y {
                 if (z) {
                     if (z3) {
                         str = "扫码授权";
-                        onClickListener = new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.o.u
+                        onClickListener = new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p090o.u
                             @Override // android.content.DialogInterface.OnClickListener
                             public final void onClick(DialogInterface dialogInterface, int i3) {
                                 C1884y.m4546m(this.f4333a, map, str3);
@@ -512,7 +512,7 @@ public final class C1884y {
                     } else {
                         str = "远程输入";
                         final int i3 = 1;
-                        onClickListener = new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.b.E
+                        onClickListener = new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p073b.E
                             @Override // android.content.DialogInterface.OnClickListener
                             public final void onClick(DialogInterface dialogInterface, int i4) {
                                 switch (i3) {
@@ -529,7 +529,7 @@ public final class C1884y {
                     view = view.setPositiveButton(str, onClickListener).setNegativeButton("手动输入", new DialogInterfaceOnClickListenerC1875p(this, map, i));
                 }
                 if (z2) {
-                    view = view.setNeutralButton("扫码授权", new DialogInterfaceOnClickListenerC1873n(this, map, str3, i)).setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.o.r
+                    view = view.setNeutralButton("扫码授权", new DialogInterfaceOnClickListenerC1873n(this, map, str3, i)).setNegativeButton("确定", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p090o.r
                         @Override // android.content.DialogInterface.OnClickListener
                         public final void onClick(DialogInterface dialogInterface, int i4) {
                             C1884y c1884y = this.f4325a;
@@ -589,7 +589,7 @@ public final class C1884y {
             linearLayout.addView(imageView, layoutParams3);
         }
         AlertDialog.Builder view = new AlertDialog.Builder(Init.getActivity()).setView(linearLayout);
-        this.f4345a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterfaceOnClickListenerC1875p(this, map, i)).setNegativeButton("登录", new DialogInterfaceOnClickListenerC1873n(this, editText, editText2, i)) : view.setNeutralButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.b.L
+        this.f4345a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterfaceOnClickListenerC1875p(this, map, i)).setNegativeButton("登录", new DialogInterfaceOnClickListenerC1873n(this, editText, editText2, i)) : view.setNeutralButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p073b.L
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i2) {
                 switch (i) {
@@ -641,7 +641,7 @@ public final class C1884y {
             linearLayout.addView(imageView, layoutParams3);
         }
         AlertDialog.Builder view = new AlertDialog.Builder(Init.getActivity()).setView(linearLayout);
-        this.f4345a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.o.t
+        this.f4345a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p090o.t
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i) {
                 C1884y c1884y = this.f4331a;
@@ -651,21 +651,21 @@ public final class C1884y {
                 map2.put("flag", "请使用微信或者浏览器扫码下方二维码远程输入");
                 Init.execute(new RunnableC1720H(c1884y, map2, 3));
             }
-        }).setNegativeButton("登录", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.o.q
+        }).setNegativeButton("登录", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p090o.q
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i) {
                 final C1884y c1884y = this.f4322a;
                 final EditText editText3 = editText;
                 final EditText editText4 = editText2;
                 c1884y.getClass();
-                Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.FM.o.o
+                Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.p044FM.p090o.o
                     @Override // java.lang.Runnable
                     public final void run() {
                         C1884y.m4536c(c1884y, editText3, editText4);
                     }
                 });
             }
-        }) : view.setNeutralButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.o.s
+        }) : view.setNeutralButton("手动输入", new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p090o.s
             @Override // android.content.DialogInterface.OnClickListener
             public final void onClick(DialogInterface dialogInterface, int i) {
                 C1884y c1884y = this.f4329a;

@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p090o.C1860a;
 import com.github.catvod.spider.support.p044FM.p090o.C1884y;
 import java.util.HashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.n.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p089n.i */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1853i implements Runnable {
 

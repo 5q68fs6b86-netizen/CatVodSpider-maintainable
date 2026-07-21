@@ -1,12 +1,12 @@
 package com.github.catvod.spider.support.p012C0.p014P;
 
-import com.github.catvod.spider.support.C0.P.g;
-import com.github.catvod.spider.support.C0.P.h;
-import com.github.catvod.spider.support.C0.P.i;
+import com.github.catvod.spider.support.p012C0.p014P.g;
+import com.github.catvod.spider.support.p012C0.p014P.h;
+import com.github.catvod.spider.support.p012C0.p014P.i;
 import com.github.catvod.spider.support.p012C0.p017S.C1002i;
 import com.github.catvod.spider.support.p012C0.p037l.C1257a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.j */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0975j implements InterfaceC0972d {
 

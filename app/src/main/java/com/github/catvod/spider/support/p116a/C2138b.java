@@ -21,7 +21,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.ZipFile;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.a.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2138b {
 
@@ -31,19 +31,19 @@ public final class C2138b {
     /* JADX INFO: renamed from: b */
     private static final boolean f5009b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.a.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.b$a */
     private static final class a {
 
         /* JADX INFO: renamed from: a */
         private final InterfaceC2613a f5010a;
 
-        /* JADX INFO: renamed from: com.github.catvod.spider.support.a.b$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.b$a$a, reason: collision with other inner class name */
         private interface InterfaceC2613a {
             /* JADX INFO: renamed from: a */
             Object mo5407a(File file, DexFile dexFile);
         }
 
-        /* JADX INFO: renamed from: com.github.catvod.spider.support.a.b$a$b */
+        /* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.b$a$b */
         private static class b implements InterfaceC2613a {
 
             /* JADX INFO: renamed from: a */
@@ -62,7 +62,7 @@ public final class C2138b {
             }
         }
 
-        /* JADX INFO: renamed from: com.github.catvod.spider.support.a.b$a$c */
+        /* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.b$a$c */
         private static class c implements InterfaceC2613a {
 
             /* JADX INFO: renamed from: a */
@@ -81,7 +81,7 @@ public final class C2138b {
             }
         }
 
-        /* JADX INFO: renamed from: com.github.catvod.spider.support.a.b$a$d */
+        /* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.b$a$d */
         private static class d implements InterfaceC2613a {
 
             /* JADX INFO: renamed from: a */

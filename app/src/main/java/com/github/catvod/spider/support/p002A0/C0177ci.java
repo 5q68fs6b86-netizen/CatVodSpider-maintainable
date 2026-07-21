@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.List;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ci */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ci */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0177ci extends C0579rf {
 

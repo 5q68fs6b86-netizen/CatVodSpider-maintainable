@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p101G;
 
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.d */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2032d extends AbstractC2040l {
     public C2032d(String str) {

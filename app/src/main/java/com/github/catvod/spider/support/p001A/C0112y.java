@@ -4,7 +4,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A.y */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.y */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0112y {
 

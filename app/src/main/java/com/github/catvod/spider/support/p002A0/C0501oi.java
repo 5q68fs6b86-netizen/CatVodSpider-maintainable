@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicLongFieldUpdater;
 import java.util.concurrent.atomic.AtomicReferenceArray;
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.oi */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.oi */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0501oi {
     private volatile Object _next = null;

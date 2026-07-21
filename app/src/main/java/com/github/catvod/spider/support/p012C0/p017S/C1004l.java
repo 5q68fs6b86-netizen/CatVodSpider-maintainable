@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p017S;
 import com.github.catvod.spider.support.p012C0.p013N.C0966a;
 import java.io.Serializable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.S.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p017S.l */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1004l<A, B> implements Serializable {
 

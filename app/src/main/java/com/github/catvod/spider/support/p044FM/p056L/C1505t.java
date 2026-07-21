@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 import com.github.catvod.spider.support.p044FM.p054J.C1380b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.t */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p056L.t */
 /* JADX INFO: loaded from: classes.dex */
 final class C1505t extends EnumC1406B {
     C1505t() {

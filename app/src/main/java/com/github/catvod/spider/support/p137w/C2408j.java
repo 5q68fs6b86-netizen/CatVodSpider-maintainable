@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p137w;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.w.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p137w.j */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2408j extends AbstractC2399a {
 

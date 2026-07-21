@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ot */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ot */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0512ot extends AbstractC0559qm {
 

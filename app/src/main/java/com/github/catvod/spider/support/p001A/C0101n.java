@@ -4,7 +4,7 @@ import android.os.Environment;
 import java.io.File;
 import java.io.FileOutputStream;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A.n */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.n */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0101n {
     /* JADX INFO: renamed from: b */

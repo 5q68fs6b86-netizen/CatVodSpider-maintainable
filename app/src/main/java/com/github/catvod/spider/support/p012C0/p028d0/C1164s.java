@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 
 import com.github.catvod.spider.support.p012C0.p024b0.C1034b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.s */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.s */
 /* JADX INFO: loaded from: classes.dex */
 final class C1164s extends EnumC1068A {
     C1164s() {

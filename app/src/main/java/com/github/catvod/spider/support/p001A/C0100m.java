@@ -24,7 +24,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.m */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0100m {
 
@@ -37,7 +37,7 @@ public final class C0100m {
     /* JADX INFO: renamed from: f */
     private AlertDialog f385f;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.A.m$1, reason: invalid class name */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.m$1, reason: invalid class name */
     final class AnonymousClass1 {
 
         /* JADX INFO: renamed from: a */
@@ -98,7 +98,7 @@ public final class C0100m {
         if (scheduledExecutorService != null) {
             scheduledExecutorService.shutdownNow();
         }
-        Init.run(new Runnable(this) { // from class: com.github.catvod.spider.support.A.s
+        Init.run(new Runnable(this) { // from class: com.github.catvod.spider.support.p001A.s
 
             /* JADX INFO: renamed from: b */
             public final Object f394b;
@@ -148,7 +148,7 @@ public final class C0100m {
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    /* JADX WARN: Type inference failed for: r1v20, types: [android.view.View$OnClickListener, com.github.catvod.spider.support.A.m$2] */
+    /* JADX WARN: Type inference failed for: r1v20, types: [android.view.View$OnClickListener, com.github.catvod.spider.support.p001A.m$2] */
     /* JADX INFO: renamed from: j */
     public static void m856j(final C0100m c0100m, final JSONObject jSONObject) {
         try {
@@ -178,7 +178,7 @@ public final class C0100m {
             layoutParams2.topMargin = iM6110c3;
             layoutParams2.bottomMargin = iM6110c3;
             linearLayout.addView(imageView, layoutParams2);
-            AlertDialog.Builder cancelable = new AlertDialog.Builder(Init.getActivity()).setView(linearLayout).setOnCancelListener(new DialogInterface.OnCancelListener(c0100m) { // from class: com.github.catvod.spider.support.A.o
+            AlertDialog.Builder cancelable = new AlertDialog.Builder(Init.getActivity()).setView(linearLayout).setOnCancelListener(new DialogInterface.OnCancelListener(c0100m) { // from class: com.github.catvod.spider.support.p001A.o
 
                 /* JADX INFO: renamed from: a */
                 public final C0100m f387a;
@@ -199,7 +199,7 @@ public final class C0100m {
                 c0100m.f385f = cancelable.show();
                 Button button = c0100m.f385f.getButton(-3);
                 if (button != 0) {
-                    Object r1 = new View.OnClickListener(c0100m, jSONObject) { // from class: com.github.catvod.spider.support.A.m.2
+                    Object r1 = new View.OnClickListener(c0100m, jSONObject) { // from class: com.github.catvod.spider.support.p001A.m.2
                         private Dialog dialog;
                         final C0100m this$0;
                         final JSONObject val$jsonObject;
@@ -233,7 +233,7 @@ public final class C0100m {
                     button.setOnClickListener(r1);
                 }
             }
-            Init.execute(new Runnable(c0100m, jSONObject) { // from class: com.github.catvod.spider.support.A.r
+            Init.execute(new Runnable(c0100m, jSONObject) { // from class: com.github.catvod.spider.support.p001A.r
 
                 /* JADX INFO: renamed from: a */
                 public final C0100m f392a;
@@ -260,7 +260,7 @@ public final class C0100m {
         c0100m.getClass();
         ScheduledExecutorService scheduledExecutorServiceNewScheduledThreadPool = Executors.newScheduledThreadPool(1);
         c0100m.f384c = scheduledExecutorServiceNewScheduledThreadPool;
-        scheduledExecutorServiceNewScheduledThreadPool.scheduleWithFixedDelay(new Runnable(c0100m, jSONObject) { // from class: com.github.catvod.spider.support.A.p
+        scheduledExecutorServiceNewScheduledThreadPool.scheduleWithFixedDelay(new Runnable(c0100m, jSONObject) { // from class: com.github.catvod.spider.support.p001A.p
 
             /* JADX INFO: renamed from: b */
             public final Object f388b;
@@ -322,7 +322,7 @@ public final class C0100m {
             jSONObject.put("device_id", strM6109a);
             jSONObject.put("client_id", "5acf882d27b74502b7040b0c65519aa7");
             try {
-                Init.run(new Runnable(this, jSONObject) { // from class: com.github.catvod.spider.support.A.q
+                Init.run(new Runnable(this, jSONObject) { // from class: com.github.catvod.spider.support.p001A.q
 
                     /* JADX INFO: renamed from: b */
                     public final C0100m f390b;

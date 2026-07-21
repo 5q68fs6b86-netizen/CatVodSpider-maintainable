@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p135u;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.s */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.s */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2387s extends C2366d0 {
     public C2387s() {

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.w */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.w */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0708w extends AbstractC0719wk {
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0719wk, com.github.catvod.spider.support.p002A0.AbstractC0680uz

@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p117b;
 import com.github.catvod.spider.support.p118c.C2194e;
 import java.util.ArrayList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.k */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2177k {
     /* JADX INFO: renamed from: a */

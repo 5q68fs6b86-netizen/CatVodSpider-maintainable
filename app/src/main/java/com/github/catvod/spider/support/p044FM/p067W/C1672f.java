@@ -6,7 +6,7 @@ import com.github.catvod.spider.support.p044FM.p066V.C1665f;
 import com.github.catvod.spider.support.p044FM.p066V.InterfaceC1660a;
 import java.util.HashSet;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.W.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p067W.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1672f implements InterfaceC1660a {
     @Override // com.github.catvod.spider.support.p044FM.p066V.InterfaceC1660a

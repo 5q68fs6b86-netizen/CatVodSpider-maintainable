@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p017S;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.S.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p017S.i */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1002i {
 

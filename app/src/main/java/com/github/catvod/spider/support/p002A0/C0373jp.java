@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Objects;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jp */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jp */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0373jp {
 

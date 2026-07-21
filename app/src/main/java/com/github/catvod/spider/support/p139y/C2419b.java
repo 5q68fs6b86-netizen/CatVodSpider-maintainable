@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.y.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p139y.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2419b {
 

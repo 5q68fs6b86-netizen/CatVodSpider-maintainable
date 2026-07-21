@@ -10,7 +10,7 @@ import java.nio.charset.CharsetEncoder;
 import java.util.Iterator;
 import javax.annotation.Nullable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2034f extends C2037i {
 
@@ -23,7 +23,7 @@ public final class C2034f extends C2037i {
     /* JADX INFO: renamed from: l */
     private int f4617l;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.G.f$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.f$a */
     public static class a implements Cloneable {
 
         /* JADX INFO: renamed from: d */

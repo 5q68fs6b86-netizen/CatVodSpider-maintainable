@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p026c0;
 
 import com.github.catvod.spider.support.p012C0.p022a0.AbstractC1015a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.k */
 /* JADX INFO: loaded from: classes.dex */
 final class C1052k extends AbstractC1015a<AbstractC1059r> {
 

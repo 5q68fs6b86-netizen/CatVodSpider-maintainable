@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.on */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.on */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0506on extends AbstractC0406kv {
 

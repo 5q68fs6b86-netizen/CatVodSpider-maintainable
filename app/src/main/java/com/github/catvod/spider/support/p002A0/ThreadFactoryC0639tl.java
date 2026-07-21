@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.tl */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tl */
 /* JADX INFO: loaded from: classes.dex */
 public final class ThreadFactoryC0639tl implements ThreadFactory {
 

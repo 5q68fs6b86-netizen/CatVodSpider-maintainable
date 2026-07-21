@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p065U;
 
 import com.github.catvod.spider.support.p044FM.p046B.InterfaceC1293c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.U.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p065U.b */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC1635b extends InterfaceC1293c {
     /* JADX INFO: renamed from: A */

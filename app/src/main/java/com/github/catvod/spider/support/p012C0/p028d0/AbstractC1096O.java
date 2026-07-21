@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p028d0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.O */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.O */
 /* JADX INFO: loaded from: classes.dex */
 abstract class AbstractC1096O {
 

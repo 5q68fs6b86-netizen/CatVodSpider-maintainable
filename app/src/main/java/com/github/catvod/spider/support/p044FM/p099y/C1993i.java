@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p099y;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.i */
 /* JADX INFO: loaded from: classes.dex */
 final class C1993i implements InterfaceC1995j {
     C1993i() {

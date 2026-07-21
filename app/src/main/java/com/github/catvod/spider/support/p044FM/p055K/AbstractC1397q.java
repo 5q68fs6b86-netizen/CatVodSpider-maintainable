@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p055K;
 
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.q */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.q */
 /* JADX INFO: loaded from: classes.dex */
 abstract class AbstractC1397q extends AbstractC1399s {
 

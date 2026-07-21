@@ -22,7 +22,7 @@ public final class aby implements aac, Serializable {
         this.f544c = this;
     }
 
-    /* JADX WARN: Type inference failed for: r1v2, types: [com.github.catvod.spider.support.A0.fo, com.github.catvod.spider.support.A0.zy, java.lang.Object] */
+    /* JADX WARN: Type inference failed for: r1v2, types: [com.github.catvod.spider.support.p002A0.fo, com.github.catvod.spider.support.p002A0.zy, java.lang.Object] */
     /* JADX INFO: renamed from: d */
     public final Object m928d() {
         Object objInvoke;

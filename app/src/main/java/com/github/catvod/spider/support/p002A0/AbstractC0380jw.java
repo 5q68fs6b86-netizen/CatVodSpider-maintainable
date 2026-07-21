@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.ArrayList;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jw */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0380jw extends AbstractC0411l {
     /* JADX WARN: Code duplicated, block: B:14:0x005d A[PHI: r8

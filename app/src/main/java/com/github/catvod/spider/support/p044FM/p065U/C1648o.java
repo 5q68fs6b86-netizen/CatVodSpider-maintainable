@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p046B.InterfaceC1294d;
 import com.github.catvod.spider.support.p044FM.p098x.C1950y;
 import com.github.catvod.spider.support.p044FM.p098x.InterfaceC1919E;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.U.o */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p065U.o */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1648o extends C1950y {
 

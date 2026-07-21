@@ -1,10 +1,10 @@
 package com.github.catvod.spider.support.p003AB.p005b;
 
 import com.github.catvod.spider.Init;
-import com.github.catvod.spider.support.AB.d.d;
+import com.github.catvod.spider.support.p003AB.d.d;
 import com.github.catvod.spider.support.p003AB.p007m.C0869c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.r */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.r */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0851r implements Runnable {
 

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p023b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.b.n */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p023b.n */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C1030n {
     /* JADX INFO: renamed from: a */

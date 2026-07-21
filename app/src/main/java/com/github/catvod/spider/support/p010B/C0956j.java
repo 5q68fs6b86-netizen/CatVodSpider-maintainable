@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p116a.C2137a;
 import java.io.IOException;
 import java.io.Writer;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.B.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p010B.j */
 /* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class C0956j extends AbstractC0948b {

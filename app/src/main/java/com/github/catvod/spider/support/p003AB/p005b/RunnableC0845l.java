@@ -1,11 +1,11 @@
 package com.github.catvod.spider.support.p003AB.p005b;
 
 import com.github.catvod.spider.Wogg;
-import com.github.catvod.spider.support.AB.d.d;
+import com.github.catvod.spider.support.p003AB.d.d;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicReference;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.l */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0845l implements Runnable {
 

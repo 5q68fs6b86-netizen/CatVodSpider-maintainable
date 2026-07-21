@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.concurrent.CancellationException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.tr */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tr */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0645tr {
 

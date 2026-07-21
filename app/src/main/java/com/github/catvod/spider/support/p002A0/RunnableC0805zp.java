@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import android.widget.Toast;
 import com.github.catvod.spider.Init;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.zp */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.zp */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0805zp implements Runnable {
 

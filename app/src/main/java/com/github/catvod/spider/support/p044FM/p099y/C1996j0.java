@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p056L.C1434P;
 import com.github.catvod.spider.support.p044FM.p098x.AbstractC1917C;
 import com.github.catvod.spider.support.p044FM.p098x.C1918D;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.j0 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.j0 */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1996j0 extends AbstractC2000l0 implements Comparable<C1996j0> {
 

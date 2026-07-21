@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p137w;
 
 import java.util.Arrays;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.w.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p137w.f */
 /* JADX INFO: loaded from: classes.dex */
 public class C2404f {
 

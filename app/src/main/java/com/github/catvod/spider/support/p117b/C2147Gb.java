@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p117b;
 
 import java.util.Random;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.Gb */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.Gb */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2147Gb {
 

@@ -13,7 +13,7 @@ import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.X509TrustManager;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.m.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p007m.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0873g extends SSLSocketFactory {
 

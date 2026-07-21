@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.io.IOException;
 import java.util.Currency;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.vw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.vw */
 /* JADX INFO: loaded from: classes.dex */
 public class C0704vw extends AbstractC0406kv {
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0406kv

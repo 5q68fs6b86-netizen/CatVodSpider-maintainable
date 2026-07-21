@@ -4,7 +4,7 @@ import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.yy */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.yy */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0787yy extends acs {
     @Override // com.github.catvod.spider.support.p002A0.acs

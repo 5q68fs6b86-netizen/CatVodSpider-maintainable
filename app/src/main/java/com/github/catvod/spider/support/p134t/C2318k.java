@@ -1,13 +1,13 @@
 package com.github.catvod.spider.support.p134t;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.k */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2318k extends C2310c {
     public C2318k(InterfaceC2303B interfaceC2303B) {
         super(interfaceC2303B);
     }
 
-    /* JADX WARN: Type inference failed for: r5v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.t.z>] */
+    /* JADX WARN: Type inference failed for: r5v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p134t.z>] */
     @Override // com.github.catvod.spider.support.p134t.C2310c, com.github.catvod.spider.support.p134t.InterfaceC2304C
     /* JADX INFO: renamed from: f */
     public final InterfaceC2333z mo6222f(int i) {
@@ -34,8 +34,8 @@ public final class C2318k extends C2310c {
         return m6239m(i);
     }
 
-    /* JADX WARN: Type inference failed for: r3v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.t.z>] */
-    /* JADX WARN: Type inference failed for: r7v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.t.z>] */
+    /* JADX WARN: Type inference failed for: r3v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p134t.z>] */
+    /* JADX WARN: Type inference failed for: r7v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p134t.z>] */
     /* JADX INFO: renamed from: o */
     protected final InterfaceC2333z m6262o(int i) {
         if (i != 0) {

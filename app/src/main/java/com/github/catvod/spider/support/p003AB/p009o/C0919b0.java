@@ -12,7 +12,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import okhttp3.OkHttpClient;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.b0 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.b0 */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0919b0 {
 

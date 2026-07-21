@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p003AB.p005b;
 
 import com.github.catvod.spider.support.p003AB.p004a.C0816a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.t */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.t */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0853t {
     /* JADX INFO: renamed from: a */

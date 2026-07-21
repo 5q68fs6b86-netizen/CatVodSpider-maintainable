@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p133r;
 
 import com.github.catvod.spider.support.p132q.InterfaceC2295c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.r.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p133r.d */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC2301d {
     /* JADX INFO: renamed from: a */

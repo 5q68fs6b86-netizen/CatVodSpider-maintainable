@@ -8,7 +8,7 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1977a {
 
@@ -46,8 +46,8 @@ public final class C1977a {
         this.f4518f = i2;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.m>] */
-    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.m>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.m>] */
+    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.m>] */
     /* JADX INFO: renamed from: a */
     public final void m4759a(AbstractC2001m abstractC2001m) {
         if (abstractC2001m != null) {
@@ -57,8 +57,8 @@ public final class C1977a {
         this.f4513a.add(abstractC2001m);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.v>] */
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.v>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.v>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.v>] */
     /* JADX INFO: renamed from: b */
     public final AbstractC2019v m4760b(int i) {
         if (this.f4514b.isEmpty()) {
@@ -67,9 +67,9 @@ public final class C1977a {
         return (AbstractC2019v) this.f4514b.get(i);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.m>] */
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.m>] */
-    /* JADX WARN: Type inference failed for: r5v8, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.m>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.m>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.m>] */
+    /* JADX WARN: Type inference failed for: r5v8, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.m>] */
     /* JADX INFO: renamed from: c */
     public final C1285k m4761c(int i, C1918D c1918d) {
         if (i < 0 || i >= this.f4513a.size()) {
@@ -94,7 +94,7 @@ public final class C1977a {
         return c1285k;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.v>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.v>] */
     /* JADX INFO: renamed from: d */
     public final int m4762d() {
         return this.f4514b.size();

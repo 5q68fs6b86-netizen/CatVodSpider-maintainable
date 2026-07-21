@@ -7,7 +7,7 @@ import java.lang.reflect.TypeVariable;
 import java.security.AccessController;
 import java.util.HashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.nx */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.nx */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0489nx extends AbstractC0406kv {
 

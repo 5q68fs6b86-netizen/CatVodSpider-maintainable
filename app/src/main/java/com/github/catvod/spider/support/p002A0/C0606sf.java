@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.sf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.sf */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0606sf {
 

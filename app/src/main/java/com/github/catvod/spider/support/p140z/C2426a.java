@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p140z;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.z.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p140z.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2426a {
 

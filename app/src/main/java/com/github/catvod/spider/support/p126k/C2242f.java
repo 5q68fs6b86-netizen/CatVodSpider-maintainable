@@ -15,7 +15,7 @@ import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
 import javax.net.ssl.X509TrustManager;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.k.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p126k.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2242f extends SSLSocketFactory {
 
@@ -32,7 +32,7 @@ public final class C2242f extends SSLSocketFactory {
     /* JADX INFO: renamed from: c */
     private String[] f5601c;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.k.f$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p126k.f$a */
     final class a implements X509TrustManager {
         a() {
         }

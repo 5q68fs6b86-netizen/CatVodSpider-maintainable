@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p128m;
 
 import com.github.catvod.spider.support.p116a.C2139c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2259b {
 

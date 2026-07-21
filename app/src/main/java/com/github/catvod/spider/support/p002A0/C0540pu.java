@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.pu */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.pu */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0540pu implements Iterator {
 

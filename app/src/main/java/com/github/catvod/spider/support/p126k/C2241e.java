@@ -10,11 +10,11 @@ import okhttp3.ResponseBody;
 import okio.BufferedSource;
 import okio.Okio;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.k.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p126k.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2241e implements Interceptor {
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.k.e$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p126k.e$a */
     final class a extends ResponseBody {
 
         /* JADX INFO: renamed from: a */

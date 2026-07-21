@@ -8,7 +8,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.fw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.fw */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0272fw implements Cloneable {
 

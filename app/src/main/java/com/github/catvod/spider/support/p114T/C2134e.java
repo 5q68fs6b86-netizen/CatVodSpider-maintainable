@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p114T;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.T.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p114T.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2134e {
 
@@ -10,7 +10,7 @@ public final class C2134e {
     /* JADX INFO: renamed from: b */
     private static boolean f5001b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.T.e$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p114T.e$a */
     private static final class a extends SecurityManager {
         a() {
         }

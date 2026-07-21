@@ -5,7 +5,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.vp */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.vp */
 /* JADX INFO: loaded from: classes.dex */
 public final class ExecutorC0697vp extends AbstractC0448mj implements InterfaceC0394kj, Executor {
 

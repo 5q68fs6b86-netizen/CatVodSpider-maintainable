@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.atomic.AtomicLongFieldUpdater;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ox */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ox */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0516ox extends AbstractC0448mj {
 

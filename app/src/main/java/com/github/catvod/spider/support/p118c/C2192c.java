@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.c.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2192c {
 
@@ -82,7 +82,7 @@ public final class C2192c {
     @SerializedName("errMsg")
     private String f5293p;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.c.c$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.c$a */
     class a extends TypeToken<LinkedHashMap<String, List<C2191b>>> {
         a() {
         }

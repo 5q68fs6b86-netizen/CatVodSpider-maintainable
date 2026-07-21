@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p125j;
 import android.view.View;
 import com.github.catvod.debug.MainActivity;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.j.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p125j.b */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class ViewOnClickListenerC2228b implements View.OnClickListener {
 

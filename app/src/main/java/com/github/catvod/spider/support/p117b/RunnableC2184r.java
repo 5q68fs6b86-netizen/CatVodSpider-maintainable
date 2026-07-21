@@ -7,7 +7,7 @@ import com.github.catvod.spider.support.p128m.C2268k;
 import java.io.File;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.r */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.r */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC2184r implements Runnable {
 

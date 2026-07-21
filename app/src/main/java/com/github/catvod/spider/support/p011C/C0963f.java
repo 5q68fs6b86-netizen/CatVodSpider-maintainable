@@ -4,7 +4,7 @@ import java.util.TimeZone;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0963f {
 

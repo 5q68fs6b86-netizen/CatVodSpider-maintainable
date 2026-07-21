@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p101G;
 import com.github.catvod.spider.support.p041D.C1268c;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2031c extends C2044p {
     public C2031c(String str) {

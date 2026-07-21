@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p046B;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.B.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p046B.b */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC1292b {
     /* JADX INFO: renamed from: b */

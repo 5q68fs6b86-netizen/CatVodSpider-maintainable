@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p011C;
 
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p011C.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0958a {
 

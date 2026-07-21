@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p053I;
 
 import javax.annotation.Nullable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.I.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p053I.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1377c {
     private C1377c() {

@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.pw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.pw */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0542pw extends AbstractC0528pi {
 

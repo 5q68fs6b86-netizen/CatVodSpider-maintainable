@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p022a0;
 import java.nio.charset.Charset;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.a0.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p022a0.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1016b {
 

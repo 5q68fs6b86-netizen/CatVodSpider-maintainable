@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.uh */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.uh */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0662uh implements Iterator, InterfaceC0717wi {
 
@@ -22,7 +22,7 @@ public final class C0662uh implements Iterator, InterfaceC0717wi {
         return this.f1567a.hasNext();
     }
 
-    /* JADX WARN: Type inference failed for: r0v1, types: [com.github.catvod.spider.support.A0.qw, com.github.catvod.spider.support.A0.zy] */
+    /* JADX WARN: Type inference failed for: r0v1, types: [com.github.catvod.spider.support.p002A0.qw, com.github.catvod.spider.support.p002A0.zy] */
     @Override // java.util.Iterator
     public final Object next() {
         return this.f1568b.f575b.invoke(this.f1567a.next());

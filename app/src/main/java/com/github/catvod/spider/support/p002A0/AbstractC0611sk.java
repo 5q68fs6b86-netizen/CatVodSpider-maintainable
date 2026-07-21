@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.math.BigDecimal;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.sk */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.sk */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0611sk {
 

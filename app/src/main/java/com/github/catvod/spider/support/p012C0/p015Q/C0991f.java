@@ -1,8 +1,8 @@
 package com.github.catvod.spider.support.p012C0.p015Q;
 
-import com.github.catvod.spider.support.C0.Q.X;
-import com.github.catvod.spider.support.C0.Q.b;
-import com.github.catvod.spider.support.C0.Q.e;
+import com.github.catvod.spider.support.p012C0.p015Q.X;
+import com.github.catvod.spider.support.p012C0.p015Q.b;
+import com.github.catvod.spider.support.p012C0.p015Q.e;
 import com.github.catvod.spider.support.p012C0.p017S.C1000c;
 import java.util.ArrayList;
 import java.util.BitSet;
@@ -11,7 +11,7 @@ import java.util.IdentityHashMap;
 import java.util.Iterator;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.Q.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p015Q.f */
 /* JADX INFO: loaded from: classes.dex */
 public class C0991f implements Set<b> {
 

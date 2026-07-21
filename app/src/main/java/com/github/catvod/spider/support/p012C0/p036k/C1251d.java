@@ -12,7 +12,7 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.k.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p036k.d */
 /* JADX INFO: loaded from: classes.dex */
 final class C1251d {
 

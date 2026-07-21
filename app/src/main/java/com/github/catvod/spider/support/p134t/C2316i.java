@@ -6,7 +6,7 @@ import com.github.catvod.spider.support.p137w.C2406h;
 import com.github.catvod.spider.support.p137w.C2409k;
 import java.io.Serializable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.i */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2316i implements InterfaceC2307F, Serializable {
 

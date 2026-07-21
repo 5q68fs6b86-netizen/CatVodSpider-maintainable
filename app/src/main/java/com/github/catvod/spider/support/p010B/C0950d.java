@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p010B;
 
 import java.lang.reflect.Array;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.B.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p010B.d */
 /* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class C0950d {

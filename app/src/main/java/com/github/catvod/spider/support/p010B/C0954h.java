@@ -7,7 +7,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.EnumSet;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.B.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p010B.h */
 /* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class C0954h extends AbstractC0948b {
@@ -15,7 +15,7 @@ public final class C0954h extends AbstractC0948b {
     /* JADX INFO: renamed from: b */
     private final EnumSet<a> f2254b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.B.h$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p010B.h$a */
     public enum a {
         semiColonRequired,
         /* JADX INFO: Fake field, exist only in values array */

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.nio.charset.Charset;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.sg */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.sg */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0607sg {
 

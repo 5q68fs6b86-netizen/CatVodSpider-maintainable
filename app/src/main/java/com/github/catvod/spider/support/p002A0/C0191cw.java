@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.LinkedList;
 import java.util.Objects;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.cw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.cw */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0191cw {
 

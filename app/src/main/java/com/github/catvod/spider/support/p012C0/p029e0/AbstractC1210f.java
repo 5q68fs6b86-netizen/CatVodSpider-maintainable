@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p029e0;
 
 import java.util.ArrayList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.f */
 /* JADX INFO: loaded from: classes.dex */
 abstract class AbstractC1210f extends AbstractC1193N {
 

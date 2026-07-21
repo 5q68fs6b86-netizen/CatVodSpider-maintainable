@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p039r;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.r.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p039r.b */
 /* JADX INFO: loaded from: classes.dex */
 public enum EnumC1262b {
     ERROR_CORRECTION,

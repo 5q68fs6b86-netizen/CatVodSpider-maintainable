@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p057M;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.M.D */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p057M.D */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1522D extends C1528J {
     public C1522D() {

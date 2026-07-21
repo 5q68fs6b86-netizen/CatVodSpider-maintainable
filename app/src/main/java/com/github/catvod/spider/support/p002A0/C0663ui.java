@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ui */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ui */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0663ui extends AbstractC0346ip {
 

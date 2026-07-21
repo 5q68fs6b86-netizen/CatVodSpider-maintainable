@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p012C0.p013N.C0966a;
 import com.github.catvod.spider.support.p012C0.p024b0.C1034b;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.i */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1050i extends AbstractC1057p {
     public C1050i(String str, String str2, String str3) {

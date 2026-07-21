@@ -7,7 +7,7 @@ import com.google.zxing.MultiFormatWriter;
 import com.google.zxing.common.BitMatrix;
 import java.util.EnumMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.m */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2270m {
     /* JADX INFO: renamed from: a */

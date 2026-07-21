@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p053I.C1377c;
 import com.github.catvod.spider.support.p044FM.p054J.C1380b;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.i */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1389i extends AbstractC1397q {
     public C1389i(String str, String str2, String str3) {

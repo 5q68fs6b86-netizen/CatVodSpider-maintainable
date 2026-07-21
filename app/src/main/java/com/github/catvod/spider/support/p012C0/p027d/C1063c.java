@@ -1,13 +1,13 @@
 package com.github.catvod.spider.support.p012C0.p027d;
 
 import android.util.Base64;
-import com.github.catvod.spider.support.C0.d.a;
+import com.github.catvod.spider.support.p012C0.p027d.a;
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 import java.util.HashMap;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p027d.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1063c {
 

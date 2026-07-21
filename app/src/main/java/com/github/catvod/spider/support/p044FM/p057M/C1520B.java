@@ -6,7 +6,7 @@ import com.github.catvod.spider.support.p044FM.p055K.C1389i;
 import com.github.catvod.spider.support.p044FM.p055K.C1393m;
 import com.github.catvod.spider.support.p044FM.p055K.C1403w;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.M.B */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p057M.B */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1520B extends AbstractC1532N {
     @Override // com.github.catvod.spider.support.p044FM.p057M.AbstractC1532N

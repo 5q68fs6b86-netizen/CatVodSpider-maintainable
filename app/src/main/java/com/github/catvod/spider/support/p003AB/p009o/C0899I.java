@@ -1,9 +1,9 @@
 package com.github.catvod.spider.support.p003AB.p009o;
 
 import android.graphics.Bitmap;
-import com.github.catvod.spider.support.AB.K.m;
-import com.github.catvod.spider.support.AB.M.g;
-import com.github.catvod.spider.support.AB.V.e;
+import com.github.catvod.spider.support.p003AB.K.m;
+import com.github.catvod.spider.support.p003AB.M.g;
+import com.github.catvod.spider.support.p003AB.V.e;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
@@ -11,7 +11,7 @@ import com.google.zxing.common.BitMatrix;
 import java.util.EnumMap;
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.I */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.I */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0899I {
 

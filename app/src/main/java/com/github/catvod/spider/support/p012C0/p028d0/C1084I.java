@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 import com.github.catvod.spider.support.p012C0.p023b.C1030n;
 import com.github.catvod.spider.support.p012C0.p027d.C1064d;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.I */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.I */
 /* JADX INFO: loaded from: classes.dex */
 final class C1084I extends AbstractC1096O {
 

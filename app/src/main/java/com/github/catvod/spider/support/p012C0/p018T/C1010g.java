@@ -1,9 +1,9 @@
 package com.github.catvod.spider.support.p012C0.p018T;
 
-import com.github.catvod.spider.support.C0.T.d;
+import com.github.catvod.spider.support.p012C0.p018T.d;
 import com.github.catvod.spider.support.p012C0.p014P.InterfaceC0969D;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.T.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p018T.g */
 /* JADX INFO: loaded from: classes.dex */
 public class C1010g implements InterfaceC1009f {
 

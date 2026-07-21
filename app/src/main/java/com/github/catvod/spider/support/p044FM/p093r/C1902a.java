@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p093r;
 import com.whl.quickjs.android.QuickJSLoader;
 import com.whl.quickjs.wrapper.JSCallFunction;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.r.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p093r.a */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C1902a implements JSCallFunction {
 

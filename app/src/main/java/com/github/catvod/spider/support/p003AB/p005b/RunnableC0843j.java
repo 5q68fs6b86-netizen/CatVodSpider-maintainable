@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p003AB.p005b;
 import java.util.Map;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.j */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0843j implements Runnable {
 

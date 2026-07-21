@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p117b;
 
 import com.github.catvod.spider.support.p128m.C2268k;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.Gc */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.Gc */
 /* JADX INFO: loaded from: classes.dex */
 public class RunnableC2148Gc implements Runnable {
 

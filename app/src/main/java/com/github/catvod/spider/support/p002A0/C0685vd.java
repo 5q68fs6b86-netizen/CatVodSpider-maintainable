@@ -5,7 +5,7 @@ import java.io.Serializable;
 import java.util.ArrayDeque;
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.vd */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.vd */
 /* JADX INFO: loaded from: classes.dex */
 public class C0685vd extends AbstractC0406kv {
     /* JADX INFO: renamed from: a */

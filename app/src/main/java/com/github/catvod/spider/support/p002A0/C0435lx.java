@@ -9,7 +9,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.lx */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.lx */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0435lx extends Format {
 

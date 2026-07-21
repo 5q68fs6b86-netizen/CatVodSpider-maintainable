@@ -5,7 +5,7 @@ import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.IntBuffer;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2313f {
 
@@ -21,7 +21,7 @@ public final class C2313f {
     /* JADX INFO: renamed from: d */
     private final IntBuffer f5737d;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.t.f$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.f$a */
     public static class a {
 
         /* JADX INFO: renamed from: b */

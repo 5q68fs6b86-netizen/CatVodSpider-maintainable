@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.rm */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.rm */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0586rm extends C0706vy {
     @Override // com.github.catvod.spider.support.p002A0.C0706vy

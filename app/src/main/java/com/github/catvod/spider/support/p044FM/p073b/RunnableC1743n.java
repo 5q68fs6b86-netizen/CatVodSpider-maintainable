@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p073b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.n */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.n */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1743n implements Runnable {
 

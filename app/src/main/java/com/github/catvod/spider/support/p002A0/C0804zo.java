@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.zo */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.zo */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0804zo extends C0341ik implements InterfaceC0681v {
     @Override // com.github.catvod.spider.support.p002A0.InterfaceC0681v

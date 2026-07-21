@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p136v;
 
 import java.util.Comparator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.v.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p136v.a */
 /* JADX INFO: loaded from: classes.dex */
 final class C2395a implements Comparator<C2398d> {
     C2395a() {

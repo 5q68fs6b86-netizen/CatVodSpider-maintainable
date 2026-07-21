@@ -4,7 +4,7 @@ import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.IntBuffer;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.sq */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.sq */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0617sq {
 

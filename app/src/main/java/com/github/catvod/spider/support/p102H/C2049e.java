@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p102H;
 
 import java.util.ArrayList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.H.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p102H.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2049e extends ArrayList<C2048d> {
 

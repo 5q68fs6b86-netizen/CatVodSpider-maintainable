@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.Locale;
 import java.util.concurrent.CancellationException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.qf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.qf */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0552qf {
 

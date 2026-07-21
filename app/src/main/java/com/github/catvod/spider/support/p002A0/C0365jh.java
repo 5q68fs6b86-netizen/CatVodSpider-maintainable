@@ -7,7 +7,7 @@ import java.lang.reflect.Type;
 import java.util.Arrays;
 import java.util.Objects;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jh */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jh */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0365jh implements ParameterizedType, Serializable {
 

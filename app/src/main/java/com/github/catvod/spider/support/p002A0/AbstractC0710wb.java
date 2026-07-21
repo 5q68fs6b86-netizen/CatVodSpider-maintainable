@@ -5,7 +5,7 @@ import java.util.BitSet;
 import java.util.HashMap;
 import okio.Path;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.wb */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.wb */
 /* JADX INFO: loaded from: classes.dex */
 public abstract /* synthetic */ class AbstractC0710wb {
 

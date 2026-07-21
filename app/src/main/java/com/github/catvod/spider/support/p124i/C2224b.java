@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.Collections;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.i.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p124i.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2224b {
 
@@ -18,7 +18,7 @@ public final class C2224b {
     @SerializedName("metadata")
     private b f5558b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.i.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p124i.b$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */
@@ -39,7 +39,7 @@ public final class C2224b {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.i.b$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p124i.b$b */
     public static class b {
 
         /* JADX INFO: renamed from: a */

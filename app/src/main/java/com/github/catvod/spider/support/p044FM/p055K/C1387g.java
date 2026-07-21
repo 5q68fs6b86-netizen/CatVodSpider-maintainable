@@ -5,7 +5,7 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import javax.annotation.Nullable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1387g implements Cloneable {
 

@@ -5,7 +5,7 @@ import java.lang.reflect.Type;
 import java.util.EnumMap;
 import java.util.EnumSet;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.xc */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.xc */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0738xc implements InterfaceC0656ub {
 

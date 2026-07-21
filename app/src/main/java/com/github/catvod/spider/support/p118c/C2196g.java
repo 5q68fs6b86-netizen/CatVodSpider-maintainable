@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p118c;
 
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.c.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.g */
 /* JADX INFO: loaded from: classes.dex */
 public class C2196g {
     private String key;

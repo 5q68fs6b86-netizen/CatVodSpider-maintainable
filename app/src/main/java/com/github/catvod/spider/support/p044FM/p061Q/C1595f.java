@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p061Q;
 
 import com.google.protobuf.DescriptorProtos;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.Q.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p061Q.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1595f extends AbstractC1591b {
 

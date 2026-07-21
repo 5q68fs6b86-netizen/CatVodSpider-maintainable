@@ -41,7 +41,7 @@ import okhttp3.Response;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.C */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.C */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1715C {
 
@@ -678,7 +678,7 @@ public final class C1715C {
             linearLayout2.addView(editText2);
             linearLayout.addView(imageView);
             linearLayout.addView(linearLayout2);
-            this.f3761b = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入123云盘的密码或者扫描下面的二维码进行填写").setView(linearLayout).setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.b.y
+            this.f3761b = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入123云盘的密码或者扫描下面的二维码进行填写").setView(linearLayout).setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p073b.y
                 @Override // android.content.DialogInterface.OnClickListener
                 public final void onClick(DialogInterface dialogInterface, int i3) {
                     switch (i) {
@@ -690,7 +690,7 @@ public final class C1715C {
                             break;
                     }
                 }
-            }).setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.FM.b.z
+            }).setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() { // from class: com.github.catvod.spider.support.p044FM.p073b.z
                 @Override // android.content.DialogInterface.OnClickListener
                 public final void onClick(DialogInterface dialogInterface, int i3) {
                     C1715C.m3999c(this.f3863a, editText, editText2);

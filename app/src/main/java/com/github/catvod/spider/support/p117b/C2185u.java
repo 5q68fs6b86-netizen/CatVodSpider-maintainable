@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p117b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.u */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.u */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2185u {
     /* JADX INFO: renamed from: a */

@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p127l;
 import java.io.File;
 import java.util.Comparator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.l.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p127l.e */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C2245e implements Comparator {
 

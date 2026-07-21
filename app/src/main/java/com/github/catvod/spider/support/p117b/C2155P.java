@@ -30,12 +30,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.P */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.P */
 /* JADX INFO: loaded from: classes.dex */
 public class C2155P {
     private static String vodname;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.P$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.P$a */
     private static final class a {
 
         /* JADX INFO: renamed from: a */

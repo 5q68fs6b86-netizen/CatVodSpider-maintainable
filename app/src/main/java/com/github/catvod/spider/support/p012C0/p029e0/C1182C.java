@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p029e0;
 import com.github.catvod.spider.support.p012C0.p026c0.C1049h;
 import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.C */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.C */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1182C extends AbstractC1193N {
 

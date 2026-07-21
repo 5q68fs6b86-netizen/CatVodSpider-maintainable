@@ -15,7 +15,7 @@ import java.io.StringWriter;
 import java.io.Writer;
 import java.lang.reflect.Array;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.y.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p139y.e */
 /* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class C2422e {
@@ -26,7 +26,7 @@ public final class C2422e {
     /* JADX INFO: renamed from: b */
     public static final C0947a f5976b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.y.e$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p139y.e$a */
     static class a extends AbstractC0948b {
 
         /* JADX INFO: renamed from: b */
@@ -84,7 +84,7 @@ public final class C2422e {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.y.e$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p139y.e$b */
     static class b extends AbstractC0948b {
 
         /* JADX INFO: renamed from: b */

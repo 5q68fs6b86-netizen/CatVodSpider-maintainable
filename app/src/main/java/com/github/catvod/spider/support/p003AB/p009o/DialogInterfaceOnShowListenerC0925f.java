@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p003AB.p009o;
 
 import android.content.DialogInterface;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.f */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnShowListenerC0925f implements DialogInterface.OnShowListener {
 

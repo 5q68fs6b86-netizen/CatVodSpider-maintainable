@@ -5,7 +5,7 @@ import android.widget.EditText;
 import com.github.catvod.spider.Init;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.o */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.o */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnClickListenerC2272o implements DialogInterface.OnClickListener {
 
@@ -39,7 +39,7 @@ public final /* synthetic */ class DialogInterfaceOnClickListenerC2272o implemen
                 final EditText editText = (EditText) this.f5671c;
                 final EditText editText2 = (EditText) this.f5672d;
                 c2253g.getClass();
-                Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.m.u
+                Init.execute(new Runnable() { // from class: com.github.catvod.spider.support.p128m.u
                     @Override // java.lang.Runnable
                     public final void run() {
                         C2253G.m6085c(c2253g, editText, editText2);

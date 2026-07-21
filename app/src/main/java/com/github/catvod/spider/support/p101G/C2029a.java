@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.regex.Pattern;
 import javax.annotation.Nullable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2029a implements Map.Entry<String, String>, Cloneable {
 

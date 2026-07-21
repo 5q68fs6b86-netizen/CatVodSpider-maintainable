@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p099y;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.w */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.w */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2020w extends C2004n0 {
     public C2020w() {

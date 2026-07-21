@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p029e0;
 
 import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.x */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.x */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1228x extends AbstractC1227w {
     public C1228x(int i) {

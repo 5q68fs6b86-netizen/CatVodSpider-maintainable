@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.eg */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.eg */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0229eg implements Map, Serializable, InterfaceC0717wi {
 

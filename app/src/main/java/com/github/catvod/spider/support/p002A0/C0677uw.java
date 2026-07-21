@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.lang.reflect.Field;
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.uw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.uw */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0677uw extends EnumC0252fc {
     public C0677uw() {

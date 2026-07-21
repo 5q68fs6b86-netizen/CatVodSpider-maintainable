@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p046B.InterfaceC1293c;
 import com.github.catvod.spider.support.p044FM.p046B.InterfaceC1294d;
 import com.github.catvod.spider.support.p044FM.p098x.C1950y;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.U.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p065U.l */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1645l extends C1950y {
     public C1645l(C1950y c1950y, int i) {

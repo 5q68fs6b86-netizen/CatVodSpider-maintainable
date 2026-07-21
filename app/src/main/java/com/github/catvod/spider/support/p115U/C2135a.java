@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p115U;
 
 import java.io.PrintStream;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.U.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p115U.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2135a extends Exception {
 

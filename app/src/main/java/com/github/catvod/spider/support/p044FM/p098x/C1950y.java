@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.x.y */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p098x.y */
 /* JADX INFO: loaded from: classes.dex */
 public class C1950y extends C1918D {
 
@@ -27,8 +27,8 @@ public class C1950y extends C1918D {
         super(c1950y, i);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p046B.b>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p046B.b>] */
     @Override // com.github.catvod.spider.support.p044FM.p098x.C1918D, com.github.catvod.spider.support.p044FM.p046B.InterfaceC1292b
     /* JADX INFO: renamed from: c */
     public final InterfaceC1292b mo3233c(int i) {
@@ -39,7 +39,7 @@ public class C1950y extends C1918D {
         return (InterfaceC1292b) this.f4458d.get(i);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p046B.b>] */
     @Override // com.github.catvod.spider.support.p044FM.p098x.C1918D, com.github.catvod.spider.support.p044FM.p046B.InterfaceC1292b
     /* JADX INFO: renamed from: d */
     public final int mo3234d() {
@@ -68,8 +68,8 @@ public class C1950y extends C1918D {
     public void mo3832i(InterfaceC1293c interfaceC1293c) {
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p046B.b>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p046B.b>] */
     /* JADX INFO: renamed from: j */
     public final C1950y m4710j(Class cls) {
         InterfaceC1292b interfaceC1292b;
@@ -87,7 +87,7 @@ public class C1950y extends C1918D {
         return (C1950y) interfaceC1292b;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p046B.b>] */
     /* JADX INFO: renamed from: k */
     public final <T extends C1950y> List<T> m4711k(Class<? extends T> cls) {
         Object r0 = this.f4458d;
@@ -106,8 +106,8 @@ public class C1950y extends C1918D {
         return arrayList == null ? Collections.emptyList() : arrayList;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.B.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p046B.b>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p046B.b>] */
     /* JADX INFO: renamed from: l */
     public final InterfaceC1296f m4712l(int i) {
         Object r0 = this.f4458d;

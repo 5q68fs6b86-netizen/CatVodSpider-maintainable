@@ -13,7 +13,7 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.L.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p106L.f */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2078f implements Comparable<C2078f> {
 

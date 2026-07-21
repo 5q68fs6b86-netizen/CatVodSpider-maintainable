@@ -13,7 +13,7 @@ import java.util.Iterator;
 import java.util.List;
 import javax.annotation.Nullable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2030b implements Iterable<C2029a>, Cloneable {
 
@@ -26,7 +26,7 @@ public final class C2030b implements Iterable<C2029a>, Cloneable {
     /* JADX INFO: renamed from: c */
     Object[] f4612c = new Object[3];
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.G.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.b$a */
     final class a implements Iterator<C2029a> {
 
         /* JADX INFO: renamed from: a */

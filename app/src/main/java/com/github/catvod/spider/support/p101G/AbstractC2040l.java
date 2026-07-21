@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p101G;
 
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.l */
 /* JADX INFO: loaded from: classes.dex */
 abstract class AbstractC2040l extends AbstractC2041m {
     private static boolean hasReplaced;

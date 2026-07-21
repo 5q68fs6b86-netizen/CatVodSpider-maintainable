@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p012C0.p026c0.C1049h;
 import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.I */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.I */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1188I extends AbstractC1193N {
     @Override // com.github.catvod.spider.support.p012C0.p029e0.AbstractC1193N

@@ -4,11 +4,11 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.util.zip.ZipException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.a.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.f */
 /* JADX INFO: loaded from: classes.dex */
 final class C2142f {
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.a.f$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p116a.f$a */
     static class a {
 
         /* JADX INFO: renamed from: a */

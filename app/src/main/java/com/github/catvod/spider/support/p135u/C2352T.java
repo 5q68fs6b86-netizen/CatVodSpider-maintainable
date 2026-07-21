@@ -3,15 +3,15 @@ package com.github.catvod.spider.support.p135u;
 import java.util.HashMap;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.T */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.T */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2352T {
 
     /* JADX INFO: renamed from: a */
     protected final Map<AbstractC2351S, AbstractC2351S> f5829a = new HashMap();
 
-    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.HashMap, java.util.Map<com.github.catvod.spider.support.u.S, com.github.catvod.spider.support.u.S>] */
-    /* JADX WARN: Type inference failed for: r0v4, types: [java.util.HashMap, java.util.Map<com.github.catvod.spider.support.u.S, com.github.catvod.spider.support.u.S>] */
+    /* JADX WARN: Type inference failed for: r0v1, types: [java.util.HashMap, java.util.Map<com.github.catvod.spider.support.p135u.S, com.github.catvod.spider.support.p135u.S>] */
+    /* JADX WARN: Type inference failed for: r0v4, types: [java.util.HashMap, java.util.Map<com.github.catvod.spider.support.p135u.S, com.github.catvod.spider.support.p135u.S>] */
     /* JADX INFO: renamed from: a */
     public final AbstractC2351S m6337a(AbstractC2351S abstractC2351S) {
         C2387s c2387s = AbstractC2351S.f5827b;

@@ -39,7 +39,7 @@ import java.util.regex.Pattern;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.j */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.j */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2176j {
     private static Map<String, String> bdclndMap;
@@ -77,7 +77,7 @@ public final class C2176j {
     /* JADX INFO: renamed from: c */
     private HashMap f5213c = new HashMap();
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.b.j$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.j$a */
     private static class a {
 
         /* JADX INFO: renamed from: a */

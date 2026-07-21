@@ -10,7 +10,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.k */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2268k {
     /* JADX INFO: renamed from: a */

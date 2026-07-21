@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.I.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p103I.b */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC2059b extends AbstractC2061d {
 
@@ -17,7 +17,7 @@ public abstract class AbstractC2059b extends AbstractC2061d {
     /* JADX INFO: renamed from: a */
     final ArrayList<AbstractC2061d> f4908a = new ArrayList<>();
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.I.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p103I.b$a */
     public static final class a extends AbstractC2059b {
         a(Collection<AbstractC2061d> collection) {
             this.f4908a.addAll(collection);
@@ -44,7 +44,7 @@ public abstract class AbstractC2059b extends AbstractC2061d {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.I.b$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p103I.b$b */
     public static final class b extends AbstractC2059b {
         b() {
         }

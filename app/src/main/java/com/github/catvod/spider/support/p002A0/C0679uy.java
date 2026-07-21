@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.uy */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.uy */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0679uy extends EnumC0709wa {
     public C0679uy() {

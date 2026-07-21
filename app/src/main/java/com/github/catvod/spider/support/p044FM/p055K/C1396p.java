@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p055K;
 import com.github.catvod.spider.support.p044FM.p056L.C1416G;
 import com.github.catvod.spider.support.p044FM.p057M.C1551g;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.p */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.p */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1396p extends C1393m {
 

@@ -16,7 +16,7 @@ import android.widget.Toast;
 import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.spider.Init;
 import com.github.catvod.spider.Proxy;
-import com.github.catvod.spider.support.C0.d.b;
+import com.github.catvod.spider.support.p012C0.p027d.b;
 import com.github.catvod.spider.support.p012C0.p013N.C0966a;
 import com.github.catvod.spider.support.p012C0.p025c.C1038d;
 import com.github.catvod.spider.support.p012C0.p025c.C1039e;
@@ -48,7 +48,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.b.p */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p023b.p */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1032p {
 
@@ -285,7 +285,7 @@ public final class C1032p {
                 m2564N();
                 int i = C1247o.f2943a;
                 if (Init.context().getPackageManager().hasSystemFeature("android.hardware.camera.any") && Init.context().getPackageManager().hasSystemFeature("android.hardware.telephony") && Init.context().getPackageManager().hasSystemFeature("android.hardware.bluetooth")) {
-                    Init.run(new Runnable(this) { // from class: com.github.catvod.spider.support.C0.b.a
+                    Init.run(new Runnable(this) { // from class: com.github.catvod.spider.support.p012C0.p023b.a
 
                         /* JADX INFO: renamed from: c */
                         public final C1032p f2479c;
@@ -329,7 +329,7 @@ public final class C1032p {
     /* JADX INFO: renamed from: M */
     public void m2563M() {
         final C1063c c1063cM2769c = C1063c.m2766g(C1234b.m3052h("https://passport.aliyundrive.com/newlogin/qrcode/generate.do?appName=aliyun_drive&fromSite=52&appName=aliyun_drive&appEntrance=web&isMobile=false&lang=zh_CN&returnUrl=&bizParams=&_bx-v=2.2.3", null, null)).m2768b().m2769c();
-        Init.run(new Runnable(this, c1063cM2769c) { // from class: com.github.catvod.spider.support.C0.b.b
+        Init.run(new Runnable(this, c1063cM2769c) { // from class: com.github.catvod.spider.support.p012C0.p023b.b
 
             /* JADX INFO: renamed from: c */
             public final C1032p f2480c;
@@ -354,7 +354,7 @@ public final class C1032p {
 
     /* JADX INFO: renamed from: N */
     private void m2564N() {
-        Init.run(new Runnable(this) { // from class: com.github.catvod.spider.support.C0.b.m
+        Init.run(new Runnable(this) { // from class: com.github.catvod.spider.support.p012C0.p023b.m
 
             /* JADX INFO: renamed from: c */
             public final C1032p f2499c;
@@ -392,7 +392,7 @@ public final class C1032p {
             frameLayout.addView(imageView, layoutParams);
             linearLayout.addView(frameLayout);
             linearLayout.addView(textView);
-            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(linearLayout).setOnCancelListener(new DialogInterface.OnCancelListener(c1032p, c1063c) { // from class: com.github.catvod.spider.support.C0.b.e
+            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(linearLayout).setOnCancelListener(new DialogInterface.OnCancelListener(c1032p, c1063c) { // from class: com.github.catvod.spider.support.p012C0.p023b.e
 
                 /* JADX INFO: renamed from: a */
                 public final C1032p f2486a;
@@ -410,7 +410,7 @@ public final class C1032p {
                     C1032p c1032p2 = this.f2486a;
                     C1063c c1063c2 = this.f2487b;
                     c1032p2.getClass();
-                    Init.execute(new Runnable(c1032p2, c1063c2) { // from class: com.github.catvod.spider.support.C0.b.c
+                    Init.execute(new Runnable(c1032p2, c1063c2) { // from class: com.github.catvod.spider.support.p012C0.p023b.c
 
                         /* JADX INFO: renamed from: c */
                         public final C1032p f2482c;
@@ -429,7 +429,7 @@ public final class C1032p {
                         }
                     });
                 }
-            }).setOnDismissListener(new DialogInterface.OnDismissListener(c1032p) { // from class: com.github.catvod.spider.support.C0.b.h
+            }).setOnDismissListener(new DialogInterface.OnDismissListener(c1032p) { // from class: com.github.catvod.spider.support.p012C0.p023b.h
 
                 /* JADX INFO: renamed from: a */
                 public final C1032p f2491a;
@@ -454,7 +454,7 @@ public final class C1032p {
         c1032p.getClass();
         final String string = editText.getText().toString();
         c1032p.m2578n();
-        Init.execute(new Runnable(c1032p, string) { // from class: com.github.catvod.spider.support.C0.b.d
+        Init.execute(new Runnable(c1032p, string) { // from class: com.github.catvod.spider.support.p012C0.p023b.d
 
             /* JADX INFO: renamed from: c */
             public final C1032p f2484c;
@@ -533,7 +533,7 @@ public final class C1032p {
             FrameLayout frameLayout = new FrameLayout(Init.context());
             final EditText editText = new EditText(Init.context());
             frameLayout.addView(editText, layoutParams);
-            c1032p.f2504c = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入Token").setView(frameLayout).setNeutralButton("扫码", new DialogInterface.OnClickListener(c1032p) { // from class: com.github.catvod.spider.support.C0.b.f
+            c1032p.f2504c = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入Token").setView(frameLayout).setNeutralButton("扫码", new DialogInterface.OnClickListener(c1032p) { // from class: com.github.catvod.spider.support.p012C0.p023b.f
 
                 /* JADX INFO: renamed from: a */
                 public final C1032p f2488a;
@@ -546,7 +546,7 @@ public final class C1032p {
                 public final void onClick(DialogInterface dialogInterface, int i) {
                     C1032p.m2574j(this.f2488a);
                 }
-            }).setNegativeButton(R.string.cancel, (DialogInterface.OnClickListener) null).setPositiveButton(R.string.ok, new DialogInterface.OnClickListener(c1032p, editText) { // from class: com.github.catvod.spider.support.C0.b.g
+            }).setNegativeButton(R.string.cancel, (DialogInterface.OnClickListener) null).setPositiveButton(R.string.ok, new DialogInterface.OnClickListener(c1032p, editText) { // from class: com.github.catvod.spider.support.p012C0.p023b.g
 
                 /* JADX INFO: renamed from: a */
                 public final C1032p f2489a;
@@ -793,7 +793,7 @@ public final class C1032p {
             Init.execute(runnableC1028l);
             return string;
         } catch (Throwable th) {
-            Init.execute(new Runnable(this, i) { // from class: com.github.catvod.spider.support.C0.b.j
+            Init.execute(new Runnable(this, i) { // from class: com.github.catvod.spider.support.p012C0.p023b.j
 
                 /* JADX INFO: renamed from: c */
                 public final int f2494c;
@@ -884,7 +884,7 @@ public final class C1032p {
             } catch (Exception e) {
                 e.printStackTrace();
                 jSONObject = new JSONObject();
-                Init.execute(new Runnable(this, i) { // from class: com.github.catvod.spider.support.C0.b.k
+                Init.execute(new Runnable(this, i) { // from class: com.github.catvod.spider.support.p012C0.p023b.k
 
                     /* JADX INFO: renamed from: c */
                     public final int f2496c;

@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.util.Arrays;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.rd */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.rd */
 /* JADX INFO: loaded from: classes.dex */
 public class C0577rd implements Closeable {
 

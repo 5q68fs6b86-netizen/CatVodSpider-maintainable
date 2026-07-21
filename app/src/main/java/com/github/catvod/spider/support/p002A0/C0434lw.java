@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.lw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.lw */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0434lw implements InterfaceC0698vq, Cloneable {
 

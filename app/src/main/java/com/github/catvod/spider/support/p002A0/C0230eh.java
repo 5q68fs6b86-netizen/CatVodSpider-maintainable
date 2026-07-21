@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.ListIterator;
 import java.util.RandomAccess;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.eh */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.eh */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0230eh implements List, Serializable, RandomAccess, InterfaceC0717wi {
 

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.n.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p129n.d */
 /* JADX INFO: loaded from: classes.dex */
 final class C2287d implements InterfaceC2289f {
 
@@ -56,13 +56,13 @@ final class C2287d implements InterfaceC2289f {
         }
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.n.b>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p129n.b>] */
     /* JADX INFO: renamed from: b */
     public final void m6189b(InterfaceC2285b interfaceC2285b) {
         this.f5710b.add(interfaceC2285b);
     }
 
-    /* JADX WARN: Type inference failed for: r0v3, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.n.b>] */
+    /* JADX WARN: Type inference failed for: r0v3, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p129n.b>] */
     /* JADX INFO: renamed from: c */
     public final synchronized void m6190c(String str, String str2) {
         boolean z;

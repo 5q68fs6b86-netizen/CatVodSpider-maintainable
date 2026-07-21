@@ -8,7 +8,7 @@ import com.github.catvod.spider.support.p128m.C2268k;
 import java.io.File;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.e */
 /* JADX INFO: loaded from: classes.dex */
 public class DialogInterfaceOnClickListenerC0092e implements DialogInterface.OnClickListener {
     @Override // android.content.DialogInterface.OnClickListener

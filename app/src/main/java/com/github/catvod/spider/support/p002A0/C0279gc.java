@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Calendar;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.gc */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.gc */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0279gc implements InterfaceC0159br {
 

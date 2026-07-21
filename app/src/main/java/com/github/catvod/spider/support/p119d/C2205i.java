@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import java.util.Collections;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.d.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.i */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2205i {
 
@@ -21,7 +21,7 @@ public final class C2205i {
     @SerializedName("file_id")
     private String f5373c;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.d.i$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.i$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */
@@ -47,7 +47,7 @@ public final class C2205i {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.d.i$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.i$b */
     public static class b {
 
         /* JADX INFO: renamed from: a */

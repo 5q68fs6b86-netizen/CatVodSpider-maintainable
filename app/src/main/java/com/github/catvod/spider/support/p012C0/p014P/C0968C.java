@@ -1,11 +1,11 @@
 package com.github.catvod.spider.support.p012C0.p014P;
 
-import com.github.catvod.spider.support.C0.T.d;
+import com.github.catvod.spider.support.p012C0.p018T.d;
 import com.github.catvod.spider.support.p012C0.p018T.InterfaceC1006b;
 import com.github.catvod.spider.support.p012C0.p018T.InterfaceC1008e;
 import com.github.catvod.spider.support.p012C0.p027d.C1064d;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.C */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.C */
 /* JADX INFO: loaded from: classes.dex */
 public class C0968C implements InterfaceC1008e {
 

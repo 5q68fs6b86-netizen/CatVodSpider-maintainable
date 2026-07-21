@@ -14,14 +14,14 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.k.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p126k.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2238b {
 
     /* JADX INFO: renamed from: a */
     private OkHttpClient f5584a;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.k.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p126k.b$a */
     private static class a {
 
         /* JADX INFO: renamed from: a */
@@ -45,7 +45,7 @@ public final class C2238b {
         C2238b c2238b = a.f5585a;
         OkHttpClient.Builder builderDns = new OkHttpClient.Builder().addInterceptor(new C2241e()).dns(Spider.safeDns());
         TimeUnit timeUnit = TimeUnit.SECONDS;
-        OkHttpClient okHttpClientBuild = builderDns.connectTimeout(30L, timeUnit).readTimeout(30L, timeUnit).writeTimeout(30L, timeUnit).hostnameVerifier(new HostnameVerifier() { // from class: com.github.catvod.spider.support.k.a
+        OkHttpClient okHttpClientBuild = builderDns.connectTimeout(30L, timeUnit).readTimeout(30L, timeUnit).writeTimeout(30L, timeUnit).hostnameVerifier(new HostnameVerifier() { // from class: com.github.catvod.spider.support.p126k.a
             @Override // javax.net.ssl.HostnameVerifier
             public final boolean verify(String str, SSLSession sSLSession) {
                 return true;

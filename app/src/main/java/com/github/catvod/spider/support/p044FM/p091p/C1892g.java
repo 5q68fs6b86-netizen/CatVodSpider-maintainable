@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p091p;
 import java.security.cert.X509Certificate;
 import javax.net.ssl.X509TrustManager;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.p.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p091p.g */
 /* JADX INFO: loaded from: classes.dex */
 final class C1892g implements X509TrustManager {
     C1892g() {

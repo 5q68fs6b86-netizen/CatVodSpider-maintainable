@@ -547,7 +547,7 @@ public class Gz360 extends Spider {
         map.put("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36");
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
         TimeUnit timeUnit = TimeUnit.SECONDS;
-        OkHttpClient okHttpClientBuild = builder.connectTimeout(3L, timeUnit).readTimeout(3L, timeUnit).writeTimeout(3L, timeUnit).hostnameVerifier(new HostnameVerifier() { // from class: com.github.catvod.spider.support.A.b0
+        OkHttpClient okHttpClientBuild = builder.connectTimeout(3L, timeUnit).readTimeout(3L, timeUnit).writeTimeout(3L, timeUnit).hostnameVerifier(new HostnameVerifier() { // from class: com.github.catvod.spider.support.p001A.b0
             @Override // javax.net.ssl.HostnameVerifier
             public final boolean verify(String str3, SSLSession sSLSession) {
                 int i = Gz360.f176l;

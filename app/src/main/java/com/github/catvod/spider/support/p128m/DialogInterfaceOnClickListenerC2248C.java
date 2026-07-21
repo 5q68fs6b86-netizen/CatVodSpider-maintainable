@@ -5,7 +5,7 @@ import com.github.catvod.spider.Init;
 import com.github.catvod.spider.support.p117b.RunnableC2143A;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.C */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.C */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnClickListenerC2248C implements DialogInterface.OnClickListener {
 
@@ -15,7 +15,7 @@ public final /* synthetic */ class DialogInterfaceOnClickListenerC2248C implemen
     /* JADX INFO: renamed from: b */
     public final /* synthetic */ Map f5611b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.m.C$1, reason: invalid class name */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.C$1, reason: invalid class name */
     public final /* synthetic */ class AnonymousClass1 implements DialogInterface.OnClickListener {
 
         /* JADX INFO: renamed from: a */

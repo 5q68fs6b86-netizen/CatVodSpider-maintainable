@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p045A.C1285k;
 import java.util.BitSet;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.y */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.y */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2022y {
 
@@ -15,7 +15,7 @@ public final class C2022y {
         this.f4582a = c1977a;
     }
 
-    /* JADX WARN: Type inference failed for: r1v23, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.m>] */
+    /* JADX WARN: Type inference failed for: r1v23, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.m>] */
     /* JADX INFO: renamed from: a */
     protected final void m4792a(AbstractC2001m abstractC2001m, AbstractC1974X abstractC1974X, C1285k c1285k, Set set, BitSet bitSet) {
         if (set.add(new C1979b(abstractC2001m, 0, abstractC1974X, AbstractC2000l0.f4559a))) {

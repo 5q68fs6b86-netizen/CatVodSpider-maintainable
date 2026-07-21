@@ -8,7 +8,7 @@ import com.github.catvod.spider.support.p128m.C2261d;
 import java.util.Iterator;
 import java.util.LinkedList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.M.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p107M.k */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2090k implements InterfaceC2073a {
     @Override // com.github.catvod.spider.support.p106L.InterfaceC2073a

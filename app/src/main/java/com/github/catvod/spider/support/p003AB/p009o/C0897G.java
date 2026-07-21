@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p003AB.p009o;
 import android.content.SharedPreferences;
 import com.github.catvod.spider.Init;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.G */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.G */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0897G {
     /* JADX INFO: renamed from: a */

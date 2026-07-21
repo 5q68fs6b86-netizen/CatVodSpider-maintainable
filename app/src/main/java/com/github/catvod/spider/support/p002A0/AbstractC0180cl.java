@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.cl */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.cl */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0180cl {
     /* JADX INFO: renamed from: a */

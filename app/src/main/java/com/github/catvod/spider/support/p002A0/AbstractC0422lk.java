@@ -5,7 +5,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.zip.GZIPInputStream;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.lk */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.lk */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0422lk {
     /* JADX INFO: renamed from: a */

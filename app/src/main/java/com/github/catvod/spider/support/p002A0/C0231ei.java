@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ei */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ei */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0231ei implements InterfaceC0319hp {
 

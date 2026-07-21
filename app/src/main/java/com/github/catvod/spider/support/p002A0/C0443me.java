@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.io.IOException;
 import java.math.BigDecimal;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.me */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.me */
 /* JADX INFO: loaded from: classes.dex */
 public class C0443me extends AbstractC0406kv {
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0406kv

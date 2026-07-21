@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p020W;
 
-import com.github.catvod.spider.support.C0.p0.b;
+import com.github.catvod.spider.support.p012C0.p0.b;
 import com.github.catvod.spider.support.p012C0.p019U.C1011b;
 import com.github.catvod.spider.support.p012C0.p019U.C1012h;
 import com.github.catvod.spider.support.p012C0.p026c0.AbstractC1059r;
@@ -9,7 +9,7 @@ import com.github.catvod.spider.support.p012C0.p038n0.InterfaceC1259a;
 import com.github.catvod.spider.support.p012C0.p038n0.InterfaceC1260b;
 import java.util.ArrayList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.W.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p020W.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1013a implements InterfaceC1259a {
     /* JADX INFO: renamed from: b */

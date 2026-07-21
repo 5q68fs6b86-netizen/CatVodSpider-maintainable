@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 import javax.annotation.Nullable;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.i */
 /* JADX INFO: loaded from: classes.dex */
 public class C2037i extends AbstractC2041m {
 
@@ -45,7 +45,7 @@ public class C2037i extends AbstractC2041m {
     @Nullable
     C2030b f4632g;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.G.i$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.i$a */
     final class a implements InterfaceC2062e {
 
         /* JADX INFO: renamed from: a */
@@ -79,7 +79,7 @@ public class C2037i extends AbstractC2041m {
         }
     }
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.G.i$b */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.i$b */
     private static final class b extends AbstractC1269a<AbstractC2041m> {
 
         /* JADX INFO: renamed from: a */

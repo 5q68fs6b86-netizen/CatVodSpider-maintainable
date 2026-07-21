@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.lang.reflect.Method;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.kn */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.kn */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0398kn {
 

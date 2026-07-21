@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.cv */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.cv */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0190cv extends EnumC0709wa {
     public C0190cv() {

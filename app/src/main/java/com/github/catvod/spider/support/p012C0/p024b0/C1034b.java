@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.Stack;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.b0.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p024b0.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1034b {
 

@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.io.IOException;
 import java.math.BigInteger;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.qs */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.qs */
 /* JADX INFO: loaded from: classes.dex */
 public class C0565qs extends AbstractC0406kv {
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0406kv

@@ -22,7 +22,7 @@ import com.github.catvod.spider.support.p003AB.p005b.RunnableC0837d;
 import com.github.catvod.spider.support.p003AB.p005b.RunnableC0839f;
 import com.github.catvod.spider.support.p128m.C2256I;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0924e {
 
@@ -183,7 +183,7 @@ public final class C0924e {
                         }
                         imageView2.setScaleType(imageView3.getScaleType());
                         imageView2.setImageDrawable(m2244d(c0924e.f2170a, imageView3.getHeight() - (i * 2)));
-                        imageView2.setOnClickListener(new View.OnClickListener(c0924e) { // from class: com.github.catvod.spider.support.AB.o.b
+                        imageView2.setOnClickListener(new View.OnClickListener(c0924e) { // from class: com.github.catvod.spider.support.p003AB.p009o.b
 
                             /* JADX INFO: renamed from: a */
                             public final C0924e f2159a;
@@ -251,7 +251,7 @@ public final class C0924e {
                 if (background2 != null) {
                     textView.setBackground(background2.getConstantState().newDrawable());
                 }
-                textView.setOnClickListener(new View.OnClickListener(c0924e) { // from class: com.github.catvod.spider.support.AB.o.c
+                textView.setOnClickListener(new View.OnClickListener(c0924e) { // from class: com.github.catvod.spider.support.p003AB.p009o.c
 
                     /* JADX INFO: renamed from: a */
                     public final C0924e f2161a;
@@ -285,7 +285,7 @@ public final class C0924e {
                     imageView4.setScaleType(((ImageView) r4).getScaleType());
                 }
                 imageView4.setImageDrawable(m2244d(c0924e.f2170a, (int) ((c0924e.f2170a.getResources().getDisplayMetrics().density * 20.0f) + 0.5f)));
-                imageView4.setOnClickListener(new View.OnClickListener(c0924e) { // from class: com.github.catvod.spider.support.AB.o.c
+                imageView4.setOnClickListener(new View.OnClickListener(c0924e) { // from class: com.github.catvod.spider.support.p003AB.p009o.c
 
                     /* JADX INFO: renamed from: a */
                     public final C0924e f2161a;
@@ -440,7 +440,7 @@ public final class C0924e {
             if (viewGroup != null && viewGroup.findViewWithTag("aw_danmu_search_button") != null) {
                 return;
             }
-            this.f2172c = new ViewTreeObserver.OnGlobalLayoutListener(this) { // from class: com.github.catvod.spider.support.AB.o.d
+            this.f2172c = new ViewTreeObserver.OnGlobalLayoutListener(this) { // from class: com.github.catvod.spider.support.p003AB.p009o.d
 
                 /* JADX INFO: renamed from: a */
                 public final C0924e f2169a;
@@ -460,7 +460,7 @@ public final class C0924e {
             if (viewGroup2 == null || viewGroup2.findViewWithTag("aw_danmu_search_button") != null) {
                 return;
             }
-            this.f2172c = new ViewTreeObserver.OnGlobalLayoutListener(this) { // from class: com.github.catvod.spider.support.AB.o.d
+            this.f2172c = new ViewTreeObserver.OnGlobalLayoutListener(this) { // from class: com.github.catvod.spider.support.p003AB.p009o.d
 
                 /* JADX INFO: renamed from: a */
                 public final C0924e f2169a;

@@ -2,12 +2,12 @@ package com.github.catvod.spider.support.p003AB.p005b;
 
 import android.widget.EditText;
 import com.github.catvod.spider.Bili;
-import com.github.catvod.spider.support.AB.d.d;
-import com.github.catvod.spider.support.AB.g.b;
+import com.github.catvod.spider.support.p003AB.d.d;
+import com.github.catvod.spider.support.p003AB.g.b;
 import com.github.catvod.spider.support.p003AB.p009o.C0915Z;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.h */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0841h implements Runnable {
 

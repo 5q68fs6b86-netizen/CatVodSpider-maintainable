@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.rp */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.rp */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0589rp extends ArrayList {
     public C0589rp(C0226ed... c0226edArr) {

@@ -10,7 +10,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.P */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.P */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1195P {
 
@@ -503,28 +503,28 @@ public final class C1195P {
     final com.github.catvod.spider.support.p012C0.p029e0.AbstractC1193N m3006g() {
         /*
             r3 = this;
-            com.github.catvod.spider.support.C0.d0.P r0 = r3.f2871a
+            com.github.catvod.spider.support.p012C0.p028d0.P r0 = r3.f2871a
             r0.m2860h()
-            com.github.catvod.spider.support.C0.d0.P r0 = r3.f2871a
+            com.github.catvod.spider.support.p012C0.p028d0.P r0 = r3.f2871a
             java.lang.String[] r1 = com.github.catvod.spider.support.p012C0.p029e0.C1195P.f2867d
             boolean r0 = r0.m2864l(r1)
             if (r0 == 0) goto L3f
-            java.util.List<com.github.catvod.spider.support.C0.e0.N> r0 = r3.f2873c
-            com.github.catvod.spider.support.C0.e0.Y r1 = new com.github.catvod.spider.support.C0.e0.Y
+            java.util.List<com.github.catvod.spider.support.p012C0.p029e0.N> r0 = r3.f2873c
+            com.github.catvod.spider.support.p012C0.p029e0.Y r1 = new com.github.catvod.spider.support.p012C0.p029e0.Y
             r1.<init>()
             r0.add(r1)
         L19:
-            com.github.catvod.spider.support.C0.d0.P r0 = r3.f2871a
+            com.github.catvod.spider.support.p012C0.p028d0.P r0 = r3.f2871a
             char r0 = r0.m2855c()
         L1f:
             r3.m2999a(r0)
         L22:
-            com.github.catvod.spider.support.C0.d0.P r0 = r3.f2871a
+            com.github.catvod.spider.support.p012C0.p028d0.P r0 = r3.f2871a
             boolean r0 = r0.m2861i()
             if (r0 != 0) goto L43
-            com.github.catvod.spider.support.C0.d0.P r0 = r3.f2871a
+            com.github.catvod.spider.support.p012C0.p028d0.P r0 = r3.f2871a
             boolean r0 = r0.m2860h()
-            com.github.catvod.spider.support.C0.d0.P r1 = r3.f2871a
+            com.github.catvod.spider.support.p012C0.p028d0.P r1 = r3.f2871a
             java.lang.String[] r2 = com.github.catvod.spider.support.p012C0.p029e0.C1195P.f2867d
             boolean r1 = r1.m2864l(r2)
             if (r1 != 0) goto L19
@@ -535,23 +535,23 @@ public final class C1195P {
             r3.m3003e()
             goto L22
         L43:
-            java.util.List<com.github.catvod.spider.support.C0.e0.N> r0 = r3.f2873c
+            java.util.List<com.github.catvod.spider.support.p012C0.p029e0.N> r0 = r3.f2873c
             int r0 = r0.size()
             r1 = 1
             if (r0 != r1) goto L56
-            java.util.List<com.github.catvod.spider.support.C0.e0.N> r0 = r3.f2873c
+            java.util.List<com.github.catvod.spider.support.p012C0.p029e0.N> r0 = r3.f2873c
             r1 = 0
             java.lang.Object r0 = r0.get(r1)
-            com.github.catvod.spider.support.C0.e0.N r0 = (com.github.catvod.spider.support.p012C0.p029e0.AbstractC1193N) r0
+            com.github.catvod.spider.support.p012C0.p029e0.N r0 = (com.github.catvod.spider.support.p012C0.p029e0.AbstractC1193N) r0
         L55:
             return r0
         L56:
-            com.github.catvod.spider.support.C0.e0.d r0 = new com.github.catvod.spider.support.C0.e0.d
-            java.util.List<com.github.catvod.spider.support.C0.e0.N> r1 = r3.f2873c
+            com.github.catvod.spider.support.p012C0.p029e0.d r0 = new com.github.catvod.spider.support.p012C0.p029e0.d
+            java.util.List<com.github.catvod.spider.support.p012C0.p029e0.N> r1 = r3.f2873c
             r0.<init>(r1)
             goto L55
         */
-        throw new UnsupportedOperationException("Method not decompiled: com.github.catvod.spider.support.p012C0.p029e0.C1195P.m3006g():com.github.catvod.spider.support.C0.e0.N");
+        throw new UnsupportedOperationException("Method not decompiled: com.github.catvod.spider.support.p012C0.p029e0.C1195P.m3006g():com.github.catvod.spider.support.p012C0.p029e0.N");
     }
 
     public final String toString() {

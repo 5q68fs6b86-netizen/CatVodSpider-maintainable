@@ -11,7 +11,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.f.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p121f.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2216e {
 
@@ -31,7 +31,7 @@ public final class C2216e {
     @SerializedName("result")
     private C2213b f5490d;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.f.e$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p121f.e$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */
@@ -62,19 +62,19 @@ public final class C2216e {
         @SerializedName("stat")
         private d f5497g;
 
-        /* JADX INFO: renamed from: com.github.catvod.spider.support.f.e$a$a, reason: collision with other inner class name */
+        /* JADX INFO: renamed from: com.github.catvod.spider.support.p121f.e$a$a, reason: collision with other inner class name */
         class C2616a extends TypeToken<List<a>> {
             C2616a() {
             }
         }
 
-        /* JADX INFO: renamed from: com.github.catvod.spider.support.f.e$a$b */
+        /* JADX INFO: renamed from: com.github.catvod.spider.support.p121f.e$a$b */
         class b extends TypeToken<List<a>> {
             b() {
             }
         }
 
-        /* JADX INFO: renamed from: com.github.catvod.spider.support.f.e$a$c */
+        /* JADX INFO: renamed from: com.github.catvod.spider.support.p121f.e$a$c */
         public static class c {
 
             /* JADX INFO: renamed from: a */
@@ -87,7 +87,7 @@ public final class C2216e {
             }
         }
 
-        /* JADX INFO: renamed from: com.github.catvod.spider.support.f.e$a$d */
+        /* JADX INFO: renamed from: com.github.catvod.spider.support.p121f.e$a$d */
         public static class d {
 
             /* JADX INFO: renamed from: a */

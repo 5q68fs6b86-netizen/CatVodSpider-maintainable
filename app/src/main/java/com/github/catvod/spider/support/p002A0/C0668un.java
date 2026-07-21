@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.un */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.un */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0668un extends AbstractC0814zy implements InterfaceC0569qw {
 

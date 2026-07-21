@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.sv */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.sv */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0622sv implements InterfaceC0698vq {
 

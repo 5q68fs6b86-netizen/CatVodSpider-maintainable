@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jc */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jc */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0360jc extends EnumC0709wa {
     public C0360jc() {

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p026c0;
 
 import com.github.catvod.spider.support.p012C0.p024b0.C1034b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.u */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.u */
 /* JADX INFO: loaded from: classes.dex */
 public class C1062u extends AbstractC1057p {
     public C1062u(String str) {

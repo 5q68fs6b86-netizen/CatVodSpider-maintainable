@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p076c0;
 
 import com.github.catvod.spider.support.p044FM.p078d0.C1789c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.c0.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p076c0.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1771c implements InterfaceC1770b {
 

@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p012C0.p040x.C1263a;
 import java.util.HashMap;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.F */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.F */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1078F implements Cloneable {
 
@@ -57,13 +57,13 @@ public final class C1078F implements Cloneable {
     /* JADX INFO: renamed from: k */
     private boolean f2676k = false;
 
-    /* JADX WARN: Type inference failed for: r3v103, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C0.d0.F>] */
-    /* JADX WARN: Type inference failed for: r4v4, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C0.d0.F>] */
-    /* JADX WARN: Type inference failed for: r5v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C0.d0.F>] */
-    /* JADX WARN: Type inference failed for: r5v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C0.d0.F>] */
-    /* JADX WARN: Type inference failed for: r5v2, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C0.d0.F>] */
-    /* JADX WARN: Type inference failed for: r5v3, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C0.d0.F>] */
-    /* JADX WARN: Type inference failed for: r5v5, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C0.d0.F>] */
+    /* JADX WARN: Type inference failed for: r3v103, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p012C0.p028d0.F>] */
+    /* JADX WARN: Type inference failed for: r4v4, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p012C0.p028d0.F>] */
+    /* JADX WARN: Type inference failed for: r5v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p012C0.p028d0.F>] */
+    /* JADX WARN: Type inference failed for: r5v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p012C0.p028d0.F>] */
+    /* JADX WARN: Type inference failed for: r5v2, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p012C0.p028d0.F>] */
+    /* JADX WARN: Type inference failed for: r5v3, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p012C0.p028d0.F>] */
+    /* JADX WARN: Type inference failed for: r5v5, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p012C0.p028d0.F>] */
     static {
         for (int i = 0; i < 64; i++) {
             C1078F c1078f = new C1078F(new String[]{"html", "head", "body", "frameset", "script", "noscript", "style", "meta", "link", "title", "frame", "noframes", "section", "nav", "aside", "hgroup", "header", "footer", "p", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "pre", "div", "blockquote", "hr", "address", "figure", "figcaption", "form", "fieldset", "ins", "del", "dl", "dt", "dd", "li", "table", "caption", "thead", "tfoot", "tbody", "colgroup", "col", "tr", "th", "td", "video", "audio", "canvas", "details", "menu", "plaintext", "template", "article", "main", "svg", "math", "center"}[i]);
@@ -107,7 +107,7 @@ public final class C1078F implements Cloneable {
         this.f2669d = C1263a.m3147c(str);
     }
 
-    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C0.d0.F>] */
+    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p012C0.p028d0.F>] */
     /* JADX INFO: renamed from: l */
     public static C1078F m2811l(String str, C1074D c1074d) {
         C0966a.m2376k(str);
@@ -189,7 +189,7 @@ public final class C1078F implements Cloneable {
         return !this.f2670e;
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.C0.d0.F>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p012C0.p028d0.F>] */
     /* JADX INFO: renamed from: g */
     public final boolean m2818g() {
         return f2661l.containsKey(this.f2668c);

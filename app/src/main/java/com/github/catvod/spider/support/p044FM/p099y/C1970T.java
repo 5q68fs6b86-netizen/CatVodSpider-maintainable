@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p099y;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.T */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.T */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1970T extends AbstractC2017u {
 

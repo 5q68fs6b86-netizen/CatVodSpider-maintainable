@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.concurrent.ThreadFactory;
 import okhttp3.internal.Util;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.yh */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.yh */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class ThreadFactoryC0770yh implements ThreadFactory {
 

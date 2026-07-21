@@ -4,7 +4,7 @@ import com.github.catvod.debug.MainActivity;
 import com.github.catvod.spider.support.p128m.C2253G;
 import com.github.catvod.spider.support.p128m.C2263f;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.d */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.d */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC2170d implements Runnable {
 

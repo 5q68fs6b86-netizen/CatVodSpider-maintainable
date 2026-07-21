@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p051G;
 
 import java.util.Arrays;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.G.P */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.P */
 /* JADX INFO: loaded from: classes.dex */
 final class C1345P {
 

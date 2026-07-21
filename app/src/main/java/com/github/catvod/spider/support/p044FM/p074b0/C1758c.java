@@ -17,7 +17,7 @@ import java.util.Set;
 import java.util.concurrent.LinkedBlockingQueue;
 import org.slf4j.impl.StaticLoggerBinder;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b0.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p074b0.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1758c {
 
@@ -116,7 +116,7 @@ public final class C1758c {
         return linkedHashSet;
     }
 
-    /* JADX WARN: Type inference failed for: r0v5, types: [com.github.catvod.spider.support.FM.b0.a, org.slf4j.ILoggerFactory] */
+    /* JADX WARN: Type inference failed for: r0v5, types: [com.github.catvod.spider.support.p044FM.p074b0.a, org.slf4j.ILoggerFactory] */
     /* JADX INFO: renamed from: c */
     public static InterfaceC1756a m4166c() {
         if (f3866a == 0) {

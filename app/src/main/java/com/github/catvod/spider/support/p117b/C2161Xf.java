@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.Xf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.Xf */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2161Xf {
 

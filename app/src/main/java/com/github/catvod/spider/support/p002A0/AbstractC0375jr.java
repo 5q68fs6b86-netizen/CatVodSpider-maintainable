@@ -4,7 +4,7 @@ import java.util.HashMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.jr */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.jr */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0375jr {
 

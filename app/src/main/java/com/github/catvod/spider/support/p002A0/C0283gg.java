@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.ArrayList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.gg */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.gg */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0283gg extends IllegalArgumentException {
 

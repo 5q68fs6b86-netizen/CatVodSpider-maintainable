@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p010B;
 
 import java.io.Writer;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.B.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p010B.a */
 /* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class C0947a extends AbstractC0948b {

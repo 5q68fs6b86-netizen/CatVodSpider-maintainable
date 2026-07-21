@@ -1,8 +1,8 @@
 package com.github.catvod.spider.support.p012C0.p038n0;
 
-import com.github.catvod.spider.support.C0.p0.c;
-import com.github.catvod.spider.support.C0.p0.d;
-import com.github.catvod.spider.support.C0.p0.f;
+import com.github.catvod.spider.support.p012C0.p0.c;
+import com.github.catvod.spider.support.p012C0.p0.d;
+import com.github.catvod.spider.support.p012C0.p0.f;
 import com.github.catvod.spider.support.p012C0.p020W.C1013a;
 import com.github.catvod.spider.support.p012C0.p027d.C1064d;
 import java.io.IOException;
@@ -16,7 +16,7 @@ import java.util.Set;
 import java.util.concurrent.LinkedBlockingQueue;
 import org.slf4j.impl.StaticLoggerBinder;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.n0.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p038n0.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1261c {
 
@@ -115,7 +115,7 @@ public final class C1261c {
         return linkedHashSet;
     }
 
-    /* JADX WARN: Type inference failed for: r0v5, types: [com.github.catvod.spider.support.C0.n0.a, org.slf4j.ILoggerFactory] */
+    /* JADX WARN: Type inference failed for: r0v5, types: [com.github.catvod.spider.support.p012C0.p038n0.a, org.slf4j.ILoggerFactory] */
     /* JADX INFO: renamed from: c */
     public static InterfaceC1259a m3137c() {
         if (f2962a == 0) {
@@ -189,11 +189,11 @@ public final class C1261c {
         }
         LinkedBlockingQueue linkedBlockingQueueC = f2963b.c();
         int size = linkedBlockingQueueC.size();
-        ArrayList<com.github.catvod.spider.support.C0.o0.c> arrayList = new ArrayList(128);
+        ArrayList<com.github.catvod.spider.support.p012C0.o0.c> arrayList = new ArrayList(128);
         int i = 0;
         while (linkedBlockingQueueC.drainTo(arrayList, 128) != 0) {
             int i2 = i;
-            for (com.github.catvod.spider.support.C0.o0.c cVar2 : arrayList) {
+            for (com.github.catvod.spider.support.p012C0.o0.c cVar2 : arrayList) {
                 if (cVar2 != null) {
                     c cVarA = cVar2.a();
                     String strB = cVarA.b();

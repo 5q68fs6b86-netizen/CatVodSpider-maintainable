@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p135u;
 import com.github.catvod.spider.support.p043F.C1273a;
 import com.github.catvod.spider.support.p137w.AbstractC2399a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.U */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.U */
 /* JADX INFO: loaded from: classes.dex */
 final class C2353U extends AbstractC2399a {
 

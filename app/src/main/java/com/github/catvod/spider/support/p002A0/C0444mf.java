@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.Date;
 import java.util.HashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.mf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.mf */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0444mf {
 

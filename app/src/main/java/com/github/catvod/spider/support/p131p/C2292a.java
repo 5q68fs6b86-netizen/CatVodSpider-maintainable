@@ -7,7 +7,7 @@ import java.io.InputStream;
 import java.io.Serializable;
 import java.nio.charset.StandardCharsets;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.p.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p131p.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2292a implements Serializable {
 

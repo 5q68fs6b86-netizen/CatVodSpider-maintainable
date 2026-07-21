@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ex */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ex */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0246ex extends AbstractC0213dr {
 

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p134t;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.z */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.z */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC2333z {
     /* JADX INFO: renamed from: a */

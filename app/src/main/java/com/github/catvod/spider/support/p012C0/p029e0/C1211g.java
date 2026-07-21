@@ -9,7 +9,7 @@ import java.util.IdentityHashMap;
 import java.util.Iterator;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1211g extends ArrayList<C1053l> {
     public C1211g() {

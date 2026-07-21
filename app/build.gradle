@@ -77,7 +77,10 @@ dependencies {
     implementation libs.gson
     implementation libs.smbj
     implementation libs.jsoup
-    implementation "com.google.protobuf:protobuf-java:3.25.5"
+    implementation "com.google.protobuf:protobuf-java:4.28.2"
+    implementation "org.slf4j:slf4j-nop:2.0.16"
+    implementation "org.slf4j:slf4j-api:2.0.16"
+    implementation "com.google.code.findbugs:jsr305:3.0.2"
     testImplementation libs.junit
     testImplementation libs.robolectric
 }

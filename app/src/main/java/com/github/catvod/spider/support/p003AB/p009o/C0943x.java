@@ -5,7 +5,7 @@ import android.app.Application;
 import android.os.Bundle;
 import com.github.catvod.crawler.SpiderDebug;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.x */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.x */
 /* JADX INFO: loaded from: classes.dex */
 final class C0943x implements Application.ActivityLifecycleCallbacks {
     C0943x() {

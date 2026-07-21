@@ -1,8 +1,8 @@
 package com.github.catvod.spider.support.p012C0.p014P;
 
-import com.github.catvod.spider.support.C0.P.F;
+import com.github.catvod.spider.support.p012C0.p014P.F;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.D */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.D */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC0969D {
     /* JADX INFO: renamed from: a */

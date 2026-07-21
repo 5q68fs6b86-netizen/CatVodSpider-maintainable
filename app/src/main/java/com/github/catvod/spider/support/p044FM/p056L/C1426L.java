@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p056L;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.L */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p056L.L */
 /* JADX INFO: loaded from: classes.dex */
 final class C1426L extends AbstractC1436Q {
     C1426L() {

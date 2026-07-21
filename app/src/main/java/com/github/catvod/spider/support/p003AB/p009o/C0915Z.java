@@ -11,10 +11,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.spider.Init;
-import com.github.catvod.spider.support.AB.J.a;
-import com.github.catvod.spider.support.AB.d.d;
-import com.github.catvod.spider.support.AB.g.b;
-import com.github.catvod.spider.support.AB.g.h;
+import com.github.catvod.spider.support.p003AB.J.a;
+import com.github.catvod.spider.support.p003AB.d.d;
+import com.github.catvod.spider.support.p003AB.g.b;
+import com.github.catvod.spider.support.p003AB.g.h;
 import com.github.catvod.spider.support.p003AB.p005b.C0853t;
 import com.github.catvod.spider.support.p003AB.p005b.C0859z;
 import com.github.catvod.spider.support.p003AB.p005b.DialogInterfaceOnClickListenerC0819C;
@@ -32,7 +32,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.Z */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.Z */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0915Z {
 
@@ -455,7 +455,7 @@ public final class C0915Z {
             }
             if (z) {
                 if (z3) {
-                    dialogInterfaceOnClickListenerC0847n = new DialogInterface.OnClickListener(this, map, str3) { // from class: com.github.catvod.spider.support.AB.o.V
+                    dialogInterfaceOnClickListenerC0847n = new DialogInterface.OnClickListener(this, map, str3) { // from class: com.github.catvod.spider.support.p003AB.p009o.V
 
                         /* JADX INFO: renamed from: a */
                         public final C0915Z f2144a;
@@ -485,7 +485,7 @@ public final class C0915Z {
                 view = view.setPositiveButton(str, dialogInterfaceOnClickListenerC0847n).setNegativeButton("手动输入", new DialogInterfaceOnClickListenerC0906P(this, map, i));
             }
             if (z2) {
-                view = view.setNeutralButton("扫码授权", new DialogInterfaceOnClickListenerC0903M(this, map, str3, i)).setNegativeButton("确定", new DialogInterface.OnClickListener(this, editText, str3, editText2) { // from class: com.github.catvod.spider.support.AB.o.S
+                view = view.setNeutralButton("扫码授权", new DialogInterfaceOnClickListenerC0903M(this, map, str3, i)).setNegativeButton("确定", new DialogInterface.OnClickListener(this, editText, str3, editText2) { // from class: com.github.catvod.spider.support.p003AB.p009o.S
 
                     /* JADX INFO: renamed from: a */
                     public final C0915Z f2136a;
@@ -562,7 +562,7 @@ public final class C0915Z {
             linearLayout.addView(imageView, layoutParams3);
         }
         AlertDialog.Builder view = new AlertDialog.Builder(Init.getActivity()).setView(linearLayout);
-        this.f2156a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterfaceOnClickListenerC0906P(this, map, i)).setNegativeButton("登录", new DialogInterfaceOnClickListenerC0903M(this, editText, editText2, i)) : view.setNeutralButton("手动输入", new DialogInterface.OnClickListener(this, map) { // from class: com.github.catvod.spider.support.AB.o.T
+        this.f2156a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterfaceOnClickListenerC0906P(this, map, i)).setNegativeButton("登录", new DialogInterfaceOnClickListenerC0903M(this, editText, editText2, i)) : view.setNeutralButton("手动输入", new DialogInterface.OnClickListener(this, map) { // from class: com.github.catvod.spider.support.p003AB.p009o.T
 
             /* JADX INFO: renamed from: a */
             public final C0915Z f2140a;
@@ -620,7 +620,7 @@ public final class C0915Z {
             linearLayout.addView(imageView, layoutParams3);
         }
         AlertDialog.Builder view = new AlertDialog.Builder(Init.getActivity()).setView(linearLayout);
-        this.f2156a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterface.OnClickListener(this, map) { // from class: com.github.catvod.spider.support.AB.o.U
+        this.f2156a = (TextUtils.isEmpty(str) ? view.setNeutralButton("远程输入", new DialogInterface.OnClickListener(this, map) { // from class: com.github.catvod.spider.support.p003AB.p009o.U
 
             /* JADX INFO: renamed from: a */
             public final C0915Z f2142a;
@@ -642,7 +642,7 @@ public final class C0915Z {
                 map2.put("flag", "请使用微信或者浏览器扫码下方二维码远程输入");
                 Init.execute(new RunnableC0844k(c0915z, map2, 3));
             }
-        }).setNegativeButton("登录", new DialogInterface.OnClickListener(this, editText, editText2) { // from class: com.github.catvod.spider.support.AB.o.Q
+        }).setNegativeButton("登录", new DialogInterface.OnClickListener(this, editText, editText2) { // from class: com.github.catvod.spider.support.p003AB.p009o.Q
 
             /* JADX INFO: renamed from: a */
             public final C0915Z f2133a;
@@ -665,7 +665,7 @@ public final class C0915Z {
                 EditText editText3 = this.f2134b;
                 EditText editText4 = this.f2135c;
                 c0915z.getClass();
-                Init.execute(new Runnable(c0915z, editText3, editText4) { // from class: com.github.catvod.spider.support.AB.o.N
+                Init.execute(new Runnable(c0915z, editText3, editText4) { // from class: com.github.catvod.spider.support.p003AB.p009o.N
 
                     /* JADX INFO: renamed from: a */
                     public final C0915Z f2124a;

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p101G;
 
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2033e extends AbstractC2040l {
     public C2033e(String str) {

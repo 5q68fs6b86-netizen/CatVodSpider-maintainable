@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.m */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC2001m {
 
@@ -33,10 +33,10 @@ public abstract class AbstractC2001m {
         Collections.unmodifiableList(Arrays.asList("INVALID", "BASIC", "RULE_START", "BLOCK_START", "PLUS_BLOCK_START", "STAR_BLOCK_START", "TOKEN_START", "RULE_STOP", "BLOCK_END", "STAR_LOOP_BACK", "STAR_LOOP_ENTRY", "PLUS_LOOP_BACK", "LOOP_END"));
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.t0>] */
-    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.t0>] */
-    /* JADX WARN: Type inference failed for: r1v4, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.t0>] */
-    /* JADX WARN: Type inference failed for: r1v6, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.t0>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.t0>] */
+    /* JADX WARN: Type inference failed for: r1v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.t0>] */
+    /* JADX WARN: Type inference failed for: r1v4, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.t0>] */
+    /* JADX WARN: Type inference failed for: r1v6, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.t0>] */
     /* JADX INFO: renamed from: a */
     public final void m4787a(AbstractC2016t0 abstractC2016t0) {
         int size = this.f4564e.size();
@@ -59,7 +59,7 @@ public abstract class AbstractC2001m {
         this.f4564e.add(size, abstractC2016t0);
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.t0>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.t0>] */
     /* JADX INFO: renamed from: b */
     public final int m4788b() {
         return this.f4564e.size();
@@ -68,7 +68,7 @@ public abstract class AbstractC2001m {
     /* JADX INFO: renamed from: c */
     public abstract int mo4730c();
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.FM.y.t0>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p044FM.p099y.t0>] */
     /* JADX INFO: renamed from: d */
     public final AbstractC2016t0 m4789d(int i) {
         return (AbstractC2016t0) this.f4564e.get(i);

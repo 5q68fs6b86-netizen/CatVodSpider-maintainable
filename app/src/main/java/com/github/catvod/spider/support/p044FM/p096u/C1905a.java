@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p096u;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.u.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p096u.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1905a extends Error {
 

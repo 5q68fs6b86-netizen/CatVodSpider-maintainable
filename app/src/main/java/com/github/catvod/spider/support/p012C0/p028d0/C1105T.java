@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p028d0;
 import com.github.catvod.spider.support.p012C0.p027d.C1064d;
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.T */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.T */
 /* JADX INFO: loaded from: classes.dex */
 final class C1105T extends EnumC1142h1 {
     C1105T() {

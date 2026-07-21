@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p029e0;
 
 import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.e0.T */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p029e0.T */
 /* JADX INFO: loaded from: classes.dex */
 final class C1198T extends AbstractC1204Z {
     public C1198T(AbstractC1193N abstractC1193N) {

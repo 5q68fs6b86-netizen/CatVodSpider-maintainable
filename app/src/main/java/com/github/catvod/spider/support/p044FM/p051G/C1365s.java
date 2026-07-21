@@ -11,7 +11,7 @@ import java.util.TimeZone;
 import java.util.TreeSet;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.G.s */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.s */
 /* JADX INFO: loaded from: classes.dex */
 final class C1365s extends AbstractC1360n {
 
@@ -21,7 +21,7 @@ final class C1365s extends AbstractC1360n {
     /* JADX INFO: renamed from: c */
     private final Map<String, C1364r> f3134c = new HashMap();
 
-    /* JADX WARN: Type inference failed for: r13v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.FM.G.r>] */
+    /* JADX WARN: Type inference failed for: r13v1, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p044FM.p051G.r>] */
     C1365s(Locale locale) {
         this.f3133b = C1300c.m3243a(locale);
         StringBuilder sbM3589b = C1434P.m3589b("((?iu)[+-]\\d{4}|GMT[+-]\\d{1,2}:\\d{2}");
@@ -55,8 +55,8 @@ final class C1365s extends AbstractC1360n {
         this.f3125a = Pattern.compile(sbM3589b.toString());
     }
 
-    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.FM.G.r>] */
-    /* JADX WARN: Type inference failed for: r0v8, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.FM.G.r>] */
+    /* JADX WARN: Type inference failed for: r0v2, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p044FM.p051G.r>] */
+    /* JADX WARN: Type inference failed for: r0v8, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p044FM.p051G.r>] */
     @Override // com.github.catvod.spider.support.p044FM.p051G.AbstractC1360n
     /* JADX INFO: renamed from: c */
     final void mo3337c(Calendar calendar, String str) {

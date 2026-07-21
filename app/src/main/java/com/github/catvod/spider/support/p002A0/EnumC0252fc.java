@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 
 /* JADX WARN: $VALUES field not found */
 /* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.fc */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.fc */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class EnumC0252fc {
 

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.gs */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.gs */
 /* JADX INFO: loaded from: classes.dex */
 public class C0295gs extends AbstractC0406kv {
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0406kv

@@ -6,7 +6,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.TimeZone;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.di */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.di */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0204di {
 

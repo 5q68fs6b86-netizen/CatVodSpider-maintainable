@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.xm */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.xm */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0748xm extends AbstractC0555qi {
     private final InterfaceC0769yg _context;

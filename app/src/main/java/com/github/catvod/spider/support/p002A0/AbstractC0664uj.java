@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.WeakHashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.uj */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.uj */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0664uj {
 

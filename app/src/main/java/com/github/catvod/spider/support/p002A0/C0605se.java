@@ -5,7 +5,7 @@ import java.util.IdentityHashMap;
 import java.util.Stack;
 import java.util.function.Supplier;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.se */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.se */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0605se implements Supplier {
 

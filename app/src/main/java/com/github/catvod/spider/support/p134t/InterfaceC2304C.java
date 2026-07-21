@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p134t;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.t.C */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p134t.C */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC2304C extends InterfaceC2323p {
     /* JADX INFO: renamed from: a */

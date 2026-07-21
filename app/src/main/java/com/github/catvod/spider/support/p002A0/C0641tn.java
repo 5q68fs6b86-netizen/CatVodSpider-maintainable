@@ -8,7 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.RejectedExecutionException;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.tn */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tn */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0641tn extends AbstractC0448mj {
 

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.gx */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.gx */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0300gx extends AbstractC0680uz {
 

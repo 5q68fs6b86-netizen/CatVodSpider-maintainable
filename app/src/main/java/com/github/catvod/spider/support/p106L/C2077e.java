@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p103I.C2060c;
 import com.github.catvod.spider.support.p110P.C2122e;
 import com.github.catvod.spider.support.p116a.C2137a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.L.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p106L.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2077e {
 

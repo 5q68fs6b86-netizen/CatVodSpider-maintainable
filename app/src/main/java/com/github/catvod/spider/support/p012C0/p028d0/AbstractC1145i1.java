@@ -6,7 +6,7 @@ import com.github.catvod.spider.support.p012C0.p026c0.C1053l;
 import java.util.ArrayList;
 
 /* JADX INFO: Access modifiers changed from: package-private */
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.i1 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.i1 */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC1145i1 {
 

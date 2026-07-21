@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.Date;
 import java.util.TimeZone;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.xz */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.xz */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0761xz extends TimeZone {
 

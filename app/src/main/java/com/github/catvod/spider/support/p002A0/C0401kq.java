@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicIntegerArray;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.kq */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.kq */
 /* JADX INFO: loaded from: classes.dex */
 public class C0401kq extends AbstractC0406kv {
     @Override // com.github.catvod.spider.support.p002A0.AbstractC0406kv

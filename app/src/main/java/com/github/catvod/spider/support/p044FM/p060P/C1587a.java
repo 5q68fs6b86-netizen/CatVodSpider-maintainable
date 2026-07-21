@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p060P;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.P.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p060P.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1587a extends AbstractC1588b {
     @Override // com.github.catvod.spider.support.p044FM.p060P.AbstractC1588b

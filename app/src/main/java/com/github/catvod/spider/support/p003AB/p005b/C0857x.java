@@ -16,20 +16,20 @@ import com.github.catvod.crawler.SpiderDebug;
 import com.github.catvod.debug.MainActivity;
 import com.github.catvod.spider.Init;
 import com.github.catvod.spider.Proxy;
-import com.github.catvod.spider.support.AB.J.a;
-import com.github.catvod.spider.support.AB.d.b;
-import com.github.catvod.spider.support.AB.d.c;
-import com.github.catvod.spider.support.AB.d.d;
-import com.github.catvod.spider.support.AB.d.e;
-import com.github.catvod.spider.support.AB.d.f;
-import com.github.catvod.spider.support.AB.d.g;
-import com.github.catvod.spider.support.AB.d.h;
-import com.github.catvod.spider.support.AB.d.i;
-import com.github.catvod.spider.support.AB.d.j;
-import com.github.catvod.spider.support.AB.d.k;
-import com.github.catvod.spider.support.AB.d.m;
-import com.github.catvod.spider.support.AB.d.n;
-import com.github.catvod.spider.support.AB.d.o;
+import com.github.catvod.spider.support.p003AB.J.a;
+import com.github.catvod.spider.support.p003AB.d.b;
+import com.github.catvod.spider.support.p003AB.d.c;
+import com.github.catvod.spider.support.p003AB.d.d;
+import com.github.catvod.spider.support.p003AB.d.e;
+import com.github.catvod.spider.support.p003AB.d.f;
+import com.github.catvod.spider.support.p003AB.d.g;
+import com.github.catvod.spider.support.p003AB.d.h;
+import com.github.catvod.spider.support.p003AB.d.i;
+import com.github.catvod.spider.support.p003AB.d.j;
+import com.github.catvod.spider.support.p003AB.d.k;
+import com.github.catvod.spider.support.p003AB.d.m;
+import com.github.catvod.spider.support.p003AB.d.n;
+import com.github.catvod.spider.support.p003AB.d.o;
 import com.github.catvod.spider.support.p003AB.p004a.C0816a;
 import com.github.catvod.spider.support.p003AB.p007m.C0869c;
 import com.github.catvod.spider.support.p003AB.p007m.C0871e;
@@ -60,7 +60,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.locks.ReentrantLock;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.x */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.x */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0857x {
 
@@ -296,7 +296,7 @@ public final class C0857x {
             FrameLayout frameLayout = new FrameLayout(Init.context());
             layoutParams.gravity = 17;
             frameLayout.addView(imageView, layoutParams);
-            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(frameLayout).setOnCancelListener(new DialogInterface.OnCancelListener(this) { // from class: com.github.catvod.spider.support.AB.b.m
+            AlertDialog alertDialogShow = new AlertDialog.Builder(Init.getActivity()).setView(frameLayout).setOnCancelListener(new DialogInterface.OnCancelListener(this) { // from class: com.github.catvod.spider.support.p003AB.p005b.m
 
                 /* JADX INFO: renamed from: a */
                 public final C0857x f2000a;
@@ -309,7 +309,7 @@ public final class C0857x {
                 public final void onCancel(DialogInterface dialogInterface) {
                     C0857x.m2073c(this.f2000a);
                 }
-            }).setOnDismissListener(new DialogInterface.OnDismissListener(this) { // from class: com.github.catvod.spider.support.AB.b.p
+            }).setOnDismissListener(new DialogInterface.OnDismissListener(this) { // from class: com.github.catvod.spider.support.p003AB.p005b.p
 
                 /* JADX INFO: renamed from: a */
                 public final C0857x f2005a;
@@ -435,7 +435,7 @@ public final class C0857x {
             layoutParams.setMargins(iA, iA, iA, iA);
             EditText editText = new EditText(Init.context());
             frameLayout.addView(editText, layoutParams);
-            c0857x.f2019i = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入Token【支持32位和Http】").setView(frameLayout).setNeutralButton("云盘App授权", new DialogInterface.OnClickListener(c0857x) { // from class: com.github.catvod.spider.support.AB.b.o
+            c0857x.f2019i = new AlertDialog.Builder(Init.getActivity()).setTitle("请输入Token【支持32位和Http】").setView(frameLayout).setNeutralButton("云盘App授权", new DialogInterface.OnClickListener(c0857x) { // from class: com.github.catvod.spider.support.p003AB.p005b.o
 
                 /* JADX INFO: renamed from: a */
                 public final C0857x f2004a;
@@ -612,8 +612,8 @@ public final class C0857x {
 
     /* JADX INFO: renamed from: E */
     public final String m2090E(String[] strArr, String str) {
-        com.github.catvod.spider.support.AB.c.g gVar;
-        List<com.github.catvod.spider.support.AB.c.h> listM2099x;
+        com.github.catvod.spider.support.p003AB.c.g gVar;
+        List<com.github.catvod.spider.support.p003AB.c.h> listM2099x;
         if (str.split("#")[0].equals("阿里普画")) {
             i iVarM2100y = m2100y(strArr[0], strArr[1]);
             List<String> listM2089v = m2089v(iVarM2100y, strArr[0], strArr[1], true);
@@ -624,14 +624,14 @@ public final class C0857x {
                 arrayList.add(((j) it.next()).a());
             }
             ((ArrayList) listM2099x).addAll(arrayList);
-            gVar = new com.github.catvod.spider.support.AB.c.g();
+            gVar = new com.github.catvod.spider.support.p003AB.c.g();
             gVar.z(listM2089v);
             gVar.h();
         } else {
             if (!str.split("#")[0].contains("阿里原画")) {
                 return "";
             }
-            gVar = new com.github.catvod.spider.support.AB.c.g();
+            gVar = new com.github.catvod.spider.support.p003AB.c.g();
             String str2 = strArr[0];
             String str3 = strArr[1];
             StringBuilder sb = new StringBuilder();
@@ -745,7 +745,7 @@ public final class C0857x {
                 return strA;
             } catch (Exception e) {
                 e.printStackTrace();
-                runnableC0850q = new Runnable(this, i) { // from class: com.github.catvod.spider.support.AB.b.c
+                runnableC0850q = new Runnable(this, i) { // from class: com.github.catvod.spider.support.p003AB.p005b.c
 
                     /* JADX INFO: renamed from: a */
                     public final int f1973a;
@@ -829,7 +829,7 @@ public final class C0857x {
     }
 
     /* JADX INFO: renamed from: x */
-    public final List<com.github.catvod.spider.support.AB.c.h> m2099x(String[] strArr) {
+    public final List<com.github.catvod.spider.support.p003AB.c.h> m2099x(String[] strArr) {
         ArrayList arrayList = new ArrayList();
         for (String str : strArr) {
             if (str.contains("@@@")) {
@@ -837,9 +837,9 @@ public final class C0857x {
                 String str2 = strArrSplit[0];
                 String str3 = strArrSplit[1];
                 String str4 = Proxy.getUrl() + "?do=ali&type=sub&shareId=" + strArr[0] + "&fileId=" + strArrSplit[2];
-                com.github.catvod.spider.support.AB.c.h hVar = new com.github.catvod.spider.support.AB.c.h();
+                com.github.catvod.spider.support.p003AB.c.h hVar = new com.github.catvod.spider.support.p003AB.c.h();
                 hVar.c(str2);
-                com.github.catvod.spider.support.AB.c.h hVarA = hVar.a(str3);
+                com.github.catvod.spider.support.p003AB.c.h hVarA = hVar.a(str3);
                 hVarA.d(str4);
                 arrayList.add(hVarA);
             }
@@ -880,7 +880,7 @@ public final class C0857x {
     }
 
     /* JADX INFO: renamed from: z */
-    public final com.github.catvod.spider.support.AB.c.j m2101z(String str, String str2, String str3) {
+    public final com.github.catvod.spider.support.p003AB.c.j m2101z(String str, String str2, String str3) {
         String strD;
         m2067J(str2);
         JsonObject jsonObject = new JsonObject();
@@ -938,7 +938,7 @@ public final class C0857x {
         for (int i2 = 0; i2 < listAsList.size(); i2++) {
             arrayList4.add(TextUtils.join("#", arrayList3));
         }
-        com.github.catvod.spider.support.AB.c.j jVar = new com.github.catvod.spider.support.AB.c.j();
+        com.github.catvod.spider.support.p003AB.c.j jVar = new com.github.catvod.spider.support.p003AB.c.j();
         jVar.g(str);
         jVar.e(str);
         jVar.i(nVar.b());

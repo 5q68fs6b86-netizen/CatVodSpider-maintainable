@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p132q;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.q.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p132q.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2293a extends Error {
 

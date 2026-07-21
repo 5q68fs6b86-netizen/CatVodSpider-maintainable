@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 /* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
 /* JADX WARN: Unknown enum class pattern. Please report as an issue! */
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ig */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ig */
 /* JADX INFO: loaded from: classes.dex */
 public final class EnumC0337ig {
 

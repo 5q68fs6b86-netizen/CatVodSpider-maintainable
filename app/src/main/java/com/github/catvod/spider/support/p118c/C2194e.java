@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p118c;
 
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.c.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.e */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2194e {
 
@@ -66,7 +66,7 @@ public final class C2194e {
     @SerializedName("style")
     private a f5312o;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.c.e$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.e$a */
     public static class a {
 
         /* JADX INFO: renamed from: a */

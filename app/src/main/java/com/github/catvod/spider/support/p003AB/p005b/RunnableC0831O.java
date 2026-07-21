@@ -5,7 +5,7 @@ import com.github.catvod.spider.Config;
 import com.github.catvod.spider.support.p003AB.p009o.C0895E;
 import com.github.catvod.spider.support.p003AB.p009o.C0936q;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.O */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.O */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0831O implements Runnable {
 
@@ -35,7 +35,7 @@ public final /* synthetic */ class RunnableC0831O implements Runnable {
         if (i == 2) {
             final Config config = (Config) this.f1957b;
             config.getClass();
-            new Thread(new Runnable(config, i2) { // from class: com.github.catvod.spider.support.AB.n.e
+            new Thread(new Runnable(config, i2) { // from class: com.github.catvod.spider.support.p003AB.p008n.e
 
                 /* JADX INFO: renamed from: a */
                 public final int f2061a;
@@ -56,7 +56,7 @@ public final /* synthetic */ class RunnableC0831O implements Runnable {
                         Config.d(config2);
                     } else {
                         config2.getClass();
-                        new Thread(new Runnable(config2, 1) { // from class: com.github.catvod.spider.support.AB.l.g
+                        new Thread(new Runnable(config2, 1) { // from class: com.github.catvod.spider.support.p003AB.p006l.g
 
                             /* JADX INFO: renamed from: a */
                             public final int f2033a;

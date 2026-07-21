@@ -29,7 +29,7 @@ public final class acq implements Iterator, InterfaceC0717wi {
         this.f571c = iM1871h;
     }
 
-    /* JADX WARN: Type inference failed for: r0v1, types: [com.github.catvod.spider.support.A0.ha, com.github.catvod.spider.support.A0.zy] */
+    /* JADX WARN: Type inference failed for: r0v1, types: [com.github.catvod.spider.support.p002A0.ha, com.github.catvod.spider.support.p002A0.zy] */
     /* JADX INFO: renamed from: f */
     public final void m952f() {
         C0344in c0344in;

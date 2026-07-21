@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import okio.Path;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.uk */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.uk */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0665uk extends AbstractC0160bs implements Iterator, InterfaceC0747xl, InterfaceC0717wi {
 

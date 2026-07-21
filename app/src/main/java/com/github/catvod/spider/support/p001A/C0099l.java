@@ -5,7 +5,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A.l */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p001A.l */
 /* JADX INFO: loaded from: classes.dex */
 public class C0099l {
     /* JADX WARN: Code duplicated, block: B:16:0x0096  */

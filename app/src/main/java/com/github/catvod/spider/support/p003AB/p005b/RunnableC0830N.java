@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p003AB.p005b;
 
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.N */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.N */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0830N implements Runnable {
 

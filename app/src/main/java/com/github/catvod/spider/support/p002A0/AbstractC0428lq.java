@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.lq */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.lq */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0428lq {
 

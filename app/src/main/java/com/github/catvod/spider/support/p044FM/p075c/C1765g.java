@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.c.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p075c.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1765g {
 

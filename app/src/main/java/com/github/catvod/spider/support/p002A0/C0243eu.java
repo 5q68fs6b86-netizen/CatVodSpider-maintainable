@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.Random;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.eu */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.eu */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0243eu extends AbstractC0529pj {
 

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p014P;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.r */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.r */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC0978r {
     /* JADX INFO: renamed from: a */

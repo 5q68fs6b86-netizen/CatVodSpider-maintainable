@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p117b;
 import com.github.catvod.spider.support.p001A.C0082a;
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.b.Gj */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p117b.Gj */
 /* JADX INFO: loaded from: classes.dex */
 public class C2152Gj<T> {
 

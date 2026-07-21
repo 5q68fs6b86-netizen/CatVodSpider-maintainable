@@ -6,7 +6,7 @@ import com.github.catvod.spider.Config;
 import com.github.catvod.spider.Market;
 import com.github.catvod.spider.support.p044FM.p090o.C1869j;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.l.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p087l.g */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1836g implements Runnable {
 

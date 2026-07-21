@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 import java.util.concurrent.locks.LockSupport;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.dx */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.dx */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0219dx extends AbstractC0240er implements acp {
 

@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.util.Properties;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.q.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p132q.b */
 /* JADX INFO: loaded from: classes.dex */
 final class C2294b {
 
@@ -18,7 +18,7 @@ final class C2294b {
     /* JADX INFO: renamed from: b */
     static /* synthetic */ Class f5724b;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.q.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p132q.b$a */
     private static abstract class a {
         private a() {
         }
@@ -52,7 +52,7 @@ final class C2294b {
 
     /* JADX WARN: Code duplicated, block: B:16:0x0046  */
     /* JADX WARN: Code duplicated, block: B:17:0x004c A[PHI: r2
-      0x004c: PHI (r2v2 java.lang.Class<com.github.catvod.spider.support.q.b>) = (r2v0 java.lang.Class<com.github.catvod.spider.support.q.b>), (r2v3 java.lang.Class<com.github.catvod.spider.support.q.b>) binds: [B:15:0x0044, B:12:0x003f] A[DONT_GENERATE, DONT_INLINE]] */
+      0x004c: PHI (r2v2 java.lang.Class<com.github.catvod.spider.support.p132q.b>) = (r2v0 java.lang.Class<com.github.catvod.spider.support.p132q.b>), (r2v3 java.lang.Class<com.github.catvod.spider.support.p132q.b>) binds: [B:15:0x0044, B:12:0x003f] A[DONT_GENERATE, DONT_INLINE]] */
     /* JADX INFO: renamed from: c */
     static Object m6203c() {
         Class<C2294b> cls;

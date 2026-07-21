@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 import com.google.gson.reflect.TypeToken;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.c.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2190a {
 
@@ -21,7 +21,7 @@ public final class C2190a {
     @SerializedName("type_flag")
     private String f5272c;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.c.a$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p118c.a$a */
     class a extends TypeToken<List<C2190a>> {
         a() {
         }

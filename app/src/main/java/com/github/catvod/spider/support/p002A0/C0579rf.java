@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.rf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.rf */
 /* JADX INFO: loaded from: classes.dex */
 public class C0579rf implements InterfaceC0256fg {
 

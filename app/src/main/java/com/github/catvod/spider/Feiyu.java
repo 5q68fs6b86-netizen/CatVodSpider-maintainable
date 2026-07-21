@@ -235,7 +235,7 @@ public class Feiyu extends Spider {
                 for (int i = 0; i < jSONArrayOptJSONArray.length(); i++) {
                     arrayList.add(jSONArrayOptJSONArray.getJSONObject(i));
                 }
-                arrayList.sort(new Comparator() { // from class: com.github.catvod.spider.support.A.a0
+                arrayList.sort(new Comparator() { // from class: com.github.catvod.spider.support.p001A.a0
                     @Override // java.util.Comparator
                     public final int compare(Object obj, Object obj2) {
                         return Feiyu.m511a(this.f377a, (JSONObject) obj, (JSONObject) obj2);

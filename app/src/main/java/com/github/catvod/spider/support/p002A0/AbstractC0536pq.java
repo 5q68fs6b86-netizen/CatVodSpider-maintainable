@@ -8,7 +8,7 @@ import java.util.Spliterators;
 import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.pq */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.pq */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0536pq {
 

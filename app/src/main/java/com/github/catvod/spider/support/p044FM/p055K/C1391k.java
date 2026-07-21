@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p055K;
 
 import com.github.catvod.spider.support.p044FM.p057M.InterfaceC1533O;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.K.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p055K.k */
 /* JADX INFO: loaded from: classes.dex */
 final class C1391k implements InterfaceC1533O {
 

@@ -5,7 +5,7 @@ import java.util.AbstractMap;
 import java.util.Comparator;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.my */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.my */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0463my extends AbstractMap implements Serializable {
 

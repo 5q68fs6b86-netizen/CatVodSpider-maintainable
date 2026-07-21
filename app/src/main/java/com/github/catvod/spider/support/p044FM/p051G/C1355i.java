@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p051G;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.G.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.i */
 /* JADX INFO: loaded from: classes.dex */
 final class C1355i extends C1359m {
     C1355i() {

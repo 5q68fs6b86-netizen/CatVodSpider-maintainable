@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p114T;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.T.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p114T.b */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2131b extends AbstractC2130a {
 

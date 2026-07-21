@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p101G;
 import com.github.catvod.spider.support.p043F.C1274b;
 import java.io.IOException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.G.p */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p101G.p */
 /* JADX INFO: loaded from: classes.dex */
 public class C2044p extends AbstractC2040l {
     public C2044p(String str) {

@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p137w.C2407i;
 import java.util.BitSet;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.u */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.u */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2389u {
 
@@ -15,7 +15,7 @@ public final class C2389u {
         this.f5900a = c2359a;
     }
 
-    /* JADX WARN: Type inference failed for: r1v23, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.u.i>] */
+    /* JADX WARN: Type inference failed for: r1v23, types: [java.util.ArrayList, java.util.List<com.github.catvod.spider.support.p135u.i>] */
     /* JADX INFO: renamed from: a */
     protected final void m6376a(AbstractC2375i abstractC2375i, AbstractC2351S abstractC2351S, C2407i c2407i, Set set, BitSet bitSet) {
         if (set.add(new C2361b(abstractC2375i, 0, abstractC2351S, AbstractC2362b0.f5851a))) {

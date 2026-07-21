@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p062R;
 
 import com.github.catvod.spider.support.p044FM.p058N.C1571a;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.R.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p062R.k */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1608k extends C1599b {
 

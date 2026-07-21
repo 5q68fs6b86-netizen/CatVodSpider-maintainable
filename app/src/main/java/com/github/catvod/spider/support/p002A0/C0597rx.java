@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.concurrent.atomic.AtomicIntegerFieldUpdater;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.rx */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.rx */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0597rx extends AbstractC0455mq {
 

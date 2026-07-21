@@ -45,7 +45,7 @@ import java.util.concurrent.Executors;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.q */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.q */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0936q {
     public static int currentPlatformType;
@@ -131,7 +131,7 @@ public final class C0936q {
             z = true;
         }
         if (!z) {
-            new Thread(new Runnable(c0936q, strArrSplit, str3) { // from class: com.github.catvod.spider.support.AB.o.o
+            new Thread(new Runnable(c0936q, strArrSplit, str3) { // from class: com.github.catvod.spider.support.p003AB.p009o.o
 
                 /* JADX INFO: renamed from: a */
                 public final C0936q f2202a;
@@ -177,7 +177,7 @@ public final class C0936q {
             return;
         }
         SpiderDebug.log("选中:" + strArrSplit[1]);
-        new Thread(new Runnable(c0936q, str, strArrSplit) { // from class: com.github.catvod.spider.support.AB.o.n
+        new Thread(new Runnable(c0936q, str, strArrSplit) { // from class: com.github.catvod.spider.support.p003AB.p009o.n
 
             /* JADX INFO: renamed from: a */
             public final C0936q f2199a;
@@ -394,7 +394,7 @@ public final class C0936q {
 
     /* JADX INFO: renamed from: q */
     private void m2265q(final String str, final int i, final Runnable runnable) {
-        this.f2216k.submit(new Runnable(this, i, str, runnable) { // from class: com.github.catvod.spider.support.AB.o.m
+        this.f2216k.submit(new Runnable(this, i, str, runnable) { // from class: com.github.catvod.spider.support.p003AB.p009o.m
 
             /* JADX INFO: renamed from: a */
             public final C0936q f2195a;
@@ -509,7 +509,7 @@ public final class C0936q {
         button.setLayoutParams(layoutParams);
         linearLayout3.addView(editText);
         linearLayout3.addView(button);
-        button.setOnFocusChangeListener(new View.OnFocusChangeListener(this) { // from class: com.github.catvod.spider.support.AB.o.q.2
+        button.setOnFocusChangeListener(new View.OnFocusChangeListener(this) { // from class: com.github.catvod.spider.support.p003AB.p009o.q.2
 
             /* JADX INFO: renamed from: a */
             final C0936q f2218a;
@@ -575,7 +575,7 @@ public final class C0936q {
             final HorizontalScrollView horizontalScrollView2 = horizontalScrollView;
             final int i3 = i2;
             final int i4 = color;
-            button2.setOnClickListener(new View.OnClickListener(this, i3, button2, i4, editText, horizontalScrollView2) { // from class: com.github.catvod.spider.support.AB.o.g
+            button2.setOnClickListener(new View.OnClickListener(this, i3, button2, i4, editText, horizontalScrollView2) { // from class: com.github.catvod.spider.support.p003AB.p009o.g
 
                 /* JADX INFO: renamed from: a */
                 public final C0936q f2178a;
@@ -609,7 +609,7 @@ public final class C0936q {
                     C0936q.m2257i(this.f2178a, this.f2179b, this.f2180c, this.f2181d, this.f2182e, this.f2183f);
                 }
             });
-            button2.setOnFocusChangeListener(new View.OnFocusChangeListener(this) { // from class: com.github.catvod.spider.support.AB.o.q.1
+            button2.setOnFocusChangeListener(new View.OnFocusChangeListener(this) { // from class: com.github.catvod.spider.support.p003AB.p009o.q.1
 
                 /* JADX INFO: renamed from: a */
                 final C0936q f2217a;
@@ -675,7 +675,7 @@ public final class C0936q {
             gradientDrawable4.setCornerRadius(m2266r(0));
             window.setBackgroundDrawable(gradientDrawable4);
         }
-        button3.setOnClickListener(new View.OnClickListener(this, editText) { // from class: com.github.catvod.spider.support.AB.o.h
+        button3.setOnClickListener(new View.OnClickListener(this, editText) { // from class: com.github.catvod.spider.support.p003AB.p009o.h
 
             /* JADX INFO: renamed from: a */
             public final C0936q f2184a;
@@ -693,7 +693,7 @@ public final class C0936q {
                 C0936q.m2253e(this.f2184a, this.f2185b);
             }
         });
-        editText.setOnEditorActionListener(new TextView.OnEditorActionListener(button3) { // from class: com.github.catvod.spider.support.AB.o.j
+        editText.setOnEditorActionListener(new TextView.OnEditorActionListener(button3) { // from class: com.github.catvod.spider.support.p003AB.p009o.j
 
             /* JADX INFO: renamed from: a */
             public final Button f2188a;
@@ -712,7 +712,7 @@ public final class C0936q {
                 return true;
             }
         });
-        this.f2212g.setOnItemClickListener(new AdapterView.OnItemClickListener(this, str) { // from class: com.github.catvod.spider.support.AB.o.i
+        this.f2212g.setOnItemClickListener(new AdapterView.OnItemClickListener(this, str) { // from class: com.github.catvod.spider.support.p003AB.p009o.i
 
             /* JADX INFO: renamed from: a */
             public final C0936q f2186a;

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p099y;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.O */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.O */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1966O extends AbstractC2001m {
 

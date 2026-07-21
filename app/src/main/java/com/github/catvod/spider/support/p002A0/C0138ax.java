@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ax */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ax */
 /* JADX INFO: loaded from: classes.dex */
 public class C0138ax {
 

@@ -1,15 +1,15 @@
 package com.github.catvod.spider.support.p003AB.p005b;
 
 import com.github.catvod.spider.Bili;
-import com.github.catvod.spider.support.AB.d.d;
-import com.github.catvod.spider.support.AB.g.b;
+import com.github.catvod.spider.support.p003AB.d.d;
+import com.github.catvod.spider.support.p003AB.g.b;
 import com.github.catvod.spider.support.p003AB.p009o.C0893C;
 import com.github.catvod.spider.support.p003AB.p009o.C0915Z;
 import java.io.PipedOutputStream;
 import java.util.Map;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.i */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.i */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0842i implements Runnable {
 

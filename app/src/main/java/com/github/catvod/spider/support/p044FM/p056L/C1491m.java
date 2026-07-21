@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p056L;
 
 import com.github.catvod.spider.support.p044FM.p055K.C1389i;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.L.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p056L.m */
 /* JADX INFO: loaded from: classes.dex */
 final class C1491m extends EnumC1406B {
     C1491m() {

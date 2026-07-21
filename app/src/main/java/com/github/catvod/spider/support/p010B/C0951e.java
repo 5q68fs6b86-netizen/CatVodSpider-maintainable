@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.Writer;
 import java.util.Locale;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.B.e */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p010B.e */
 /* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class C0951e extends AbstractC0949c {

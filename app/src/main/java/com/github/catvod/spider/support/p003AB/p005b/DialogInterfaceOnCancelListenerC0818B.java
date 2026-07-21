@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p003AB.p005b;
 
 import android.content.DialogInterface;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.B */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.B */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnCancelListenerC0818B implements DialogInterface.OnCancelListener {
 

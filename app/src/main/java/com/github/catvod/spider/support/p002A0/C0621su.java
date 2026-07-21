@@ -5,7 +5,7 @@ import java.lang.reflect.Type;
 import java.util.Collection;
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.su */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.su */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0621su extends AbstractC0406kv {
 

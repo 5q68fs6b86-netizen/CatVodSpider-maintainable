@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p138x;
 import com.github.catvod.spider.support.p042E.C2598;
 import java.io.ByteArrayOutputStream;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.x.ۤۤ۟ۨ, reason: contains not printable characters */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p138x.ۤۤ۟ۨ, reason: contains not printable characters */
 /* JADX INFO: loaded from: classes.dex */
 public class C2628 {
 

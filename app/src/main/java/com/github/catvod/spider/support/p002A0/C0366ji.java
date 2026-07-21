@@ -5,7 +5,7 @@ import java.lang.reflect.Type;
 import java.lang.reflect.WildcardType;
 import java.util.Objects;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ji */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ji */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0366ji implements WildcardType, Serializable {
 

@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.as */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.as */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0133as implements Comparable {
 

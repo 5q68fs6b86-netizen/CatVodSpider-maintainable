@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.pv */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.pv */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0541pv implements Collection, InterfaceC0717wi {
 

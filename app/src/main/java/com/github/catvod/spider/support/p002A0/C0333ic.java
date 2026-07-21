@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.json.JSONObject;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ic */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ic */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0333ic {
 

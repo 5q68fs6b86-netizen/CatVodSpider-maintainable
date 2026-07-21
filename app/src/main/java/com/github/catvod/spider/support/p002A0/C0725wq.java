@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Objects;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.wq */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.wq */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0725wq extends C0579rf {
 

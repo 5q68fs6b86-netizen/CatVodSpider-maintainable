@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p046B;
 
 import com.github.catvod.spider.support.p044FM.p098x.InterfaceC1919E;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.B.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p046B.g */
 /* JADX INFO: loaded from: classes.dex */
 public class C1297g implements InterfaceC1296f {
 

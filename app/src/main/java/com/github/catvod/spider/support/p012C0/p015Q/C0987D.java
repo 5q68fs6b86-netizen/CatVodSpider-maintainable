@@ -1,13 +1,13 @@
 package com.github.catvod.spider.support.p012C0.p015Q;
 
-import com.github.catvod.spider.support.C0.Q.C;
-import com.github.catvod.spider.support.C0.Q.H;
+import com.github.catvod.spider.support.p012C0.p015Q.C;
+import com.github.catvod.spider.support.p012C0.p015Q.H;
 import com.github.catvod.spider.support.p012C0.p013N.C0966a;
 import com.github.catvod.spider.support.p012C0.p014P.AbstractC0979s;
 import com.github.catvod.spider.support.p012C0.p014P.InterfaceC0972d;
 import java.util.Arrays;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.Q.D */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p015Q.D */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0987D {
 

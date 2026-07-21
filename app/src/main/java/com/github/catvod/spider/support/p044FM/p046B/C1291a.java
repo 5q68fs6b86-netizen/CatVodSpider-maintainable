@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p046B;
 
 import com.github.catvod.spider.support.p044FM.p098x.InterfaceC1919E;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.B.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p046B.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1291a extends C1297g {
     public C1291a(InterfaceC1919E interfaceC1919E) {

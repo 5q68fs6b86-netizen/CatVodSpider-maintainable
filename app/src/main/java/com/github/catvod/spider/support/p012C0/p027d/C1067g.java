@@ -6,7 +6,7 @@ import com.github.catvod.spider.support.p012C0.p035j.C1244l;
 import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p027d.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1067g {
 

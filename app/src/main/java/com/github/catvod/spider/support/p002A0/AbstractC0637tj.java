@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.tj */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.tj */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0637tj extends AbstractC0213dr {
 

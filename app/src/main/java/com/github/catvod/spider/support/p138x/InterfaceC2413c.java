@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p138x;
 
 import com.github.catvod.spider.support.p134t.C2328u;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.x.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p138x.c */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC2413c {
     /* JADX INFO: renamed from: V */

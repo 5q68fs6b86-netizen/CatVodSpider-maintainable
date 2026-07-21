@@ -8,7 +8,7 @@ import java.util.Locale;
 import java.util.TimeZone;
 import java.util.concurrent.ConcurrentHashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.hi */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.hi */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0312hi implements Serializable {
 
@@ -93,36 +93,36 @@ public final class C0312hi implements Serializable {
     /* JADX WARN: Multi-variable type inference failed */
     /* JADX WARN: Switch 'out' block B:62:0x0109 for B:49:0x00e5 already processed. Defaulting to fallback option. */
     /* JADX WARN: Switch 'out' block B:62:0x0109 for B:50:0x00e8 already processed. Defaulting to fallback option. */
-    /* JADX WARN: Type inference failed for: r15v10, types: [com.github.catvod.spider.support.A0.xk] */
-    /* JADX WARN: Type inference failed for: r15v11, types: [com.github.catvod.spider.support.A0.xk] */
-    /* JADX WARN: Type inference failed for: r15v13, types: [com.github.catvod.spider.support.A0.lf] */
-    /* JADX WARN: Type inference failed for: r15v14, types: [com.github.catvod.spider.support.A0.ep] */
-    /* JADX WARN: Type inference failed for: r15v15, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v16, types: [com.github.catvod.spider.support.A0.ky] */
-    /* JADX WARN: Type inference failed for: r15v17, types: [com.github.catvod.spider.support.A0.ky] */
-    /* JADX WARN: Type inference failed for: r15v18, types: [com.github.catvod.spider.support.A0.it] */
-    /* JADX WARN: Type inference failed for: r15v19, types: [com.github.catvod.spider.support.A0.it] */
-    /* JADX WARN: Type inference failed for: r15v20, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v21, types: [com.github.catvod.spider.support.A0.it] */
-    /* JADX WARN: Type inference failed for: r15v22, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v23, types: [com.github.catvod.spider.support.A0.j] */
+    /* JADX WARN: Type inference failed for: r15v10, types: [com.github.catvod.spider.support.p002A0.xk] */
+    /* JADX WARN: Type inference failed for: r15v11, types: [com.github.catvod.spider.support.p002A0.xk] */
+    /* JADX WARN: Type inference failed for: r15v13, types: [com.github.catvod.spider.support.p002A0.lf] */
+    /* JADX WARN: Type inference failed for: r15v14, types: [com.github.catvod.spider.support.p002A0.ep] */
+    /* JADX WARN: Type inference failed for: r15v15, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v16, types: [com.github.catvod.spider.support.p002A0.ky] */
+    /* JADX WARN: Type inference failed for: r15v17, types: [com.github.catvod.spider.support.p002A0.ky] */
+    /* JADX WARN: Type inference failed for: r15v18, types: [com.github.catvod.spider.support.p002A0.it] */
+    /* JADX WARN: Type inference failed for: r15v19, types: [com.github.catvod.spider.support.p002A0.it] */
+    /* JADX WARN: Type inference failed for: r15v20, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v21, types: [com.github.catvod.spider.support.p002A0.it] */
+    /* JADX WARN: Type inference failed for: r15v22, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v23, types: [com.github.catvod.spider.support.p002A0.j] */
     /* JADX WARN: Type inference failed for: r15v24 */
-    /* JADX WARN: Type inference failed for: r15v25, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v26, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v27, types: [com.github.catvod.spider.support.A0.j] */
-    /* JADX WARN: Type inference failed for: r15v28, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v29, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v30, types: [com.github.catvod.spider.support.A0.it] */
-    /* JADX WARN: Type inference failed for: r15v31, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v32, types: [com.github.catvod.spider.support.A0.it] */
-    /* JADX WARN: Type inference failed for: r15v33, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v34, types: [com.github.catvod.spider.support.A0.h] */
-    /* JADX WARN: Type inference failed for: r15v35, types: [com.github.catvod.spider.support.A0.br] */
-    /* JADX WARN: Type inference failed for: r15v36, types: [com.github.catvod.spider.support.A0.h] */
-    /* JADX WARN: Type inference failed for: r15v37, types: [com.github.catvod.spider.support.A0.h] */
-    /* JADX WARN: Type inference failed for: r15v38, types: [com.github.catvod.spider.support.A0.es] */
-    /* JADX WARN: Type inference failed for: r15v39, types: [com.github.catvod.spider.support.A0.es] */
-    /* JADX WARN: Type inference failed for: r15v7, types: [com.github.catvod.spider.support.A0.br] */
+    /* JADX WARN: Type inference failed for: r15v25, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v26, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v27, types: [com.github.catvod.spider.support.p002A0.j] */
+    /* JADX WARN: Type inference failed for: r15v28, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v29, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v30, types: [com.github.catvod.spider.support.p002A0.it] */
+    /* JADX WARN: Type inference failed for: r15v31, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v32, types: [com.github.catvod.spider.support.p002A0.it] */
+    /* JADX WARN: Type inference failed for: r15v33, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v34, types: [com.github.catvod.spider.support.p002A0.h] */
+    /* JADX WARN: Type inference failed for: r15v35, types: [com.github.catvod.spider.support.p002A0.br] */
+    /* JADX WARN: Type inference failed for: r15v36, types: [com.github.catvod.spider.support.p002A0.h] */
+    /* JADX WARN: Type inference failed for: r15v37, types: [com.github.catvod.spider.support.p002A0.h] */
+    /* JADX WARN: Type inference failed for: r15v38, types: [com.github.catvod.spider.support.p002A0.es] */
+    /* JADX WARN: Type inference failed for: r15v39, types: [com.github.catvod.spider.support.p002A0.es] */
+    /* JADX WARN: Type inference failed for: r15v7, types: [com.github.catvod.spider.support.p002A0.br] */
     /* JADX WARN: Type inference failed for: r15v8 */
     /* JADX WARN: Type inference failed for: r15v9, types: [java.lang.Object] */
     public C0312hi(String str, TimeZone timeZone, Locale locale) {

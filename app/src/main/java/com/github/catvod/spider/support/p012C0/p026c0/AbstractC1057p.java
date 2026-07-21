@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p012C0.p026c0;
 import com.github.catvod.spider.support.p012C0.p013N.C0966a;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.p */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.p */
 /* JADX INFO: loaded from: classes.dex */
 abstract class AbstractC1057p extends AbstractC1059r {
 

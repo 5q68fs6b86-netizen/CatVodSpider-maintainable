@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p074b0.InterfaceC1756a;
 import com.github.catvod.spider.support.p044FM.p074b0.InterfaceC1757b;
 import com.github.catvod.spider.support.p044FM.p078d0.C1788b;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.a.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p071a.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1711a implements InterfaceC1756a {
     /* JADX INFO: renamed from: b */

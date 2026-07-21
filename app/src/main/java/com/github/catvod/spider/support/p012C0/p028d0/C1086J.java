@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p028d0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.J */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.J */
 /* JADX INFO: loaded from: classes.dex */
 final class C1086J extends AbstractC1096O {
 

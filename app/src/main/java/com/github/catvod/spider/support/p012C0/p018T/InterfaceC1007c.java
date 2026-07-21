@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p018T;
 
 import com.github.catvod.spider.support.p012C0.p014P.C0983x;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.T.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p018T.c */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC1007c {
     /* JADX INFO: renamed from: S */

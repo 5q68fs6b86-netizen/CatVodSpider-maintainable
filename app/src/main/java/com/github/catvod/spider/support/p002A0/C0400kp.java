@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.lang.reflect.Field;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.kp */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.kp */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0400kp extends AbstractC0426lo {
 

@@ -5,7 +5,7 @@ import java.io.Writer;
 import java.util.HashMap;
 import java.util.HashSet;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.B.f */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p010B.f */
 /* JADX INFO: loaded from: classes.dex */
 @Deprecated
 public final class C0952f extends AbstractC0948b {

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p129n;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.n.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p129n.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2286c {
 

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import android.text.TextUtils;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.zw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.zw */
 /* JADX INFO: loaded from: classes.dex */
 public class C0812zw {
 

@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p044FM.p056L.C1434P;
 import java.util.Date;
 import java.util.TimeZone;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.G.Q */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p051G.Q */
 /* JADX INFO: loaded from: classes.dex */
 final class C1346Q extends TimeZone {
 

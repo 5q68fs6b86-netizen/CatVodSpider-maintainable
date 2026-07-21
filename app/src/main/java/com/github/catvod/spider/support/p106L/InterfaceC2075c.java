@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p106L;
 
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.L.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p106L.c */
 /* JADX INFO: loaded from: classes.dex */
 public interface InterfaceC2075c {
     /* JADX INFO: renamed from: a */

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p128m;
 
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.r */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.r */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC2275r implements Runnable {
 

@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.Arrays;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.th */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.th */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0635th extends AbstractC0637tj {
     public C0635th(List list) {

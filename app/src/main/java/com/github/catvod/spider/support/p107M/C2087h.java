@@ -6,7 +6,7 @@ import com.github.catvod.spider.support.p106L.C2078f;
 import com.github.catvod.spider.support.p106L.InterfaceC2073a;
 import java.util.LinkedList;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.M.h */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p107M.h */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2087h implements InterfaceC2073a {
     @Override // com.github.catvod.spider.support.p106L.InterfaceC2073a

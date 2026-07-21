@@ -7,7 +7,7 @@ import com.github.catvod.spider.support.p003AB.p009o.C0915Z;
 import com.github.catvod.spider.support.p003AB.p009o.RunnableC0912W;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.b.C */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p005b.C */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnClickListenerC0819C implements DialogInterface.OnClickListener {
 

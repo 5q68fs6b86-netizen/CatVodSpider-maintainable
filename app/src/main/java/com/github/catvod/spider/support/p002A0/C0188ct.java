@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ct */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ct */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0188ct implements InterfaceC0698vq {
 

@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p044FM.p073b;
 
 import com.github.catvod.spider.JSDemo;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.b.p */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p073b.p */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC1745p implements Runnable {
 

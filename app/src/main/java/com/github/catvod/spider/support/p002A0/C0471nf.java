@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.slf4j.Marker;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.nf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.nf */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0471nf {
 

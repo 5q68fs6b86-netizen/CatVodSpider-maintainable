@@ -7,14 +7,14 @@ import android.content.res.XmlResourceParser;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import com.github.catvod.spider.support.AB.e0.a;
+import com.github.catvod.spider.support.p003AB.e0.a;
 import com.github.catvod.spider.support.p003AB.p005b.C0854u;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import org.xmlpull.v1.XmlPullParserException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.t */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.t */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0939t extends ContentProvider {
 

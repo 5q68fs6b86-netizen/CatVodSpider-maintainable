@@ -5,14 +5,14 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.u.i0 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.i0 */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC2376i0 {
 
     /* JADX INFO: renamed from: a */
     public AbstractC2375i f5889a;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.u.i0$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p135u.i0$a */
     static class a extends HashMap<Class<? extends AbstractC2376i0>, Integer> {
         a() {
             put(C2388t.class, 1);

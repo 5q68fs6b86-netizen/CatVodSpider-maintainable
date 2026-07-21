@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.o.s */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p009o.s */
 /* JADX INFO: loaded from: classes.dex */
 final class C0938s implements InterfaceC0937r {
 

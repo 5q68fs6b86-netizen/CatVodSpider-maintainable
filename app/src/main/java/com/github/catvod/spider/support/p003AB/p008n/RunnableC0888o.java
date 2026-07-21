@@ -4,7 +4,7 @@ import com.github.catvod.spider.PanWebShare;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicReference;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.AB.n.o */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p003AB.p008n.o */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class RunnableC0888o implements Runnable {
 

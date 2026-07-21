@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import android.os.Handler;
 import android.os.Looper;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ft */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ft */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0269ft extends AbstractC0171cc implements acp {
     private volatile C0269ft _immediate;

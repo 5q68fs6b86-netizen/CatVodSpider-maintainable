@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.pc */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.pc */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0522pc implements InterfaceC0750xo {
     private final InterfaceC0751xp key;

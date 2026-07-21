@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.pf */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.pf */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0525pf extends C0524pe implements ListIterator {
 

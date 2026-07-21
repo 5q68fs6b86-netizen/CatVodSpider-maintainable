@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p002A0;
 
 import java.util.function.Supplier;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.hc */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.hc */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0306hc implements Supplier {
 

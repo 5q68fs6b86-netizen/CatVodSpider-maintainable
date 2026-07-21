@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2264g {
 

@@ -1,9 +1,9 @@
 package com.github.catvod.spider.support.p012C0.p014P;
 
-import com.github.catvod.spider.support.C0.P.F;
-import com.github.catvod.spider.support.C0.P.c;
+import com.github.catvod.spider.support.p012C0.p014P.F;
+import com.github.catvod.spider.support.p012C0.p014P.c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.m */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.m */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0977m extends c {
     public C0977m(F f) {

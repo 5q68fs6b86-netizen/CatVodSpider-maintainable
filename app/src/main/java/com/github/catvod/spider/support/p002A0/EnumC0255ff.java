@@ -4,7 +4,7 @@ import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ff */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ff */
 /* JADX INFO: loaded from: classes.dex */
 public enum EnumC0255ff {
     xhtml(4, "amp=12;1&gt=1q;3&lt=1o;2&quot=y;0&"),

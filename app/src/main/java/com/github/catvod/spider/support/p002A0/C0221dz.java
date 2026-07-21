@@ -4,7 +4,7 @@ import com.github.catvod.spider.LocalFile;
 import java.io.File;
 import java.util.Comparator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.dz */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.dz */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0221dz implements Comparator {
 

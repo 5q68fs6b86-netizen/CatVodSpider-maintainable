@@ -7,7 +7,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import java.util.Set;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.w.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p137w.b */
 /* JADX INFO: loaded from: classes.dex */
 public class C2400b<T> implements Set<T> {
 
@@ -26,7 +26,7 @@ public class C2400b<T> implements Set<T> {
     /* JADX INFO: renamed from: e */
     protected int f5946e;
 
-    /* JADX INFO: renamed from: com.github.catvod.spider.support.w.b$a */
+    /* JADX INFO: renamed from: com.github.catvod.spider.support.p137w.b$a */
     protected class a implements Iterator<T> {
 
         /* JADX INFO: renamed from: a */

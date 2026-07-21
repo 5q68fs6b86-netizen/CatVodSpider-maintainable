@@ -4,7 +4,7 @@ import android.content.DialogInterface;
 import com.github.catvod.spider.Init;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.m.x */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p128m.x */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class DialogInterfaceOnClickListenerC2281x implements DialogInterface.OnClickListener {
 

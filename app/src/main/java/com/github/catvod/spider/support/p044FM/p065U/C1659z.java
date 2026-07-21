@@ -5,7 +5,7 @@ import com.github.catvod.spider.support.p044FM.p046B.InterfaceC1294d;
 import com.github.catvod.spider.support.p044FM.p098x.C1950y;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.U.z */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p065U.z */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1659z extends C1950y {
     public C1659z(C1950y c1950y, int i) {

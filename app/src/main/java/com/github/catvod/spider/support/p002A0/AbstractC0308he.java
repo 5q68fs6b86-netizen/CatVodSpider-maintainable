@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p002A0;
 import java.sql.Date;
 import java.sql.Timestamp;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.he */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.he */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0308he {
 

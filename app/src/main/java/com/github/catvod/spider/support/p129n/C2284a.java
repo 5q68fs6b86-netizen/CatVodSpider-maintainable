@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p129n;
 
 import com.github.catvod.spider.support.p128m.C2268k;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.n.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p129n.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2284a implements InterfaceC2285b {
 

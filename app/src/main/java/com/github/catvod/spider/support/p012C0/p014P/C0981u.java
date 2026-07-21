@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p014P;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.P.u */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p014P.u */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0981u extends C0985z {
 

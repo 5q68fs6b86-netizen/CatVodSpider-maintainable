@@ -4,7 +4,7 @@ import com.whl.quickjs.wrapper.JSArray;
 import com.whl.quickjs.wrapper.QuickJSContext;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ks */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ks */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0403ks {
     /* JADX INFO: renamed from: a */

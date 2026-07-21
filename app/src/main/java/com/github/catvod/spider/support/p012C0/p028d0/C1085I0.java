@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p028d0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.I0 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.I0 */
 /* JADX INFO: loaded from: classes.dex */
 final class C1085I0 extends EnumC1142h1 {
     C1085I0() {

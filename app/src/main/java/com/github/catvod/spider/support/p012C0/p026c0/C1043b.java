@@ -2,7 +2,7 @@ package com.github.catvod.spider.support.p012C0.p026c0;
 
 import java.util.Iterator;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.c0.b */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p026c0.b */
 /* JADX INFO: loaded from: classes.dex */
 final class C1043b implements Iterator<C1042a> {
 

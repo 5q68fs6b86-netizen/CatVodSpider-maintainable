@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p012C0.p028d0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.g0 */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.g0 */
 /* JADX INFO: loaded from: classes.dex */
 final class C1138g0 extends EnumC1142h1 {
     C1138g0() {

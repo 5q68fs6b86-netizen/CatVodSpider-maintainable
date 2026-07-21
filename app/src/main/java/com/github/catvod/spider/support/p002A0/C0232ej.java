@@ -4,7 +4,7 @@ import okhttp3.Call;
 import okhttp3.EventListener;
 import okhttp3.internal.Util;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.ej */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.ej */
 /* JADX INFO: loaded from: classes.dex */
 public final /* synthetic */ class C0232ej implements InterfaceC0253fd, EventListener.Factory {
 

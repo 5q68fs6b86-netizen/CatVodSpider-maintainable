@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.xy */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.xy */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0760xy {
     /* JADX WARN: Code duplicated, block: B:23:0x0051  */

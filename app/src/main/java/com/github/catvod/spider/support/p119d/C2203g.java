@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.d.g */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.g */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2203g implements Comparable<C2203g> {
 

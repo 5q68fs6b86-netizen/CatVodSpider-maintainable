@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p075c;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.c.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p075c.c */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1761c {
 

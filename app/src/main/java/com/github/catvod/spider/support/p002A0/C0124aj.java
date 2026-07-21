@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p002A0;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.aj */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.aj */
 /* JADX INFO: loaded from: classes.dex */
 public final class C0124aj extends adf {
 

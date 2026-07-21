@@ -7,7 +7,7 @@ import com.google.gson.Gson;
 import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.d.k */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p119d.k */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2207k {
 

@@ -1,6 +1,6 @@
 package com.github.catvod.spider.support.p044FM.p048D;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.D.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p048D.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C1308a {
 

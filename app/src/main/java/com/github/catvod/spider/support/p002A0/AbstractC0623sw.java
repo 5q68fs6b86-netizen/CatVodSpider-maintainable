@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.A0.sw */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p002A0.sw */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC0623sw extends AbstractC0630tc {
     /* JADX INFO: renamed from: a */

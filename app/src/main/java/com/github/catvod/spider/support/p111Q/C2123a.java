@@ -49,7 +49,7 @@ import com.github.catvod.spider.support.p116a.C2139c;
 import java.util.HashMap;
 import java.util.Map;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.Q.a */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p111Q.a */
 /* JADX INFO: loaded from: classes.dex */
 public final class C2123a {
 
@@ -65,9 +65,9 @@ public final class C2123a {
     /* JADX INFO: renamed from: d */
     private static InterfaceC2125b f4978d = C2126c.m5370d(C2123a.class);
 
-    /* JADX WARN: Type inference failed for: r11v2, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.L.c>] */
-    /* JADX WARN: Type inference failed for: r1v6, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.L.a>] */
-    /* JADX WARN: Type inference failed for: r2v3, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.L.d>] */
+    /* JADX WARN: Type inference failed for: r11v2, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p106L.c>] */
+    /* JADX WARN: Type inference failed for: r1v6, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p106L.a>] */
+    /* JADX WARN: Type inference failed for: r2v3, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p106L.d>] */
     static {
         Class[] clsArr = {C2080a.class, C2081b.class, C2082c.class, C2083d.class, C2084e.class, C2085f.class, C2086g.class, C2087h.class, C2088i.class, C2089j.class, C2090k.class, C2091l.class, C2092m.class, C2093n.class};
         int i = 0;
@@ -100,7 +100,7 @@ public final class C2123a {
         }
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.L.c>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p106L.c>] */
     /* JADX INFO: renamed from: a */
     public static InterfaceC2075c m5363a(String str) {
         InterfaceC2075c interfaceC2075c = (InterfaceC2075c) f4977c.get(str);
@@ -110,7 +110,7 @@ public final class C2123a {
         throw new C2120c(C2139c.m5408a("not support function: ", str));
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.L.d>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p106L.d>] */
     /* JADX INFO: renamed from: b */
     public static InterfaceC2076d m5364b(String str) {
         InterfaceC2076d interfaceC2076d = (InterfaceC2076d) f4976b.get(str);
@@ -120,7 +120,7 @@ public final class C2123a {
         throw new C2120c(C2139c.m5408a("not support nodeTest: ", str));
     }
 
-    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.L.a>] */
+    /* JADX WARN: Type inference failed for: r0v0, types: [java.util.HashMap, java.util.Map<java.lang.String, com.github.catvod.spider.support.p106L.a>] */
     /* JADX INFO: renamed from: c */
     public static InterfaceC2073a m5365c(String str) {
         InterfaceC2073a interfaceC2073a = (InterfaceC2073a) f4975a.get(str);

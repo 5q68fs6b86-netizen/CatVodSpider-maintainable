@@ -3,7 +3,7 @@ package com.github.catvod.spider.support.p044FM.p099y;
 import com.github.catvod.spider.support.p044FM.p045A.AbstractC1275a;
 import com.github.catvod.spider.support.p044FM.p045A.C1277c;
 
-/* JADX INFO: renamed from: com.github.catvod.spider.support.FM.y.c */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p044FM.p099y.c */
 /* JADX INFO: loaded from: classes.dex */
 public abstract class AbstractC1981c extends C1277c<C1979b> {
     public AbstractC1981c(AbstractC1275a abstractC1275a) {

@@ -4,7 +4,7 @@ import com.github.catvod.spider.support.p012C0.p024b0.C1034b;
 
 /* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
 /* JADX WARN: Unknown enum class pattern. Please report as an issue! */
-/* JADX INFO: renamed from: com.github.catvod.spider.support.C0.d0.A */
+/* JADX INFO: renamed from: com.github.catvod.spider.support.p012C0.p028d0.A */
 /* JADX INFO: loaded from: classes.dex */
 abstract class EnumC1068A {
 
@@ -84,7 +84,7 @@ abstract class EnumC1068A {
     private static final String f2651z;
 
     /* JADX WARN: Multi-variable type inference failed */
-    /* JADX WARN: Type inference failed for: r23v0, types: [com.github.catvod.spider.support.C0.d0.q] */
+    /* JADX WARN: Type inference failed for: r23v0, types: [com.github.catvod.spider.support.p012C0.p028d0.q] */
     static {
         C1152m c1152m = new C1152m();
         f2628c = c1152m;
@@ -130,7 +130,7 @@ abstract class EnumC1068A {
         f2648w = c1156o;
         C1158p c1158p = new C1158p();
         f2649x = c1158p;
-        Object r23 = new EnumC1068A() { // from class: com.github.catvod.spider.support.C0.d0.q
+        Object r23 = new EnumC1068A() { // from class: com.github.catvod.spider.support.p012C0.p028d0.q
             @Override // com.github.catvod.spider.support.p012C0.p028d0.EnumC1068A
             /* JADX INFO: renamed from: d */
             final boolean mo2800d(AbstractC1096O abstractC1096O, C1122b c1122b) {
