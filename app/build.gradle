@@ -60,10 +60,6 @@ android {
                 exclude 'com/github/catvod/spider/AppSy.java'
                 exclude 'com/github/catvod/spider/Feiyu.java'
                 exclude 'com/github/catvod/spider/support/p117b/C2155P.java'
-                exclude 'com/github/catvod/spider/support/p002A0/C0720wl.java'
-                exclude 'com/github/catvod/spider/support/p002A0/aag.java'
-                exclude 'com/github/catvod/spider/support/p002A0/abe.java'
-                exclude 'com/github/catvod/spider/support/p002A0/C0577rd.java'
 
                 // use maven protobuf, not incomplete decompiled stubs
                                             }

@@ -1,5 +1,7 @@
 package com.github.catvod.spider.support.p105K;
 public class C2071d {
+  public static class A {}
+
   public C2071d(){}
   public static class u {}
   public static class m {}
